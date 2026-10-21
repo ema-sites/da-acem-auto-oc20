@@ -1,0 +1,1371 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-10-20T19:11:28.212Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "amasty-module-price-history-html",
+  "url": "https://commercemarketplace.adobe.com/amasty-module-price-history.html",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-10-20T19:11:28.212Z",
+  "finalUrl": "https://commercemarketplace.adobe.com/amasty-module-price-history.html",
+  "title": "Omnibus Price Tracker",
+  "description": null,
+  "og": {
+    "title": "Omnibus Price Tracker",
+    "description": null,
+    "image": "https://commercemarketplace.adobe.com/media/catalog/product/4/f/4f51_omnibus-price-tracker-icon-for-marketplace.png?width=265&height=265&store=default&image-type=image&fit=bounds",
+    "type": "product"
+  },
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "Omnibus Price Tracker"
+    },
+    {
+      "tag": "h3",
+      "text": "Overview"
+    },
+    {
+      "tag": "h2",
+      "text": "Key Features:"
+    },
+    {
+      "tag": "h3",
+      "text": "30-Day Lowest Price (Omnibis Price)"
+    },
+    {
+      "tag": "h3",
+      "text": "Placement Of The Block With Omnibus Price"
+    },
+    {
+      "tag": "h3",
+      "text": "Price Change History Grid"
+    },
+    {
+      "tag": "h3",
+      "text": "Automatic Price Change Log Clearing"
+    },
+    {
+      "tag": "h2",
+      "text": "Demo:"
+    },
+    {
+      "tag": "h3",
+      "text": "User Guide:"
+    },
+    {
+      "tag": "h2",
+      "text": "Our Support Policy:"
+    },
+    {
+      "tag": "h3",
+      "text": "Technical Specifications"
+    },
+    {
+      "tag": "h3",
+      "text": "Seller profile"
+    },
+    {
+      "tag": "h3",
+      "text": "Seller contact"
+    },
+    {
+      "tag": "h3",
+      "text": "Current Version"
+    },
+    {
+      "tag": "h3",
+      "text": "Adobe Commerce platform compatibility"
+    },
+    {
+      "tag": "h3",
+      "text": "Type"
+    },
+    {
+      "tag": "h3",
+      "text": "Updated"
+    },
+    {
+      "tag": "h3",
+      "text": "Categories"
+    },
+    {
+      "tag": "h3",
+      "text": "Documentation"
+    },
+    {
+      "tag": "h3",
+      "text": "License Type"
+    },
+    {
+      "tag": "h3",
+      "text": "Policy"
+    },
+    {
+      "tag": "h3",
+      "text": "Quality Report"
+    },
+    {
+      "tag": "h3",
+      "text": "Installation & Varnish Tests"
+    },
+    {
+      "tag": "h3",
+      "text": "Coding Standard"
+    },
+    {
+      "tag": "h3",
+      "text": "Plagiarism Check"
+    },
+    {
+      "tag": "h3",
+      "text": "Malware Check"
+    },
+    {
+      "tag": "h3",
+      "text": "Marketing Review"
+    },
+    {
+      "tag": "h3",
+      "text": "Manual Testing"
+    },
+    {
+      "tag": "h3",
+      "text": "Release Notes"
+    },
+    {
+      "tag": "h3",
+      "text": "1.4.0:"
+    },
+    {
+      "tag": "h3",
+      "text": "1.1.1:"
+    },
+    {
+      "tag": "h3",
+      "text": "1.0.1:"
+    },
+    {
+      "tag": "h3",
+      "text": "Support"
+    },
+    {
+      "tag": "h3",
+      "text": "Q & A"
+    },
+    {
+      "tag": "h3",
+      "text": "Reviews"
+    },
+    {
+      "tag": "h3",
+      "text": "Are you a developer? Become a Adobe Commerce Partner to add value to your extension or theme."
+    },
+    {
+      "tag": "h3",
+      "text": "Company"
+    },
+    {
+      "tag": "h3",
+      "text": "Merchants"
+    },
+    {
+      "tag": "h3",
+      "text": "Partners"
+    },
+    {
+      "tag": "h3",
+      "text": "Categories"
+    },
+    {
+      "tag": "h3",
+      "text": "Resources"
+    },
+    {
+      "tag": "h3",
+      "text": "Developer Resources"
+    },
+    {
+      "tag": "h3",
+      "text": "Get In Touch"
+    }
+  ],
+  "body": [
+    "Home",
+    "Omnibus Price Tracker",
+    "CONTENTS Trader Information Overview Technical Specifications Quality Report Release Notes Support Q & A Reviews",
+    "Overview",
+    "Technical Specifications",
+    "Quality Report",
+    "Release Notes",
+    "Support",
+    "Q & A",
+    "Reviews",
+    "Prepare your e-commerce business to comply with the new pricing requirements of the EU Omnibus Directive, which is already in effect and applies to all retailers who sell products and services to EU customers. Keep the price change policy transparent and consistent to build customer loyalty and avoid unforeseen fines.",
+    "The Omnibus Price Tracker for Magento 2 extension captures price changes made in your store, including catalog price rules and special prices. Using this data, the extension automatically calculates and displays the lowest price from a 30-day (or longer) period before a price reduction, as required by the Omnibus Directive.",
+    "Indicate the minimum product price in the specified period prior to price reduction;",
+    "Place historical prices both on product and category pages;",
+    "Display Omnibus Prices for all or only for discounted products;",
+    "Monitor all price changes in one place;",
+    "Configure the automatic clearing for the price change log;",
+    "Individually capture price changes and showcase the lowest prices for every configured website;",
+    "Hyva-ready storefront.",
+    "The extension’s configuration allows you to set any duration in days as a basis for calculating the lowest product price. But according to the Omnibus Directive, this duration must not be shorter than 30 days prior to the application of price reduction.",
+    "It is possible to show the Omnibus Price block on product and category pages for all or only for discounted products.",
+    "View and manage all price changes that are made in the store after the extension installation on a handy grid. Use various filters and their combinations to easily find the recordings you need. You can filter price change recordings by ID, SKU, date, customer group, and new or latest price.",
+    "Regularly remove old price change recordings from the log. Protect your database from overloads by configuring automatic price change log clearing or removing unnecessary recordings manually with the help of the ‘delete’ mass action.",
+    "|Backend Settings|",
+    "|Frontend example|",
+    "|Learn how to configure the module step by step with User Guide |",
+    "|See Frequently Asked Questions|",
+    "A Support Service subscription can also be purchased separately. Please contact the vendor for details.",
+    "During the grace period, support is only available with an active support subscription purchased directly from the vendor.",
+    "25-day Marketplace Return Policy.",
+    "Amasty",
+    "E-mail",
+    "1.4.0",
+    "Adobe Commerce (cloud): 2.4 (current)",
+    "Adobe Commerce (on-prem): 2.4 (current)",
+    "Magento Open Source: 2.4 (current)",
+    "Stable Build",
+    "18 February, 2026",
+    "Extensions, Content & Customizations",
+    "Installation Guides",
+    "User Guides",
+    "Custom License",
+    "Privacy Policy",
+    "Passed",
+    "Passed",
+    "Passed",
+    "Passed",
+    "Passed",
+    "Passed",
+    "All tests were conducted on the latest versions of Adobe Commerce that existed for the compatible release lines at the moment of the extension submission. Latest versions of all other software were used, as applicable.",
+    "Compatible with Adobe Commerce (cloud) : 2.4",
+    "Compatible with Adobe Commerce (on-prem) : 2.4",
+    "Compatible with Magento Open Source : 2.4",
+    "Stability: Stable Build",
+    "Description: Version 1.4.0 1.4.0 - Mar 05, 2024 Improvement: we included Omnibus price data for products when retrieving information via GraphQL Improvement: now the Omnibus price of a product is displayed considering the configured settings for tax application and display Version 1.3.0 1.3.0 - Dec 07, 2023 New: now the Omnibus price data is included in API products response Improvement: we changed the logic for displaying Omnibus prices immediately after installing the extension or when creating a new product, when the products do not have data for the 'latest price' Version 1.2.0 1.2.0 - Nov 21, 2023 Compatibility: we added the compatibility with Hyvä Theme for Omnibus Price Tracker. You can find the 'amasty/module-price-history-hyva' package for installing in composer suggest (Note: the compatibility is available as a part of an active product subscription or support subscription)",
+    "Version 1.4.0 1.4.0 - Mar 05, 2024 Improvement: we included Omnibus price data for products when retrieving information via GraphQL Improvement: now the Omnibus price of a product is displayed considering the configured settings for tax application and display Version 1.3.0 1.3.0 - Dec 07, 2023 New: now the Omnibus price data is included in API products response Improvement: we changed the logic for displaying Omnibus prices immediately after installing the extension or when creating a new product, when the products do not have data for the 'latest price' Version 1.2.0 1.2.0 - Nov 21, 2023 Compatibility: we added the compatibility with Hyvä Theme for Omnibus Price Tracker. You can find the 'amasty/module-price-history-hyva' package for installing in composer suggest (Note: the compatibility is available as a part of an active product subscription or support subscription)",
+    "Compatible with Adobe Commerce (cloud) : 2.4",
+    "Compatible with Adobe Commerce (on-prem) : 2.4",
+    "Compatible with Magento Open Source : 2.4",
+    "Stability: Stable Build",
+    "Description: Version 1.1.1 1.1.1 - Sep 05, 2023 Fix: we fixed the module compatibility with PHP 7.4 1.1.0 - Jul 20, 2023 New: now it is possible to hide Omnibus prices for specified customers groups Improvement: now it is possible to see Website information on the Price Change History grid",
+    "Version 1.1.1 1.1.1 - Sep 05, 2023 Fix: we fixed the module compatibility with PHP 7.4 1.1.0 - Jul 20, 2023 New: now it is possible to hide Omnibus prices for specified customers groups Improvement: now it is possible to see Website information on the Price Change History grid",
+    "Compatible with Adobe Commerce (cloud) : 2.4",
+    "Compatible with Adobe Commerce (on-prem) : 2.4",
+    "Compatible with Magento Open Source : 2.4",
+    "Stability: Stable Build",
+    "Description: Version 1.0.1 1.0.1 - Apr 05, 2023 Improvement: we optimized the Omnibus Prices displaying on the front-end according to EU pricing rules.",
+    "Version 1.0.1 1.0.1 - Apr 05, 2023 Improvement: we optimized the Omnibus Prices displaying on the front-end according to EU pricing rules.",
+    "The best place to start if you need help with a specific extension is to contact the developer. All Adobe Commerce developers have both a contact email and a support email listed."
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Extensions",
+      "href": "https://commercemarketplace.adobe.com/extensions.html"
+    },
+    {
+      "label": "Themes",
+      "href": "https://commercemarketplace.adobe.com/themes.html"
+    },
+    {
+      "label": "Partners",
+      "href": "/partners"
+    },
+    {
+      "label": "Support",
+      "href": "https://developer.adobe.com/commerce/marketplace/guides/sellers/"
+    },
+    {
+      "label": "My Cart",
+      "href": "https://commercemarketplace.adobe.com/checkout/cart/"
+    },
+    {
+      "label": "Sign In",
+      "href": "https://commercemarketplace.adobe.com/customer/account/login/referer/aHR0cHM6Ly9jb21tZXJjZW1hcmtldHBsYWNlLmFkb2JlLmNvbS9hbWFzdHktbW9kdWxlLXByaWNlLWhpc3RvcnkuaHRtbA~~/_c_timestamp/1792523476223158974/"
+    },
+    {
+      "label": "Home",
+      "href": "https://commercemarketplace.adobe.com/"
+    },
+    {
+      "label": "Amasty",
+      "href": "https://commercemarketplace.adobe.com/partner/Amasty"
+    },
+    {
+      "label": "Add to cart",
+      "href": null
+    },
+    {
+      "label": "Contact Vendor",
+      "href": "mailto:support@amasty.com"
+    },
+    {
+      "label": "Overview",
+      "href": "#description"
+    },
+    {
+      "label": "Technical Specifications",
+      "href": "#product.info.details.tech_specs"
+    },
+    {
+      "label": "Quality Report",
+      "href": "#product.info.details.quality_report"
+    },
+    {
+      "label": "Release Notes",
+      "href": "#product.info.details.release_notes"
+    },
+    {
+      "label": "Support",
+      "href": "#product.info.details.support"
+    },
+    {
+      "label": "Q & A",
+      "href": "#bv_questions"
+    },
+    {
+      "label": "Reviews",
+      "href": "#bazaarvoice.reviews.tab"
+    },
+    {
+      "label": "Back to top",
+      "href": "#top"
+    },
+    {
+      "label": "Backend Settings",
+      "href": "https://omnibus-price-tracker-m2.magento-demo.amasty.com/admin/admin/system_config/edit/section/price_history/"
+    },
+    {
+      "label": "Frontend example",
+      "href": "https://omnibus-price-tracker-m2.magento-demo.amasty.com/compete-track-tote.html"
+    },
+    {
+      "label": "User Guide",
+      "href": "https://amasty.com/docs/doku.php?id=magento_2:omnibus_price_tracker"
+    },
+    {
+      "label": "Frequently Asked Questions",
+      "href": "https://amasty.com/knowledge-base/"
+    },
+    {
+      "label": "contact",
+      "href": "https://amasty.com/contacts/"
+    },
+    {
+      "label": "Back to top",
+      "href": "#top"
+    },
+    {
+      "label": "Amasty",
+      "href": "https://commercemarketplace.adobe.com/partner/Amasty"
+    },
+    {
+      "label": "E-mail",
+      "href": "mailto:support@amasty.com"
+    },
+    {
+      "label": "Installation Guides",
+      "href": "/media/catalog/product/amasty-module-price-history-1-4-0-ece/installation_guides.pdf?1792523476"
+    },
+    {
+      "label": "User Guides",
+      "href": "/media/catalog/product/amasty-module-price-history-1-4-0-ece/user_guides.pdf?1792523476"
+    },
+    {
+      "label": "Custom License",
+      "href": "https://amasty.com/license.html"
+    },
+    {
+      "label": "Privacy Policy",
+      "href": "https://amasty.com/privacy.html"
+    },
+    {
+      "label": "Back to top",
+      "href": "#top"
+    },
+    {
+      "label": "Passed",
+      "href": "https://devdocs.magento.com/marketplace/sellers/installation-and-varnish-tests.html"
+    },
+    {
+      "label": "Passed",
+      "href": "https://devdocs.magento.com/marketplace/sellers/code-sniffer.html"
+    },
+    {
+      "label": "Passed",
+      "href": "https://devdocs.magento.com/marketplace/sellers/copy-paste-detector.html"
+    },
+    {
+      "label": "Passed",
+      "href": "https://devdocs.magento.com/marketplace/sellers/malware-scan.html"
+    },
+    {
+      "label": "Passed",
+      "href": "https://devdocs.magento.com/marketplace/sellers/submit-for-marketing-review.html"
+    },
+    {
+      "label": "Passed",
+      "href": "https://devdocs.magento.com/marketplace/sellers/technical-review-guidelines.html#quality-assurance-pass-manual-qa"
+    },
+    {
+      "label": "Back to top",
+      "href": "#top"
+    },
+    {
+      "label": "Back to top",
+      "href": "#top"
+    },
+    {
+      "label": "Contact Vendor",
+      "href": "mailto:support@amasty.com"
+    },
+    {
+      "label": "Back to top",
+      "href": "#top"
+    },
+    {
+      "label": "Be the first to ask a question",
+      "href": null
+    },
+    {
+      "label": "Back to top",
+      "href": "#top"
+    },
+    {
+      "label": "Become a Partner",
+      "href": "https://www.adobe.com/partners.html"
+    },
+    {
+      "label": "About Us",
+      "href": "https://magento.com/about"
+    },
+    {
+      "label": "Careers",
+      "href": "https://magento.com/careers"
+    },
+    {
+      "label": "Press",
+      "href": "https://magento.com/press-room"
+    },
+    {
+      "label": "Terms and Conditions",
+      "href": "https://commercemarketplace.adobe.com/terms-and-conditions/"
+    },
+    {
+      "label": "Security Updates",
+      "href": "https://magento.com/security"
+    },
+    {
+      "label": "Find a Partner",
+      "href": "https://magento.com/find-a-partner"
+    },
+    {
+      "label": "Become a Partner",
+      "href": "https://www.adobe.com/partners.html"
+    },
+    {
+      "label": "Certification",
+      "href": "https://u.magento.com/certification"
+    },
+    {
+      "label": "Training",
+      "href": "https://u.magento.com/developers"
+    },
+    {
+      "label": "Benefits U",
+      "href": "https://u.magento.com/"
+    },
+    {
+      "label": "Extensions",
+      "href": "https://commercemarketplace.adobe.com/extensions.html/"
+    },
+    {
+      "label": "Themes",
+      "href": "https://commercemarketplace.adobe.com/themes.html/"
+    },
+    {
+      "label": "Partners",
+      "href": "https://commercemarketplace.adobe.com/partners/"
+    },
+    {
+      "label": "Info Sheet",
+      "href": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/pdf/footer/Marketplace-Infosheet.pdf"
+    },
+    {
+      "label": "User Guides",
+      "href": "http://docs.magento.com/marketplace/user_guide/getting-started.html"
+    },
+    {
+      "label": "Technical Docs",
+      "href": "https://magento.com/resources/technical"
+    },
+    {
+      "label": "Developer Portal",
+      "href": "https://commercedeveloper.adobe.com/"
+    },
+    {
+      "label": "Dev Docs",
+      "href": "https://experienceleague.adobe.com/docs/commerce-admin/start/resources/commerce-marketplace.html"
+    },
+    {
+      "label": "API",
+      "href": "https://developer.adobe.com/commerce/marketplace/guides/eqp/v1/"
+    },
+    {
+      "label": "Community",
+      "href": "https://developer.adobe.com/open/magento"
+    },
+    {
+      "label": "Contact Us",
+      "href": "https://commercemarketplace.adobe.com/contact-us/"
+    },
+    {
+      "label": "Events",
+      "href": "https://magento.com/events"
+    },
+    {
+      "label": "Webinars",
+      "href": "https://magento.com/resources/webinars"
+    },
+    {
+      "label": "Privacy and Cookie Policy",
+      "href": "https://magento.com/legal/terms/marketplace"
+    },
+    {
+      "label": "Cookie preferences",
+      "href": "https://magento.com/sites/default/files/MAGENTO-MARKETPLACE-CUSTOMER-AGREEMENT-April-12-2019.pdf"
+    }
+  ],
+  "links": [
+    "https://commercemarketplace.adobe.com/",
+    "https://commercemarketplace.adobe.com/amasty-module-price-history.html#store.menu",
+    "https://commercemarketplace.adobe.com/extensions.html",
+    "https://commercemarketplace.adobe.com/themes.html",
+    "https://commercemarketplace.adobe.com/partners",
+    "https://developer.adobe.com/commerce/marketplace/guides/sellers/",
+    "https://commercemarketplace.adobe.com/amasty-module-price-history.html#store.links",
+    "https://commercemarketplace.adobe.com/customer/account/login/referer/aHR0cHM6Ly9jb21tZXJjZW1hcmtldHBsYWNlLmFkb2JlLmNvbS9hbWFzdHktbW9kdWxlLXByaWNlLWhpc3RvcnkuaHRtbA~~/_c_timestamp/1792523476223158974/",
+    "https://commercemarketplace.adobe.com/checkout/cart/",
+    "https://commercemarketplace.adobe.com/customer/account/create/",
+    "https://commercemarketplace.adobe.com/customer/account/forgotpassword/",
+    "https://commercemarketplace.adobe.com/partner/Amasty",
+    "https://commercemarketplace.adobe.com/amasty-module-price-history.html#gallery-next-area",
+    "https://commercemarketplace.adobe.com/amasty-module-price-history.html#gallery-prev-area",
+    "mailto:support@amasty.com",
+    "https://commercemarketplace.adobe.com/amasty-module-price-history.html#trader_information",
+    "https://commercemarketplace.adobe.com/amasty-module-price-history.html#description",
+    "https://commercemarketplace.adobe.com/amasty-module-price-history.html#product.info.details.tech_specs",
+    "https://commercemarketplace.adobe.com/amasty-module-price-history.html#product.info.details.quality_report",
+    "https://commercemarketplace.adobe.com/amasty-module-price-history.html#product.info.details.release_notes",
+    "https://commercemarketplace.adobe.com/amasty-module-price-history.html#product.info.details.support",
+    "https://commercemarketplace.adobe.com/amasty-module-price-history.html#bv_questions",
+    "https://commercemarketplace.adobe.com/amasty-module-price-history.html#bazaarvoice.reviews.tab",
+    "https://commercemarketplace.adobe.com/amasty-module-price-history.html#top",
+    "https://omnibus-price-tracker-m2.magento-demo.amasty.com/admin/admin/system_config/edit/section/price_history/",
+    "https://omnibus-price-tracker-m2.magento-demo.amasty.com/compete-track-tote.html",
+    "https://amasty.com/docs/doku.php?id=magento_2:omnibus_price_tracker",
+    "https://amasty.com/knowledge-base/",
+    "https://amasty.com/contacts/",
+    "https://commercemarketplace.adobe.com/amasty-module-price-history.html?1792523476",
+    "https://commercemarketplace.adobe.com/media/catalog/product/amasty-module-price-history-1-4-0-ece/installation_guides.pdf?1792523476",
+    "https://commercemarketplace.adobe.com/media/catalog/product/amasty-module-price-history-1-4-0-ece/user_guides.pdf?1792523476",
+    "https://amasty.com/license.html",
+    "https://amasty.com/privacy.html",
+    "https://devdocs.magento.com/marketplace/sellers/installation-and-varnish-tests.html",
+    "https://devdocs.magento.com/marketplace/sellers/code-sniffer.html",
+    "https://devdocs.magento.com/marketplace/sellers/copy-paste-detector.html",
+    "https://devdocs.magento.com/marketplace/sellers/malware-scan.html",
+    "https://devdocs.magento.com/marketplace/sellers/submit-for-marketing-review.html",
+    "https://devdocs.magento.com/marketplace/sellers/technical-review-guidelines.html#quality-assurance-pass-manual-qa",
+    "https://www.adobe.com/partners.html",
+    "https://magento.com/about",
+    "https://magento.com/careers",
+    "https://magento.com/press-room",
+    "https://commercemarketplace.adobe.com/terms-and-conditions/",
+    "https://magento.com/security",
+    "https://magento.com/find-a-partner",
+    "https://u.magento.com/certification",
+    "https://u.magento.com/developers",
+    "https://u.magento.com/",
+    "https://commercemarketplace.adobe.com/extensions.html/",
+    "https://commercemarketplace.adobe.com/themes.html/",
+    "https://commercemarketplace.adobe.com/partners/",
+    "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/pdf/footer/Marketplace-Infosheet.pdf",
+    "http://docs.magento.com/marketplace/user_guide/getting-started.html",
+    "https://magento.com/resources/technical",
+    "https://commercedeveloper.adobe.com/",
+    "https://experienceleague.adobe.com/docs/commerce-admin/start/resources/commerce-marketplace.html",
+    "https://developer.adobe.com/commerce/marketplace/guides/eqp/v1/",
+    "https://developer.adobe.com/open/magento",
+    "https://commercemarketplace.adobe.com/contact-us/",
+    "https://magento.com/events",
+    "https://magento.com/resources/webinars",
+    "https://www.facebook.com/magento",
+    "https://twitter.com/magento",
+    "https://www.linkedin.com/groups/146360/profile",
+    "https://magento.com/legal/terms/marketplace",
+    "https://magento.com/sites/default/files/MAGENTO-MARKETPLACE-CUSTOMER-AGREEMENT-April-12-2019.pdf",
+    "javascript:void(0)"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/images/logo-header-adobe.svg",
+        "alt": "",
+        "w": 300,
+        "h": 78
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/images/partner-levels/gold-technology-partner.png",
+        "alt": "Adobe Gold Technology Partner",
+        "w": 158,
+        "h": 49
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/images/logo-footer-adobe.svg",
+        "alt": "Adobe Commerce",
+        "w": 300,
+        "h": 78
+      }
+    ],
+    "allImgCount": 16,
+    "cssBackgrounds": [],
+    "modals": [
+      "My Cart Close You have no items in your shopping cart."
+    ],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {
+    "--ot-privacy-cta-color": "#3B63FB",
+    "--ot-privacy-cta-hover-color": "#274DEA",
+    "--ot-privacy-cta-ring-color": "#378EF0"
+  },
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 42,
+    "mainTextLen": 8953,
+    "realImageCount": 3,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "dynamic": {
+    "endpoints": [
+      {
+        "method": "POST",
+        "host": "logx.optimizely.com",
+        "path": "/v1/events",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/plain",
+        "status": 204,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://logx.optimizely.com/v1/events",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "commercemarketplace.adobe.com",
+        "path": "/static/version1789987689/frontend/Aheadworks/marketplace/en_US/js-translation.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 91,
+        "hits": 1,
+        "example": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/js-translation.json",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/consent/{uuid}/{uuid}.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/consent/3f974ff3-d476-4b4f-bf22-af36e8c54e80/3f974ff3-d476-4b4f-bf22-af36e8c54e80.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "geolocation.onetrust.com",
+        "path": "/cookieconsentpub/v1/geo/location",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "commercemarketplace.adobe.com",
+        "path": "/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Ui/templates/modal/modal-popup.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "status": 200,
+        "bytes": 522,
+        "hits": 1,
+        "example": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Ui/templates/modal/modal-popup.html",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "commercemarketplace.adobe.com",
+        "path": "/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Ui/templates/modal/modal-custom.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "status": 200,
+        "bytes": 519,
+        "hits": 1,
+        "example": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Ui/templates/modal/modal-custom.html",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "commercemarketplace.adobe.com",
+        "path": "/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Ui/templates/modal/modal-slide.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "status": 200,
+        "bytes": 542,
+        "hits": 1,
+        "example": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Ui/templates/modal/modal-slide.html",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "commercemarketplace.adobe.com",
+        "path": "/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Ui/templates/tooltip/tooltip.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "status": 200,
+        "bytes": 197,
+        "hits": 1,
+        "example": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Ui/templates/tooltip/tooltip.html",
+        "sameSite": true
+      },
+      {
+        "method": "POST",
+        "host": "commercemarketplace.adobe.com",
+        "path": "/appbazaarvoice/usertoken/getusertoken",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 36,
+        "hits": 1,
+        "example": "https://commercemarketplace.adobe.com/appbazaarvoice/usertoken/getusertoken",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/consent/{uuid}/{uuid}/en.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/consent/3f974ff3-d476-4b4f-bf22-af36e8c54e80/019caf6e-4366-72a5-961b-00e18d133360/en.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202501.1.0/assets/otFlat.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 3001,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202501.1.0/assets/otFlat.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202501.1.0/assets/otPcCenter.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 15013,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202501.1.0/assets/otPcCenter.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202501.1.0/assets/otCommonStyles.css",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/css",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202501.1.0/assets/otCommonStyles.css",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "commercemarketplace.adobe.com",
+        "path": "/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Theme/templates/breadcrumbs.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "status": 200,
+        "bytes": 201,
+        "hits": 1,
+        "example": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Theme/templates/breadcrumbs.html",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "commercemarketplace.adobe.com",
+        "path": "/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Ui/templates/block-loader.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "status": 200,
+        "bytes": 149,
+        "hits": 1,
+        "example": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Ui/templates/block-loader.html",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "commercemarketplace.adobe.com",
+        "path": "/subscriptions/graceperiod/check",
+        "query": [
+          "_",
+          "parent_product_id"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 43,
+        "hits": 1,
+        "example": "https://commercemarketplace.adobe.com/subscriptions/graceperiod/check",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "commercemarketplace.adobe.com",
+        "path": "/static/version1789987689/frontend/Aheadworks/marketplace/en_US/mage/gallery/gallery.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "status": 200,
+        "bytes": 461,
+        "hits": 1,
+        "example": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/mage/gallery/gallery.html",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "commercemarketplace.adobe.com",
+        "path": "/banner/ajax/load/",
+        "query": [
+          "_",
+          "data[product_id]",
+          "requesting_page_url",
+          "sections"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://commercemarketplace.adobe.com/banner/ajax/load/",
+        "sameSite": true
+      },
+      {
+        "method": "POST",
+        "host": "commerce.adobe.io",
+        "path": "/recs/v1/precs/preconfigured",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://commerce.adobe.io/recs/v1/precs/preconfigured",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "commercemarketplace.adobe.com",
+        "path": "/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Checkout/template/minicart/content.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "status": 200,
+        "bytes": 1053,
+        "hits": 1,
+        "example": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Checkout/template/minicart/content.html",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "commercemarketplace.adobe.com",
+        "path": "/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Customer/template/authentication-popup.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "status": 200,
+        "bytes": 942,
+        "hits": 1,
+        "example": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Customer/template/authentication-popup.html",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "commercemarketplace.adobe.com",
+        "path": "/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_ProductRecommendationsLayout/template/recommendations.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "status": 200,
+        "bytes": 1040,
+        "hits": 1,
+        "example": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_ProductRecommendationsLayout/template/recommendations.html",
+        "sameSite": true
+      },
+      {
+        "method": "POST",
+        "host": "bam.nr-data.net",
+        "path": "/{n}/NRJS-d0edda730f7343596cf",
+        "query": [
+          "a",
+          "af",
+          "ap",
+          "at",
+          "be",
+          "dc",
+          "fcp",
+          "fe",
+          "fp",
+          "perf",
+          "ptid",
+          "ref",
+          "rst",
+          "s",
+          "to",
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://bam.nr-data.net/1/NRJS-d0edda730f7343596cf",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "commercemarketplace.adobe.com",
+        "path": "/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Ui/templates/collection.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "status": 200,
+        "bytes": 121,
+        "hits": 1,
+        "example": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Ui/templates/collection.html",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "commercemarketplace.adobe.com",
+        "path": "/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Pitbulk_SAML2/template/checkout/samllogin.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "status": 200,
+        "bytes": 284,
+        "hits": 1,
+        "example": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Pitbulk_SAML2/template/checkout/samllogin.html",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "commercemarketplace.adobe.com",
+        "path": "/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Captcha/template/checkout/captcha.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "status": 200,
+        "bytes": 550,
+        "hits": 1,
+        "example": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Captcha/template/checkout/captcha.html",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "commercemarketplace.adobe.com",
+        "path": "/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Ui/template/messages.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "status": 200,
+        "bytes": 251,
+        "hits": 1,
+        "example": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Ui/template/messages.html",
+        "sameSite": true
+      },
+      {
+        "method": "POST",
+        "host": "commercemarketplace.adobe.com",
+        "path": "/appbazaarvoice/customer/isloggedin",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 16,
+        "hits": 1,
+        "example": "https://commercemarketplace.adobe.com/appbazaarvoice/customer/isloggedin",
+        "sameSite": true
+      },
+      {
+        "method": "POST",
+        "host": "bam.nr-data.net",
+        "path": "/events/{n}/NRJS-d0edda730f7343596cf",
+        "query": [
+          "a",
+          "ptid",
+          "ref",
+          "rst",
+          "s",
+          "to",
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": "image/gif",
+        "status": 200,
+        "bytes": 24,
+        "hits": 3,
+        "example": "https://bam.nr-data.net/events/1/NRJS-d0edda730f7343596cf",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "bam.nr-data.net",
+        "path": "/ins/{n}/NRJS-d0edda730f7343596cf",
+        "query": [
+          "a",
+          "at",
+          "ptid",
+          "ref",
+          "rst",
+          "s",
+          "to",
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 204,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://bam.nr-data.net/ins/1/NRJS-d0edda730f7343596cf",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "bam.nr-data.net",
+        "path": "/jserrors/{n}/NRJS-d0edda730f7343596cf",
+        "query": [
+          "a",
+          "ptid",
+          "ref",
+          "rst",
+          "s",
+          "to",
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": "image/gif",
+        "status": 200,
+        "bytes": 24,
+        "hits": 1,
+        "example": "https://bam.nr-data.net/jserrors/1/NRJS-d0edda730f7343596cf",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "commercemarketplace.adobe.com",
+        "path": "/customer/section/load/",
+        "query": [
+          "_",
+          "force_new_section_timestamp",
+          "sections"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 49,
+        "hits": 1,
+        "example": "https://commercemarketplace.adobe.com/customer/section/load/",
+        "sameSite": true
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "apps.bazaarvoice.com",
+        "count": 8
+      },
+      {
+        "host": "unpkg.com",
+        "count": 4
+      },
+      {
+        "host": "display.ugc.bazaarvoice.com",
+        "count": 4
+      },
+      {
+        "host": "cdn.cookielaw.org",
+        "count": 2
+      },
+      {
+        "host": "js.braintreegateway.com",
+        "count": 2
+      },
+      {
+        "host": "api.bazaarvoice.com",
+        "count": 2
+      },
+      {
+        "host": "cdn.optimizely.com",
+        "count": 1
+      },
+      {
+        "host": "rum.hlx.page",
+        "count": 1
+      },
+      {
+        "host": "livesearch-metrics.magento-ds.com",
+        "count": 1
+      },
+      {
+        "host": "acds-events.adobe.io",
+        "count": 1
+      },
+      {
+        "host": "commerce.adobedtm.com",
+        "count": 1
+      },
+      {
+        "host": "recommendations-sdk.adobe.io",
+        "count": 1
+      },
+      {
+        "host": "www.googletagmanager.com",
+        "count": 1
+      },
+      {
+        "host": "js-agent.newrelic.com",
+        "count": 1
+      }
+    ],
+    "truncated": false,
+    "inlineData": [],
+    "globalState": [
+      "dataLayer"
+    ],
+    "frameworkHints": [],
+    "forms": [
+      {
+        "action": "https://commercemarketplace.adobe.com/catalogsearch/result/",
+        "hasAction": true,
+        "method": "get",
+        "sameOrigin": true,
+        "fieldCount": 1,
+        "fieldNames": [
+          "q"
+        ],
+        "search": true
+      },
+      {
+        "action": "https://commercemarketplace.adobe.com/checkout/cart/add/uenc/aHR0cHM6Ly9jb21tZXJjZW1hcmtldHBsYWNlLmFkb2JlLmNvbS9hbWFzdHktbW9kdWxlLXByaWNlLWhpc3RvcnkuaHRtbA~~/product/623600/",
+        "hasAction": true,
+        "method": "post",
+        "sameOrigin": true,
+        "fieldCount": 1,
+        "fieldNames": [
+          "frequency_option"
+        ],
+        "search": false
+      }
+    ],
+    "ariaLiveRegions": 1,
+    "triggers": [
+      {
+        "marker": "aria-haspopup",
+        "href": null
+      }
+    ],
+    "mediaIds": [],
+    "summary": {
+      "sameSiteEndpoints": 20,
+      "thirdPartyEndpoints": 12,
+      "thirdPartyScriptHosts": 14,
+      "inlineDataBlobs": 0,
+      "forms": 2,
+      "searchForms": 1,
+      "hydrated": false
+    }
+  },
+  "screenshot": "assets/screenshots/amasty-module-price-history-html.png",
+  "renderedHtml": "pages/amasty-module-price-history-html.html",
+  "slots": {
+    "pageType": "program",
+    "_provenance": {
+      "writtenBy": "stardust:extract --prep",
+      "writtenAt": "2026-10-20T19:50:00Z",
+      "basis": "prep-mode.md § 4; values are captured strings from this record and pages/amasty-module-price-history-html.html"
+    },
+    "program-headline": {
+      "selector": ".page-title-wrapper.product h1.page-title",
+      "module": "candidate-page-title",
+      "text": "Omnibus Price Tracker",
+      "vendor": "Amasty",
+      "vendorSelector": ".by-company",
+      "vendorLine": "by Amasty"
+    },
+    "breadcrumbs": {
+      "selector": ".breadcrumbs ul.items",
+      "module": "candidate-breadcrumbs",
+      "items": [
+        "Home",
+        "Omnibus Price Tracker"
+      ]
+    },
+    "summary": {
+      "selector": "#description .product.attribute.description .value",
+      "text": "Prepare your e-commerce business to comply with the new pricing requirements of the EU Omnibus Directive, which is already in effect and applies to all retailers who sell products and services to EU customers. Keep the price change policy transparent and consistent to build customer loyalty and avoid unforeseen fines."
+    },
+    "gallery": {
+      "selector": ".product.media .fotorama-item",
+      "module": "candidate-product-gallery",
+      "images": [
+        "https://commercemarketplace.adobe.com/media/catalog/product/o/m/omnibus-price-tracker-icon-for-marketplace_2.png?width=750&amp;height=360&amp;store=default&amp;image-type=image&amp;fit=bounds",
+        "https://commercemarketplace.adobe.com/media/catalog/product/o/m/omnibus-price-tracker-7-market_2.png?width=750&amp;height=360&amp;store=default&amp;image-type=image&amp;fit=bounds",
+        "https://commercemarketplace.adobe.com/media/catalog/product/o/m/omnibus-price-tracker-intro-hyva_2.png?width=750&amp;height=360&amp;store=default&amp;image-type=image&amp;fit=bounds"
+      ],
+      "imageCount": 8
+    },
+    "feature-grid": {
+      "selector": "#description .product.attribute.description",
+      "heading": "Key Features:",
+      "items": [
+        "30-Day Lowest Price (Omnibis Price)",
+        "Placement Of The Block With Omnibus Price",
+        "Price Change History Grid",
+        "Automatic Price Change Log Clearing"
+      ]
+    },
+    "cta-band": {
+      "selector": ".product-info-main",
+      "module": "candidate-product-purchase-panel",
+      "edition": [
+        "Adobe Commerce (cloud)",
+        "Adobe Commerce (on-prem)",
+        "Magento Open Source"
+      ],
+      "storeVersion": "2.4 (Adobe Commerce (cloud))",
+      "installationService": "0",
+      "gracePeriodNote": "You are eligible for a 180-day grace period for this extension.",
+      "priceFirstYear": "$919.00 / year",
+      "priceThen": "$559.00 / year",
+      "totalDueToday": "$919.00",
+      "primaryCta": {
+        "label": "Add to cart",
+        "selector": "#product-addtocart-button"
+      },
+      "secondaryCta": {
+        "label": "Contact Vendor"
+      }
+    },
+    "contents-nav": {
+      "selector": "nav.product-page-left-navigation",
+      "module": "candidate-product-contents-nav",
+      "label": "CONTENTS",
+      "items": [
+        "Trader Information",
+        "Overview",
+        "Technical Specifications",
+        "Quality Report",
+        "Release Notes",
+        "Support",
+        "Q & A",
+        "Reviews"
+      ]
+    },
+    "detail-sections": {
+      "selector": ".product.info.detailed .product-data-items",
+      "module": "candidate-product-detail-sections",
+      "sections": [
+        "#trader_information",
+        "#description",
+        "#product.info.details.tech_specs",
+        "#product.info.details.quality_report",
+        "#product.info.details.release_notes",
+        "#product.info.details.support",
+        "#bv_questions",
+        "#bazaarvoice.reviews.tab"
+      ],
+      "headings": [
+        "Technical Specifications",
+        "Quality Report",
+        "Release Notes",
+        "Support",
+        "Q & A",
+        "Reviews"
+      ],
+      "qualityReport": [
+        "Installation & Varnish Tests",
+        "Coding Standard",
+        "Plagiarism Check",
+        "Malware Check",
+        "Marketing Review",
+        "Manual Testing"
+      ],
+      "releaseNotes": [
+        "1.4.0:",
+        "1.1.1:",
+        "1.0.1:"
+      ],
+      "embeds": [
+        "Bazaarvoice Q&A (#BVQAContainer)",
+        "Bazaarvoice reviews"
+      ]
+    },
+    "pre-footer-band": {
+      "selector": "footer.page-footer .become-partner",
+      "module": "candidate-become-partner-band",
+      "text": "Are you a developer? Become a Adobe Commerce Partner to add value to your extension or theme.",
+      "cta": "Become a Partner"
+    }
+  }
+}

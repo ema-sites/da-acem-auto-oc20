@@ -1,0 +1,35 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "side-tab",
+        "value": "*",
+        "files": [
+          "stardust/prototypes/listing.css"
+        ],
+        "createdAt": "2026-10-20T20:09:18.436Z",
+        "reason": "replica run (agent decision): selected-category 3px bar lifted verbatim from source AppStore_LiveSearch/css/plp/widget.css L846 (.category-link.selected::before); same-design migration forbids changing it"
+      },
+      {
+        "rule": "overused-font",
+        "value": "arial",
+        "files": [
+          "stardust/prototypes/program.css"
+        ],
+        "createdAt": "2026-10-20T20:19:06.416Z",
+        "reason": "replica run (agent decision): Arial is the captured computed font of the source page's Bazaarvoice reviews widget, replicated as a static snapshot; same-design migration"
+      },
+      {
+        "rule": "side-tab",
+        "value": "*",
+        "files": [
+          "blocks/facets-sidebar/facets-sidebar.css"
+        ],
+        "createdAt": "2026-10-20T22:20:20.732Z",
+        "reason": "replica run: selected-category 3px accent bar is the source site's own design, lifted into the gated prototype (stardust/prototypes/listing.css L55); replica forbids design changes outside the inconsistency register"
+      }
+    ]
+  }
+}

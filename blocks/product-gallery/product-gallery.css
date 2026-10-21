@@ -1,0 +1,374 @@
+/* product-gallery — program.css § product rows / headline / gallery (values exact, recreated) */
+
+/* ---------- product row: breadcrumbs + gallery column (66%) + purchase panel (flex 4) ----------
+   The three blocks share one section; the section is the source's .product-details-row. */
+@media (width >= 992px) {
+  main > .section.product-gallery-container {
+    display: flex;
+    flex-flow: row wrap;
+    box-sizing: border-box;
+    max-width: var(--container);
+    margin: 0 auto;
+    padding: 0 var(--gutter);
+  }
+
+  main > .section.product-gallery-container > div {
+    max-width: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  main > .section.product-gallery-container > .breadcrumbs-wrapper,
+  main > .section.product-gallery-container > .default-content-wrapper {
+    flex: 0 0 100%;
+  }
+
+  main > .section.product-gallery-container > .product-gallery-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 66%;
+  }
+}
+
+.product-gallery {
+  color: var(--c-text);
+}
+
+@media (width >= 992px) {
+  .product-gallery {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* ---------- headline: icon + title + vendor (styles-m .case-box-ov / .ico-product / .by-company) ---------- */
+.product-gallery .product-headline {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.product-gallery .page-title-wrapper {
+  display: flex;
+  justify-content: center;
+  float: left;
+  margin: 0 10px 20px 0;
+}
+
+.product-gallery .ico-product {
+  position: relative;
+  flex: none;
+  width: 62px;
+  height: 62px;
+  margin-right: 20px;
+  border: 1px solid #aeafb1;
+}
+
+.product-gallery .ico-product img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 62px;
+  height: 62px;
+}
+
+.product-gallery .headline-title h1 {
+  position: relative;
+  margin: 0 0 15px;
+  padding-right: 40px;
+  color: #000;
+  font-family: var(--font-body);
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 1.1;
+  text-align: left;
+}
+
+.product-gallery .by-company {
+  display: flex;
+  align-items: flex-start;
+  color: #8e8e8e;
+  font-size: 16px;
+  line-height: 1.4286;
+}
+
+.product-gallery .by-company p {
+  margin: 0;
+}
+
+.product-gallery .vendor-name {
+  margin-right: 20px;
+  color: #202021;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.product-gallery .by-company picture,
+.product-gallery .by-company img {
+  display: block;
+  width: 120px;
+  height: auto;
+}
+
+.product-gallery .action-skip-wrapper {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+}
+
+/* ---------- gallery (captured fotorama state; mage/gallery/gallery.css + styles-m overrides) ---------- */
+.product-gallery .gallery {
+  position: relative;
+}
+
+.product-gallery .gallery-stage {
+  position: relative;
+  max-width: 99.8%;
+  height: 240px;
+}
+
+.product-gallery .gallery-stage::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 2;
+  height: 99.5%;
+  border: 1px solid #aeafb1;
+  pointer-events: none;
+}
+
+.product-gallery .gallery-shaft {
+  position: relative;
+  width: 100.2%;
+  height: 240px;
+  overflow: hidden;
+}
+
+.product-gallery .gallery-frame {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  text-align: center;
+}
+
+.product-gallery .gallery-frame img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  max-height: 100%;
+  transform: translate(-50%, -50%);
+}
+
+.product-gallery .gallery-frame-square img {
+  top: -1px;
+  width: 240px;
+  height: 240px;
+  transform: translateX(-50%);
+}
+
+.product-gallery .gallery-arr {
+  position: absolute;
+  bottom: -110px;
+  z-index: 3;
+  box-sizing: border-box;
+  width: 24px;
+  height: 80px;
+  background: transparent;
+  cursor: pointer;
+}
+
+.product-gallery .gallery-arr-prev {
+  left: 0;
+}
+
+.product-gallery .gallery-arr-next {
+  right: 0;
+}
+
+.product-gallery .gallery-arr span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 24px;
+  height: 24px;
+  transform: translate(-50%, -50%);
+  background: url('arrow-sprite.png') no-repeat 0 0;
+}
+
+.product-gallery .gallery-arr-next span {
+  background-position: -24px 0;
+}
+
+.product-gallery .gallery-nav-wrap {
+  height: 140px;
+  padding: 0 40px;
+}
+
+.product-gallery .gallery-nav {
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  font-size: 0;
+  line-height: 0;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.product-gallery .gallery-nav-shaft {
+  display: inline-block;
+  position: relative;
+}
+
+.product-gallery .gallery-thumb {
+  display: inline-block;
+  position: relative;
+  box-sizing: content-box;
+  width: 142px;
+  height: 80px;
+  padding: 30px 30px 0 0;
+  vertical-align: top;
+  cursor: pointer;
+}
+
+.product-gallery .gallery-thumb:last-of-type {
+  padding-right: 0;
+}
+
+.product-gallery .gallery-thumb .thumb-img {
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border: 1px solid #aeafb1;
+  background: transparent;
+}
+
+.product-gallery .gallery-thumb .thumb-img img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 142px;
+  height: auto;
+  transform: translate(-50%, -50%);
+}
+
+/* stylelint-disable-next-line selector-class-pattern -- modifier named by the replica contract */
+.product-gallery .gallery-thumb--fit-h .thumb-img img {
+  top: 0;
+  width: auto;
+  height: 80px;
+  transform: translateX(-50%);
+}
+
+.product-gallery .gallery-dot {
+  display: none;
+}
+
+/* ---------- fotorama controls present but not shown in the captured state (gallery.css) ---------- */
+.product-gallery .gallery-fullscreen-icon {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 80px;
+  height: 80px;
+  background: url('gallery.png') no-repeat 0 0;
+}
+
+.product-gallery .gallery-zoom-in,
+.product-gallery .gallery-zoom-out {
+  display: none;
+}
+
+.product-gallery .gallery-thumb-arr {
+  display: none;
+  position: absolute;
+  top: 0;
+  width: 30px;
+}
+
+.product-gallery .gallery-thumb-arr .thumb-icon {
+  position: absolute;
+  width: 100%;
+  background: url('gallery.png') no-repeat -25px -265px;
+}
+
+.product-gallery .gallery-thumb-arr-right .thumb-icon {
+  background-position: -25px -350px;
+}
+
+/* ---------- tablet / mobile (styles-m max-width 991px / 767px) ---------- */
+@media (width <= 991px) {
+  .product-gallery .product-headline {
+    display: block;
+  }
+
+  .product-gallery .page-title-wrapper {
+    display: block;
+    float: none;
+    margin-right: 0;
+  }
+
+  .product-gallery .ico-product {
+    float: none;
+  }
+
+  .product-gallery .headline-title {
+    margin-top: 15px;
+  }
+
+  .product-gallery .gallery-stage {
+    max-width: 99.5%;
+  }
+}
+
+@media (width <= 767px) {
+  .product-gallery .gallery-nav-wrap {
+    height: 30px;
+  }
+
+  .product-gallery .gallery-nav {
+    text-align: center;
+  }
+
+  .product-gallery .gallery-thumb {
+    display: none;
+  }
+
+  .product-gallery .gallery-dot {
+    display: inline-block;
+    position: relative;
+    width: 18px;
+    height: 30px;
+    vertical-align: top;
+  }
+
+  .product-gallery .gallery-dot::before {
+    content: '';
+    position: absolute;
+    top: 12px;
+    left: 6px;
+    width: 4px;
+    height: 4px;
+    border: 1px solid #858585;
+    border-radius: 6px;
+  }
+
+  .product-gallery .gallery-dot.is-active::before {
+    border-color: #eb5202;
+    background: #eb5202;
+  }
+}

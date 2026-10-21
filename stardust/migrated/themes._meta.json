@@ -1,0 +1,124 @@
+{
+  "slug": "themes-html",
+  "type": "listing",
+  "renderBranch": "A'",
+  "template": "extensions-html",
+  "modules": [
+    "facets-sidebar",
+    "listing-toolbar",
+    "product-card-grid",
+    "breadcrumbs"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "columns"
+  ],
+  "canonShas": {
+    "header": "d2132ead8c39",
+    "footer": "ccdde27c82ff",
+    "css": "e91213fb9ae3"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Adobe Commerce Themes | eCommerce Website Templates | Marketplace",
+    "description": "Customize the look and feel of your Magento store with these professionally designed, responsive eCommerce website templates and themes.",
+    "canonical": null,
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Adobe Commerce Themes | eCommerce Website Templates | Marketplace",
+    "description": "Customize the look and feel of your Magento store with these professionally designed, responsive eCommerce website templates and themes.",
+    "url": "https://commercemarketplace.adobe.com/themes.html"
+  },
+  "migratedAt": "2026-10-20T22:44:23Z",
+  "designMdSha": "669d9fbdeef2",
+  "designJsonSha": "027c799c1e88",
+  "sourceCurrentSha": "c630b892b1de",
+  "sourceProposedSha": "8aa0d906b817",
+  "fidelityTier": "sibling",
+  "archetypeSource": "extensions-html",
+  "archetypeSha": "3e7a5efb4811",
+  "variants": [],
+  "gatesPassed": [
+    "variance-probe",
+    "content-count",
+    "content-fidelity",
+    "delivery-lint",
+    "pixel-gate-1440",
+    "pixel-gate-360",
+    "media-reconcile"
+  ],
+  "gateEvidence": {
+    "variance-probe": "sibling-variance 1440 (stardust/.work/cluster-listing/variance-1440.log): facets 9→7 groups, cards 36→4, no pager — content-count deltas, no new block variant; empty Partner Type group = title-only row",
+    "content-count": "gate-all content presence 1440+360: MISSING 0 / HIDDEN 0 vs the live origin; encoder = archetype gen-content (cluster-listing copy) over the capture-driven clone",
+    "content-fidelity": "strings verbatim from stardust/current/pages/themes-html.html via clone-proto.mjs; block-roundtrip --ew 0 structural, 0 dead",
+    "pixel-gate-1440": "gate-all published regime (aem.page) 1440: 0.94% Δh 0 clipped 0 MISSING/HIDDEN 0 units 4/4 PASS [runs in stardust/replica/gates/all-1440/runs]",
+    "pixel-gate-360": "gate-all published regime 360: 1.93% Δh 0 PASS [runs in stardust/replica/gates/all-360/runs]",
+    "delivery-lint": "0 P0 / 0 P1",
+    "media-reconcile": "4 hosted (media/listing, ledger)"
+  },
+  "contentDeviations": [],
+  "assetsBundled": 14,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/partners",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/customer/account/login/referer/aHR0cHM6Ly9jb21tZXJjZW1hcmtldHBsYWNlLmFkb2JlLmNvbS9leHRlbnNpb25zLmh0bWw~/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/checkout/cart/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/customer/account/login/referer/aHR0cHM6Ly9jb21tZXJjZW1hcmtldHBsYWNlLmFkb2JlLmNvbS9leHRlbnNpb25zLmh0bWw~/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/customer/account/create/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/customer/account/forgotpassword/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/swissup-argento-m2.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/swissup-breeze-evolution.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/swissup-absolute-metapackage.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/swissup-breeze-blank.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/partners/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/pdf/footer/Marketplace-Infosheet.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/contact-us/",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "themes.html",
+  "outputPathDefault": null,
+  "sidecar": "themes._meta.json",
+  "driverVersion": "1"
+}

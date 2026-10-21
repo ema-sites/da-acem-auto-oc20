@@ -1,0 +1,1273 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:extract",
+  "writtenAt": "2026-10-20T19:20:00Z",
+  "stardustVersion": "0.34.0",
+  "mode": "descriptive",
+  "sources": [
+   "stardust/current/_computed-styles.json",
+   "stardust/current/assets/css/styles-m.css",
+   "stardust/current/assets/css/styles-l.css",
+   "stardust/current/pages/*.json"
+  ]
+ },
+ "name": "Adobe Commerce Marketplace (current state)",
+ "colors": {
+  "background": "#ffffff",
+  "surface-dark": "#202021",
+  "surface-alt": "#f2f3f3",
+  "text": "#333333",
+  "text-muted": "#636363",
+  "text-subtle": "#999999",
+  "heading": "#333333",
+  "border": "#e0e0e0",
+  "link": "#1979c3",
+  "primary": "#0469e3",
+  "accent-orange": "#eb5202",
+  "accent-orange-hover": "#ef672f",
+  "footer-text": "#aeafb1"
+ },
+ "typography": {
+  "families": {
+   "body": "adobe-clean, 'Source Sans 3', 'Helvetica Neue', Helvetica, Arial, sans-serif",
+   "heading-bold": "AdobeCleanBold, adobe-clean, 'Source Sans 3', sans-serif",
+   "heading-medium": "AdobeCleanMedium, adobe-clean, 'Source Sans 3', sans-serif"
+  },
+  "licensing": "Adobe Clean is a proprietary Adobe typeface self-hosted by the source; not rehosted — metric-close substitute Source Sans 3 (OFL) with the brand family first in the stack",
+  "scale": {
+   "h1": {
+    "size": "28px",
+    "weight": 400
+   },
+   "h2": {
+    "size": "30px",
+    "weight": 600
+   },
+   "h3": {
+    "size": "20px",
+    "weight": 600
+   },
+   "h4": {
+    "size": "13px",
+    "weight": 700
+   },
+   "body": {
+    "size": "14px",
+    "lineHeight": "1.42857"
+   },
+   "small": {
+    "size": "12px"
+   }
+  },
+  "sizesObserved": [
+   36,
+   32,
+   30,
+   28,
+   26,
+   20,
+   18,
+   16,
+   15,
+   14,
+   13,
+   12.5,
+   12
+  ],
+  "scaleAudit": {
+   "kind": "ad-hoc"
+  }
+ },
+ "rounded": {
+  "default": "4px",
+  "pill": null
+ },
+ "spacing": {
+  "unit": "4px",
+  "notes": "Magento Luma spacing (10/15/20/30/40px rhythm) — values lifted per section at recreation"
+ },
+ "components": {
+  "button-primary": {
+   "background": "#eb5202",
+   "color": "#ffffff",
+   "radius": "4px"
+  },
+  "button-secondary": {
+   "border": "1px solid",
+   "background": "transparent",
+   "radius": "4px"
+  },
+  "card": {
+   "border": "1px solid #e0e0e0",
+   "radius": "4px",
+   "shadow": "none"
+  },
+  "link": {
+   "color": "#1979c3"
+  }
+ },
+ "extensions": {
+  "platform": "Magento 2 (Luma-derived Aheadworks/marketplace theme)",
+  "componentStyle": [
+   "flat",
+   "gray-bordered cards",
+   "orange primary CTA",
+   "near-black search bar and footer"
+  ],
+  "motifs": {
+   "radius": "4px",
+   "shadows": [
+    "rgba(255,255,255,0.2) 0 1px 0 0 inset"
+   ],
+   "gradients": []
+  },
+  "iconFonts": [
+   "luma-icons",
+   "iconmoon",
+   "IconFeatured"
+  ],
+  "voice": {
+   "heroHeadline": null,
+   "samples": [
+    "Featured Categories",
+    "Adobe Commerce Resources",
+    "Get started"
+   ]
+  },
+  "systemComponents": [
+   "site-header (sticky, logo + nav + cart + sign in)",
+   "search bar strip (dark)",
+   "breadcrumbs",
+   "site-footer (dark, 7 link columns)",
+   "OneTrust consent banner"
+  ],
+  "modules": [
+   {
+    "id": "candidate-hero-carousel",
+    "name": "Home hero banner carousel",
+    "signals": [
+     "cssBackgrounds (3 slide images)",
+     "ctas 'Get started' x3"
+    ],
+    "confidence": "single-page",
+    "slots": [
+     {
+      "name": "slides[]",
+      "type": "group",
+      "required": true
+     },
+     {
+      "name": "slides[].image",
+      "type": "image",
+      "required": true
+     },
+     {
+      "name": "slides[].mobileImage",
+      "type": "image",
+      "required": false
+     },
+     {
+      "name": "slides[].href",
+      "type": "link",
+      "required": true
+     },
+     {
+      "name": "slides[].ctaLabel",
+      "type": "text",
+      "required": false
+     },
+     {
+      "name": "dots",
+      "type": "control",
+      "required": false
+     }
+    ],
+    "instances": [
+     {
+      "slug": "index",
+      "selector": "div.widget.block.block-banners .pagebuilder-slider"
+     }
+    ],
+    "status": "candidate"
+   },
+   {
+    "id": "candidate-featured-category-tiles",
+    "name": "Featured category icon tiles",
+    "signals": [
+     "headings 'Featured Categories'",
+     "ctas category labels"
+    ],
+    "confidence": "single-page",
+    "slots": [
+     {
+      "name": "heading",
+      "type": "text",
+      "required": true
+     },
+     {
+      "name": "tiles[]",
+      "type": "group",
+      "required": true
+     },
+     {
+      "name": "tiles[].icon",
+      "type": "image",
+      "required": false
+     },
+     {
+      "name": "tiles[].label",
+      "type": "text",
+      "required": true
+     },
+     {
+      "name": "tiles[].href",
+      "type": "link",
+      "required": true
+     }
+    ],
+    "instances": [
+     {
+      "slug": "index",
+      "selector": "section.case-featured-category"
+     }
+    ],
+    "status": "candidate"
+   },
+   {
+    "id": "candidate-resource-cards",
+    "name": "Resource / program cards (4-up on grey band)",
+    "signals": [
+     "headings h2 x4 + 'Learn more' x4"
+    ],
+    "confidence": "single-page",
+    "slots": [
+     {
+      "name": "heading",
+      "type": "text",
+      "required": true
+     },
+     {
+      "name": "cards[]",
+      "type": "group",
+      "required": true
+     },
+     {
+      "name": "cards[].icon",
+      "type": "image",
+      "required": false
+     },
+     {
+      "name": "cards[].title",
+      "type": "text",
+      "required": true
+     },
+     {
+      "name": "cards[].body",
+      "type": "richtext",
+      "required": false
+     },
+     {
+      "name": "cards[].cta",
+      "type": "link",
+      "required": true
+     }
+    ],
+    "instances": [
+     {
+      "slug": "index",
+      "selector": "section.case-resources .box-bg-resources .col-box"
+     }
+    ],
+    "status": "candidate"
+   },
+   {
+    "id": "candidate-page-title",
+    "name": "Page title band (h1)",
+    "signals": [
+     "headings h1 on 8 pages"
+    ],
+    "confidence": "high",
+    "slots": [
+     {
+      "name": "title",
+      "type": "text",
+      "required": true
+     },
+     {
+      "name": "subtitle",
+      "type": "text",
+      "required": false
+     }
+    ],
+    "instances": [
+     {
+      "slug": "extensions-html",
+      "selector": ".page-title-wrapper h1#page-title-heading"
+     },
+     {
+      "slug": "extensions-sales-html",
+      "selector": ".page-title-wrapper h1#page-title-heading"
+     },
+     {
+      "slug": "themes-html",
+      "selector": ".page-title-wrapper h1#page-title-heading"
+     },
+     {
+      "slug": "extensions-featured-extensions-html",
+      "selector": ".page-title-wrapper h1#page-title-heading"
+     },
+     {
+      "slug": "themes-industry-apparel-html",
+      "selector": ".page-title-wrapper h1#page-title-heading"
+     },
+     {
+      "slug": "amasty-module-price-history-html",
+      "selector": ".page-title-wrapper.product h1.page-title"
+     },
+     {
+      "slug": "plumrocket-private-sales-flash-sales-html",
+      "selector": ".page-title-wrapper.product h1.page-title"
+     },
+     {
+      "slug": "privacy-policy-cookie-restriction-mode",
+      "selector": "#page-title-wrapper h1"
+     }
+    ],
+    "status": "candidate"
+   },
+   {
+    "id": "candidate-product-card-grid",
+    "name": "Product card grid",
+    "signals": [
+     "headings h3/h4 title+vendor pairs",
+     "ctas card labels with rating%/price"
+    ],
+    "confidence": "high",
+    "cardCounts": {
+     "extensions-html": 36,
+     "extensions-sales-html": 36,
+     "themes-html": 4,
+     "extensions-featured-extensions-html": 0,
+     "themes-industry-apparel-html": 0
+    },
+    "slots": [
+     {
+      "name": "cards[]",
+      "type": "group",
+      "required": true
+     },
+     {
+      "name": "cards[].href",
+      "type": "link",
+      "required": true
+     },
+     {
+      "name": "cards[].thumbnail",
+      "type": "image",
+      "required": true
+     },
+     {
+      "name": "cards[].badge",
+      "type": "image",
+      "required": false
+     },
+     {
+      "name": "cards[].title",
+      "type": "text",
+      "required": true
+     },
+     {
+      "name": "cards[].vendor",
+      "type": "text",
+      "required": true
+     },
+     {
+      "name": "cards[].rating",
+      "type": "number",
+      "required": false
+     },
+     {
+      "name": "cards[].partnerBadge",
+      "type": "image",
+      "required": false
+     },
+     {
+      "name": "cards[].price",
+      "type": "text",
+      "required": false
+     }
+    ],
+    "instances": [
+     {
+      "slug": "extensions-html",
+      "selector": "#products-grid"
+     },
+     {
+      "slug": "extensions-sales-html",
+      "selector": "#products-grid"
+     },
+     {
+      "slug": "themes-html",
+      "selector": "#products-grid"
+     },
+     {
+      "slug": "extensions-featured-extensions-html",
+      "selector": "#products-grid"
+     },
+     {
+      "slug": "themes-industry-apparel-html",
+      "selector": "#products-grid"
+     }
+    ],
+    "status": "candidate"
+   },
+   {
+    "id": "candidate-facets-sidebar",
+    "name": "Facet filter sidebar",
+    "signals": [
+     "body facet labels with counts",
+     "ctas price ranges / star ratings"
+    ],
+    "confidence": "high",
+    "slots": [
+     {
+      "name": "selectedFilters",
+      "type": "group",
+      "required": false
+     },
+     {
+      "name": "clearAll",
+      "type": "link",
+      "required": false
+     },
+     {
+      "name": "groups[]",
+      "type": "group",
+      "required": true
+     },
+     {
+      "name": "groups[].title",
+      "type": "text",
+      "required": true
+     },
+     {
+      "name": "groups[].items[]",
+      "type": "link",
+      "required": true
+     },
+     {
+      "name": "groups[].items[].count",
+      "type": "number",
+      "required": false
+     },
+     {
+      "name": "priceRange",
+      "type": "form",
+      "required": false
+     }
+    ],
+    "instances": [
+     {
+      "slug": "extensions-html",
+      "selector": "#appstore-plp-facets"
+     },
+     {
+      "slug": "extensions-sales-html",
+      "selector": "#appstore-plp-facets"
+     },
+     {
+      "slug": "themes-html",
+      "selector": "#appstore-plp-facets"
+     },
+     {
+      "slug": "extensions-featured-extensions-html",
+      "selector": "#appstore-plp-facets"
+     },
+     {
+      "slug": "themes-industry-apparel-html",
+      "selector": "#appstore-plp-facets"
+     }
+    ],
+    "status": "candidate"
+   },
+   {
+    "id": "candidate-listing-toolbar",
+    "name": "Listing toolbar + pagination",
+    "signals": [
+     "ctas 'Next Page', page numbers",
+     "#toolbar-amount"
+    ],
+    "confidence": "high",
+    "slots": [
+     {
+      "name": "resultCount",
+      "type": "text",
+      "required": true
+     },
+     {
+      "name": "sortBy",
+      "type": "select",
+      "required": true
+     },
+     {
+      "name": "perPage",
+      "type": "select",
+      "required": false
+     },
+     {
+      "name": "pagination",
+      "type": "group",
+      "required": false
+     }
+    ],
+    "instances": [
+     {
+      "slug": "extensions-html",
+      "selector": "#livesearch-controls"
+     },
+     {
+      "slug": "extensions-sales-html",
+      "selector": "#livesearch-controls"
+     },
+     {
+      "slug": "themes-html",
+      "selector": "#livesearch-controls"
+     },
+     {
+      "slug": "extensions-featured-extensions-html",
+      "selector": "#livesearch-controls"
+     },
+     {
+      "slug": "themes-industry-apparel-html",
+      "selector": "#livesearch-controls"
+     }
+    ],
+    "status": "candidate"
+   },
+   {
+    "id": "candidate-empty-results",
+    "name": "No-results state",
+    "signals": [
+     "body 'No products found.' + popular queries"
+    ],
+    "confidence": "medium",
+    "slots": [
+     {
+      "name": "message",
+      "type": "text",
+      "required": true
+     },
+     {
+      "name": "suggestions[]",
+      "type": "link",
+      "required": false
+     }
+    ],
+    "instances": [
+     {
+      "slug": "extensions-featured-extensions-html",
+      "selector": ".products-empty"
+     },
+     {
+      "slug": "themes-industry-apparel-html",
+      "selector": ".products-empty"
+     }
+    ],
+    "status": "candidate"
+   },
+   {
+    "id": "candidate-breadcrumbs",
+    "name": "Breadcrumbs",
+    "signals": [
+     "ctas 'Home' on 9 pages"
+    ],
+    "confidence": "high",
+    "slots": [
+     {
+      "name": "items[]",
+      "type": "link",
+      "required": true
+     },
+     {
+      "name": "current",
+      "type": "text",
+      "required": true
+     }
+    ],
+    "instances": [
+     {
+      "slug": "extensions-html",
+      "selector": ".breadcrumbs ul.items"
+     },
+     {
+      "slug": "extensions-sales-html",
+      "selector": ".breadcrumbs ul.items"
+     },
+     {
+      "slug": "themes-html",
+      "selector": ".breadcrumbs ul.items"
+     },
+     {
+      "slug": "extensions-featured-extensions-html",
+      "selector": ".breadcrumbs ul.items"
+     },
+     {
+      "slug": "themes-industry-apparel-html",
+      "selector": ".breadcrumbs ul.items"
+     },
+     {
+      "slug": "amasty-module-price-history-html",
+      "selector": ".breadcrumbs ul.items"
+     },
+     {
+      "slug": "plumrocket-private-sales-flash-sales-html",
+      "selector": ".breadcrumbs ul.items"
+     },
+     {
+      "slug": "privacy-policy-cookie-restriction-mode",
+      "selector": ".breadcrumbs ul.items"
+     },
+     {
+      "slug": "terms-and-conditions",
+      "selector": ".breadcrumbs ul.items"
+     }
+    ],
+    "status": "candidate"
+   },
+   {
+    "id": "candidate-product-gallery",
+    "name": "Product gallery (fotorama)",
+    "signals": [
+     "media.imgs fotorama stage + thumbs"
+    ],
+    "confidence": "medium",
+    "slots": [
+     {
+      "name": "icon",
+      "type": "image",
+      "required": false
+     },
+     {
+      "name": "images[]",
+      "type": "image",
+      "required": true
+     },
+     {
+      "name": "thumbs[]",
+      "type": "image",
+      "required": false
+     }
+    ],
+    "instances": [
+     {
+      "slug": "amasty-module-price-history-html",
+      "selector": ".product.media .fotorama-item"
+     },
+     {
+      "slug": "plumrocket-private-sales-flash-sales-html",
+      "selector": ".product.media .fotorama-item"
+     }
+    ],
+    "status": "candidate"
+   },
+   {
+    "id": "candidate-product-purchase-panel",
+    "name": "Product pricing / purchase panel",
+    "signals": [
+     "ctas 'Add to cart' + 'Contact Vendor' on both PDPs"
+    ],
+    "confidence": "high",
+    "slots": [
+     {
+      "name": "edition",
+      "type": "select",
+      "required": true
+     },
+     {
+      "name": "storeVersion",
+      "type": "select",
+      "required": false
+     },
+     {
+      "name": "installationService",
+      "type": "checkbox",
+      "required": false
+     },
+     {
+      "name": "gracePeriodNote",
+      "type": "text",
+      "required": false
+     },
+     {
+      "name": "priceFirstYear",
+      "type": "text",
+      "required": true
+     },
+     {
+      "name": "priceThen",
+      "type": "text",
+      "required": false
+     },
+     {
+      "name": "totalDueToday",
+      "type": "text",
+      "required": true
+     },
+     {
+      "name": "primaryCta",
+      "type": "link",
+      "required": true
+     },
+     {
+      "name": "secondaryCta",
+      "type": "link",
+      "required": false
+     }
+    ],
+    "instances": [
+     {
+      "slug": "amasty-module-price-history-html",
+      "selector": ".product-info-main"
+     },
+     {
+      "slug": "plumrocket-private-sales-flash-sales-html",
+      "selector": ".product-info-main"
+     }
+    ],
+    "status": "candidate"
+   },
+   {
+    "id": "candidate-product-contents-nav",
+    "name": "Product CONTENTS side-nav",
+    "signals": [
+     "ctas Overview/Technical Specifications/Quality Report/Release Notes/Q & A/Reviews on both PDPs"
+    ],
+    "confidence": "high",
+    "slots": [
+     {
+      "name": "label",
+      "type": "text",
+      "required": false
+     },
+     {
+      "name": "items[]",
+      "type": "link",
+      "required": true
+     }
+    ],
+    "instances": [
+     {
+      "slug": "amasty-module-price-history-html",
+      "selector": "nav.product-page-left-navigation"
+     },
+     {
+      "slug": "plumrocket-private-sales-flash-sales-html",
+      "selector": "nav.product-page-left-navigation"
+     }
+    ],
+    "status": "candidate"
+   },
+   {
+    "id": "candidate-product-detail-sections",
+    "name": "Product detail sections (overview, specs, quality report, release notes, support, Q&A, reviews)",
+    "signals": [
+     "headings h3 'Technical Specifications','Quality Report','Release Notes','Support','Q & A','Reviews' on both PDPs",
+     "ctas 'Back to top'"
+    ],
+    "confidence": "high",
+    "slots": [
+     {
+      "name": "overview",
+      "type": "richtext",
+      "required": true
+     },
+     {
+      "name": "techSpecs",
+      "type": "definition-list",
+      "required": true
+     },
+     {
+      "name": "qualityReport",
+      "type": "definition-list",
+      "required": false
+     },
+     {
+      "name": "releaseNotes[]",
+      "type": "richtext",
+      "required": false
+     },
+     {
+      "name": "support",
+      "type": "richtext",
+      "required": false
+     },
+     {
+      "name": "qa",
+      "type": "embed",
+      "required": false
+     },
+     {
+      "name": "reviews",
+      "type": "embed",
+      "required": false
+     }
+    ],
+    "instances": [
+     {
+      "slug": "amasty-module-price-history-html",
+      "selector": ".product.info.detailed .product-data-items"
+     },
+     {
+      "slug": "plumrocket-private-sales-flash-sales-html",
+      "selector": ".product.info.detailed .product-data-items"
+     }
+    ],
+    "status": "candidate"
+   },
+   {
+    "id": "candidate-cms-text-body",
+    "name": "CMS text body (legal/static)",
+    "signals": [
+     "static pages headings h1/h2 + paragraphs"
+    ],
+    "confidence": "medium",
+    "slots": [
+     {
+      "name": "heading",
+      "type": "text",
+      "required": true
+     },
+     {
+      "name": "sections[]",
+      "type": "group",
+      "required": true
+     },
+     {
+      "name": "sections[].heading",
+      "type": "text",
+      "required": false
+     },
+     {
+      "name": "sections[].body",
+      "type": "richtext",
+      "required": true
+     },
+     {
+      "name": "table",
+      "type": "table",
+      "required": false
+     }
+    ],
+    "instances": [
+     {
+      "slug": "privacy-policy-cookie-restriction-mode",
+      "selector": "#maincontent .column.main"
+     },
+     {
+      "slug": "terms-and-conditions",
+      "selector": "#maincontent .column.main"
+     }
+    ],
+    "status": "candidate"
+   },
+   {
+    "id": "candidate-become-partner-band",
+    "name": "Become-a-partner band (pre-footer)",
+    "signals": [
+     "headings 'Are you a developer? ...' + cta 'Become a Partner' on both PDPs"
+    ],
+    "confidence": "medium",
+    "slots": [
+     {
+      "name": "text",
+      "type": "text",
+      "required": true
+     },
+     {
+      "name": "cta",
+      "type": "link",
+      "required": true
+     }
+    ],
+    "instances": [
+     {
+      "slug": "amasty-module-price-history-html",
+      "selector": "footer.page-footer .become-partner"
+     },
+     {
+      "slug": "plumrocket-private-sales-flash-sales-html",
+      "selector": "footer.page-footer .become-partner"
+     }
+    ],
+    "status": "candidate"
+   },
+   {
+    "id": "candidate-footer-columns",
+    "name": "Footer link columns",
+    "signals": [
+     "headings 7 footer h3 on all 10 pages",
+     "22 footer cta labels on all pages"
+    ],
+    "confidence": "high",
+    "slots": [
+     {
+      "name": "columns[]",
+      "type": "group",
+      "required": true
+     },
+     {
+      "name": "columns[].heading",
+      "type": "text",
+      "required": true
+     },
+     {
+      "name": "columns[].links[]",
+      "type": "link",
+      "required": true
+     },
+     {
+      "name": "logo",
+      "type": "image",
+      "required": false
+     },
+     {
+      "name": "poweredBy",
+      "type": "text",
+      "required": false
+     },
+     {
+      "name": "social[]",
+      "type": "link",
+      "required": false
+     },
+     {
+      "name": "legalLinks[]",
+      "type": "link",
+      "required": false
+     },
+     {
+      "name": "copyright",
+      "type": "text",
+      "required": false
+     }
+    ],
+    "instances": [
+     {
+      "slug": "index",
+      "selector": "footer.page-footer"
+     },
+     {
+      "slug": "extensions-html",
+      "selector": "footer.page-footer"
+     },
+     {
+      "slug": "extensions-sales-html",
+      "selector": "footer.page-footer"
+     },
+     {
+      "slug": "themes-html",
+      "selector": "footer.page-footer"
+     },
+     {
+      "slug": "extensions-featured-extensions-html",
+      "selector": "footer.page-footer"
+     },
+     {
+      "slug": "themes-industry-apparel-html",
+      "selector": "footer.page-footer"
+     },
+     {
+      "slug": "amasty-module-price-history-html",
+      "selector": "footer.page-footer"
+     },
+     {
+      "slug": "plumrocket-private-sales-flash-sales-html",
+      "selector": "footer.page-footer"
+     },
+     {
+      "slug": "privacy-policy-cookie-restriction-mode",
+      "selector": "footer.page-footer"
+     },
+     {
+      "slug": "terms-and-conditions",
+      "selector": "footer.page-footer"
+     }
+    ],
+    "status": "candidate"
+   },
+   {
+    "id": "candidate-search-strip",
+    "name": "Dark search strip",
+    "signals": [
+     "#search_mini_form on all pages"
+    ],
+    "confidence": "high",
+    "slots": [
+     {
+      "name": "searchInput",
+      "type": "form",
+      "required": true
+     },
+     {
+      "name": "placeholder",
+      "type": "text",
+      "required": false
+     },
+     {
+      "name": "poweredBy",
+      "type": "text",
+      "required": false
+     }
+    ],
+    "instances": [
+     {
+      "slug": "index",
+      "selector": ".after-header-container .block-search"
+     },
+     {
+      "slug": "extensions-html",
+      "selector": ".after-header-container .block-search"
+     },
+     {
+      "slug": "extensions-sales-html",
+      "selector": ".after-header-container .block-search"
+     },
+     {
+      "slug": "themes-html",
+      "selector": ".after-header-container .block-search"
+     },
+     {
+      "slug": "extensions-featured-extensions-html",
+      "selector": ".after-header-container .block-search"
+     },
+     {
+      "slug": "themes-industry-apparel-html",
+      "selector": ".after-header-container .block-search"
+     },
+     {
+      "slug": "amasty-module-price-history-html",
+      "selector": ".after-header-container .block-search"
+     },
+     {
+      "slug": "plumrocket-private-sales-flash-sales-html",
+      "selector": ".after-header-container .block-search"
+     },
+     {
+      "slug": "privacy-policy-cookie-restriction-mode",
+      "selector": ".after-header-container .block-search"
+     },
+     {
+      "slug": "terms-and-conditions",
+      "selector": ".after-header-container .block-search"
+     }
+    ],
+    "status": "candidate"
+   }
+  ],
+  "breakpoints": {
+   "containerMaxWidth": "1200px",
+   "probeWidth": 2560,
+   "shellMaxWidth": "1200px",
+   "caps": [
+    {
+     "kind": "shell",
+     "px": 1200,
+     "via": "max-width",
+     "selector": "#maincontent",
+     "pages": [
+      "https://commercemarketplace.adobe.com/extensions.html",
+      "https://commercemarketplace.adobe.com/amasty-module-price-history.html",
+      "https://commercemarketplace.adobe.com/privacy-policy-cookie-restriction-mode"
+     ]
+    },
+    {
+     "kind": "module",
+     "px": 1200,
+     "via": "max-width",
+     "selector": "ul.banner-items > li.banner-item > div.banner-item-content > div",
+     "pages": [
+      "https://commercemarketplace.adobe.com/"
+     ]
+    },
+    {
+     "kind": "module",
+     "px": 1160,
+     "via": "fixed",
+     "selector": "div.banner-item-content > div > div > div.pagebuilder-slider.slick-initialized",
+     "pages": [
+      "https://commercemarketplace.adobe.com/"
+     ]
+    },
+    {
+     "kind": "module",
+     "px": 935,
+     "via": "fixed",
+     "selector": "div.column.main > div.product-info-details-container > div.product-details-row > div.product.info",
+     "pages": [
+      "https://commercemarketplace.adobe.com/amasty-module-price-history.html"
+     ]
+    },
+    {
+     "kind": "module",
+     "px": 904,
+     "via": "fixed",
+     "selector": "#description",
+     "pages": [
+      "https://commercemarketplace.adobe.com/amasty-module-price-history.html"
+     ]
+    },
+    {
+     "kind": "module",
+     "px": 870,
+     "via": "fixed",
+     "selector": "#livesearch-category-view",
+     "pages": [
+      "https://commercemarketplace.adobe.com/extensions.html",
+      "https://commercemarketplace.adobe.com/amasty-module-price-history.html"
+     ]
+    },
+    {
+     "kind": "module",
+     "px": 801,
+     "via": "fixed",
+     "selector": "table.data-table.data-table-definition-list > thead > tr > th",
+     "pages": [
+      "https://commercemarketplace.adobe.com/privacy-policy-cookie-restriction-mode"
+     ]
+    },
+    {
+     "kind": "module",
+     "px": 752,
+     "via": "fixed",
+     "selector": "div.column.main > div.product-info-details-container > div.product-details-row > div.product.media",
+     "pages": [
+      "https://commercemarketplace.adobe.com/amasty-module-price-history.html"
+     ]
+    },
+    {
+     "kind": "module",
+     "px": 372,
+     "via": "fixed",
+     "selector": "#page-title-heading > span.base",
+     "pages": [
+      "https://commercemarketplace.adobe.com/extensions.html",
+      "https://commercemarketplace.adobe.com/amasty-module-price-history.html"
+     ]
+    },
+    {
+     "kind": "module",
+     "px": 339,
+     "via": "fixed",
+     "selector": "table.data-table.data-table-definition-list > thead > tr > th",
+     "pages": [
+      "https://commercemarketplace.adobe.com/privacy-policy-cookie-restriction-mode"
+     ]
+    },
+    {
+     "kind": "module",
+     "px": 278,
+     "via": "fixed",
+     "selector": "div.page-main > div.box-bg-resources > div.col-box > div.col",
+     "pages": [
+      "https://commercemarketplace.adobe.com/",
+      "https://commercemarketplace.adobe.com/amasty-module-price-history.html",
+      "https://commercemarketplace.adobe.com/privacy-policy-cookie-restriction-mode"
+     ]
+    },
+    {
+     "kind": "module",
+     "px": 250,
+     "via": "max-width",
+     "selector": "#appstore-plp-facets",
+     "pages": [
+      "https://commercemarketplace.adobe.com/extensions.html"
+     ]
+    }
+   ],
+   "modules": [
+    {
+     "url": "https://commercemarketplace.adobe.com/",
+     "section": 0,
+     "selector": "#maincontent > div.widget.block",
+     "px": 1200
+    },
+    {
+     "url": "https://commercemarketplace.adobe.com/",
+     "section": 1,
+     "selector": "#maincontent > div.widget.block",
+     "px": 1200
+    },
+    {
+     "url": "https://commercemarketplace.adobe.com/",
+     "section": 2,
+     "selector": "#maincontent > div.columns",
+     "px": 1200
+    },
+    {
+     "url": "https://commercemarketplace.adobe.com/extensions.html",
+     "section": 0,
+     "selector": "#maincontent > div.columns > div.page-title-wrapper",
+     "px": 372
+    },
+    {
+     "url": "https://commercemarketplace.adobe.com/extensions.html",
+     "section": 1,
+     "selector": "#appstore-plp-facets",
+     "px": 250
+    },
+    {
+     "url": "https://commercemarketplace.adobe.com/extensions.html",
+     "section": 2,
+     "selector": "#livesearch-category-view",
+     "px": 870
+    },
+    {
+     "url": "https://commercemarketplace.adobe.com/amasty-module-price-history.html",
+     "section": 0,
+     "selector": "#maincontent > div.columns > div.column.main > div.breadcrumbs",
+     "px": null
+    },
+    {
+     "url": "https://commercemarketplace.adobe.com/amasty-module-price-history.html",
+     "section": 1,
+     "selector": "#maincontent > div.columns > div.column.main > div.product-info-details-container",
+     "px": 935
+    },
+    {
+     "url": "https://commercemarketplace.adobe.com/privacy-policy-cookie-restriction-mode",
+     "section": 0,
+     "selector": "#maincontent > div.page-title-wrapper",
+     "px": 290
+    },
+    {
+     "url": "https://commercemarketplace.adobe.com/privacy-policy-cookie-restriction-mode",
+     "section": 1,
+     "selector": "#maincontent > div.columns",
+     "px": 801
+    }
+   ],
+   "capRegister": [
+    "shellMaxWidth differs between archetypes: fluid (https://commercemarketplace.adobe.com/), 1200 (https://commercemarketplace.adobe.com/extensions.html), 1200 (https://commercemarketplace.adobe.com/amasty-module-price-history.html), 1200 (https://commercemarketplace.adobe.com/privacy-policy-cookie-restriction-mode)",
+    "module cap 935px on a single section (div.column.main > div.product-info-details-container > div.product-details-row > div.product.info, https://commercemarketplace.adobe.com/amasty-module-price-history.html) — intent or mistake? register it",
+    "module cap 801px on a single section (table.data-table.data-table-definition-list > thead > tr > th, https://commercemarketplace.adobe.com/privacy-policy-cookie-restriction-mode) — intent or mistake? register it",
+    "module cap 250px on a single section (#appstore-plp-facets, https://commercemarketplace.adobe.com/extensions.html) — intent or mistake? register it"
+   ],
+   "capProvenance": {
+    "writtenBy": "skills/replica/scripts/cap-probe.mjs",
+    "writtenAt": "2026-10-20T19:16:39.167Z",
+    "baseWidth": 1440,
+    "urls": [
+     "https://commercemarketplace.adobe.com/",
+     "https://commercemarketplace.adobe.com/extensions.html",
+     "https://commercemarketplace.adobe.com/amasty-module-price-history.html",
+     "https://commercemarketplace.adobe.com/privacy-policy-cookie-restriction-mode"
+    ]
+   }
+  },
+  "modulesProvenance": {
+   "writtenBy": "stardust:extract --prep",
+   "writtenAt": "2026-10-20T19:45:00Z",
+   "method": "prep-mode.md § 3 signal priority: headings > ctas > cssBackgrounds; selectors verified against pages/*.html"
+  }
+ }
+}

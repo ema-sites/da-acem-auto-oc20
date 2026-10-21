@@ -1,0 +1,785 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:dynamics",
+    "phase": "rollout D2-dynamic",
+    "writtenAt": "2026-10-21T00:23:26.496Z",
+    "readArtifacts": [
+      "stardust/dynamic-features.md",
+      "stardust/dynamic-features-plan.md",
+      "stardust/dynamics/dynamic-features.generated-plan.json",
+      "stardust/martech-contract.json"
+    ]
+  },
+  "method": "D0 settled static states as authored block rows; D1 chrome rebuilt native in blocks; commerce links out to the source; martech scaffolded off (contract checks appended by dynamics-check); search = helix-query.yaml + widgets/search over the migrated corpus. Owner/host-bound rows carry their disposition, no replayed checks.",
+  "features": [
+    {
+      "id": "a-experimentation-a-b-personalisation",
+      "feature": "experimentation: A/B / personalisation",
+      "class": "A",
+      "pages": 4,
+      "disposition": "embed-passthrough",
+      "reproducibility": "needs-business-decision",
+      "bucket": "owner",
+      "status": "scaffolded-awaiting-owner",
+      "owner": "which experiments move to the new host · carried in stardust/martech-contract.json, every part disabled; owner enables",
+      "checks": []
+    },
+    {
+      "id": "a-first-party-api-get-banner-ajax-load",
+      "feature": "first-party API GET /banner/ajax/load/",
+      "class": "A",
+      "pages": 4,
+      "disposition": "data-fed",
+      "reproducibility": "needs-business-decision",
+      "bucket": "host-bound",
+      "status": "interim",
+      "owner": "owner: same-origin API (host-bound on the EDS target). Interim: settled state ships static; no call from the new host",
+      "environmentLimit": "host-bound: GET /banner/ajax/load/?_,requesting_page_url,sections is 404 on the EDS target (same-origin Magento API); interim settled state ships static, no call from the new host",
+      "checks": []
+    },
+    {
+      "id": "a-cms-app-settings-object-datalayer",
+      "feature": "CMS / app settings object dataLayer",
+      "class": "A",
+      "pages": 4,
+      "disposition": "static-snapshot",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "global name carried in martech-contract.json dataLayers + martech-handoff.md; scripts/martech.js creates window.dataLayer only when a route is enabled (all off) — typeof window.dataLayer \"undefined\" on 10/10 pages, 0 page errors",
+      "checks": [
+        {
+          "type": "no-page-errors",
+          "paths": [
+            "/",
+            "/extensions",
+            "/themes",
+            "/amasty-module-price-history"
+          ]
+        }
+      ],
+      "bucket": "self"
+    },
+    {
+      "id": "a-cms-app-settings-object-adobedatalayer",
+      "feature": "CMS / app settings object adobeDataLayer",
+      "class": "A",
+      "pages": 4,
+      "disposition": "static-snapshot",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "global name carried in martech-contract.json dataLayers + martech-handoff.md (keep adobeDataLayer); no runtime consumer while martech is off — typeof window.adobeDataLayer \"undefined\" on 10/10 pages, 0 page errors",
+      "checks": [
+        {
+          "type": "no-page-errors",
+          "paths": [
+            "/plumrocket-private-sales-flash-sales",
+            "/extensions/sales",
+            "/themes/industry/apparel"
+          ]
+        }
+      ],
+      "bucket": "self"
+    },
+    {
+      "id": "a-unknown-third-party-host-commerce-adobe-io",
+      "feature": "unknown third-party host commerce.adobe.io",
+      "class": "A",
+      "pages": 3,
+      "disposition": "static-snapshot",
+      "reproducibility": "needs-human-capture",
+      "bucket": "owner",
+      "status": "interim",
+      "owner": "undecided — revisit at rollout (third-party data call, no visible content of its own in the capture)",
+      "checks": []
+    },
+    {
+      "id": "a-unknown-third-party-host-catalog-service-adobe-io",
+      "feature": "unknown third-party host catalog-service.adobe.io",
+      "class": "A",
+      "pages": 1,
+      "disposition": "static-snapshot",
+      "reproducibility": "needs-human-capture",
+      "bucket": "owner",
+      "status": "interim",
+      "owner": "undecided — revisit at rollout (third-party data call, no visible content of its own in the capture)",
+      "checks": []
+    },
+    {
+      "id": "a-first-party-api-post-appbazaarvoice-usertoken-getusertoken",
+      "feature": "first-party API POST /appbazaarvoice/usertoken/getusertoken",
+      "class": "A",
+      "pages": 1,
+      "disposition": "data-fed",
+      "reproducibility": "needs-business-decision",
+      "bucket": "host-bound",
+      "status": "interim",
+      "owner": "owner: same-origin API (host-bound on the EDS target). Interim: settled state ships static; no call from the new host",
+      "environmentLimit": "host-bound: POST /appbazaarvoice/usertoken/getusertoken is 404 on the EDS target (same-origin Magento API); interim settled state ships static, no call from the new host",
+      "checks": []
+    },
+    {
+      "id": "a-first-party-api-get-subscriptions-graceperiod-check",
+      "feature": "first-party API GET /subscriptions/graceperiod/check",
+      "class": "A",
+      "pages": 1,
+      "disposition": "data-fed",
+      "reproducibility": "needs-business-decision",
+      "bucket": "host-bound",
+      "status": "interim",
+      "owner": "owner: same-origin API (host-bound on the EDS target). Interim: settled state ships static; no call from the new host",
+      "environmentLimit": "host-bound: GET /subscriptions/graceperiod/check?_,parent_product_id is 404 on the EDS target (same-origin Magento API); interim settled state ships static, no call from the new host",
+      "checks": []
+    },
+    {
+      "id": "a-first-party-api-post-appbazaarvoice-customer-isloggedin",
+      "feature": "first-party API POST /appbazaarvoice/customer/isloggedin",
+      "class": "A",
+      "pages": 1,
+      "disposition": "data-fed",
+      "reproducibility": "needs-business-decision",
+      "bucket": "host-bound",
+      "status": "interim",
+      "owner": "owner: same-origin API (host-bound on the EDS target). Interim: settled state ships static; no call from the new host",
+      "environmentLimit": "host-bound: POST /appbazaarvoice/customer/isloggedin is 404 on the EDS target (same-origin Magento API); interim settled state ships static, no call from the new host",
+      "checks": []
+    },
+    {
+      "id": "a-first-party-api-get-customer-section-load",
+      "feature": "first-party API GET /customer/section/load/",
+      "class": "A",
+      "pages": 1,
+      "disposition": "data-fed",
+      "reproducibility": "needs-business-decision",
+      "bucket": "host-bound",
+      "status": "interim",
+      "owner": "owner: same-origin API (host-bound on the EDS target). Interim: settled state ships static; no call from the new host",
+      "environmentLimit": "host-bound: GET /customer/section/load/?_,force_new_section_timestamp,sections is 404 on the EDS target (same-origin Magento API); interim settled state ships static, no call from the new host",
+      "checks": []
+    },
+    {
+      "id": "cr-main-empty-at-load-filled-after-client-rendered-page",
+      "feature": "main empty at load, filled after (client-rendered page)",
+      "class": "CR",
+      "pages": 1,
+      "disposition": "static-snapshot",
+      "reproducibility": "needs-human-capture",
+      "bucket": "owner",
+      "status": "interim",
+      "owner": "listing main hydrates client-side (Live Search); the settled DOM was captured by the crawler after hydration and ships as content — not a blank capture",
+      "checks": []
+    },
+    {
+      "id": "cr-client-rendered-slot-gallery-placeholder",
+      "feature": "client-rendered slot gallery-placeholder",
+      "class": "CR",
+      "pages": 1,
+      "disposition": "static-snapshot",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "product-gallery: 8 thumbs (source fotorama nav 8), first frame image 240px wide at 1440; settled static state (D0)",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/amasty-module-price-history",
+          "selector": ".product-gallery .gallery-thumb",
+          "min": 8
+        },
+        {
+          "type": "dom-count",
+          "path": "/amasty-module-price-history",
+          "selector": ".product-gallery .gallery-frame img",
+          "min": 1
+        }
+      ],
+      "bucket": "self"
+    },
+    {
+      "id": "cr-client-rendered-slot-bv-content-placeholder",
+      "feature": "client-rendered slot bv-content-placeholder",
+      "class": "CR",
+      "pages": 1,
+      "disposition": "static-snapshot",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "product-detail-sections: 2 bv snapshots — \"Be the first to ask a question\", \"★★★★★ No rating value\" (settled Bazaarvoice state); live widget is the owner row t-social-proof-reviews-widget",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/amasty-module-price-history",
+          "selector": ".product-detail-sections .bv-snapshot",
+          "min": 2
+        },
+        {
+          "type": "dom-count",
+          "path": "/amasty-module-price-history",
+          "selector": ".product-detail-sections .bv-snapshot-qa",
+          "min": 1
+        }
+      ],
+      "bucket": "self"
+    },
+    {
+      "id": "d-first-party-data-file-get-static-version1789987689-fronten",
+      "feature": "first-party data file GET /static/version1789987689/frontend/Aheadworks/marketplace/en_US/js-translation.json",
+      "class": "D",
+      "pages": 4,
+      "disposition": "data-fed",
+      "reproducibility": "self",
+      "status": "done",
+      "bucket": "host-bound",
+      "verifiedBy": "Magento RequireJS i18n dictionary: no consumer on EDS (copy is authored en_US text); 0 requests to /static/version*/ on 10/10 pages, 0 page errors",
+      "environmentLimit": "host-bound: /static/version…/js-translation.json is 404 on the target (Magento static path); not synced — nothing reads it",
+      "checks": [
+        {
+          "type": "no-page-errors",
+          "paths": [
+            "/",
+            "/extensions",
+            "/extensions/featured-extensions",
+            "/extensions/sales",
+            "/themes",
+            "/themes/industry/apparel",
+            "/plumrocket-private-sales-flash-sales",
+            "/privacy-policy-cookie-restriction-mode",
+            "/terms-and-conditions",
+            "/amasty-module-price-history"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-form-login-form-no-action-js-wired-2-fields-tokens-captcha",
+      "feature": "form \"login-form\" → no action (JS-wired) (2 fields, tokens: captcha_form_id)",
+      "class": "F",
+      "pages": 4,
+      "disposition": "rebuild-native",
+      "reproducibility": "needs-backend",
+      "bucket": "owner",
+      "status": "interim",
+      "owner": "owner: commerce/account backend. Interim: control rendered, action links out to https://commercemarketplace.adobe.com",
+      "checks": []
+    },
+    {
+      "id": "f-form-less-control-group-in-div-columns-19-controls",
+      "feature": "form-less control group in div.columns (19 controls)",
+      "class": "F",
+      "pages": 1,
+      "disposition": "rebuild-native",
+      "reproducibility": "needs-backend",
+      "bucket": "owner",
+      "status": "interim",
+      "owner": "owner: commerce/account backend. Interim: control rendered, action links out to https://commercemarketplace.adobe.com",
+      "checks": []
+    },
+    {
+      "id": "f-form-product-addtocart-form-origin-checkout-cart-add-uenc-",
+      "feature": "form \"product_addtocart_form\" → origin /checkout/cart/add/uenc/aHR0cHM6Ly9jb21tZXJjZW1hcmtldHBsYWNlLmFkb2JlLmNvbS9hbWFzdHktbW9kdWxlLXByaWNlLWhpc3RvcnkuaHRtbA~~/product/623600/ (1 fields)",
+      "class": "F",
+      "pages": 1,
+      "disposition": "rebuild-native",
+      "reproducibility": "needs-backend",
+      "bucket": "owner",
+      "status": "interim",
+      "owner": "owner: commerce/account backend. Interim: control rendered, action links out to https://commercemarketplace.adobe.com",
+      "checks": []
+    },
+    {
+      "id": "f-form-less-control-group-in-div-columns-2-controls",
+      "feature": "form-less control group in div.columns (2 controls)",
+      "class": "F",
+      "pages": 1,
+      "disposition": "rebuild-native",
+      "reproducibility": "needs-backend",
+      "bucket": "owner",
+      "status": "interim",
+      "owner": "owner: commerce/account backend. Interim: control rendered, action links out to https://commercemarketplace.adobe.com",
+      "checks": []
+    },
+    {
+      "id": "l-listing-candidate-fotorama-col-6-6-cards",
+      "feature": "listing candidate fotorama col-6 (6 cards)",
+      "class": "L",
+      "pages": 1,
+      "disposition": "static-snapshot",
+      "reproducibility": "needs-business-decision",
+      "bucket": "owner",
+      "status": "interim",
+      "owner": "owner: live catalog feed (catalog service / query index over product pages). Interim: captured cards ship as authored rows (document-first); unmigrated product links point to the source store. Reason: catalog of ~4,000 products is out of this run's 10-page scope — revisit at rollout",
+      "checks": []
+    },
+    {
+      "id": "l-listing-candidate-category-children-9-cards",
+      "feature": "listing candidate category-children (9 cards)",
+      "class": "L",
+      "pages": 1,
+      "disposition": "static-snapshot",
+      "reproducibility": "needs-business-decision",
+      "bucket": "owner",
+      "status": "interim",
+      "owner": "owner: live catalog feed (catalog service / query index over product pages). Interim: captured cards ship as authored rows (document-first); unmigrated product links point to the source store. Reason: catalog of ~4,000 products is out of this run's 10-page scope — revisit at rollout",
+      "checks": []
+    },
+    {
+      "id": "l-listing-candidate-facet-items-price-ranges-7-cards",
+      "feature": "listing candidate facet-items price-ranges (7 cards)",
+      "class": "L",
+      "pages": 1,
+      "disposition": "static-snapshot",
+      "reproducibility": "needs-business-decision",
+      "bucket": "owner",
+      "status": "interim",
+      "owner": "owner: live catalog feed (catalog service / query index over product pages). Interim: captured cards ship as authored rows (document-first); unmigrated product links point to the source store. Reason: catalog of ~4,000 products is out of this run's 10-page scope — revisit at rollout",
+      "checks": []
+    },
+    {
+      "id": "l-listing-candidate-products-grid-products-36-cards",
+      "feature": "listing candidate products-grid products (36 cards)",
+      "class": "L",
+      "pages": 1,
+      "disposition": "static-snapshot",
+      "reproducibility": "needs-business-decision",
+      "bucket": "owner",
+      "status": "interim",
+      "owner": "owner: live catalog feed (catalog service / query index over product pages). Interim: captured cards ship as authored rows (document-first); unmigrated product links point to the source store. Reason: catalog of ~4,000 products is out of this run's 10-page scope — revisit at rollout",
+      "checks": []
+    },
+    {
+      "id": "l-listing-candidate-product-data-items-8-cards",
+      "feature": "listing candidate product-data-items (8 cards)",
+      "class": "L",
+      "pages": 1,
+      "disposition": "static-snapshot",
+      "reproducibility": "needs-business-decision",
+      "bucket": "owner",
+      "status": "interim",
+      "owner": "owner: live catalog feed (catalog service / query index over product pages). Interim: captured cards ship as authored rows (document-first); unmigrated product links point to the source store. Reason: catalog of ~4,000 products is out of this run's 10-page scope — revisit at rollout",
+      "checks": []
+    },
+    {
+      "id": "m-modal-trigger-aria-haspopup-chrome-only-button-content",
+      "feature": "modal trigger aria-haspopup (chrome only) → button:content",
+      "class": "M",
+      "pages": 3,
+      "disposition": "rebuild-native",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "refine toggle (facets-sidebar) at 360: collapsible 0px → 2054px (/extensions), 1279px (/themes), 2141px (/extensions/sales), aria-expanded true; same overlap under the fixed search strip as the source at scroll 0",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/extensions",
+          "selector": ".facets-sidebar .refine-toggle[aria-controls=\"facets-collapsible\"]",
+          "min": 1
+        },
+        {
+          "type": "dom-count",
+          "path": "/themes",
+          "selector": ".facets-sidebar .refine-toggle[aria-controls=\"facets-collapsible\"]",
+          "min": 1
+        }
+      ],
+      "bucket": "self"
+    },
+    {
+      "id": "m-modal-trigger-aria-haspopup-button-content",
+      "feature": "modal trigger aria-haspopup → button:content",
+      "class": "M",
+      "pages": 1,
+      "disposition": "rebuild-native",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "rating filter rebuilt as the settled facet list: 5 rating links in .facet-ratings on /extensions, /themes, /extensions/sales (9/7/9 facet groups)",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/extensions",
+          "selector": ".facets-sidebar .facet-ratings .rating-link",
+          "min": 5
+        }
+      ],
+      "bucket": "self"
+    },
+    {
+      "id": "s-site-search-form-catalogsearch-result",
+      "feature": "site search form → /catalogsearch/result/",
+      "class": "S",
+      "pages": 4,
+      "disposition": "index-backed",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "query-index total 10 (nav/footer/search excluded); live: header form → /search?q=…; omnibus → 1 (Omnibus Price Tracker), flash sales → 1 (Private Sales Flash Sales); locally 1440+360 pass",
+      "countBasis": "migrated corpus (triage decision: corpus = the migrated pages; second corpora — the source store's ~4,000-product catalog — stay out). Source read 2026-10-21: \"omnibus\" → 5 results (Omnibus · Omnibus Price Tracker · Omnibus Price Tracker · Omnibus Directive - Lowest price history · Komfortkasse…), includes /amasty-module-price-history; \"flash sales\" → 28 results",
+      "checks": [
+        {
+          "type": "fetch-json",
+          "url": "/query-index.json",
+          "minRows": 10
+        },
+        {
+          "type": "search-query",
+          "path": "/search",
+          "term": "omnibus",
+          "resultSelector": ".search-results .search-result",
+          "titleSelector": ".search-result-title",
+          "expectCount": 1,
+          "expectTitles": [
+            "Omnibus Price Tracker"
+          ],
+          "expectIncludes": "/amasty-module-price-history"
+        },
+        {
+          "type": "search-query",
+          "path": "/search",
+          "term": "flash sales",
+          "resultSelector": ".search-results .search-result",
+          "titleSelector": ".search-result-title",
+          "expectCount": 1,
+          "expectTitles": [
+            "Private Sales Flash Sales"
+          ],
+          "expectIncludes": "/plumrocket-private-sales-flash-sales"
+        },
+        {
+          "type": "dom-count",
+          "path": "/",
+          "selector": ".header form.minisearch[action$=\"/search\"]",
+          "min": 1
+        }
+      ],
+      "bucket": "self",
+      "sourceCounts": [
+        {
+          "term": "omnibus",
+          "sourceCount": 5
+        },
+        {
+          "term": "flash sales",
+          "sourceCount": 28
+        }
+      ]
+    },
+    {
+      "id": "t-unknown-third-party-host-rum-hlx-page",
+      "feature": "unknown third-party host rum.hlx.page",
+      "class": "T",
+      "pages": 4,
+      "disposition": "embed-passthrough",
+      "reproducibility": "needs-business-decision",
+      "bucket": "owner",
+      "status": "scaffolded-awaiting-owner",
+      "owner": "which tags run on the new host; property ids · carried in stardust/martech-contract.json, every part disabled; owner enables",
+      "checks": []
+    },
+    {
+      "id": "t-social-proof-reviews-widget",
+      "feature": "social proof: reviews widget",
+      "class": "T",
+      "pages": 4,
+      "disposition": "embed-passthrough",
+      "reproducibility": "needs-business-decision",
+      "bucket": "owner",
+      "status": "scaffolded-awaiting-owner",
+      "owner": "which tags run on the new host; property ids · carried in stardust/martech-contract.json, every part disabled; owner enables",
+      "checks": []
+    },
+    {
+      "id": "t-consent-onetrust",
+      "feature": "consent: OneTrust",
+      "class": "T",
+      "pages": 4,
+      "disposition": "embed-passthrough",
+      "reproducibility": "needs-business-decision",
+      "bucket": "owner",
+      "status": "scaffolded-awaiting-owner",
+      "owner": "CMP domain script reuse on the new host · carried in stardust/martech-contract.json, every part disabled; owner enables",
+      "checks": []
+    },
+    {
+      "id": "t-unknown-third-party-host-acds-events-adobe-io",
+      "feature": "unknown third-party host acds-events.adobe.io",
+      "class": "T",
+      "pages": 4,
+      "disposition": "embed-passthrough",
+      "reproducibility": "needs-business-decision",
+      "bucket": "owner",
+      "status": "scaffolded-awaiting-owner",
+      "owner": "which tags run on the new host; property ids · carried in stardust/martech-contract.json, every part disabled; owner enables",
+      "checks": []
+    },
+    {
+      "id": "t-tag-manager-google-tag-manager",
+      "feature": "tag manager: Google Tag Manager",
+      "class": "T",
+      "pages": 4,
+      "disposition": "embed-passthrough",
+      "reproducibility": "needs-business-decision",
+      "bucket": "owner",
+      "status": "scaffolded-awaiting-owner",
+      "owner": "which tags run on the new host; property ids · carried in stardust/martech-contract.json, every part disabled; owner enables",
+      "checks": []
+    },
+    {
+      "id": "t-analytics-adobe-analytics-experience-cloud-id",
+      "feature": "analytics: Adobe Analytics / Experience Cloud ID",
+      "class": "T",
+      "pages": 4,
+      "disposition": "embed-passthrough",
+      "reproducibility": "needs-business-decision",
+      "bucket": "owner",
+      "status": "scaffolded-awaiting-owner",
+      "owner": "which tags run on the new host; property ids · carried in stardust/martech-contract.json, every part disabled; owner enables",
+      "checks": []
+    },
+    {
+      "id": "t-analytics-google-analytics-ads",
+      "feature": "analytics: Google Analytics / Ads",
+      "class": "T",
+      "pages": 4,
+      "disposition": "embed-passthrough",
+      "reproducibility": "needs-business-decision",
+      "bucket": "owner",
+      "status": "scaffolded-awaiting-owner",
+      "owner": "which tags run on the new host; property ids · carried in stardust/martech-contract.json, every part disabled; owner enables",
+      "checks": []
+    },
+    {
+      "id": "t-marketing-ad-retargeting-pixel",
+      "feature": "marketing: ad / retargeting pixel",
+      "class": "T",
+      "pages": 4,
+      "disposition": "embed-passthrough",
+      "reproducibility": "needs-business-decision",
+      "bucket": "owner",
+      "status": "scaffolded-awaiting-owner",
+      "owner": "which tags run on the new host; property ids · carried in stardust/martech-contract.json, every part disabled; owner enables",
+      "checks": []
+    },
+    {
+      "id": "t-rum-new-relic",
+      "feature": "RUM: New Relic",
+      "class": "T",
+      "pages": 4,
+      "disposition": "embed-passthrough",
+      "reproducibility": "needs-business-decision",
+      "bucket": "owner",
+      "status": "scaffolded-awaiting-owner",
+      "owner": "which tags run on the new host; property ids · carried in stardust/martech-contract.json, every part disabled; owner enables",
+      "checks": []
+    },
+    {
+      "id": "t-unknown-third-party-host-recommendations-sdk-adobe-io",
+      "feature": "unknown third-party host recommendations-sdk.adobe.io",
+      "class": "T",
+      "pages": 3,
+      "disposition": "embed-passthrough",
+      "reproducibility": "needs-business-decision",
+      "bucket": "owner",
+      "status": "scaffolded-awaiting-owner",
+      "owner": "which tags run on the new host; property ids · carried in stardust/martech-contract.json, every part disabled; owner enables",
+      "checks": []
+    },
+    {
+      "id": "t-tag-manager-adobe-launch",
+      "feature": "tag manager: Adobe Launch",
+      "class": "T",
+      "pages": 3,
+      "disposition": "embed-passthrough",
+      "reproducibility": "needs-business-decision",
+      "bucket": "owner",
+      "status": "scaffolded-awaiting-owner",
+      "owner": "which tags run on the new host; property ids · carried in stardust/martech-contract.json, every part disabled; owner enables",
+      "checks": []
+    },
+    {
+      "id": "t-third-party-mount-div-data-bind-tag-manager-injected-widge",
+      "feature": "third-party mount <div data-bind> (tag-manager-injected widget)",
+      "class": "T",
+      "pages": 1,
+      "disposition": "embed-passthrough",
+      "reproducibility": "needs-credential",
+      "bucket": "owner",
+      "status": "scaffolded-awaiting-owner",
+      "owner": "vendor account ids stay the owner's · carried in stardust/martech-contract.json, every part disabled; owner enables",
+      "checks": []
+    },
+    {
+      "id": "t-third-party-mount-div-data-bv-show-tag-manager-injected-wi",
+      "feature": "third-party mount <div data-bv-show> (tag-manager-injected widget)",
+      "class": "T",
+      "pages": 1,
+      "disposition": "embed-passthrough",
+      "reproducibility": "needs-credential",
+      "bucket": "owner",
+      "status": "scaffolded-awaiting-owner",
+      "owner": "vendor account ids stay the owner's · carried in stardust/martech-contract.json, every part disabled; owner enables",
+      "checks": []
+    },
+    {
+      "id": "v-iframe-without-src-runtime-injected-embed",
+      "feature": "iframe without src (runtime-injected embed)",
+      "class": "V",
+      "pages": 4,
+      "disposition": "static-snapshot",
+      "reproducibility": "needs-human-capture",
+      "bucket": "owner",
+      "status": "interim",
+      "owner": "undecided — revisit at rollout (third-party data call, no visible content of its own in the capture)",
+      "checks": []
+    },
+    {
+      "id": "x-commerce-platform",
+      "feature": "commerce: platform",
+      "class": "X",
+      "pages": 4,
+      "disposition": "embed-passthrough",
+      "reproducibility": "needs-backend",
+      "bucket": "owner",
+      "status": "interim",
+      "owner": "owner: commerce backend for the new host. Interim (run assumption): cart, sign-in, checkout and Add to Cart link out to https://commercemarketplace.adobe.com",
+      "checks": []
+    },
+    {
+      "id": "x-commerce-payments",
+      "feature": "commerce: payments",
+      "class": "X",
+      "pages": 4,
+      "disposition": "embed-passthrough",
+      "reproducibility": "needs-backend",
+      "bucket": "owner",
+      "status": "interim",
+      "owner": "owner: commerce backend for the new host. Interim (run assumption): cart, sign-in, checkout and Add to Cart link out to https://commercemarketplace.adobe.com",
+      "checks": []
+    },
+    {
+      "id": "x-sign-in-account-links",
+      "feature": "sign-in / account links",
+      "class": "X",
+      "pages": 4,
+      "disposition": "embed-passthrough",
+      "reproducibility": "needs-backend",
+      "bucket": "owner",
+      "status": "interim",
+      "owner": "owner: commerce backend for the new host. Interim (run assumption): cart, sign-in, checkout and Add to Cart link out to https://commercemarketplace.adobe.com",
+      "checks": []
+    },
+    {
+      "id": "x-commerce-signals-cart-true-prices-0",
+      "feature": "commerce signals (cart: true, prices: 0)",
+      "class": "X",
+      "pages": 2,
+      "disposition": "embed-passthrough",
+      "reproducibility": "needs-backend",
+      "bucket": "owner",
+      "status": "interim",
+      "owner": "owner: commerce backend for the new host. Interim (run assumption): cart, sign-in, checkout and Add to Cart link out to https://commercemarketplace.adobe.com",
+      "checks": []
+    },
+    {
+      "id": "x-commerce-signals-cart-true-prices-41",
+      "feature": "commerce signals (cart: true, prices: 41)",
+      "class": "X",
+      "pages": 1,
+      "disposition": "embed-passthrough",
+      "reproducibility": "needs-backend",
+      "bucket": "owner",
+      "status": "interim",
+      "owner": "owner: commerce backend for the new host. Interim (run assumption): cart, sign-in, checkout and Add to Cart link out to https://commercemarketplace.adobe.com",
+      "checks": []
+    },
+    {
+      "id": "x-commerce-signals-cart-true-prices-3",
+      "feature": "commerce signals (cart: true, prices: 3)",
+      "class": "X",
+      "pages": 1,
+      "disposition": "embed-passthrough",
+      "reproducibility": "needs-backend",
+      "bucket": "owner",
+      "status": "interim",
+      "owner": "owner: commerce backend for the new host. Interim (run assumption): cart, sign-in, checkout and Add to Cart link out to https://commercemarketplace.adobe.com",
+      "checks": []
+    },
+    {
+      "bucket": "self",
+      "id": "chrome-hero-carousel-autoplay",
+      "feature": "hero carousel autoplay",
+      "class": "M",
+      "pages": 1,
+      "disposition": "rebuild-native",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "3 slides; slide 0 → 2 (translate3d -200%) within 9 s unpoked at 1440; pauses on hover/focus/hidden (slick semantics)",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/",
+          "selector": ".hero-carousel .is-current",
+          "min": 1
+        },
+        {
+          "type": "dom-count",
+          "path": "/",
+          "selector": ".hero-carousel [aria-hidden]",
+          "min": 3
+        }
+      ]
+    },
+    {
+      "bucket": "self",
+      "id": "chrome-minicart-dropdown",
+      "feature": "header minicart dropdown",
+      "class": "M",
+      "pages": 10,
+      "disposition": "rebuild-native",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "click My Cart → role=dialog 390px, \"You have no items in your shopping cart.\", aria-expanded true; Escape closes",
+      "checks": [
+        {
+          "type": "click-dialog",
+          "path": "/",
+          "trigger": ".header .minicart a",
+          "minWidth": 380
+        }
+      ]
+    },
+    {
+      "bucket": "self",
+      "id": "chrome-mobile-nav-drawer",
+      "feature": "mobile nav drawer",
+      "class": "M",
+      "pages": 10,
+      "disposition": "rebuild-native",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "at 360: toggle → html.nav-open, drawer x -306 → 0 (306px, 4 menu links), aria-expanded true; Escape closes (x -306)",
+      "environmentLimit": "replay viewport is 1440 (toggle hidden there) — the open/close flow is recorded from a 360 probe",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/",
+          "selector": ".header .nav-toggle[aria-controls=\"nav-sections\"]",
+          "min": 1
+        }
+      ]
+    },
+    {
+      "bucket": "self",
+      "id": "chrome-product-contents-scroll-spy",
+      "feature": "product contents nav scroll-spy",
+      "class": "M",
+      "pages": 1,
+      "disposition": "rebuild-native",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "8 in-page items; scrolling to #technical-specifications / #quality-report / #release-notes moves is-selected to each (3/3)",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/amasty-module-price-history",
+          "selector": ".product-contents-nav .sidenav-item a[href^=\"#\"]",
+          "min": 8
+        }
+      ]
+    }
+  ]
+}

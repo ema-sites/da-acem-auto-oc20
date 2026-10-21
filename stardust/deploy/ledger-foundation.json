@@ -1,0 +1,29 @@
+{
+  "/footer": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-20T21:18:13.260Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/nav": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-20T21:31:05.101Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/privacy-policy-cookie-restriction-mode": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-20T21:18:18.897Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  }
+}

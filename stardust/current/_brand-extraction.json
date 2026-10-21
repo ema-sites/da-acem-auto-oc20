@@ -1,0 +1,1452 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-10-20T19:40:00Z",
+    "readArtifacts": [
+      "https://commercemarketplace.adobe.com/",
+      "https://commercemarketplace.adobe.com/amasty-module-price-history.html",
+      "https://commercemarketplace.adobe.com/extensions/featured-extensions.html",
+      "https://commercemarketplace.adobe.com/extensions.html",
+      "https://commercemarketplace.adobe.com/extensions/sales.html",
+      "https://commercemarketplace.adobe.com/plumrocket-private-sales-flash-sales.html",
+      "https://commercemarketplace.adobe.com/privacy-policy-cookie-restriction-mode",
+      "https://commercemarketplace.adobe.com/terms-and-conditions",
+      "https://commercemarketplace.adobe.com/themes.html",
+      "https://commercemarketplace.adobe.com/themes/industry/apparel.html",
+      "stardust/current/_computed-styles.json",
+      "stardust/current/_crawl-log.json",
+      "stardust/current/DESIGN.json",
+      "stardust/current/pages/*.json",
+      "stardust/current/pages/*.html",
+      "stardust/current/assets/css/styles-m.css",
+      "stardust/current/assets/logo.svg",
+      "stardust/current/assets/logo-footer.svg",
+      "stardust/current/assets/favicon.png"
+    ],
+    "synthesizedInputs": [],
+    "stardustVersion": "0.34.0",
+    "mode": "prep",
+    "notes": [
+      "Palette capped at 9 role entries rather than strict top-8-by-occurrence: #f2f3f3 (surface, 6 elements but 1.78M px2 bgArea) and #eb5202 (orange hero/marketing CTA, 14 elements) are kept for role coverage; dropped by occurrence cap: #999999 (164), #000000 (142), #2c3e50 (116, third-party review widget text), #727272 (96), #aeafb1 (92, border-only), #1979c3 (89, Luma link/outline buttons), #858585, #cccccc, #ef672f (20, header/hover accent), #f16321 (16, footer 'Become a Partner' outline).",
+      "Cluster #333333 absorbs the footer ground rgb(49, 48, 43) = #31302b (ΔE<5); cluster #202021 absorbs the dark search strip rgb(43, 43, 44) = #2b2b2c. Exact members are listed in palette[].clusterMembers.",
+      "Logo is an <img> of an SVG file (header > div > a > img, alt=\"\"), not inline SVG; the brand mark inside the file fills #EB1000 (Adobe red), a color that does not appear in the computed CSS palette.",
+      "heroImage: the home hero is a Page Builder slick slider whose slides are CSS backgrounds 1160x348 (aspect 3.33, above the 3.0 filter in brand-surface.md § heroImage resolution); it is elevated anyway as the only first-viewport visual and is flagged 'aspectFilterExceeded'. The headline copy lives inside the raster banner, so voice.heroHeadline is null.",
+      "Spacing: observed component paddings (7/10/11/12/14/15/16/18/25/30px) show no single base unit; DESIGN.json's existing spacing.unit '4px' is kept as authored but is not corroborated by a measured scale.",
+      "Radius: home-only and cross-page modes agree on 4px (no divergence).",
+      "Type-size scale audit uses the per-level weighted representatives h2 30 -> h1 28 -> h3 20 -> h4 13 (h1 28/400 is smaller than h2 30/600: inverted outline on listings/product pages).",
+      "System-component threshold = min(3, 50% of 10) = 3 pages; 'become-partner' footer band (2 product pages) falls below it and is listed as a module candidate instead.",
+      "Two catalog pages (extensions-featured-extensions-html, themes-industry-apparel-html) render '0 Results / No products found.' on the live site; their card-grid evidence is empty by capture, not by failure."
+    ]
+  },
+  "site": {
+    "name": "Adobe Commerce Marketplace",
+    "tagline": "Browse 1,000s of free and premium Magento extensions and themes from our Marketplace to easily extend the functionality of your online store.",
+    "originUrl": "https://commercemarketplace.adobe.com",
+    "platform": "Magento 2.4.9 storefront ('Powered by Adobe Commerce 2.4.9', p.version-info), Aheadworks/marketplace theme (static path /frontend/Aheadworks/marketplace/)",
+    "titleSource": "pages/index.json#title"
+  },
+  "origins": [
+    {
+      "origin": "https://commercemarketplace.adobe.com",
+      "role": "primary",
+      "pagesCaptured": 10,
+      "contributedSignals": []
+    }
+  ],
+  "logo": {
+    "source": "img",
+    "sourceSelector": "header.page-header > div > a > img",
+    "sourceUrl": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/images/logo-header-adobe.svg",
+    "alt": "",
+    "ariaLabel": "store logo",
+    "localPath": "stardust/current/assets/logo.svg",
+    "format": "svg",
+    "intrinsicWidth": 300,
+    "intrinsicHeight": 78,
+    "viewBox": "0 0 453.8 118.1",
+    "fill": "#EB1000",
+    "synthesized": false,
+    "synthesizedBasis": null,
+    "citation": "_computed-styles.json#pages[/][1440].logoCandidates[0]; pages/index.json#media.imgs[0]",
+    "variants": [
+      {
+        "name": "header (red on white)",
+        "localPath": "stardust/current/assets/logo.svg",
+        "fill": "#EB1000",
+        "sourceUrl": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/images/logo-header-adobe.svg"
+      },
+      {
+        "name": "footer (white on dark)",
+        "localPath": "stardust/current/assets/logo-footer.svg",
+        "fill": "#ffffff",
+        "alt": "Adobe Commerce",
+        "viewBox": "0 0 453.75 118.11",
+        "sourceUrl": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/images/logo-footer-adobe.svg",
+        "citation": "pages/index.json#media.imgs[1]"
+      }
+    ]
+  },
+  "favicon": {
+    "url": "https://commercemarketplace.adobe.com/media/favicon/stores/1/Adobe_Corporate_Horizontal_Lockup_Red_RGB_copy.png",
+    "localPath": "stardust/current/assets/favicon.png",
+    "format": "png",
+    "width": 136,
+    "height": 119,
+    "citation": "_crawl-log.json#favicon"
+  },
+  "palette": [
+    {
+      "role": "background",
+      "value": "#ffffff",
+      "occurrences": 1487,
+      "bgArea": 56743777,
+      "usedAs": [
+        "background",
+        "text",
+        "border"
+      ],
+      "by": {
+        "background": 534,
+        "text": 730,
+        "border": 60,
+        "button-background": 9,
+        "button-border": 4,
+        "button-text": 10,
+        "heading": 140
+      },
+      "clusterMembers": [
+        "rgb(255, 255, 255)",
+        "rgb(248, 248, 248)",
+        "rgb(249, 249, 249)",
+        "rgb(245, 245, 245)"
+      ],
+      "sourceSelectors": [
+        "#html-body",
+        "#html-body",
+        "#html-body > div:nth-of-type(2) > div > div > p"
+      ],
+      "sources": [
+        "extensions-html",
+        "extensions-sales-html",
+        "index"
+      ],
+      "citation": "_computed-styles.json#aggregate.colors[hex=#ffffff]"
+    },
+    {
+      "role": "text-primary",
+      "value": "#333333",
+      "occurrences": 744,
+      "bgArea": 10545792,
+      "usedAs": [
+        "text",
+        "background"
+      ],
+      "by": {
+        "text": 371,
+        "background": 60,
+        "heading": 308,
+        "button-text": 5
+      },
+      "clusterMembers": [
+        "rgb(51, 51, 51)",
+        "rgb(49, 48, 43)",
+        "rgb(58, 58, 58)"
+      ],
+      "sourceSelectors": [
+        "#selected-filters-container > div:nth-of-type(1) > span",
+        "#selected-filters-container > div:nth-of-type(1) > span",
+        "#refine-toggle > span:nth-of-type(1)"
+      ],
+      "sources": [
+        "extensions-html",
+        "extensions-sales-html",
+        "themes-html"
+      ],
+      "citation": "_computed-styles.json#aggregate.colors[hex=#333333]",
+      "note": "listing/card text and headings; cluster also carries the footer ground #31302b"
+    },
+    {
+      "role": "text-secondary",
+      "value": "#505050",
+      "occurrences": 441,
+      "bgArea": 0,
+      "usedAs": [
+        "text"
+      ],
+      "by": {
+        "text": 268,
+        "link": 154,
+        "button-text": 3,
+        "heading": 16
+      },
+      "clusterMembers": [
+        "rgb(80, 80, 80)",
+        "rgb(70, 70, 70)",
+        "rgb(81, 80, 80)",
+        "rgb(87, 87, 87)"
+      ],
+      "sourceSelectors": [
+        "#maincontent > div:nth-of-type(3) > div > div:nth-of-type(3)",
+        "#products-grid > div:nth-of-type(1) > div > a",
+        "#products-grid > div:nth-of-type(1) > div > a"
+      ],
+      "sources": [
+        "privacy-policy-cookie-restriction-mode",
+        "extensions-html",
+        "extensions-sales-html"
+      ],
+      "citation": "_computed-styles.json#aggregate.colors[hex=#505050]",
+      "note": "body copy (p/li 14px) and product-card links"
+    },
+    {
+      "role": "border",
+      "value": "#e0e0e0",
+      "occurrences": 287,
+      "bgArea": 14253,
+      "usedAs": [
+        "border",
+        "text",
+        "background"
+      ],
+      "by": {
+        "border": 224,
+        "text": 30,
+        "button-border": 17,
+        "background": 13,
+        "button-background": 3
+      },
+      "clusterMembers": [
+        "rgb(224, 224, 224)",
+        "rgb(213, 213, 213)",
+        "rgb(221, 221, 221)",
+        "rgb(225, 229, 233)"
+      ],
+      "sourceSelectors": [
+        "#selected-filters-container",
+        "#selected-filters-container",
+        "#selected-filters-container"
+      ],
+      "sources": [
+        "extensions-html",
+        "extensions-sales-html",
+        "themes-html"
+      ],
+      "citation": "_computed-styles.json#aggregate.colors[hex=#e0e0e0]"
+    },
+    {
+      "role": "primary",
+      "value": "#0469e3",
+      "occurrences": 286,
+      "bgArea": 82136,
+      "usedAs": [
+        "text",
+        "background"
+      ],
+      "by": {
+        "text": 136,
+        "link": 134,
+        "background": 8,
+        "button-background": 8
+      },
+      "clusterMembers": [
+        "rgb(4, 105, 227)",
+        "rgb(2, 101, 220)"
+      ],
+      "sourceSelectors": [
+        "#maincontent > div:nth-of-type(2) > div > div:nth-of-type(1) > ul > li:nth-of-type(2) > strong",
+        "#maincontent > div:nth-of-type(2) > div > div:nth-of-type(1) > ul > li:nth-of-type(2) > strong",
+        "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div > div > a"
+      ],
+      "sources": [
+        "amasty-module-price-history-html",
+        "plumrocket-private-sales-flash-sales-html"
+      ],
+      "citation": "_computed-styles.json#aggregate.colors[hex=#0469e3]",
+      "note": "links, breadcrumb current item, Add to cart (#0265dc member), Q&A button; hover -> rgb(4, 93, 202) / rgb(0, 84, 182)"
+    },
+    {
+      "role": "surface-dark",
+      "value": "#202021",
+      "occurrences": 734,
+      "bgArea": 1260392,
+      "usedAs": [
+        "text",
+        "background"
+      ],
+      "by": {
+        "text": 570,
+        "background": 22,
+        "heading": 134,
+        "link": 4,
+        "button-text": 4
+      },
+      "clusterMembers": [
+        "rgb(32, 32, 33)",
+        "rgb(34, 34, 34)",
+        "rgb(43, 43, 44)",
+        "rgb(28, 25, 24)"
+      ],
+      "sourceSelectors": [
+        "#ui-id-3 > span",
+        "#maincontent > div:nth-of-type(2) > div > div:nth-of-type(1) > ul > li:nth-of-type(1) > a",
+        "#ui-id-3 > span"
+      ],
+      "sources": [
+        "plumrocket-private-sales-flash-sales-html",
+        "amasty-module-price-history-html",
+        "index"
+      ],
+      "citation": "_computed-styles.json#aggregate.colors[hex=#202021]",
+      "note": "product-page heading/tab text; cluster carries the dark search strip #2b2b2c"
+    },
+    {
+      "role": "text-muted",
+      "value": "#636363",
+      "occurrences": 221,
+      "bgArea": 0,
+      "usedAs": [
+        "text"
+      ],
+      "by": {
+        "text": 142,
+        "link": 75,
+        "heading": 4
+      },
+      "clusterMembers": [
+        "rgb(99, 99, 99)",
+        "rgb(102, 102, 102)",
+        "rgb(109, 109, 105)",
+        "rgb(96, 96, 96)"
+      ],
+      "sourceSelectors": [
+        "#selected-filters-container > div:nth-of-type(1) > a",
+        "#selected-filters-container > div:nth-of-type(1) > a",
+        "#selected-filters-container > div:nth-of-type(1) > a"
+      ],
+      "sources": [
+        "extensions-sales-html",
+        "extensions-html",
+        "themes-html"
+      ],
+      "citation": "_computed-styles.json#aggregate.colors[hex=#636363]"
+    },
+    {
+      "role": "surface",
+      "value": "#f2f3f3",
+      "occurrences": 6,
+      "bgArea": 1782461,
+      "usedAs": [
+        "background"
+      ],
+      "by": {
+        "background": 6
+      },
+      "clusterMembers": [
+        "rgb(242, 243, 243)",
+        "rgb(241, 241, 239)"
+      ],
+      "sourceSelectors": [
+        "#maincontent > div:nth-of-type(5) > div > div:nth-of-type(3) > section",
+        "footer > div:nth-of-type(1)",
+        "footer > div:nth-of-type(1)"
+      ],
+      "sources": [
+        "index",
+        "amasty-module-price-history-html",
+        "plumrocket-private-sales-flash-sales-html"
+      ],
+      "citation": "_computed-styles.json#aggregate.colors[hex=#f2f3f3]",
+      "note": "home 'Adobe Commerce Resources' band and product-page footer band (#f1f1ef member)"
+    },
+    {
+      "role": "accent",
+      "value": "#eb5202",
+      "occurrences": 14,
+      "bgArea": 19709,
+      "usedAs": [
+        "background",
+        "border"
+      ],
+      "by": {
+        "background": 4,
+        "border": 6,
+        "button-background": 2,
+        "button-border": 2
+      },
+      "clusterMembers": [
+        "rgb(235, 82, 2)"
+      ],
+      "sourceSelectors": [
+        "#slick-slide01 > div > div > a > div > div > div > button",
+        "div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(10) > div",
+        "div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(18) > div"
+      ],
+      "sources": [
+        "index",
+        "amasty-module-price-history-html",
+        "plumrocket-private-sales-flash-sales-html"
+      ],
+      "citation": "_computed-styles.json#aggregate.colors[hex=#eb5202]",
+      "note": "home hero 'Get Started' button background/border; hover -> rgb(204, 97, 39)"
+    }
+  ],
+  "type": {
+    "headingFamily": {
+      "name": "adobe-clean",
+      "stack": "adobe-clean, 'Source Sans 3', 'Helvetica Neue', Helvetica, Arial, sans-serif",
+      "cuts": [
+        "AdobeCleanBold (300 headings)",
+        "AdobeCleanMedium (32 headings, 4 buttons)"
+      ],
+      "weights": [
+        400,
+        500,
+        600,
+        700
+      ],
+      "sizes": [
+        "30px",
+        "28px",
+        "20px",
+        "13px"
+      ],
+      "levels": {
+        "h1": {
+          "fontSize": "28px",
+          "fontWeight": 400,
+          "lineHeight": "30.8-33.6px",
+          "score": 112,
+          "count": 16,
+          "example": "Extensions for Adobe Commerce"
+        },
+        "h2": {
+          "fontSize": "30px",
+          "fontWeight": 600,
+          "lineHeight": "33px",
+          "score": 246.48,
+          "count": 30,
+          "example": "Key Features:"
+        },
+        "h3": {
+          "fontSize": "20px",
+          "fontWeight": 600,
+          "lineHeight": "22px",
+          "score": 328.63,
+          "count": 120,
+          "example": "Price Change History Grid"
+        },
+        "h4": {
+          "fontSize": "13px",
+          "fontWeight": 700,
+          "lineHeight": "17px",
+          "score": 280.48,
+          "count": 152,
+          "example": "Adobe Commerce (card vendor line)"
+        }
+      },
+      "otherObservedHeadingSizes": [
+        "36px/400 (home section h2 'Featured Categories', line-height 39.6px)",
+        "32px/500 AdobeCleanMedium (product 'Overview')",
+        "18px/600 AdobeCleanBold (footer column h3, capitalize, #fff)",
+        "15px/700 AdobeCleanBold (card title h3, line-height 21px)"
+      ],
+      "lineHeights": [
+        1.1,
+        1.1,
+        1.1,
+        1.31
+      ],
+      "letterSpacing": [
+        "normal"
+      ],
+      "sourceSelectors": [
+        "h1#page-title-heading",
+        "h2",
+        "h3.result-title",
+        "h4.result-subtitle",
+        "footer h3"
+      ],
+      "citation": "_computed-styles.json#aggregate.type.levels; aggregate.type.families"
+    },
+    "bodyFamily": {
+      "name": "adobe-clean",
+      "stack": "adobe-clean, 'Source Sans 3', 'Helvetica Neue', Helvetica, Arial, sans-serif",
+      "weights": [
+        400
+      ],
+      "sizes": [
+        "14px",
+        "12.5px",
+        "12px",
+        "16px"
+      ],
+      "lineHeights": [
+        1.42857,
+        1.42857,
+        1.42857
+      ],
+      "letterSpacing": [
+        "normal"
+      ],
+      "sourceSelectors": [
+        "p",
+        "li",
+        ".col-box p (12.5px)",
+        "breadcrumbs li (12px)"
+      ],
+      "citation": "_computed-styles.json#aggregate.type.sizes (text column); pages[*][1440].text"
+    },
+    "monoFamily": null,
+    "strayFamilies": [
+      {
+        "name": "OpenSans",
+        "count": 8,
+        "where": "third-party review widget"
+      },
+      {
+        "name": "RobotoRegular",
+        "count": 5,
+        "where": "listing price filter 'Go' button (#price-go-btn)"
+      },
+      {
+        "name": "Adobe Clean (quoted)",
+        "count": 16,
+        "where": "Spectrum buttons on product pages (Add to cart, Contact Vendor)"
+      }
+    ],
+    "substitute": {
+      "family": "Source Sans 3",
+      "license": "OFL",
+      "reason": "Adobe Clean is proprietary, self-hosted by the source; Source Sans 3 is metric-close; brand family stays first in the stack."
+    },
+    "allObservedSizesPx": [
+      36,
+      32,
+      30,
+      28,
+      26,
+      20,
+      18,
+      16,
+      15,
+      14,
+      13,
+      12.5,
+      12
+    ],
+    "scaleRatio": null,
+    "scaleAudit": {
+      "kind": "ad-hoc",
+      "ratios": [
+        1.071,
+        1.4,
+        1.538
+      ],
+      "sizesPx": [
+        30,
+        28,
+        20,
+        13
+      ],
+      "matchedScale": null
+    },
+    "loadStrategy": "auto",
+    "files": [
+      {
+        "url": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/fonts/AdobeClean/_woff2/AdobeClean-Regular.woff2",
+        "family": "adobe-clean",
+        "weight": 100,
+        "style": "normal",
+        "unicodeRange": null,
+        "localPath": "stardust/current/assets/fonts/AdobeClean-Regular.woff2",
+        "sourceCssRule": "@font-face{font-family:'adobe-clean';src:url('../fonts/AdobeClean/_woff2/AdobeClean-Regular.woff2') format('woff2'),url('../fonts/AdobeClean/_woff2/AdobeClean-Regular.woff') format('woff');font-weight:100;font-style:normal;font-display:auto}",
+        "sourceStylesheet": "stardust/current/assets/css/styles-m.css",
+        "licensingFlag": "private"
+      },
+      {
+        "url": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/fonts/AdobeClean/_woff2/AdobeClean-Medium.woff2",
+        "family": "AdobeCleanMedium",
+        "weight": 100,
+        "style": "normal",
+        "unicodeRange": null,
+        "localPath": "stardust/current/assets/fonts/AdobeClean-Medium.woff2",
+        "sourceCssRule": "@font-face{font-family:'AdobeCleanMedium';src:url('../fonts/AdobeClean/_woff2/AdobeClean-Medium.woff2') format('woff2'),url('../fonts/AdobeClean/_woff2/AdobeClean-Medium.woff') format('woff');font-weight:100;font-style:normal;font-display:auto}",
+        "sourceStylesheet": "stardust/current/assets/css/styles-m.css",
+        "licensingFlag": "private"
+      },
+      {
+        "url": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/fonts/AdobeClean/_woff2/AdobeClean-Bold.woff2",
+        "family": "AdobeCleanBold",
+        "weight": 100,
+        "style": "normal",
+        "unicodeRange": null,
+        "localPath": "stardust/current/assets/fonts/AdobeClean-Bold.woff2",
+        "sourceCssRule": "@font-face{font-family:'AdobeCleanBold';src:url('../fonts/AdobeClean/_woff2/AdobeClean-Bold.woff2') format('woff2'),url('../fonts/AdobeClean/_woff2/AdobeClean-Bold.woff') format('woff');font-weight:100;font-style:normal;font-display:auto}",
+        "sourceStylesheet": "stardust/current/assets/css/styles-m.css",
+        "licensingFlag": "private"
+      },
+      {
+        "url": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/fonts/AdobeClean/_woff2/AdobeClean-It.woff2",
+        "family": "AdobeCleanItalic",
+        "weight": 100,
+        "style": "italic",
+        "unicodeRange": null,
+        "localPath": "stardust/current/assets/fonts/AdobeClean-It.woff2",
+        "sourceCssRule": "@font-face{font-family:'AdobeCleanItalic';src:url('../fonts/AdobeClean/_woff2/AdobeClean-It.woff2') format('woff2'),url('../fonts/AdobeClean/_woff2/AdobeClean-It.woff') format('woff');font-weight:100;font-style:italic;font-display:auto}",
+        "sourceStylesheet": "stardust/current/assets/css/styles-m.css",
+        "licensingFlag": "private"
+      }
+    ]
+  },
+  "spacing": {
+    "baseUnit": null,
+    "scale": [],
+    "observedPaddings": [
+      "12px 25px (hero Get Started)",
+      "10px (resource 'Learn more')",
+      "0 18px 0 16px (Add to cart / Contact Vendor)",
+      "7px 14px (Q&A button)",
+      "11px 30px (footer Become a Partner)",
+      "12px 15px (price Go)"
+    ],
+    "sectionPadding": null,
+    "containerMaxWidth": "1200px",
+    "containerSource": "DESIGN.json#extensions.breakpoints.containerMaxWidth (cap-probe, #maincontent max-width)",
+    "gridGap": null,
+    "listingGrid": "4 columns (col-md-3 col-lg-3) at 1440, card min-width ~200px in an 870px results column beside a 250px facet column",
+    "citation": "_computed-styles.json#pages[*][1440].buttons; DESIGN.json#extensions.breakpoints"
+  },
+  "motifs": {
+    "borderRadius": {
+      "primary": "4px",
+      "secondary": "6px",
+      "pill": null,
+      "circle": "100% (footer social icons, 60)",
+      "primarySources": [
+        "index",
+        "amasty-module-price-history-html",
+        "extensions-html"
+      ],
+      "occurrences": {
+        "4px": 389,
+        "100%": 60,
+        "6px": 24,
+        "3px": 23,
+        "4px 4px 0px 0px": 20,
+        "16px": 8,
+        "20px": 8,
+        "10px": 6,
+        "2px": 4
+      },
+      "citation": "_computed-styles.json#aggregate.motifs.radius"
+    },
+    "shadows": [
+      {
+        "value": "rgba(255, 255, 255, 0.2) 0px 1px 0px 0px inset",
+        "uses": "third-party Q&A button (#BVQAContainer), only shadow on site",
+        "citation": "_computed-styles.json#aggregate.motifs.shadows[0]"
+      }
+    ],
+    "gradients": [
+      {
+        "value": "-webkit-linear-gradient(top, rgba(255, 255, 255, 0.1) 0px, rgba(255, 255, 255, 0) 100%)",
+        "uses": "third-party Q&A button sheen (#BVQAContainer)",
+        "citation": "_computed-styles.json#aggregate.motifs.gradients[0]"
+      }
+    ],
+    "patterns": [
+      {
+        "name": "hero-carousel",
+        "evidence": "index: Page Builder slick slider, 3 banner slides 1160x348 with baked-in copy + orange 'Get started' button, dots"
+      },
+      {
+        "name": "icon-tile-row",
+        "evidence": "index: 'Featured Categories' 6 line-icon tiles with blue labels"
+      },
+      {
+        "name": "feature-4up",
+        "evidence": "index: 'Adobe Commerce Resources' 4 bordered cards on #f2f3f3 band, icon + bold title + 12.5px copy + pill 'Learn more'"
+      },
+      {
+        "name": "card-grid",
+        "evidence": "extensions-html, extensions-sales-html, themes-html: 4-column bordered product cards (thumbnail, badge, title, vendor, stars, partner badge, price)"
+      },
+      {
+        "name": "facet-sidebar",
+        "evidence": "5 listing pages: #appstore-plp-facets 250px left column"
+      },
+      {
+        "name": "pdp-two-column",
+        "evidence": "2 product pages: gallery left + purchase panel right, sticky CONTENTS side-nav + long sectioned detail"
+      },
+      {
+        "name": "footer-mega",
+        "evidence": "10 pages: dark 7-column link footer + logo + social + legal row"
+      },
+      {
+        "name": "dark-utility-strip",
+        "evidence": "10 pages: near-black search bar strip under the white header"
+      }
+    ]
+  },
+  "componentStyle": {
+    "buttons": {
+      "primary": {
+        "background": "#0265dc",
+        "color": "#ffffff",
+        "borderRadius": "20px",
+        "padding": "0px 18px 0px 16px",
+        "fontFamily": "\"Adobe Clean\", adobe-clean, \"Source Sans 3\"",
+        "hoverDelta": "background -> rgb(0, 84, 182)",
+        "selector": "#product-addtocart-button",
+        "pages": [
+          "amasty-module-price-history-html",
+          "plumrocket-private-sales-flash-sales-html"
+        ]
+      },
+      "marketing": {
+        "background": "#eb5202",
+        "color": "#ffffff",
+        "border": "1px solid #eb5202",
+        "borderRadius": "0px (computed on slide button)",
+        "padding": "12px 25px",
+        "hoverDelta": "background -> rgb(204, 97, 39)",
+        "selector": "#slick-slide01 ... button",
+        "pages": [
+          "index"
+        ]
+      },
+      "secondary": {
+        "background": "transparent",
+        "color": "#222222",
+        "border": "2px solid #d5d5d5",
+        "borderRadius": "20px",
+        "padding": "0px 18px 0px 16px",
+        "hoverDelta": "background -> #d5d5d5",
+        "label": "Contact Vendor",
+        "pages": [
+          "amasty-module-price-history-html",
+          "plumrocket-private-sales-flash-sales-html"
+        ]
+      },
+      "pillOutline": {
+        "background": "transparent",
+        "color": "#0a0a0a",
+        "border": "2px solid",
+        "borderRadius": "16px",
+        "padding": "10px",
+        "label": "Learn more",
+        "pages": [
+          "index"
+        ]
+      },
+      "outlineOrange": {
+        "background": "#ffffff",
+        "color": "#f16321",
+        "border": "1px solid #f16321",
+        "borderRadius": "3px",
+        "padding": "11px 30px",
+        "fontFamily": "AdobeCleanMedium",
+        "hoverDelta": "-> background rgb(210, 76, 13), text #fff",
+        "label": "Become a Partner",
+        "pages": [
+          "amasty-module-price-history-html",
+          "plumrocket-private-sales-flash-sales-html"
+        ]
+      },
+      "utility": {
+        "background": "#dddddd",
+        "color": "#444444",
+        "borderRadius": "3px",
+        "padding": "12px 15px",
+        "fontFamily": "RobotoRegular",
+        "label": "Go",
+        "selector": "#price-go-btn"
+      }
+    },
+    "dualCTAPattern": "primary-then-secondary-outline (Add to cart + Contact Vendor)",
+    "cards": {
+      "background": "#ffffff",
+      "thumbnailWell": "#f8f8f8",
+      "borderRadius": "4px",
+      "border": "1px solid #e0e0e0",
+      "shadow": null,
+      "selector": "#products-grid .result-wrapper"
+    },
+    "inputs": {
+      "borderRadius": "4px",
+      "border": "1px solid #cccccc",
+      "selector": "#price-from"
+    },
+    "links": {
+      "color": "#0469e3",
+      "hover": "rgb(4, 93, 202)"
+    },
+    "citation": "_computed-styles.json#pages[*][1440].buttons; aggregate.hover"
+  },
+  "systemComponents": [
+    {
+      "name": "site-header",
+      "kind": "header",
+      "occurrences": 10,
+      "headingSequence": [],
+      "ctaLabels": [
+        "Extensions",
+        "Themes",
+        "Partners",
+        "Support",
+        "Sign In",
+        "My Cart"
+      ],
+      "exampleSlug": "index",
+      "exampleSelector": "header.page-header",
+      "examplePages": [
+        "amasty-module-price-history-html",
+        "extensions-featured-extensions-html",
+        "extensions-html",
+        "extensions-sales-html",
+        "index",
+        "plumrocket-private-sales-flash-sales-html",
+        "privacy-policy-cookie-restriction-mode",
+        "terms-and-conditions",
+        "themes-html",
+        "themes-industry-apparel-html"
+      ],
+      "notes": "white, position: sticky, 90px tall at 1440; nav max-width 1200px; logo left, cart + Sign In right",
+      "citation": "_computed-styles.json#pages[/][1440].surfaces[0]; pages/*.json#ctas[0..5]"
+    },
+    {
+      "name": "search-strip",
+      "kind": "other",
+      "occurrences": 10,
+      "headingSequence": [],
+      "ctaLabels": [],
+      "placeholder": "Search extensions, themes, and more...",
+      "trailingText": "Powered by Adobe Commerce 2.4.9",
+      "exampleSlug": "index",
+      "exampleSelector": ".after-header-container .block-search form#search_mini_form",
+      "examplePages": [
+        "amasty-module-price-history-html",
+        "extensions-featured-extensions-html",
+        "extensions-html",
+        "extensions-sales-html",
+        "index",
+        "plumrocket-private-sales-flash-sales-html",
+        "privacy-policy-cookie-restriction-mode",
+        "terms-and-conditions",
+        "themes-html",
+        "themes-industry-apparel-html"
+      ],
+      "notes": "near-black strip rgb(43, 43, 44), 1440x55 (79200 px2) on every page",
+      "citation": "_computed-styles.json#pages[*][1440].bgColors (rgb(43, 43, 44))"
+    },
+    {
+      "name": "breadcrumbs",
+      "kind": "breadcrumb",
+      "occurrences": 9,
+      "headingSequence": [],
+      "ctaLabels": [
+        "Home"
+      ],
+      "exampleSlug": "extensions-html",
+      "exampleSelector": ".breadcrumbs ul.items",
+      "examplePages": [
+        "amasty-module-price-history-html",
+        "extensions-featured-extensions-html",
+        "extensions-html",
+        "extensions-sales-html",
+        "plumrocket-private-sales-flash-sales-html",
+        "privacy-policy-cookie-restriction-mode",
+        "terms-and-conditions",
+        "themes-html",
+        "themes-industry-apparel-html"
+      ],
+      "notes": "12px, current item in #0469e3",
+      "citation": "pages/*.json#ctas (Home, 9 pages); _computed-styles.json#pages[*][1440].text"
+    },
+    {
+      "name": "site-footer",
+      "kind": "footer",
+      "occurrences": 10,
+      "headingSequence": [
+        "Company",
+        "Merchants",
+        "Partners",
+        "Categories",
+        "Resources",
+        "Developer Resources",
+        "Get In Touch"
+      ],
+      "ctaLabels": [
+        "About Us",
+        "Careers",
+        "Press",
+        "Terms and Conditions",
+        "Security Updates",
+        "Find a Partner",
+        "Become a Partner",
+        "Certification",
+        "Training",
+        "Benefits U",
+        "Info Sheet",
+        "User Guides",
+        "Technical Docs",
+        "Developer Portal",
+        "Dev Docs",
+        "API",
+        "Community",
+        "Contact Us",
+        "Events",
+        "Webinars",
+        "Privacy and Cookie Policy",
+        "Cookie preferences"
+      ],
+      "legal": "© 2026 Adobe. All rights reserved.",
+      "exampleSlug": "index",
+      "exampleSelector": "footer.page-footer",
+      "examplePages": [
+        "amasty-module-price-history-html",
+        "extensions-featured-extensions-html",
+        "extensions-html",
+        "extensions-sales-html",
+        "index",
+        "plumrocket-private-sales-flash-sales-html",
+        "privacy-policy-cookie-restriction-mode",
+        "terms-and-conditions",
+        "themes-html",
+        "themes-industry-apparel-html"
+      ],
+      "notes": "ground rgb(49, 48, 43); h3 18px AdobeCleanBold white; white Adobe logo, 'Powered by Adobe Commerce 2.4.9', social (LinkedIn, Twitter, Facebook) in 100% radius circles",
+      "citation": "_computed-styles.json#pages[*][1440].surfaces (footer); voiceTable.headingFrequency"
+    },
+    {
+      "name": "consent-banner",
+      "kind": "other",
+      "occurrences": 9,
+      "headingSequence": [],
+      "ctaLabels": [
+        "Don’t enable",
+        "Enable all",
+        "Confirm my choices"
+      ],
+      "vendor": "OneTrust",
+      "exampleSlug": "index",
+      "exampleSelector": "#onetrust-consent-sdk",
+      "examplePages": [
+        "extensions-featured-extensions-html",
+        "extensions-html",
+        "extensions-sales-html",
+        "index",
+        "plumrocket-private-sales-flash-sales-html",
+        "privacy-policy-cookie-restriction-mode",
+        "terms-and-conditions",
+        "themes-html",
+        "themes-industry-apparel-html"
+      ],
+      "notes": "third-party SDK; custom props --ot-privacy-cta-color #3B63FB / hover #274DEA / ring #378EF0; auto-dismissed during capture (_crawl-log.json#consent.method=auto)",
+      "citation": "pages/*.json#media.modals; pages/*.json#customProps"
+    }
+  ],
+  "iconFont": {
+    "family": "luma-icons",
+    "families": [
+      "IconFeatured",
+      "iconmoon",
+      "luma-icons"
+    ],
+    "localPath": null,
+    "localPathNote": "icon font files were not captured locally; families resolved from computed ::before/::after",
+    "sourceCss": "Magento Luma theme icon font (styles-m.css)",
+    "glyphCount": 20,
+    "glyphs": [
+      {
+        "class": "action close",
+        "pseudo": "::before",
+        "codepoint": "\\E616",
+        "fontFamily": "luma-icons",
+        "count": 20,
+        "name": "close"
+      },
+      {
+        "class": "action nav-toggle",
+        "pseudo": "::before",
+        "codepoint": "\\E609",
+        "fontFamily": "luma-icons",
+        "count": 20,
+        "name": "nav-toggle"
+      },
+      {
+        "class": "action showcart",
+        "pseudo": "::before",
+        "codepoint": "\\E902",
+        "fontFamily": "luma-icons",
+        "count": 20,
+        "name": "showcart"
+      },
+      {
+        "class": "icon icon-cart",
+        "pseudo": "::before",
+        "codepoint": "\\E902",
+        "fontFamily": "IconFeatured",
+        "count": 20,
+        "name": "cart"
+      },
+      {
+        "class": "icon icon-facebook",
+        "pseudo": "::before",
+        "codepoint": "\\E911",
+        "fontFamily": "IconFeatured",
+        "count": 20,
+        "name": "facebook"
+      },
+      {
+        "class": "icon icon-linkedinl",
+        "pseudo": "::before",
+        "codepoint": "\\F0E1",
+        "fontFamily": "iconmoon",
+        "count": 20,
+        "name": "linkedinl"
+      },
+      {
+        "class": "icon icon-twitterl",
+        "pseudo": "::before",
+        "codepoint": "\\F099",
+        "fontFamily": "iconmoon",
+        "count": 20,
+        "name": "twitterl"
+      },
+      {
+        "class": "label",
+        "pseudo": "::before",
+        "codepoint": "\\E615",
+        "fontFamily": "luma-icons",
+        "count": 20,
+        "name": "search"
+      },
+      {
+        "class": "action search",
+        "pseudo": "::before",
+        "codepoint": "\\E615",
+        "fontFamily": "luma-icons",
+        "count": 10,
+        "name": "search"
+      },
+      {
+        "class": "error-message",
+        "pseudo": "::before",
+        "codepoint": "\\E61F",
+        "fontFamily": "luma-icons",
+        "count": 10,
+        "name": "error"
+      },
+      {
+        "class": "item home",
+        "pseudo": "::after",
+        "codepoint": "\\E608",
+        "fontFamily": "luma-icons",
+        "count": 8,
+        "name": "home"
+      },
+      {
+        "class": "icon icon-Training",
+        "pseudo": "::before",
+        "codepoint": "\\E902",
+        "fontFamily": "iconmoon",
+        "count": 2,
+        "name": "Training"
+      },
+      {
+        "class": "icon icon-arm",
+        "pseudo": "::before",
+        "codepoint": "\\E910",
+        "fontFamily": "IconFeatured",
+        "count": 2,
+        "name": "arm"
+      },
+      {
+        "class": "icon icon-cal",
+        "pseudo": "::before",
+        "codepoint": "\\E900",
+        "fontFamily": "IconFeatured",
+        "count": 2,
+        "name": "cal"
+      },
+      {
+        "class": "icon icon-certif",
+        "pseudo": "::before",
+        "codepoint": "\\E90E",
+        "fontFamily": "IconFeatured",
+        "count": 2,
+        "name": "certif"
+      },
+      {
+        "class": "icon icon-clock",
+        "pseudo": "::before",
+        "codepoint": "\\E90D",
+        "fontFamily": "IconFeatured",
+        "count": 2,
+        "name": "clock"
+      },
+      {
+        "class": "icon icon-gar",
+        "pseudo": "::before",
+        "codepoint": "\\E90C",
+        "fontFamily": "IconFeatured",
+        "count": 2,
+        "name": "gar"
+      },
+      {
+        "class": "icon icon-lock",
+        "pseudo": "::before",
+        "codepoint": "\\E90B",
+        "fontFamily": "IconFeatured",
+        "count": 2,
+        "name": "lock"
+      },
+      {
+        "class": "icon icon-met",
+        "pseudo": "::before",
+        "codepoint": "\\E909",
+        "fontFamily": "IconFeatured",
+        "count": 2,
+        "name": "met"
+      },
+      {
+        "class": "icon icon-truck",
+        "pseudo": "::before",
+        "codepoint": "\\E913",
+        "fontFamily": "IconFeatured",
+        "count": 2,
+        "name": "truck"
+      }
+    ],
+    "citation": "_computed-styles.json#aggregate.iconFont"
+  },
+  "voice": {
+    "heroHeadline": null,
+    "heroHeadlineNote": "hero copy is baked into the banner rasters; no DOM headline",
+    "heroSubcopy": null,
+    "heroImage": {
+      "url": "https://commercemarketplace.adobe.com/media/wysiwyg/Adobe_Payment_Services-banner-Final_1_1_.jpg",
+      "mobileUrl": "https://commercemarketplace.adobe.com/media/wysiwyg/Adobe_Payment_Services-banner-Final_1_1__1.jpg",
+      "alt": null,
+      "source": "css-background",
+      "domPath": "div.widget.block.block-banners div.pagebuilder-slider > div.slick-list .pagebuilder-slide-wrapper.background-image-6ad7bccd4e5cf",
+      "localPath": null,
+      "rect": {
+        "x": 140,
+        "y": null,
+        "width": 1160,
+        "height": 348
+      },
+      "rectBasis": "slider fixed width 1160 (DESIGN.json breakpoints caps) x min-height 348px (data-pb-style Y70H8WN)",
+      "aspectFilterExceeded": true,
+      "otherSlides": [
+        "https://commercemarketplace.adobe.com/media/wysiwyg/SAP-S4-HANA-Connector_Adobe-Marketplace_1160x348.jpg",
+        "https://commercemarketplace.adobe.com/media/wysiwyg/Adobe_Meta_Commerce-Banner-Final.jpg"
+      ],
+      "carousel": {
+        "autoplay": true,
+        "autoplaySpeedMs": 4000,
+        "dots": true,
+        "arrows": false
+      },
+      "citation": "pages/index.json#media.cssBackgrounds; pages/index.html .pagebuilder-slider"
+    },
+    "heroMedium": null,
+    "heroMediumNote": "no <video>/<iframe>/canvas on home (pages/index.json#media.videos=[], iframes=[]); slick autoplay rotation is a static-image carousel, not a moving signature",
+    "primaryCTALabel": "Get started",
+    "ctaSamples": [
+      "Get started",
+      "Learn more",
+      "Add to cart",
+      "Contact Vendor",
+      "Become a Partner",
+      "Sign In"
+    ],
+    "navItems": [
+      "Extensions",
+      "Themes",
+      "Partners",
+      "Support",
+      "Sign In",
+      "My Cart"
+    ],
+    "footerHeadings": [
+      "Company",
+      "Merchants",
+      "Partners",
+      "Categories",
+      "Resources",
+      "Developer Resources",
+      "Get In Touch"
+    ],
+    "firstParagraph": "The Assurance Program ensures that extensions and apps designated as such adhere to high-quality standards and development best practices.",
+    "sectionHeadings": [
+      "Featured Categories",
+      "Adobe Commerce Resources"
+    ],
+    "featuredCategories": [
+      "Customer Support",
+      "Payments & Security",
+      "Marketing",
+      "Accounting & Finance",
+      "Shipping & Fulfillment",
+      "Site Optimization"
+    ],
+    "otherSamples": {
+      "metaDescription": "Browse 1,000s of free and premium Magento extensions and themes from our Marketplace to easily extend the functionality of your online store.",
+      "listingHeadline": "Extensions for Adobe Commerce",
+      "listingMeta": "Customize your online store with high-quality extensions, add-ons, modules, apps & plugin designed specifically for the Magento eCommerce platform.",
+      "productSummary": "Private Sales & Flash Sales module allows merchants to schedule Private Sale events on their store with member-only access. They can also run Flash Sales for a limited time.",
+      "emptyState": "No products found.",
+      "footerBand": "Are you a developer? Become a Adobe Commerce Partner to add value to your extension or theme.",
+      "staticLead": "The following terms and conditions apply to (1) your use of the Adobe Commerce Marketplace, and (2) your development and distribution of any Extensions on the Adobe Commerce Marketplace."
+    },
+    "tone": {
+      "guess": "professional-formal",
+      "evidence": "catalog-utility labels (Extensions, Themes, Sort By, Results per page), program copy in third person ('ensures that extensions ... adhere to high-quality standards'), legal/policy pages; marketing voice is confined to banner rasters"
+    },
+    "citation": "pages/index.json#ctas, #body, #headings; pages/*.json#body"
+  },
+  "voiceTable": {
+    "ctaFrequency": [
+      {
+        "label": "Extensions",
+        "total": 21,
+        "pageCount": 10,
+        "pages": [
+          "amasty-module-price-history-html",
+          "extensions-featured-extensions-html",
+          "extensions-html",
+          "extensions-sales-html",
+          "index",
+          "plumrocket-private-sales-flash-sales-html",
+          "privacy-policy-cookie-restriction-mode",
+          "terms-and-conditions",
+          "themes-html",
+          "themes-industry-apparel-html"
+        ]
+      },
+      {
+        "label": "Themes",
+        "total": 20,
+        "pageCount": 10,
+        "pages": [
+          "amasty-module-price-history-html",
+          "extensions-featured-extensions-html",
+          "extensions-html",
+          "extensions-sales-html",
+          "index",
+          "plumrocket-private-sales-flash-sales-html",
+          "privacy-policy-cookie-restriction-mode",
+          "terms-and-conditions",
+          "themes-html",
+          "themes-industry-apparel-html"
+        ]
+      },
+      {
+        "label": "Partners",
+        "total": 20,
+        "pageCount": 10,
+        "pages": [
+          "amasty-module-price-history-html",
+          "extensions-featured-extensions-html",
+          "extensions-html",
+          "extensions-sales-html",
+          "index",
+          "plumrocket-private-sales-flash-sales-html",
+          "privacy-policy-cookie-restriction-mode",
+          "terms-and-conditions",
+          "themes-html",
+          "themes-industry-apparel-html"
+        ]
+      },
+      {
+        "label": "Back to top",
+        "total": 14,
+        "pageCount": 2,
+        "pages": [
+          "amasty-module-price-history-html",
+          "plumrocket-private-sales-flash-sales-html"
+        ]
+      },
+      {
+        "label": "Support",
+        "total": 12,
+        "pageCount": 10,
+        "pages": [
+          "amasty-module-price-history-html",
+          "extensions-featured-extensions-html",
+          "extensions-html",
+          "extensions-sales-html",
+          "index",
+          "plumrocket-private-sales-flash-sales-html",
+          "privacy-policy-cookie-restriction-mode",
+          "terms-and-conditions",
+          "themes-html",
+          "themes-industry-apparel-html"
+        ]
+      },
+      {
+        "label": "User Guides",
+        "total": 12,
+        "pageCount": 10,
+        "pages": [
+          "amasty-module-price-history-html",
+          "extensions-featured-extensions-html",
+          "extensions-html",
+          "extensions-sales-html",
+          "index",
+          "plumrocket-private-sales-flash-sales-html",
+          "privacy-policy-cookie-restriction-mode",
+          "terms-and-conditions",
+          "themes-html",
+          "themes-industry-apparel-html"
+        ]
+      },
+      {
+        "label": "Become a Partner",
+        "total": 12,
+        "pageCount": 10,
+        "pages": [
+          "amasty-module-price-history-html",
+          "extensions-featured-extensions-html",
+          "extensions-html",
+          "extensions-sales-html",
+          "index",
+          "plumrocket-private-sales-flash-sales-html",
+          "privacy-policy-cookie-restriction-mode",
+          "terms-and-conditions",
+          "themes-html",
+          "themes-industry-apparel-html"
+        ]
+      },
+      {
+        "label": "Passed",
+        "total": 12,
+        "pageCount": 2,
+        "pages": [
+          "amasty-module-price-history-html",
+          "plumrocket-private-sales-flash-sales-html"
+        ]
+      }
+    ],
+    "headingFrequency": [
+      {
+        "text": "Categories",
+        "total": 12,
+        "pageCount": 10,
+        "level": 3
+      },
+      {
+        "text": "Company",
+        "total": 10,
+        "pageCount": 10,
+        "level": 3
+      },
+      {
+        "text": "Merchants",
+        "total": 10,
+        "pageCount": 10,
+        "level": 3
+      },
+      {
+        "text": "Partners",
+        "total": 10,
+        "pageCount": 10,
+        "level": 3
+      },
+      {
+        "text": "Resources",
+        "total": 10,
+        "pageCount": 10,
+        "level": 3
+      },
+      {
+        "text": "Developer Resources",
+        "total": 10,
+        "pageCount": 10,
+        "level": 3
+      },
+      {
+        "text": "Get In Touch",
+        "total": 10,
+        "pageCount": 10,
+        "level": 3
+      }
+    ],
+    "toneMetrics": {
+      "headingsTotal": 327,
+      "headingsUppercasePercent": 1,
+      "distinctHeadings": 180,
+      "distinctCtaLabels": 205
+    },
+    "citation": "pages/*.json#ctas[].label, #headings[]"
+  },
+  "crossPromo": {
+    "detected": true,
+    "anchorHeading": "Categories",
+    "cluster": [
+      {
+        "text": "Categories",
+        "total": 12,
+        "pageCount": 10,
+        "overlap": 10
+      },
+      {
+        "text": "Company",
+        "total": 10,
+        "pageCount": 10,
+        "overlap": 10
+      },
+      {
+        "text": "Merchants",
+        "total": 10,
+        "pageCount": 10,
+        "overlap": 10
+      },
+      {
+        "text": "Partners",
+        "total": 10,
+        "pageCount": 10,
+        "overlap": 10
+      },
+      {
+        "text": "Resources",
+        "total": 10,
+        "pageCount": 10,
+        "overlap": 10
+      },
+      {
+        "text": "Developer Resources",
+        "total": 10,
+        "pageCount": 10,
+        "overlap": 10
+      },
+      {
+        "text": "Get In Touch",
+        "total": 10,
+        "pageCount": 10,
+        "overlap": 10
+      }
+    ],
+    "pages": [
+      "amasty-module-price-history-html",
+      "extensions-featured-extensions-html",
+      "extensions-html",
+      "extensions-sales-html",
+      "index",
+      "plumrocket-private-sales-flash-sales-html",
+      "privacy-policy-cookie-restriction-mode",
+      "terms-and-conditions",
+      "themes-html",
+      "themes-industry-apparel-html"
+    ],
+    "pageCount": 10,
+    "totalPages": 10,
+    "note": "Mechanical cluster is the 7 footer column headings (footer-mega), present on every page; it is the site-wide repeated block, not a separate promo band."
+  },
+  "register": "ambiguous",
+  "registerBasis": "home reads as marketing (banner carousel, program cards, 'Get started'), while 5 of 10 pages are tool-like catalog views (facets, sort, pagination, cart, sign-in)"
+}

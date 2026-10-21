@@ -1,0 +1,1078 @@
+{
+ "source": "http://localhost:8791/amasty-module-price-history-html-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "detail-item",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Trader Information"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Back to top",
+     "href": "#top"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "detail-item",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Overview"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Back to top",
+     "href": "#top"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Prepare your e-commerce business to comply with the new pricing requirements of the EU Omnibus Directive, which is already in effect and applies to all retailers who sell products and services to EU customers. Keep the price change policy transparent and consistent to build customer loyalty and avoid unforeseen fines."
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "The Omnibus Price Tracker for Magento 2 extension captures price changes made in your store, including catalog price rules and special prices. Using this data, the extension automatically calculates and displays the lowest price from a 30-day (or longer) period before a price reduction, as required by the Omnibus Directive."
+    },
+    {
+     "role": "heading",
+     "order": 4,
+     "text": "Key Features:"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Indicate the minimum product price in the specified period prior to price reduction;"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Place historical prices both on product and category pages;"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Display Omnibus Prices for all or only for discounted products;"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Monitor all price changes in one place;"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Configure the automatic clearing for the price change log;"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Individually capture price changes and showcase the lowest prices for every configured website;"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Hyva-ready storefront."
+    },
+    {
+     "role": "heading",
+     "order": 12,
+     "text": "30-Day Lowest Price (Omnibis Price)"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "The extension’s configuration allows you to set any duration in days as a basis for calculating the lowest product price. But according to the Omnibus Directive, this duration must not be shorter than 30 days prior to the application of price reduction."
+    },
+    {
+     "role": "heading",
+     "order": 14,
+     "text": "Placement Of The Block With Omnibus Price"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "It is possible to show the Omnibus Price block on product and category pages for all or only for discounted products."
+    },
+    {
+     "role": "heading",
+     "order": 16,
+     "text": "Price Change History Grid"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "View and manage all price changes that are made in the store after the extension installation on a handy grid. Use various filters and their combinations to easily find the recordings you need. You can filter price change recordings by ID, SKU, date, customer group, and new or latest price."
+    },
+    {
+     "role": "heading",
+     "order": 18,
+     "text": "Automatic Price Change Log Clearing"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "Regularly remove old price change recordings from the log. Protect your database from overloads by configuring automatic price change log clearing or removing unnecessary recordings manually with the help of the ‘delete’ mass action."
+    },
+    {
+     "role": "heading",
+     "order": 20,
+     "text": "Demo:"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "| |"
+    },
+    {
+     "role": "cta",
+     "order": 22,
+     "text": "Backend Settings",
+     "href": "https://omnibus-price-tracker-m2.magento-demo.amasty.com/admin/admin/system_config/edit/section/price_history/"
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "| |"
+    },
+    {
+     "role": "cta",
+     "order": 24,
+     "text": "Frontend example",
+     "href": "https://omnibus-price-tracker-m2.magento-demo.amasty.com/compete-track-tote.html"
+    },
+    {
+     "role": "heading",
+     "order": 25,
+     "text": "User Guide:"
+    },
+    {
+     "role": "body",
+     "order": 26,
+     "text": "|Learn how to configure the module step by step with |"
+    },
+    {
+     "role": "cta",
+     "order": 27,
+     "text": "User Guide",
+     "href": "https://amasty.com/docs/doku.php?id=magento_2:omnibus_price_tracker"
+    },
+    {
+     "role": "body",
+     "order": 28,
+     "text": "|See |"
+    },
+    {
+     "role": "cta",
+     "order": 29,
+     "text": "Frequently Asked Questions",
+     "href": "https://amasty.com/knowledge-base/"
+    },
+    {
+     "role": "heading",
+     "order": 30,
+     "text": "Our Support Policy:"
+    },
+    {
+     "role": "body",
+     "order": 31,
+     "text": "A Support Service subscription can also be purchased separately. Please the vendor for details."
+    },
+    {
+     "role": "cta",
+     "order": 32,
+     "text": "contact",
+     "href": "https://amasty.com/contacts/"
+    },
+    {
+     "role": "body",
+     "order": 33,
+     "text": "During the grace period, support is only available with an active support subscription purchased directly from the vendor."
+    },
+    {
+     "role": "body",
+     "order": 34,
+     "text": "25-day Marketplace Return Policy."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 21,
+   "repeats": [
+    {
+     "unitSelector": "P.",
+     "count": 18,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 0
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "UL.",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 7
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "LI.",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "detail-item",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Technical Specifications"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Back to top",
+     "href": "#top"
+    },
+    {
+     "role": "heading",
+     "order": 2,
+     "text": "Seller profile"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Amasty",
+     "href": "https://commercemarketplace.adobe.com/partner/Amasty"
+    },
+    {
+     "role": "heading",
+     "order": 4,
+     "text": "Seller contact"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "E-mail",
+     "href": "mailto:support@amasty.com"
+    },
+    {
+     "role": "heading",
+     "order": 6,
+     "text": "Current Version"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "1.4.0"
+    },
+    {
+     "role": "heading",
+     "order": 8,
+     "text": "Adobe Commerce platform compatibility"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "2.4 (current)"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Adobe Commerce (cloud):"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "2.4 (current)"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Adobe Commerce (on-prem):"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "2.4 (current)"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Magento Open Source:"
+    },
+    {
+     "role": "heading",
+     "order": 15,
+     "text": "Type"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "Stable Build"
+    },
+    {
+     "role": "heading",
+     "order": 17,
+     "text": "Updated"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "18 February, 2026"
+    },
+    {
+     "role": "heading",
+     "order": 19,
+     "text": "Categories"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "Extensions, Content & Customizations"
+    },
+    {
+     "role": "heading",
+     "order": 21,
+     "text": "Documentation"
+    },
+    {
+     "role": "cta",
+     "order": 22,
+     "text": "Reference Manuals",
+     "href": "https://commercemarketplace.adobe.com/amasty-module-price-history.html?1792523476"
+    },
+    {
+     "role": "cta",
+     "order": 23,
+     "text": "Installation Guides",
+     "href": "https://commercemarketplace.adobe.com/media/catalog/product/amasty-module-price-history-1-4-0-ece/installation_guides.pdf?1792523476"
+    },
+    {
+     "role": "cta",
+     "order": 24,
+     "text": "User Guides",
+     "href": "https://commercemarketplace.adobe.com/media/catalog/product/amasty-module-price-history-1-4-0-ece/user_guides.pdf?1792523476"
+    },
+    {
+     "role": "heading",
+     "order": 25,
+     "text": "License Type"
+    },
+    {
+     "role": "cta",
+     "order": 26,
+     "text": "Custom License",
+     "href": "https://amasty.com/license.html"
+    },
+    {
+     "role": "heading",
+     "order": 27,
+     "text": "Policy"
+    },
+    {
+     "role": "cta",
+     "order": 28,
+     "text": "Privacy Policy",
+     "href": "https://amasty.com/privacy.html"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 25,
+   "repeats": [
+    {
+     "unitSelector": "DIV.specs-col",
+     "count": 3,
+     "unit": {
+      "headings": 4,
+      "ctas": 2,
+      "imgs": 0,
+      "textRuns": 13
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "P.",
+     "count": 7,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "P.",
+     "count": 5,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "detail-item",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Quality Report"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Back to top",
+     "href": "#top"
+    },
+    {
+     "role": "heading",
+     "order": 2,
+     "text": "Installation & Varnish Tests"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Passed",
+     "href": "https://devdocs.magento.com/marketplace/sellers/installation-and-varnish-tests.html"
+    },
+    {
+     "role": "heading",
+     "order": 4,
+     "text": "Coding Standard"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Passed",
+     "href": "https://devdocs.magento.com/marketplace/sellers/code-sniffer.html"
+    },
+    {
+     "role": "heading",
+     "order": 6,
+     "text": "Plagiarism Check"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Passed",
+     "href": "https://devdocs.magento.com/marketplace/sellers/copy-paste-detector.html"
+    },
+    {
+     "role": "heading",
+     "order": 8,
+     "text": "Malware Check"
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Passed",
+     "href": "https://devdocs.magento.com/marketplace/sellers/malware-scan.html"
+    },
+    {
+     "role": "heading",
+     "order": 10,
+     "text": "Marketing Review"
+    },
+    {
+     "role": "cta",
+     "order": 11,
+     "text": "Passed",
+     "href": "https://devdocs.magento.com/marketplace/sellers/submit-for-marketing-review.html"
+    },
+    {
+     "role": "heading",
+     "order": 12,
+     "text": "Manual Testing"
+    },
+    {
+     "role": "cta",
+     "order": 13,
+     "text": "Passed",
+     "href": "https://devdocs.magento.com/marketplace/sellers/technical-review-guidelines.html#quality-assurance-pass-manual-qa"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "All tests were conducted on the latest versions of Adobe Commerce that existed for the compatible release lines at the moment of the extension submission. Latest versions of all other software were used, as applicable."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 14,
+   "repeats": [
+    {
+     "unitSelector": "DIV.specs-col",
+     "count": 3,
+     "unit": {
+      "headings": 2,
+      "ctas": 2,
+      "imgs": 0,
+      "textRuns": 4
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "P.",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "P.",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "P.",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "detail-item",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Release Notes"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Back to top",
+     "href": "#top"
+    },
+    {
+     "role": "heading",
+     "order": 2,
+     "text": "1.4.0:"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "2.4"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Compatible with Adobe Commerce (cloud) :"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "2.4"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Compatible with Adobe Commerce (on-prem) :"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "2.4"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Compatible with Magento Open Source :"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Stable Build"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Stability:"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Description:"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Version 1.4.0 1.4.0 - Mar 05, 2024 Improvement: we included Omnibus price data for products when retrieving information via GraphQL Improvement: now the Omnibus price of a product is displayed considering the configured settings for tax application and display Version 1.3.0 1.3.0 - Dec 07, 2023 New: now the Omnibus price data is included in API products response Improvement: we changed the logic for displaying Omnibus prices immediately after installing the extension or when creating a new product, when the products do not have data for the 'latest price' Version 1.2.0 1.2.0 - Nov 21, 2023 Compatibility: we added the compatibility with Hyvä Theme for Omnibus Price Tracker. You can find the 'amasty/module-price-history-hyva' package for installing in composer suggest (Note: the compatibility is available as a part of an active product subscription or support subscription)"
+    },
+    {
+     "role": "heading",
+     "order": 13,
+     "text": "1.1.1:"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "2.4"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "Compatible with Adobe Commerce (cloud) :"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "2.4"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "Compatible with Adobe Commerce (on-prem) :"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "2.4"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "Compatible with Magento Open Source :"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "Stable Build"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "Stability:"
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "Description:"
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "Version 1.1.1 1.1.1 - Sep 05, 2023 Fix: we fixed the module compatibility with PHP 7.4 1.1.0 - Jul 20, 2023 New: now it is possible to hide Omnibus prices for specified customers groups Improvement: now it is possible to see Website information on the Price Change History grid"
+    },
+    {
+     "role": "heading",
+     "order": 24,
+     "text": "1.0.1:"
+    },
+    {
+     "role": "body",
+     "order": 25,
+     "text": "2.4"
+    },
+    {
+     "role": "body",
+     "order": 26,
+     "text": "Compatible with Adobe Commerce (cloud) :"
+    },
+    {
+     "role": "body",
+     "order": 27,
+     "text": "2.4"
+    },
+    {
+     "role": "body",
+     "order": 28,
+     "text": "Compatible with Adobe Commerce (on-prem) :"
+    },
+    {
+     "role": "body",
+     "order": 29,
+     "text": "2.4"
+    },
+    {
+     "role": "body",
+     "order": 30,
+     "text": "Compatible with Magento Open Source :"
+    },
+    {
+     "role": "body",
+     "order": 31,
+     "text": "Stable Build"
+    },
+    {
+     "role": "body",
+     "order": 32,
+     "text": "Stability:"
+    },
+    {
+     "role": "body",
+     "order": 33,
+     "text": "Description:"
+    },
+    {
+     "role": "body",
+     "order": 34,
+     "text": "Version 1.0.1 1.0.1 - Apr 05, 2023 Improvement: we optimized the Omnibus Prices displaying on the front-end according to EU pricing rules."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 7,
+   "repeats": [
+    {
+     "unitSelector": "UL.",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 10
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "LI.",
+     "count": 5,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "LI.",
+     "count": 5,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "LI.",
+     "count": 5,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "detail-item",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Support"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Back to top",
+     "href": "#top"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "The best place to start if you need help with a specific extension is to contact the developer. All Adobe Commerce developers have both a contact email and a support email listed."
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Contact Vendor",
+     "href": "mailto:support@amasty.com"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "detail-item",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Q & A"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Back to top",
+     "href": "#top"
+    },
+    {
+     "role": "heading",
+     "order": 2,
+     "text": "Questions"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Be the first to ask a question"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "detail-item",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Reviews"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Back to top",
+     "href": "#top"
+    },
+    {
+     "role": "heading",
+     "order": 2,
+     "text": "Reviews"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "★★★★★"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "No rating value"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "▼"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Rating"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Filter by Rating"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Filter by Rating"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "1 star"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "2 stars"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "3 stars"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "4 stars"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "5 stars"
+    },
+    {
+     "role": "heading",
+     "order": 14,
+     "text": "Active Filters"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "1 star"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "Active Filters 1 star"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "Remove Filter"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "✘"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "2 stars"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "Active Filters 2 stars"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "Remove Filter"
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "✘"
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "3 stars"
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "Active Filters 3 stars"
+    },
+    {
+     "role": "body",
+     "order": 25,
+     "text": "Remove Filter"
+    },
+    {
+     "role": "body",
+     "order": 26,
+     "text": "✘"
+    },
+    {
+     "role": "body",
+     "order": 27,
+     "text": "4 stars"
+    },
+    {
+     "role": "body",
+     "order": 28,
+     "text": "Active Filters 4 stars"
+    },
+    {
+     "role": "body",
+     "order": 29,
+     "text": "Remove Filter"
+    },
+    {
+     "role": "body",
+     "order": 30,
+     "text": "✘"
+    },
+    {
+     "role": "body",
+     "order": 31,
+     "text": "5 stars"
+    },
+    {
+     "role": "body",
+     "order": 32,
+     "text": "Active Filters 5 stars"
+    },
+    {
+     "role": "body",
+     "order": 33,
+     "text": "Remove Filter"
+    },
+    {
+     "role": "body",
+     "order": 34,
+     "text": "✘"
+    },
+    {
+     "role": "body",
+     "order": 35,
+     "text": "Clear All"
+    },
+    {
+     "role": "body",
+     "order": 36,
+     "text": "✘"
+    },
+    {
+     "role": "body",
+     "order": 37,
+     "text": "Clear All Filters"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 4,
+   "repeats": [
+    {
+     "unitSelector": "LI.",
+     "count": 6,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 4
+     },
+     "uniform": false
+    }
+   ]
+  }
+ ]
+}

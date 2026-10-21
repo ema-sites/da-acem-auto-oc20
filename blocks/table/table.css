@@ -1,0 +1,68 @@
+/* table — static.css .cms-content table + .data-table-definition-list (styles-m base) */
+main .table {
+  margin: 0;
+}
+
+main .table table {
+  width: 100%;
+  max-width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+main .table th {
+  font-weight: 700;
+  text-align: left;
+}
+
+/* the authored cell paragraph carries the cell padding, so the text box is the cell box */
+main .table th,
+main .table td {
+  padding: 0;
+}
+
+main .table th p,
+main .table td p,
+main .table th:not(:has(p)),
+main .table td:not(:has(p)) {
+  padding: 11px 10px;
+}
+
+main .table tbody th,
+main .table tbody td {
+  vertical-align: top;
+}
+
+main .table thead th,
+main .table thead td {
+  vertical-align: bottom;
+}
+
+main .table th p,
+main .table td p {
+  margin: 0;
+}
+
+@media (width <= 767px) {
+  main .table thead {
+    display: none;
+  }
+
+  main .table tbody th,
+  main .table tbody td {
+    display: block;
+  }
+
+  main .table tbody th p,
+  main .table tbody td p,
+  main .table tbody th:not(:has(p)),
+  main .table tbody td:not(:has(p)) {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  main .table tbody th p,
+  main .table tbody th:not(:has(p)) {
+    padding-bottom: 0;
+  }
+}

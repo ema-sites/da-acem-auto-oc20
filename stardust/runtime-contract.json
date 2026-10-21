@@ -1,0 +1,27 @@
+{
+  "runtime": "vanilla-eds",
+  "source": "scripts/scripts.js + scripts/aem.js of this repo (read 2026-10-20, C0 foundation)",
+  "blockWrapperClass": "block",
+  "blockDom": "main > div.section(.<name>-container) > div.<name>-wrapper > div.<name>.block[data-block-name=<name>]; default content in div.default-content-wrapper",
+  "buttonClasses": ".button / .button.primary / .button.secondary / .button.accent, in p.button-wrapper",
+  "buttonization": "formatted-only",
+  "buttonPaint": "primary = program.css .btn-accent (#0265dc, hover #0054b6, 40px pill); secondary = .btn-outline (#d5d5d5 border, #222); accent = landing.css .slide-button (#eb5202)",
+  "fragmentScriptPolicy": "inert-innerHTML",
+  "emptySectionCollapse": true,
+  "cellNormalization": "wrapTextNodes: non-P/PRE/UL/OL/PICTURE/TABLE/BLOCKQUOTE/H1-6 cell content is folded into one <p>",
+  "templateBodyClasses": {
+    "static": "CMS/legal pages (privacy, terms) — main padding 30px top / 40px bottom, h1 margin-bottom 50px line-height 1.1, in-main grey breadcrumbs",
+    "program": "product pages — main padding-top 30px, in-main breadcrumbs (a 12px #1979c3, strong 11px #0469e3), footer margin-top 35px + become-a-partner band",
+    "listing": "category/listing pages — canon defaults (main padding-top 0, h1 25px/1.2, top breadcrumbs 14px with '>' separator)",
+    "landing": "home — main section wrappers fluid (no cap, no gutter), footer margin-top 0"
+  },
+  "containerModel": "main > .section > div: border-box, max-width var(--container) 1200px, padding 0 var(--gutter) (30px; 20px at <=991px)",
+  "boxModel": "content-box (source + gated prototypes); no global border-box reset — block CSS ported from the prototypes keeps its values",
+  "chrome": {
+    "header": "sticky <header> = 90px bar + 55px dark strip (--nav-height 145px); <=767px both fixed, --nav-height 0",
+    "footer": "footer host carries margin-top 75px / background #31302b; /footer section 1 is the become-a-partner band (body.program only)"
+  },
+  "breakpoints": "source switch points: 479 / 767 / 991 (max) and 992 (min); write as (width <= 767px) etc.",
+  "fonts": "styles/fonts.css: Source Sans 3 (R-01 stand-in, size-adjust 98%), luma-icons, IconFeatured, iconmoon, RobotoRegular; stacks keep adobe-clean / AdobeCleanBold / AdobeCleanMedium first",
+  "tokens": "styles/styles.css :root — canon names (--c-*, --font-*, --container, --gutter, --header-h, --strip-h)"
+}

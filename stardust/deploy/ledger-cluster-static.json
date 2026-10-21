@@ -1,0 +1,11 @@
+{
+  "/terms-and-conditions": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-20T22:43:02.891Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  }
+}

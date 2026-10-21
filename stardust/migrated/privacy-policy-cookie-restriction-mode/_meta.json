@@ -1,0 +1,102 @@
+{
+  "slug": "privacy-policy-cookie-restriction-mode",
+  "type": "static",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "breadcrumbs",
+    "cms-text-body"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "page-title-wrapper",
+    "columns"
+  ],
+  "canonShas": {
+    "header": "97f679e07f78",
+    "footer": "177a0c660617",
+    "css": "e91213fb9ae3"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Privacy and Cookie Policy",
+    "description": null,
+    "canonical": null,
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Privacy and Cookie Policy",
+    "url": "https://commercemarketplace.adobe.com/privacy-policy-cookie-restriction-mode"
+  },
+  "migratedAt": "2026-10-20T20:55:15Z",
+  "designMdSha": "669d9fbdeef2",
+  "designJsonSha": "027c799c1e88",
+  "sourceCurrentSha": "a7aa0cf85af6",
+  "sourceProposedSha": "e02f3f371da0",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [],
+  "gateEvidence": {},
+  "contentDeviations": [],
+  "assetsBundled": 6,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "https://commercemarketplace.adobe.com/themes.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/partners",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/customer/account/login/referer/aHR0cHM6Ly9jb21tZXJjZW1hcmtldHBsYWNlLmFkb2JlLmNvbS9wcml2YWN5LXBvbGljeS1jb29raWUtcmVzdHJpY3Rpb24tbW9kZQ~~/_c_timestamp/17925234801457349705/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/checkout/cart/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/customer/account/login/referer/aHR0cHM6Ly9jb21tZXJjZW1hcmtldHBsYWNlLmFkb2JlLmNvbS9wcml2YWN5LXBvbGljeS1jb29raWUtcmVzdHJpY3Rpb24tbW9kZQ~~/_c_timestamp/17925234801457349705/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/customer/account/create/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/customer/account/forgotpassword/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/terms-and-conditions/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/themes.html/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/partners/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/pdf/footer/Marketplace-Infosheet.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/contact-us/",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "privacy-policy-cookie-restriction-mode/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "privacy-policy-cookie-restriction-mode/_meta.json",
+  "driverVersion": "1"
+}

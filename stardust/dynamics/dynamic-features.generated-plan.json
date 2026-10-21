@@ -1,0 +1,866 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics plan",
+  "writtenAt": "2026-10-20T20:57:25.215Z",
+  "input": "stardust/current/_dynamics.json",
+  "target": "https://main--bfdb0b0f--aemcoder.aem.page",
+  "migrated": null,
+  "knowledge": null,
+  "chrome": null
+ },
+ "rows": [
+  {
+   "id": "a-experimentation-a-b-personalisation",
+   "class": "A",
+   "feature": "experimentation: A/B / personalisation",
+   "pages": 4,
+   "probed": 4,
+   "reach": null,
+   "evidence": [
+    "cdn.optimizely.com",
+    "logx.optimizely.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which experiments move to the new host"
+  },
+  {
+   "id": "a-first-party-api-get-banner-ajax-load",
+   "class": "A",
+   "feature": "first-party API GET /banner/ajax/load/",
+   "pages": 4,
+   "probed": 4,
+   "reach": {
+    "pages": 6,
+    "of": 10
+   },
+   "evidence": [
+    "GET /banner/ajax/load/?_,requesting_page_url,sections → 200",
+    "GET /banner/ajax/load/?_,data[product_id],requesting_page_url,sections → 200"
+   ],
+   "pattern": "off-origin-data",
+   "disposition": "data-fed",
+   "target": "block",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "off-origin data",
+   "decision": "which tier for the target host; consumer on the migrated pages?",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "a-cms-app-settings-object-datalayer",
+   "class": "A",
+   "feature": "CMS / app settings object dataLayer",
+   "pages": 4,
+   "probed": 4,
+   "reach": null,
+   "evidence": [],
+   "pattern": "read-settings",
+   "disposition": "static-snapshot",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "detect",
+   "decision": "— (keys name endpoints, ids, vendors)"
+  },
+  {
+   "id": "a-cms-app-settings-object-adobedatalayer",
+   "class": "A",
+   "feature": "CMS / app settings object adobeDataLayer",
+   "pages": 4,
+   "probed": 4,
+   "reach": null,
+   "evidence": [],
+   "pattern": "read-settings",
+   "disposition": "static-snapshot",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "detect",
+   "decision": "— (keys name endpoints, ids, vendors)"
+  },
+  {
+   "id": "a-unknown-third-party-host-commerce-adobe-io",
+   "class": "A",
+   "feature": "unknown third-party host commerce.adobe.io",
+   "pages": 3,
+   "probed": 4,
+   "reach": null,
+   "evidence": [
+    "commerce.adobe.io"
+   ],
+   "pattern": "inspect",
+   "disposition": "static-snapshot",
+   "target": null,
+   "reproducibility": "needs-human-capture",
+   "status": "pending",
+   "phase": "detect",
+   "decision": "inspect the XHR, add a vendor row"
+  },
+  {
+   "id": "a-unknown-third-party-host-catalog-service-adobe-io",
+   "class": "A",
+   "feature": "unknown third-party host catalog-service.adobe.io",
+   "pages": 1,
+   "probed": 4,
+   "reach": null,
+   "evidence": [
+    "catalog-service.adobe.io"
+   ],
+   "pattern": "inspect",
+   "disposition": "static-snapshot",
+   "target": null,
+   "reproducibility": "needs-human-capture",
+   "status": "pending",
+   "phase": "detect",
+   "decision": "inspect the XHR, add a vendor row"
+  },
+  {
+   "id": "a-first-party-api-post-appbazaarvoice-usertoken-getusertoken",
+   "class": "A",
+   "feature": "first-party API POST /appbazaarvoice/usertoken/getusertoken",
+   "pages": 1,
+   "probed": 4,
+   "reach": {
+    "pages": 2,
+    "of": 10
+   },
+   "evidence": [
+    "POST /appbazaarvoice/usertoken/getusertoken → 200"
+   ],
+   "pattern": "off-origin-data",
+   "disposition": "data-fed",
+   "target": "block",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "off-origin data",
+   "decision": "which tier for the target host; consumer on the migrated pages?",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "a-first-party-api-get-subscriptions-graceperiod-check",
+   "class": "A",
+   "feature": "first-party API GET /subscriptions/graceperiod/check",
+   "pages": 1,
+   "probed": 4,
+   "reach": {
+    "pages": 2,
+    "of": 10
+   },
+   "evidence": [
+    "GET /subscriptions/graceperiod/check?_,parent_product_id → 200"
+   ],
+   "pattern": "off-origin-data",
+   "disposition": "data-fed",
+   "target": "block",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "off-origin data",
+   "decision": "which tier for the target host; consumer on the migrated pages?",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "a-first-party-api-post-appbazaarvoice-customer-isloggedin",
+   "class": "A",
+   "feature": "first-party API POST /appbazaarvoice/customer/isloggedin",
+   "pages": 1,
+   "probed": 4,
+   "reach": {
+    "pages": 2,
+    "of": 10
+   },
+   "evidence": [
+    "POST /appbazaarvoice/customer/isloggedin → 200"
+   ],
+   "pattern": "off-origin-data",
+   "disposition": "data-fed",
+   "target": "block",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "off-origin data",
+   "decision": "which tier for the target host; consumer on the migrated pages?",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "a-first-party-api-get-customer-section-load",
+   "class": "A",
+   "feature": "first-party API GET /customer/section/load/",
+   "pages": 1,
+   "probed": 4,
+   "reach": {
+    "pages": 2,
+    "of": 10
+   },
+   "evidence": [
+    "GET /customer/section/load/?_,force_new_section_timestamp,sections → 200"
+   ],
+   "pattern": "off-origin-data",
+   "disposition": "data-fed",
+   "target": "block",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "off-origin data",
+   "decision": "which tier for the target host; consumer on the migrated pages?",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "cr-main-empty-at-load-filled-after-client-rendered-page",
+   "class": "CR",
+   "feature": "main empty at load, filled after (client-rendered page)",
+   "pages": 1,
+   "probed": 4,
+   "reach": null,
+   "evidence": [
+    "text at load 47 → settled 2700"
+   ],
+   "pattern": "client-rendered-page",
+   "disposition": "static-snapshot",
+   "target": "content",
+   "reproducibility": "needs-human-capture",
+   "status": "pending",
+   "phase": "capture",
+   "decision": "human-browser capture; never migrate blank"
+  },
+  {
+   "id": "cr-client-rendered-slot-gallery-placeholder",
+   "class": "CR",
+   "feature": "client-rendered slot gallery-placeholder",
+   "pages": 1,
+   "probed": 4,
+   "reach": null,
+   "evidence": [
+    ".fotorama1792529813286 .fotorama__nav--thumbs .fotorama__nav"
+   ],
+   "pattern": "settled-dom-snapshot",
+   "disposition": "static-snapshot",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "capture",
+   "decision": "inspect the consumer"
+  },
+  {
+   "id": "cr-client-rendered-slot-bv-content-placeholder",
+   "class": "CR",
+   "feature": "client-rendered slot bv-content-placeholder",
+   "pages": 1,
+   "probed": 4,
+   "reach": null,
+   "evidence": [
+    "Be the first to ask a question",
+    "★★★★★ No rating value"
+   ],
+   "pattern": "settled-dom-snapshot",
+   "disposition": "static-snapshot",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "capture",
+   "decision": "inspect the consumer"
+  },
+  {
+   "id": "d-first-party-data-file-get-static-version1789987689-fronten",
+   "class": "D",
+   "feature": "first-party data file GET /static/version1789987689/frontend/Aheadworks/marketplace/en_US/js-translation.json",
+   "pages": 4,
+   "probed": 4,
+   "reach": {
+    "pages": 10,
+    "of": 10
+   },
+   "evidence": [
+    "GET /static/version1789987689/frontend/Aheadworks/marketplace/en_US/js-translation.json → 200"
+   ],
+   "pattern": "sheet-sync",
+   "disposition": "data-fed",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "data",
+   "decision": "none (sync from the source origin)",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "f-form-login-form-no-action-js-wired-2-fields-tokens-captcha",
+   "class": "F",
+   "feature": "form \"login-form\" → no action (JS-wired) (2 fields, tokens: captcha_form_id)",
+   "pages": 4,
+   "probed": 4,
+   "reach": null,
+   "evidence": [
+    "email:username,password:password",
+    "captcha_form_id,context"
+   ],
+   "pattern": "forms",
+   "disposition": "rebuild-native",
+   "target": "block",
+   "reproducibility": "needs-backend",
+   "status": "pending",
+   "phase": "forms",
+   "decision": "production endpoint; interim capture ships now"
+  },
+  {
+   "id": "f-form-less-control-group-in-div-columns-19-controls",
+   "class": "F",
+   "feature": "form-less control group in div.columns (19 controls)",
+   "pages": 1,
+   "probed": 4,
+   "reach": null,
+   "evidence": [],
+   "pattern": "forms",
+   "disposition": "rebuild-native",
+   "target": "widget",
+   "reproducibility": "needs-backend",
+   "status": "pending",
+   "phase": "forms",
+   "decision": "production endpoint; interim capture ships now"
+  },
+  {
+   "id": "f-form-product-addtocart-form-origin-checkout-cart-add-uenc-",
+   "class": "F",
+   "feature": "form \"product_addtocart_form\" → origin /checkout/cart/add/uenc/aHR0cHM6Ly9jb21tZXJjZW1hcmtldHBsYWNlLmFkb2JlLmNvbS9hbWFzdHktbW9kdWxlLXByaWNlLWhpc3RvcnkuaHRtbA~~/product/623600/ (1 fields)",
+   "pages": 1,
+   "probed": 4,
+   "reach": null,
+   "evidence": [
+    "select:frequency_option",
+    "product,customer_compatibility,support,installation,form_key,frequency_profile,qty"
+   ],
+   "pattern": "forms",
+   "disposition": "rebuild-native",
+   "target": "block",
+   "reproducibility": "needs-backend",
+   "status": "pending",
+   "phase": "forms",
+   "decision": "production endpoint; interim capture ships now"
+  },
+  {
+   "id": "f-form-less-control-group-in-div-columns-2-controls",
+   "class": "F",
+   "feature": "form-less control group in div.columns (2 controls)",
+   "pages": 1,
+   "probed": 4,
+   "reach": null,
+   "evidence": [
+    "editions,compatible_with"
+   ],
+   "pattern": "forms",
+   "disposition": "rebuild-native",
+   "target": "widget",
+   "reproducibility": "needs-backend",
+   "status": "pending",
+   "phase": "forms",
+   "decision": "production endpoint; interim capture ships now"
+  },
+  {
+   "id": "l-listing-candidate-fotorama-col-6-6-cards",
+   "class": "L",
+   "feature": "listing candidate fotorama col-6 (6 cards)",
+   "pages": 1,
+   "probed": 4,
+   "reach": null,
+   "evidence": [],
+   "pattern": "listing-index-backed",
+   "disposition": "index-backed",
+   "target": "block",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "listings",
+   "decision": "index-driven or editorially curated?"
+  },
+  {
+   "id": "l-listing-candidate-category-children-9-cards",
+   "class": "L",
+   "feature": "listing candidate category-children (9 cards)",
+   "pages": 1,
+   "probed": 4,
+   "reach": null,
+   "evidence": [],
+   "pattern": "listing-index-backed",
+   "disposition": "index-backed",
+   "target": "block",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "listings",
+   "decision": "index-driven or editorially curated?"
+  },
+  {
+   "id": "l-listing-candidate-facet-items-price-ranges-7-cards",
+   "class": "L",
+   "feature": "listing candidate facet-items price-ranges (7 cards)",
+   "pages": 1,
+   "probed": 4,
+   "reach": null,
+   "evidence": [],
+   "pattern": "listing-index-backed",
+   "disposition": "index-backed",
+   "target": "block",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "listings",
+   "decision": "index-driven or editorially curated?"
+  },
+  {
+   "id": "l-listing-candidate-products-grid-products-36-cards",
+   "class": "L",
+   "feature": "listing candidate products-grid products (36 cards)",
+   "pages": 1,
+   "probed": 4,
+   "reach": null,
+   "evidence": [],
+   "pattern": "listing-index-backed",
+   "disposition": "index-backed",
+   "target": "block",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "listings",
+   "decision": "index-driven or editorially curated?"
+  },
+  {
+   "id": "l-listing-candidate-product-data-items-8-cards",
+   "class": "L",
+   "feature": "listing candidate product-data-items (8 cards)",
+   "pages": 1,
+   "probed": 4,
+   "reach": null,
+   "evidence": [],
+   "pattern": "listing-index-backed",
+   "disposition": "index-backed",
+   "target": "block",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "listings",
+   "decision": "index-driven or editorially curated?"
+  },
+  {
+   "id": "m-modal-trigger-aria-haspopup-chrome-only-button-content",
+   "class": "M",
+   "feature": "modal trigger aria-haspopup (chrome only) → button:content",
+   "pages": 3,
+   "probed": 4,
+   "reach": {
+    "pages": 11,
+    "of": 10
+   },
+   "evidence": [
+    "Filter Icon"
+   ],
+   "pattern": "chrome-interaction",
+   "disposition": "rebuild-native",
+   "target": "runtime",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "interactive",
+   "decision": "none (the header contract is the spec)"
+  },
+  {
+   "id": "m-modal-trigger-aria-haspopup-button-content",
+   "class": "M",
+   "feature": "modal trigger aria-haspopup → button:content",
+   "pages": 1,
+   "probed": 4,
+   "reach": {
+    "pages": 11,
+    "of": 10
+   },
+   "evidence": [
+    "▼ Rating Filter by Rating",
+    "Filter Icon"
+   ],
+   "pattern": "modal-loader",
+   "disposition": "rebuild-native",
+   "target": "runtime",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "interactive",
+   "decision": "none"
+  },
+  {
+   "id": "s-site-search-form-catalogsearch-result",
+   "class": "S",
+   "feature": "site search form → /catalogsearch/result/",
+   "pages": 4,
+   "probed": 4,
+   "reach": {
+    "pages": 10,
+    "of": 10
+   },
+   "evidence": [
+    "text:q"
+   ],
+   "pattern": "search-index-backed",
+   "disposition": "index-backed",
+   "target": "widget",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "search",
+   "decision": "none (corpus = the migrated pages; second corpora stay out)"
+  },
+  {
+   "id": "t-unknown-third-party-host-rum-hlx-page",
+   "class": "T",
+   "feature": "unknown third-party host rum.hlx.page",
+   "pages": 4,
+   "probed": 4,
+   "reach": null,
+   "evidence": [
+    "rum.hlx.page"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-social-proof-reviews-widget",
+   "class": "T",
+   "feature": "social proof: reviews widget",
+   "pages": 4,
+   "probed": 4,
+   "reach": null,
+   "evidence": [
+    "apps.bazaarvoice.com",
+    "network-a.bazaarvoice.com",
+    "display.ugc.bazaarvoice.com",
+    "api.bazaarvoice.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-consent-onetrust",
+   "class": "T",
+   "feature": "consent: OneTrust",
+   "pages": 4,
+   "probed": 4,
+   "reach": null,
+   "evidence": [
+    "cdn.cookielaw.org",
+    "geolocation.onetrust.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "CMP domain script reuse on the new host"
+  },
+  {
+   "id": "t-unknown-third-party-host-acds-events-adobe-io",
+   "class": "T",
+   "feature": "unknown third-party host acds-events.adobe.io",
+   "pages": 4,
+   "probed": 4,
+   "reach": null,
+   "evidence": [
+    "acds-events.adobe.io"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-tag-manager-google-tag-manager",
+   "class": "T",
+   "feature": "tag manager: Google Tag Manager",
+   "pages": 4,
+   "probed": 4,
+   "reach": null,
+   "evidence": [
+    "www.googletagmanager.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-analytics-adobe-analytics-experience-cloud-id",
+   "class": "T",
+   "feature": "analytics: Adobe Analytics / Experience Cloud ID",
+   "pages": 4,
+   "probed": 4,
+   "reach": null,
+   "evidence": [
+    "commerce.adobedc.net"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-analytics-google-analytics-ads",
+   "class": "T",
+   "feature": "analytics: Google Analytics / Ads",
+   "pages": 4,
+   "probed": 4,
+   "reach": null,
+   "evidence": [
+    "analytics.google.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-marketing-ad-retargeting-pixel",
+   "class": "T",
+   "feature": "marketing: ad / retargeting pixel",
+   "pages": 4,
+   "probed": 4,
+   "reach": null,
+   "evidence": [
+    "stats.g.doubleclick.net"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-rum-new-relic",
+   "class": "T",
+   "feature": "RUM: New Relic",
+   "pages": 4,
+   "probed": 4,
+   "reach": null,
+   "evidence": [
+    "js-agent.newrelic.com",
+    "bam.nr-data.net"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-recommendations-sdk-adobe-io",
+   "class": "T",
+   "feature": "unknown third-party host recommendations-sdk.adobe.io",
+   "pages": 3,
+   "probed": 4,
+   "reach": null,
+   "evidence": [
+    "recommendations-sdk.adobe.io"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-tag-manager-adobe-launch",
+   "class": "T",
+   "feature": "tag manager: Adobe Launch",
+   "pages": 3,
+   "probed": 4,
+   "reach": null,
+   "evidence": [
+    "commerce.adobedtm.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-third-party-mount-div-data-bind-tag-manager-injected-widge",
+   "class": "T",
+   "feature": "third-party mount <div data-bind> (tag-manager-injected widget)",
+   "pages": 1,
+   "probed": 4,
+   "reach": null,
+   "evidence": [
+    "data-bind data-banner-id data-types data-display-mode data-ids data-rotate"
+   ],
+   "pattern": "embed-passthrough",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-credential",
+   "status": "pending",
+   "phase": "embeds",
+   "decision": "vendor account ids stay the owner's"
+  },
+  {
+   "id": "t-third-party-mount-div-data-bv-show-tag-manager-injected-wi",
+   "class": "T",
+   "feature": "third-party mount <div data-bv-show> (tag-manager-injected widget)",
+   "pages": 1,
+   "probed": 4,
+   "reach": null,
+   "evidence": [
+    "data-bv-show data-bv-product-id data-bv-ready"
+   ],
+   "pattern": "embed-passthrough",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-credential",
+   "status": "pending",
+   "phase": "embeds",
+   "decision": "vendor account ids stay the owner's"
+  },
+  {
+   "id": "v-iframe-without-src-runtime-injected-embed",
+   "class": "V",
+   "feature": "iframe without src (runtime-injected embed)",
+   "pages": 4,
+   "probed": 4,
+   "reach": null,
+   "evidence": [
+    "onetrust-text-resize"
+   ],
+   "pattern": "embed-passthrough",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-human-capture",
+   "status": "pending",
+   "phase": "embeds",
+   "decision": "resolve the runtime src from a rendered capture"
+  },
+  {
+   "id": "x-commerce-platform",
+   "class": "X",
+   "feature": "commerce: platform",
+   "pages": 4,
+   "probed": 4,
+   "reach": null,
+   "evidence": [
+    "livesearch-metrics.magento-ds.com"
+   ],
+   "pattern": "decided-out",
+   "disposition": "decided-out",
+   "target": null,
+   "reproducibility": "needs-backend",
+   "status": "pending",
+   "phase": "register",
+   "decision": "auth / commerce on the new host?"
+  },
+  {
+   "id": "x-commerce-payments",
+   "class": "X",
+   "feature": "commerce: payments",
+   "pages": 4,
+   "probed": 4,
+   "reach": null,
+   "evidence": [
+    "js.braintreegateway.com"
+   ],
+   "pattern": "decided-out",
+   "disposition": "decided-out",
+   "target": null,
+   "reproducibility": "needs-backend",
+   "status": "pending",
+   "phase": "register",
+   "decision": "auth / commerce on the new host?"
+  },
+  {
+   "id": "x-sign-in-account-links",
+   "class": "X",
+   "feature": "sign-in / account links",
+   "pages": 4,
+   "probed": 4,
+   "reach": null,
+   "evidence": [
+    "https://commercemarketplace.adobe.com/customer/account/login/referer/aHR0cHM6Ly9jb21tZXJjZW1hcmtldHBsYWNlLmFkb2JlLmNvbS8~/_c_timestamp/17925297752081734989/",
+    "https://commercemarketplace.adobe.com/extensions/accounting-finance.html",
+    "https://commercemarketplace.adobe.com/customer/account/create/",
+    "https://commercemarketplace.adobe.com/customer/account/login/referer/aHR0cHM6Ly9jb21tZXJjZW1hcmtldHBsYWNlLmFkb2JlLmNvbS9leHRlbnNpb25zLmh0bWw~/_c_timestamp/17925297901209132765/"
+   ],
+   "pattern": "decided-out",
+   "disposition": "decided-out",
+   "target": null,
+   "reproducibility": "needs-backend",
+   "status": "pending",
+   "phase": "register",
+   "decision": "auth / commerce on the new host?"
+  },
+  {
+   "id": "x-commerce-signals-cart-true-prices-0",
+   "class": "X",
+   "feature": "commerce signals (cart: true, prices: 0)",
+   "pages": 2,
+   "probed": 4,
+   "reach": null,
+   "evidence": [],
+   "pattern": "decided-out",
+   "disposition": "decided-out",
+   "target": null,
+   "reproducibility": "needs-backend",
+   "status": "pending",
+   "phase": "register",
+   "decision": "auth / commerce on the new host?"
+  },
+  {
+   "id": "x-commerce-signals-cart-true-prices-41",
+   "class": "X",
+   "feature": "commerce signals (cart: true, prices: 41)",
+   "pages": 1,
+   "probed": 4,
+   "reach": null,
+   "evidence": [],
+   "pattern": "decided-out",
+   "disposition": "decided-out",
+   "target": null,
+   "reproducibility": "needs-backend",
+   "status": "pending",
+   "phase": "register",
+   "decision": "auth / commerce on the new host?"
+  },
+  {
+   "id": "x-commerce-signals-cart-true-prices-3",
+   "class": "X",
+   "feature": "commerce signals (cart: true, prices: 3)",
+   "pages": 1,
+   "probed": 4,
+   "reach": null,
+   "evidence": [],
+   "pattern": "decided-out",
+   "disposition": "decided-out",
+   "target": null,
+   "reproducibility": "needs-backend",
+   "status": "pending",
+   "phase": "register",
+   "decision": "auth / commerce on the new host?"
+  }
+ ]
+}

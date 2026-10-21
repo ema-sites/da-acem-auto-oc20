@@ -1,0 +1,154 @@
+/* breadcrumbs — canon.css (listing: top of the content root), static.css (CMS: inside the
+   column, under the title) and program.css (product: inside the column, above the headline) */
+
+/* ---------- canon (listing and any page without a template override) ---------- */
+main .breadcrumbs {
+  box-sizing: border-box;
+  min-height: 24px;
+  margin: 0 0 10px;
+  padding: 10px 0 0;
+}
+
+main .breadcrumbs ul,
+main .breadcrumbs ol {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: var(--c-crumb);
+  font-size: 14px;
+}
+
+main .breadcrumbs li {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+main .breadcrumbs li:not(:last-child)::after {
+  content: '>';
+  display: inline-block;
+  position: relative;
+  top: -1px;
+  margin: 0 10px;
+  overflow: hidden;
+  color: #333;
+  font-family: luma-icons, sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  vertical-align: top;
+  -webkit-font-smoothing: antialiased;
+}
+
+main .breadcrumbs a:any-link {
+  display: block;
+  color: var(--c-link);
+}
+
+main .breadcrumbs strong {
+  display: block;
+  color: var(--c-crumb);
+  font-weight: 400;
+}
+
+/* ---------- static (CMS) — static.css .page-static .column.main .breadcrumbs ---------- */
+body.static main .breadcrumbs {
+  margin: 0 0 25px;
+  padding: 0 30px 0 0;
+}
+
+body.static main .breadcrumbs ul,
+body.static main .breadcrumbs ol {
+  display: block;
+  color: var(--c-crumb);
+  font-size: 12px;
+  line-height: 1.4286;
+}
+
+body.static main .breadcrumbs li {
+  display: inline-block;
+  vertical-align: top;
+}
+
+body.static main .breadcrumbs li:not(:last-child)::after {
+  content: '\e608';
+  font-size: 10px;
+  font-weight: normal;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body.static main .breadcrumbs a:any-link,
+body.static main .breadcrumbs a:hover {
+  display: inline;
+  color: var(--c-crumb);
+}
+
+body.static main .breadcrumbs strong {
+  display: inline;
+}
+
+/* variant `cms-title` — a static page whose source title is the CMS body h2 under the trail
+   (no .page-title, e.g. /terms-and-conditions): the authored h1 (one per page) renders as
+   static.css .cms-content h2, in flow after the trail */
+body.static main .breadcrumbs-wrapper:has(.breadcrumbs.cms-title) + .default-content-wrapper h1 {
+  margin: 25px 0 20px;
+  color: var(--c-text);
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1.1;
+}
+
+/* luma .column.main { min-height: 300px } (border-box, 40px bottom padding) — binds on a short
+   CMS page only; main carries that padding here, so its content box takes the 260px */
+body.static main:has(.breadcrumbs.cms-title) {
+  min-height: 260px;
+}
+
+/* ---------- program (product) — program.css .page-product .page-main .breadcrumbs ---------- */
+body.program main .breadcrumbs {
+  max-width: 1200px;
+  height: 24px;
+  min-height: 0;
+  margin: 0 0 15px;
+  padding: 0 30px 0 0;
+  color: var(--c-text);
+  font-size: 14px;
+  line-height: 20px;
+}
+
+body.program main .breadcrumbs ul,
+body.program main .breadcrumbs ol {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+body.program main .breadcrumbs li:not(:last-child)::after {
+  content: '\e608';
+  top: 0;
+  color: #8e8e8e;
+  font-size: 10px;
+}
+
+body.program main .breadcrumbs a:any-link {
+  color: var(--c-link);
+  font-size: 12px;
+}
+
+body.program main .breadcrumbs strong {
+  color: #0469e3;
+  font-size: 11px;
+  font-weight: 400;
+}
+
+@media (width <= 991px) {
+  body.program main .breadcrumbs {
+    display: none;
+  }
+}
+
+@media (width <= 767px) {
+  main .breadcrumbs {
+    display: none;
+  }
+}

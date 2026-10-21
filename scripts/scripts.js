@@ -143,6 +143,29 @@ function decorateButtons(main) {
 }
 
 /**
+ * Mirrors the source page-title markup on default-content h1s:
+ * div.page-title-wrapper > h1.page-title > span.base. The authored h1 and its child
+ * nodes are MOVED, never rebuilt (EW1).
+ * @param {Element} main The main element
+ */
+function decoratePageTitle(main) {
+  main.querySelectorAll('.default-content-wrapper h1').forEach((h1) => {
+    if (h1.closest('.page-title-wrapper')) return;
+    const wrapper = document.createElement('div');
+    wrapper.className = 'page-title-wrapper';
+    h1.before(wrapper);
+    wrapper.append(h1);
+    h1.classList.add('page-title');
+    if (!h1.querySelector(':scope > span.base')) {
+      const base = document.createElement('span');
+      base.className = 'base';
+      base.append(...h1.childNodes);
+      h1.append(base);
+    }
+  });
+}
+
+/**
  * Decorates the main element.
  * @param {Element} main The main element
  */
@@ -152,6 +175,7 @@ export function decorateMain(main) {
   buildAutoBlocks(main);
   decorateSections(main);
   decorateBlocks(main);
+  decoratePageTitle(main);
   decorateButtons(main);
 }
 
@@ -160,6 +184,7 @@ export function decorateMain(main) {
  * @param {Element} doc The container element
  */
 async function loadEager(doc) {
+  import('./martech.js').then((m) => m.loadConsent());
   document.documentElement.lang = 'en';
   decorateTemplateAndTheme();
   const main = doc.querySelector('main');
@@ -204,6 +229,7 @@ async function loadLazy(doc) {
  * without impacting the user experience.
  */
 function loadDelayed() {
+  import('./martech.js').then((m) => m.loadTags());
   import('./consent-check.js');
   // load anything that can be postponed to the latest here
 }

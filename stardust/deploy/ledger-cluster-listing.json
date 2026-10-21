@@ -1,0 +1,38 @@
+{
+  "/extensions/featured-extensions": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-20T22:46:33.433Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/extensions/sales": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-20T22:46:38.177Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/themes/industry/apparel": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-20T22:46:45.900Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/themes": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-20T22:46:50.250Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  }
+}

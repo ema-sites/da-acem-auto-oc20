@@ -1,0 +1,1610 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-10-20T19:11:32.174Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "plumrocket-private-sales-flash-sales-html",
+  "url": "https://commercemarketplace.adobe.com/plumrocket-private-sales-flash-sales.html",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-10-20T19:11:32.174Z",
+  "finalUrl": "https://commercemarketplace.adobe.com/plumrocket-private-sales-flash-sales.html",
+  "title": "Private Sales Flash Sales",
+  "description": null,
+  "og": {
+    "title": "Private Sales Flash Sales",
+    "description": null,
+    "image": "https://commercemarketplace.adobe.com/media/catalog/product/8/e/8e4c_privatesalesflashsales.png?width=265&height=265&store=default&image-type=image&fit=bounds",
+    "type": "product"
+  },
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "Private Sales Flash Sales"
+    },
+    {
+      "tag": "h3",
+      "text": "Overview"
+    },
+    {
+      "tag": "h2",
+      "text": "Features:"
+    },
+    {
+      "tag": "h3",
+      "text": "Offer to Join a Private Sale & Create Exclusivity"
+    },
+    {
+      "tag": "h3",
+      "text": "Configure Different Access Restrictions for Private Events"
+    },
+    {
+      "tag": "h3",
+      "text": "Schedule Limited-Time Flash Sales"
+    },
+    {
+      "tag": "h3",
+      "text": "Attract Customers With Daily Deals & Sell More"
+    },
+    {
+      "tag": "h3",
+      "text": "Schedule Future Sales on Events Timeline"
+    },
+    {
+      "tag": "h3",
+      "text": "Set Event Discounts & Boost Sales"
+    },
+    {
+      "tag": "h3",
+      "text": "Use Event Statistics & Measure Success"
+    },
+    {
+      "tag": "h3",
+      "text": "Preview Future Events on any Date"
+    },
+    {
+      "tag": "h3",
+      "text": "Attract Visitors With Stunning Visuals"
+    },
+    {
+      "tag": "h3",
+      "text": "Use Homepages to Organize Events"
+    },
+    {
+      "tag": "h3",
+      "text": "Sell More with Countdown Timers"
+    },
+    {
+      "tag": "h3",
+      "text": "Generate Newsletter Event Templates in Few Clicks"
+    },
+    {
+      "tag": "h3",
+      "text": "Enjoy Compatibility with Custom & Third-Party Magento Themes"
+    },
+    {
+      "tag": "h2",
+      "text": "Plumrocket Support"
+    },
+    {
+      "tag": "h2",
+      "text": "Live Demo"
+    },
+    {
+      "tag": "h2",
+      "text": "Documentation"
+    },
+    {
+      "tag": "h3",
+      "text": "Technical Specifications"
+    },
+    {
+      "tag": "h3",
+      "text": "Seller profile"
+    },
+    {
+      "tag": "h3",
+      "text": "Seller contact"
+    },
+    {
+      "tag": "h3",
+      "text": "Current Version"
+    },
+    {
+      "tag": "h3",
+      "text": "Adobe Commerce platform compatibility"
+    },
+    {
+      "tag": "h3",
+      "text": "Type"
+    },
+    {
+      "tag": "h3",
+      "text": "Updated"
+    },
+    {
+      "tag": "h3",
+      "text": "Categories"
+    },
+    {
+      "tag": "h3",
+      "text": "Supported Browsers"
+    },
+    {
+      "tag": "h3",
+      "text": "Documentation"
+    },
+    {
+      "tag": "h3",
+      "text": "License Type"
+    },
+    {
+      "tag": "h3",
+      "text": "Policy"
+    },
+    {
+      "tag": "h3",
+      "text": "Quality Report"
+    },
+    {
+      "tag": "h3",
+      "text": "Installation & Varnish Tests"
+    },
+    {
+      "tag": "h3",
+      "text": "Coding Standard"
+    },
+    {
+      "tag": "h3",
+      "text": "Plagiarism Check"
+    },
+    {
+      "tag": "h3",
+      "text": "Malware Check"
+    },
+    {
+      "tag": "h3",
+      "text": "Marketing Review"
+    },
+    {
+      "tag": "h3",
+      "text": "Manual Testing"
+    },
+    {
+      "tag": "h3",
+      "text": "Release Notes"
+    },
+    {
+      "tag": "h3",
+      "text": "6.0.0:"
+    },
+    {
+      "tag": "h3",
+      "text": "5.1.16:"
+    },
+    {
+      "tag": "h3",
+      "text": "5.1.15:"
+    },
+    {
+      "tag": "h3",
+      "text": "5.1.14:"
+    },
+    {
+      "tag": "h3",
+      "text": "5.1.13:"
+    },
+    {
+      "tag": "h3",
+      "text": "5.1.11:"
+    },
+    {
+      "tag": "h3",
+      "text": "Support"
+    },
+    {
+      "tag": "h3",
+      "text": "Q & A"
+    },
+    {
+      "tag": "h3",
+      "text": "Reviews"
+    },
+    {
+      "tag": "h3",
+      "text": "Are you a developer? Become a Adobe Commerce Partner to add value to your extension or theme."
+    },
+    {
+      "tag": "h3",
+      "text": "Company"
+    },
+    {
+      "tag": "h3",
+      "text": "Merchants"
+    },
+    {
+      "tag": "h3",
+      "text": "Partners"
+    },
+    {
+      "tag": "h3",
+      "text": "Categories"
+    },
+    {
+      "tag": "h3",
+      "text": "Resources"
+    },
+    {
+      "tag": "h3",
+      "text": "Developer Resources"
+    },
+    {
+      "tag": "h3",
+      "text": "Get In Touch"
+    }
+  ],
+  "body": [
+    "Home",
+    "Private Sales Flash Sales",
+    "CONTENTS Trader Information Overview Technical Specifications Quality Report Release Notes Support Q & A Reviews",
+    "Overview",
+    "Technical Specifications",
+    "Quality Report",
+    "Release Notes",
+    "Support",
+    "Q & A",
+    "Reviews",
+    "Private Sales & Flash Sales module allows merchants to schedule Private Sale events on their store with member-only access. They can also run Flash Sales for a limited time. These types of promotion significantly increase your store’s conversion rate and account registrations. Moreover, Flash Sale events allow you to sell a large number of items in a short time, thus liquidating excess inventory.",
+    "Set an event countdown timer and give your customers an impression of urgency. Hence, prompt them to get a bargain before the time ends.",
+    "Maximize your sales and account registrations by running private events for members only. They generate excitement around private events, so clients are more willing to participate.",
+    "Organize your events on Homepages and inform customers about current, upcoming, and ending soon events in one place.",
+    "Take advantage of running private events in different ways:",
+    "Members Only Shopping: Transform your Magento store to a shopping club or create a membership website that requires users to sign up to access exclusive offers. A custom-looking Splash Page will help you hide special deals from public view and invite potential buyers to join with a sign-in or registration form.",
+    "Private Sale Events: Convert any categories or single products into Private Sale events for registered customers only. At the same time, allow all visitors to browse other categories and make purchases.",
+    "Catalog Event Widgets: Use Event Widgets to display and promote Private & Flash Sale events on a category page, homepage, and other pages on your Magento store.",
+    "When creating Private Events, you can configure default access permissions depending on a customer group and event status, or set them for each event individually:",
+    "Restrict selected customer groups from browsing events, viewing prices, and making purchases.",
+    "Configure different access permissions for ended, active, and future events.",
+    "Convert categories and single products to Magento Flash Sale events on your store. Schedule a flash sale and set a countdown timer for website products that automatically starts displaying the remaining time and disappears when the time is up. A countdown entices buyers to buy now and not to regret a missed deal later, which leads to a significant increase in revenue in a matter of days or even hours.",
+    "When a sale is over, you have several options on how to display products:",
+    "Keep selling them at full price.",
+    "Hide Add To Cart button, so customers cannot make a purchase. At the same time, allow them to browse products with prices hidden or displayed.",
+    "Hide products from or all visitors or some customer groups.",
+    "Create a Daily Deals category and set a countdown timer for each product separately. Similar to Flash Sales Events, Daily Deals help generate quick revenue and provide a positive shopping experience to your clients.",
+    "Use a visual event timeline and run your marketing campaign more effectively, as it displays all ended, active, and upcoming events in one place. Furthermore, an event grid allows you to filter events by their status, type, sales date, and more to build an overall picture.",
+    "The extension provides you with a handy event management interface, allowing you to set product discounts with lightning speed. Use mass actions and update a discount amount, flash sale price, and quantity limit, or change them for each product individually. What is more, there is no need to monitor the timing and cancel discounts manually, as they will be automatically disabled when an event ends.",
+    "Be always aware of events’ progress by monitoring their real-time statistics. Learn and analyze the total revenue, the number of placed orders, and new registrations within each event. Measuring success helps know your clients’ preferences and plan future events more effectively.",
+    "We have provided you with an event preview mode and made it easy to plan future Private and Flash Sale Events. Make sure your event will look the way you expect by previewing it live.",
+    "Choose a video over a picture for an event thumbnail to make events more aesthetically appealing, as well as more likely to be clicked and viewed. The extension allows you to automatically play the thumbnail video when moving a cursor over it.",
+    "Likewise, use a Splash Page Video to make an instant wow effect as soon as a customer comes to your website. Besides, you can configure a slideshow or a single image background for your Splash Page and enable it on special events and dates.",
+    "Make your Magento store well-organized and easy to navigate with event Homepages. Take advantage of new display types of categories in Magento 2 frontend that contain Flash Sales templates. Create one Flash Sale Homepage and group your events in one place. Otherwise, use several homepages (e.g., Men, Women, Gifts) to display events on separate relevant pages.",
+    "Place multiple timers throughout your Magento store and drive customers to stop delaying and start buying:",
+    "Use a total of 5 custom-looking header templates with countdown timers on category pages.",
+    "Count down the sale on every product to remind visitors of a limited time to get a deal.",
+    "Save time informing your clients about current or coming soon events: create your custom template and generate newsletters in no time. The extension also ensures the smooth operation of newsletter templates with any email marketing service.",
+    "The Private Sales & Flash Sales Extension for Magento 2 ensures seamless work on any custom and third-party Magento themes. Moreover, use the extension on Magento 2 Community and Enterprise editions and increase your store’s revenue.",
+    "All Plumrocket Extensions for Magento include free technical support within the first 3 month of product ownership for Magento Open Source Edition (CE) and 6 months of product ownership for Magento Commerce Edition (EE).You can contact our technical support on the contact us page.",
+    "Back-end Demo | Front-end Demo",
+    "Check out the Private Sales & Flash Sales documentation: learn how to install, update, and configure the extension, as well as discover other useful guides.",
+    "Plumrocket Inc",
+    "E-mail",
+    "6.0.0",
+    "Adobe Commerce (cloud): 2.4 (current)",
+    "Adobe Commerce (on-prem): 2.4 (current)",
+    "Magento Open Source: 2.4 (current)",
+    "Stable Build",
+    "04 August, 2026",
+    "Extensions, Content & Customizations, Site Search & Navigation",
+    "Chrome, Firefox, Opera, Safari, Edge, IE",
+    "Installation Guides",
+    "User Guides",
+    "Custom License",
+    "Privacy Policy",
+    "Passed",
+    "Passed",
+    "Passed",
+    "Passed",
+    "Passed",
+    "Passed",
+    "All tests were conducted on the latest versions of Adobe Commerce that existed for the compatible release lines at the moment of the extension submission. Latest versions of all other software were used, as applicable.",
+    "Compatible with Adobe Commerce (cloud) : 2.4",
+    "Compatible with Adobe Commerce (on-prem) : 2.4",
+    "Compatible with Magento Open Source : 2.4",
+    "Stability: Stable Build",
+    "Description: Private Sales & Flash Sales v6.0.0 for Magento 2 - Stable Version Change log: - Added website-level price scope support - Refactored event datetime handling to respect store timezone configuration, ensuring events activate at the correct local time * Fixed issue where customers could purchase flash sale products at discounted prices when global cart quantity exceeded the configured limit",
+    "Private Sales & Flash Sales v6.0.0 for Magento 2 - Stable Version Change log: - Added website-level price scope support - Refactored event datetime handling to respect store timezone configuration, ensuring events activate at the correct local time * Fixed issue where customers could purchase flash sale products at discounted prices when global cart quantity exceeded the configured limit",
+    "Compatible with Adobe Commerce (cloud) : 2.4",
+    "Compatible with Adobe Commerce (on-prem) : 2.4",
+    "Compatible with Magento Open Source : 2.4",
+    "Stability: Stable Build",
+    "Description: Private Sales & Flash Sales v5.1.16 for Magento 2 - Stable Version Change log: - Added support of Magento 2.4.9 version - Added compatibility with PHP 8.5",
+    "Private Sales & Flash Sales v5.1.16 for Magento 2 - Stable Version Change log: - Added support of Magento 2.4.9 version - Added compatibility with PHP 8.5",
+    "Compatible with Adobe Commerce (cloud) : 2.4",
+    "Compatible with Adobe Commerce (on-prem) : 2.4",
+    "Compatible with Magento Open Source : 2.4",
+    "Stability: Stable Build",
+    "Description: Private Sales & Flash Sales v5.1.15 for Magento 2 - Stable Version Change log: - Added support of Magento 2.4.8 version",
+    "Private Sales & Flash Sales v5.1.15 for Magento 2 - Stable Version Change log: - Added support of Magento 2.4.8 version",
+    "Compatible with Adobe Commerce (cloud) : 2.4",
+    "Compatible with Adobe Commerce (on-prem) : 2.4",
+    "Compatible with Magento Open Source : 2.4",
+    "Stability: Stable Build",
+    "Description: Private Sales & Flash Sales v5.1.14 for Magento 2 - Stable Version Change log: * Fixed an issue where the event's 'To Date' could be earlier than the 'From Date'",
+    "Private Sales & Flash Sales v5.1.14 for Magento 2 - Stable Version Change log: * Fixed an issue where the event's 'To Date' could be earlier than the 'From Date'",
+    "Compatible with Adobe Commerce (cloud) : 2.4",
+    "Compatible with Adobe Commerce (on-prem) : 2.4",
+    "Compatible with Magento Open Source : 2.4",
+    "Stability: Stable Build",
+    "Description: Private Sales & Flash Sales v5.1.13 for Magento 2 - Stable Version Change log: * Fixed translation issues for countdown timers",
+    "Private Sales & Flash Sales v5.1.13 for Magento 2 - Stable Version Change log: * Fixed translation issues for countdown timers",
+    "Compatible with Adobe Commerce (cloud) : 2.4",
+    "Compatible with Adobe Commerce (on-prem) : 2.4",
+    "Compatible with Magento Open Source : 2.4",
+    "Stability: Stable Build",
+    "Description: Private Sales & Flash Sales v5.1.11 for Magento 2 - Stable Version Change log: - Added support of Magento 2.4.7 * Fixed scheduled index update in single store mode",
+    "Private Sales & Flash Sales v5.1.11 for Magento 2 - Stable Version Change log: - Added support of Magento 2.4.7 * Fixed scheduled index update in single store mode",
+    "The best place to start if you need help with a specific extension is to contact the developer. All Adobe Commerce developers have both a contact email and a support email listed."
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Extensions",
+      "href": "https://commercemarketplace.adobe.com/extensions.html"
+    },
+    {
+      "label": "Themes",
+      "href": "https://commercemarketplace.adobe.com/themes.html"
+    },
+    {
+      "label": "Partners",
+      "href": "/partners"
+    },
+    {
+      "label": "Support",
+      "href": "https://developer.adobe.com/commerce/marketplace/guides/sellers/"
+    },
+    {
+      "label": "My Cart",
+      "href": "https://commercemarketplace.adobe.com/checkout/cart/"
+    },
+    {
+      "label": "Sign In",
+      "href": "https://commercemarketplace.adobe.com/customer/account/login/referer/aHR0cHM6Ly9jb21tZXJjZW1hcmtldHBsYWNlLmFkb2JlLmNvbS9wbHVtcm9ja2V0LXByaXZhdGUtc2FsZXMtZmxhc2gtc2FsZXMuaHRtbA~~/_c_timestamp/17925234791468879154/"
+    },
+    {
+      "label": "Home",
+      "href": "https://commercemarketplace.adobe.com/"
+    },
+    {
+      "label": "Plumrocket Inc",
+      "href": "https://commercemarketplace.adobe.com/partner/Plumrocket"
+    },
+    {
+      "label": "Add to cart",
+      "href": null
+    },
+    {
+      "label": "Contact Vendor",
+      "href": "mailto:support@plumrocket.com"
+    },
+    {
+      "label": "Overview",
+      "href": "#description"
+    },
+    {
+      "label": "Technical Specifications",
+      "href": "#product.info.details.tech_specs"
+    },
+    {
+      "label": "Quality Report",
+      "href": "#product.info.details.quality_report"
+    },
+    {
+      "label": "Release Notes",
+      "href": "#product.info.details.release_notes"
+    },
+    {
+      "label": "Support",
+      "href": "#product.info.details.support"
+    },
+    {
+      "label": "Q & A",
+      "href": "#bv_questions"
+    },
+    {
+      "label": "Reviews",
+      "href": "#bazaarvoice.reviews.tab"
+    },
+    {
+      "label": "Back to top",
+      "href": "#top"
+    },
+    {
+      "label": "Private Sales & Flash Sales",
+      "href": "https://plumrocket.com/magento-private-sales-flash-sales"
+    },
+    {
+      "label": "contact us",
+      "href": "http://plumrocket.com/contacts"
+    },
+    {
+      "label": "Back-end Demo",
+      "href": "http://demo2.plumrocket.net/marketplace/private-sales/?admin_panel"
+    },
+    {
+      "label": "Front-end Demo",
+      "href": "http://demo2.plumrocket.net/marketplace/private-sales/preview"
+    },
+    {
+      "label": "Private Sales & Flash Sales documentation",
+      "href": "https://plumrocket.com/docs/magento-private-sales-flash-sales/v5/marketplace"
+    },
+    {
+      "label": "Back to top",
+      "href": "#top"
+    },
+    {
+      "label": "Plumrocket Inc",
+      "href": "https://commercemarketplace.adobe.com/partner/Plumrocket"
+    },
+    {
+      "label": "E-mail",
+      "href": "mailto:support@plumrocket.com"
+    },
+    {
+      "label": "Installation Guides",
+      "href": "/media/catalog/product/plumrocket-private-sales-flash-sales-6-0-0-ece/installation_guides.pdf?1792523479"
+    },
+    {
+      "label": "User Guides",
+      "href": "/media/catalog/product/plumrocket-private-sales-flash-sales-6-0-0-ece/user_guides.pdf?1792523479"
+    },
+    {
+      "label": "Custom License",
+      "href": "https://plumrocket.com/terms-of-service#intellectual-property"
+    },
+    {
+      "label": "Privacy Policy",
+      "href": "https://plumrocket.com/privacy-policy"
+    },
+    {
+      "label": "Back to top",
+      "href": "#top"
+    },
+    {
+      "label": "Passed",
+      "href": "https://devdocs.magento.com/marketplace/sellers/installation-and-varnish-tests.html"
+    },
+    {
+      "label": "Passed",
+      "href": "https://devdocs.magento.com/marketplace/sellers/code-sniffer.html"
+    },
+    {
+      "label": "Passed",
+      "href": "https://devdocs.magento.com/marketplace/sellers/copy-paste-detector.html"
+    },
+    {
+      "label": "Passed",
+      "href": "https://devdocs.magento.com/marketplace/sellers/malware-scan.html"
+    },
+    {
+      "label": "Passed",
+      "href": "https://devdocs.magento.com/marketplace/sellers/submit-for-marketing-review.html"
+    },
+    {
+      "label": "Passed",
+      "href": "https://devdocs.magento.com/marketplace/sellers/technical-review-guidelines.html#quality-assurance-pass-manual-qa"
+    },
+    {
+      "label": "Back to top",
+      "href": "#top"
+    },
+    {
+      "label": "Back to top",
+      "href": "#top"
+    },
+    {
+      "label": "Contact Vendor",
+      "href": "mailto:support@plumrocket.com"
+    },
+    {
+      "label": "Back to top",
+      "href": "#top"
+    },
+    {
+      "label": "Be the first to ask a question",
+      "href": null
+    },
+    {
+      "label": "Back to top",
+      "href": "#top"
+    },
+    {
+      "label": "Become a Partner",
+      "href": "https://www.adobe.com/partners.html"
+    },
+    {
+      "label": "About Us",
+      "href": "https://magento.com/about"
+    },
+    {
+      "label": "Careers",
+      "href": "https://magento.com/careers"
+    },
+    {
+      "label": "Press",
+      "href": "https://magento.com/press-room"
+    },
+    {
+      "label": "Terms and Conditions",
+      "href": "https://commercemarketplace.adobe.com/terms-and-conditions/"
+    },
+    {
+      "label": "Security Updates",
+      "href": "https://magento.com/security"
+    },
+    {
+      "label": "Find a Partner",
+      "href": "https://magento.com/find-a-partner"
+    },
+    {
+      "label": "Become a Partner",
+      "href": "https://www.adobe.com/partners.html"
+    },
+    {
+      "label": "Certification",
+      "href": "https://u.magento.com/certification"
+    },
+    {
+      "label": "Training",
+      "href": "https://u.magento.com/developers"
+    },
+    {
+      "label": "Benefits U",
+      "href": "https://u.magento.com/"
+    },
+    {
+      "label": "Extensions",
+      "href": "https://commercemarketplace.adobe.com/extensions.html/"
+    },
+    {
+      "label": "Themes",
+      "href": "https://commercemarketplace.adobe.com/themes.html/"
+    },
+    {
+      "label": "Partners",
+      "href": "https://commercemarketplace.adobe.com/partners/"
+    },
+    {
+      "label": "Info Sheet",
+      "href": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/pdf/footer/Marketplace-Infosheet.pdf"
+    },
+    {
+      "label": "User Guides",
+      "href": "http://docs.magento.com/marketplace/user_guide/getting-started.html"
+    },
+    {
+      "label": "Technical Docs",
+      "href": "https://magento.com/resources/technical"
+    },
+    {
+      "label": "Developer Portal",
+      "href": "https://commercedeveloper.adobe.com/"
+    },
+    {
+      "label": "Dev Docs",
+      "href": "https://experienceleague.adobe.com/docs/commerce-admin/start/resources/commerce-marketplace.html"
+    },
+    {
+      "label": "API",
+      "href": "https://developer.adobe.com/commerce/marketplace/guides/eqp/v1/"
+    },
+    {
+      "label": "Community",
+      "href": "https://developer.adobe.com/open/magento"
+    },
+    {
+      "label": "Contact Us",
+      "href": "https://commercemarketplace.adobe.com/contact-us/"
+    },
+    {
+      "label": "Events",
+      "href": "https://magento.com/events"
+    },
+    {
+      "label": "Webinars",
+      "href": "https://magento.com/resources/webinars"
+    },
+    {
+      "label": "Privacy and Cookie Policy",
+      "href": "https://magento.com/legal/terms/marketplace"
+    },
+    {
+      "label": "Cookie preferences",
+      "href": "https://magento.com/sites/default/files/MAGENTO-MARKETPLACE-CUSTOMER-AGREEMENT-April-12-2019.pdf"
+    }
+  ],
+  "links": [
+    "https://commercemarketplace.adobe.com/",
+    "https://commercemarketplace.adobe.com/plumrocket-private-sales-flash-sales.html#store.menu",
+    "https://commercemarketplace.adobe.com/extensions.html",
+    "https://commercemarketplace.adobe.com/themes.html",
+    "https://commercemarketplace.adobe.com/partners",
+    "https://developer.adobe.com/commerce/marketplace/guides/sellers/",
+    "https://commercemarketplace.adobe.com/plumrocket-private-sales-flash-sales.html#store.links",
+    "https://commercemarketplace.adobe.com/customer/account/login/referer/aHR0cHM6Ly9jb21tZXJjZW1hcmtldHBsYWNlLmFkb2JlLmNvbS9wbHVtcm9ja2V0LXByaXZhdGUtc2FsZXMtZmxhc2gtc2FsZXMuaHRtbA~~/_c_timestamp/17925234791468879154/",
+    "https://commercemarketplace.adobe.com/checkout/cart/",
+    "https://commercemarketplace.adobe.com/customer/account/create/",
+    "https://commercemarketplace.adobe.com/customer/account/forgotpassword/",
+    "https://commercemarketplace.adobe.com/partner/Plumrocket",
+    "https://commercemarketplace.adobe.com/plumrocket-private-sales-flash-sales.html#gallery-next-area",
+    "https://commercemarketplace.adobe.com/plumrocket-private-sales-flash-sales.html#gallery-prev-area",
+    "mailto:support@plumrocket.com",
+    "https://commercemarketplace.adobe.com/plumrocket-private-sales-flash-sales.html#trader_information",
+    "https://commercemarketplace.adobe.com/plumrocket-private-sales-flash-sales.html#description",
+    "https://commercemarketplace.adobe.com/plumrocket-private-sales-flash-sales.html#product.info.details.tech_specs",
+    "https://commercemarketplace.adobe.com/plumrocket-private-sales-flash-sales.html#product.info.details.quality_report",
+    "https://commercemarketplace.adobe.com/plumrocket-private-sales-flash-sales.html#product.info.details.release_notes",
+    "https://commercemarketplace.adobe.com/plumrocket-private-sales-flash-sales.html#product.info.details.support",
+    "https://commercemarketplace.adobe.com/plumrocket-private-sales-flash-sales.html#bv_questions",
+    "https://commercemarketplace.adobe.com/plumrocket-private-sales-flash-sales.html#bazaarvoice.reviews.tab",
+    "https://commercemarketplace.adobe.com/plumrocket-private-sales-flash-sales.html#top",
+    "https://plumrocket.com/magento-private-sales-flash-sales",
+    "http://plumrocket.com/contacts",
+    "http://demo2.plumrocket.net/marketplace/private-sales/?admin_panel",
+    "http://demo2.plumrocket.net/marketplace/private-sales/preview",
+    "https://plumrocket.com/docs/magento-private-sales-flash-sales/v5/marketplace",
+    "https://commercemarketplace.adobe.com/plumrocket-private-sales-flash-sales.html?1792523479",
+    "https://commercemarketplace.adobe.com/media/catalog/product/plumrocket-private-sales-flash-sales-6-0-0-ece/installation_guides.pdf?1792523479",
+    "https://commercemarketplace.adobe.com/media/catalog/product/plumrocket-private-sales-flash-sales-6-0-0-ece/user_guides.pdf?1792523479",
+    "https://plumrocket.com/terms-of-service#intellectual-property",
+    "https://plumrocket.com/privacy-policy",
+    "https://devdocs.magento.com/marketplace/sellers/installation-and-varnish-tests.html",
+    "https://devdocs.magento.com/marketplace/sellers/code-sniffer.html",
+    "https://devdocs.magento.com/marketplace/sellers/copy-paste-detector.html",
+    "https://devdocs.magento.com/marketplace/sellers/malware-scan.html",
+    "https://devdocs.magento.com/marketplace/sellers/submit-for-marketing-review.html",
+    "https://devdocs.magento.com/marketplace/sellers/technical-review-guidelines.html#quality-assurance-pass-manual-qa",
+    "https://www.adobe.com/partners.html",
+    "https://magento.com/about",
+    "https://magento.com/careers",
+    "https://magento.com/press-room",
+    "https://commercemarketplace.adobe.com/terms-and-conditions/",
+    "https://magento.com/security",
+    "https://magento.com/find-a-partner",
+    "https://u.magento.com/certification",
+    "https://u.magento.com/developers",
+    "https://u.magento.com/",
+    "https://commercemarketplace.adobe.com/extensions.html/",
+    "https://commercemarketplace.adobe.com/themes.html/",
+    "https://commercemarketplace.adobe.com/partners/",
+    "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/pdf/footer/Marketplace-Infosheet.pdf",
+    "http://docs.magento.com/marketplace/user_guide/getting-started.html",
+    "https://magento.com/resources/technical",
+    "https://commercedeveloper.adobe.com/",
+    "https://experienceleague.adobe.com/docs/commerce-admin/start/resources/commerce-marketplace.html",
+    "https://developer.adobe.com/commerce/marketplace/guides/eqp/v1/",
+    "https://developer.adobe.com/open/magento",
+    "https://commercemarketplace.adobe.com/contact-us/",
+    "https://magento.com/events",
+    "https://magento.com/resources/webinars",
+    "https://www.facebook.com/magento",
+    "https://twitter.com/magento",
+    "https://www.linkedin.com/groups/146360/profile",
+    "https://magento.com/legal/terms/marketplace",
+    "https://magento.com/sites/default/files/MAGENTO-MARKETPLACE-CUSTOMER-AGREEMENT-April-12-2019.pdf",
+    "https://www.onetrust.com/solutions/consent-and-preferences/?utm_source=cmp&utm_medium=cmpbanner",
+    "javascript:void(0)"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/images/logo-header-adobe.svg",
+        "alt": "",
+        "w": 300,
+        "h": 78
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/media/catalog/product/p/r/privatesalesflashsales_8.png?width=62&height=62&store=default&image-type=thumbnail&fit=bounds",
+        "alt": "privatesalesflashsales.png",
+        "w": 62,
+        "h": 62
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/media/catalog/product/p/r/privatesalesflashsales_8.png?width=750&height=360&store=default&image-type=image&fit=bounds",
+        "alt": "main product photo",
+        "w": 240,
+        "h": 240
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/media/catalog/product/p/r/privatesalesflashsales_8.png?width=750&height=360&store=default&image-type=image&fit=bounds",
+        "alt": "privatesalesflashsales.png",
+        "w": 240,
+        "h": 240
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/media/catalog/product/m/a/magento-2-private-sales-flash-sales-extension-16_8.png?width=750&height=360&store=default&image-type=image&fit=bounds",
+        "alt": "magento-2-private-sales-flash-sales-extension-16.png",
+        "w": 573,
+        "h": 360
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/media/catalog/product/m/a/magento-2-private-sales-flash-sales-extension-1_2_8.png?width=750&height=360&store=default&image-type=image&fit=bounds",
+        "alt": "magento-2-private-sales-flash-sales-extension-1_2.png",
+        "w": 553,
+        "h": 360
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/media/catalog/product/p/r/privatesalesflashsales_8.png?width=142&height=80&store=default&image-type=thumbnail&fit=bounds",
+        "alt": "privatesalesflashsales.png",
+        "w": 80,
+        "h": 80
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/media/catalog/product/m/a/magento-2-private-sales-flash-sales-extension-1_2_8.png?width=142&height=80&store=default&image-type=thumbnail&fit=bounds",
+        "alt": "magento-2-private-sales-flash-sales-extension-1_2.png",
+        "w": 123,
+        "h": 80
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/media/catalog/product/m/a/magento-2-private-sales-flash-sales-extension-2_2_8.png?width=142&height=80&store=default&image-type=thumbnail&fit=bounds",
+        "alt": "magento-2-private-sales-flash-sales-extension-2_2.png",
+        "w": 123,
+        "h": 80
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/media/catalog/product/m/a/magento-2-private-sales-flash-sales-extension-3_2_8.png?width=142&height=80&store=default&image-type=thumbnail&fit=bounds",
+        "alt": "magento-2-private-sales-flash-sales-extension-3_2.png",
+        "w": 123,
+        "h": 80
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/media/catalog/product/m/a/magento-2-private-sales-flash-sales-extension-4_2_8.png?width=142&height=80&store=default&image-type=thumbnail&fit=bounds",
+        "alt": "magento-2-private-sales-flash-sales-extension-4_2.png",
+        "w": 123,
+        "h": 80
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/media/catalog/product/m/a/magento-2-private-sales-flash-sales-extension-5_2_8.png?width=142&height=80&store=default&image-type=thumbnail&fit=bounds",
+        "alt": "magento-2-private-sales-flash-sales-extension-5_2.png",
+        "w": 123,
+        "h": 80
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/media/catalog/product/m/a/magento-2-private-sales-flash-sales-extension-6_2_8.png?width=142&height=80&store=default&image-type=thumbnail&fit=bounds",
+        "alt": "magento-2-private-sales-flash-sales-extension-6_2.png",
+        "w": 123,
+        "h": 80
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/media/catalog/product/m/a/magento-2-private-sales-flash-sales-extension-7_2_8.png?width=142&height=80&store=default&image-type=thumbnail&fit=bounds",
+        "alt": "magento-2-private-sales-flash-sales-extension-7_2.png",
+        "w": 123,
+        "h": 80
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/media/catalog/product/m/a/magento-2-private-sales-flash-sales-extension-8_2_8.png?width=142&height=80&store=default&image-type=thumbnail&fit=bounds",
+        "alt": "magento-2-private-sales-flash-sales-extension-8_2.png",
+        "w": 123,
+        "h": 80
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/media/catalog/product/m/a/magento-2-private-sales-flash-sales-extension-9_2_8.png?width=142&height=80&store=default&image-type=thumbnail&fit=bounds",
+        "alt": "magento-2-private-sales-flash-sales-extension-9_2.png",
+        "w": 123,
+        "h": 80
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/media/catalog/product/m/a/magento-2-private-sales-flash-sales-extension-10_2_8.png?width=142&height=80&store=default&image-type=thumbnail&fit=bounds",
+        "alt": "magento-2-private-sales-flash-sales-extension-10_2.png",
+        "w": 123,
+        "h": 80
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/media/catalog/product/m/a/magento-2-private-sales-flash-sales-extension-11_8.png?width=142&height=80&store=default&image-type=thumbnail&fit=bounds",
+        "alt": "magento-2-private-sales-flash-sales-extension-11.png",
+        "w": 123,
+        "h": 80
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/media/catalog/product/m/a/magento-2-private-sales-flash-sales-extension-13_8.png?width=142&height=80&store=default&image-type=thumbnail&fit=bounds",
+        "alt": "magento-2-private-sales-flash-sales-extension-13.png",
+        "w": 123,
+        "h": 80
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/media/catalog/product/m/a/magento-2-private-sales-flash-sales-extension-14_8.png?width=142&height=80&store=default&image-type=thumbnail&fit=bounds",
+        "alt": "magento-2-private-sales-flash-sales-extension-14.png",
+        "w": 123,
+        "h": 80
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/media/catalog/product/m/a/magento-2-private-sales-flash-sales-extension-15_8.png?width=142&height=80&store=default&image-type=thumbnail&fit=bounds",
+        "alt": "magento-2-private-sales-flash-sales-extension-15.png",
+        "w": 123,
+        "h": 80
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/media/catalog/product/m/a/magento-2-private-sales-flash-sales-extension-16_8.png?width=142&height=80&store=default&image-type=thumbnail&fit=bounds",
+        "alt": "magento-2-private-sales-flash-sales-extension-16.png",
+        "w": 127,
+        "h": 80
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/images/logo-footer-adobe.svg",
+        "alt": "Adobe Commerce",
+        "w": 300,
+        "h": 78
+      },
+      {
+        "src": "https://cdn.cookielaw.org/logos/static/ot_company_logo.png",
+        "alt": "Company Logo",
+        "w": 2042,
+        "h": 280
+      },
+      {
+        "src": "https://cdn.cookielaw.org/logos/static/powered_by_logo.svg",
+        "alt": "Powered by Onetrust",
+        "w": 568,
+        "h": 53
+      },
+      {
+        "src": "https://cdn.cookielaw.org/logos/static/powered_by_logo.svg",
+        "alt": "Powered by Onetrust",
+        "w": 568,
+        "h": 53
+      }
+    ],
+    "allImgCount": 26,
+    "cssBackgrounds": [],
+    "modals": [
+      "My Cart Close You have no items in your shopping cart.",
+      "Cookie Settings Don’t enable Enable all Confirm my choices General information You are in control of your data. You can control how Adobe websites use cookies and similar technologies by making choices below. But note that if you disable cookies and similar technologies entirely, Adobe websites may not function properly. What are cookies and why does Adobe use them? Cookies are small text files stored by your web browser when you use websites. There are also other technologies that can be used for similar purposes like HTML5 Local Storage and local shared objects, web beacons, and embedded scripts. These technologies help us do things like remembering you and your preferences when you return to our sites, measure how you use the website, conduct market research, and gather information about the ads you see and interact with. How do I make choices? You can make choices in the menu below about what cookies and other technologies you want us to use on Adobe sites when you visit them from this browser. You can always change those choices later by clicking on the Cookie Preferences link at the bottom of the page. If enabled: We can improve your experience by tailoring the site and the content to things we think might be of interest We can better keep track of your preferences — like what language you prefer to use We will better understand your likely interests so we can provide you more relevant Adobe ads and content on non-Adobe websites and in non-Adobe apps It will help us improve the performance of our website and those of our partners who use the Adobe Experience Cloud If disabled: We won’t be able to remember you from session to session so the experience may not be tailored to your interests You’ll still have access to the content of the site but certain features that depend on cookies may not function You’ll still see ads, they just may not be as relevant to you General information You are in control of your data. You can control how Adobe websites use cookies and similar technologies by making choices below. But note that if you disable cookies and similar technologies entirely, Adobe websites may not function properly. What are cookies and why does Adobe use them? Cookies are small text files stored by your web browser when you use websites. There are also other technologies that can be used for similar purposes like HTML5 Local Storage, web beacons, and embedded scripts. These technologies help us do things like remembering you and your preferences when you return to our sites, measure how you use the website, conduct market research, and gather information about the ads you see and interact with. How do I make choices? You can make choices in the menu below about what cookies and other technologies you want us to use on Adobe sites when you visit them from this browser. You can always change those choices later by clicking on the Cookie Preferences link at the bottom of the page. If enabled: We can improve your experience by tailoring the site and the content to things we think might be of interest We can better keep track of your preferences — like what language you prefer to use We will better understand your likely interests so we can provide you more relevant Adobe ads and content on non-Adobe websites and in non-Adobe apps It will help us improve the performance of our website and those of our partners who use the Adobe Experience Cloud If disabled: We won’t be able to remember you from session to session so the experience may not be tailored to your interests We’ll still count your use of our site and services You’ll still have access to the content of the site but certain features that depend on cookies may not function You’ll still see ads, they just may not be as relevant to you .default-content { display: block; } .mau-content { display: none; } .mau-template-active .default-content { display: none; } .mau-template-active .mau-content { display: block; } .mau-template-active .default-title { display: none; } .mau-template-active .mau-title { display: inline !important; } .mau-template-active .default-description { display: none; } .mau-template-active .mau-description { display: block !important; } .ot-cookie-settings .cs-text::before { content: \"We’ve saved your settings\" } .ot-cookie-settings .cs-settings-text::before { content: \"Manage Cookie Settings\" } .always-active::after { content: \"First party cookies always active when the category is enabled\" } #onetrust-pc-sdk #select-all-container::before { /* FOR WEBKIT */ content: \"Host\" } #onetrust-pc-sdk #select-all-container::after { /* FOR WEBKIT */ content: \"Description\" } #onetrust-pc-sdk.ot-sdk-not-webkit #select-all-container::before { content: \"Host\" } #onetrust-pc-sdk.ot-sdk-not-webkit #select-all-container::after { content: \"Description\" } #onetrust-pc-sdk .accordion-text .ot-switch::before { content: \"Enable\" } #onetrust-pc-sdk .accordion-text .ot-switch { direction:ltr; } #onetrust-pc-sdk .accordion-text .ot-switch.checked::before { content: \"Enabled\" } #onetrust-pc-sdk #vendor-list-content [type=\"checkbox\"]:disabled + label::before { content: \"Always active\" } #vendors-list.strictly .always-active::after { content: \"Always active\" } Enable allOperate the site and core servicesOperate site and measure engagementAlways active Operate the site and core servicesOperate site and measure engagement These cookies are required, and they are used to enable the site and related services core functionality. Without them the site could not operate, so they cannot be disabled. These cookies enable the site and related services’ core functionality and collect statistics about user engagement, such as counting active use to help us understand trends. These cookies cannot be disabled. Cookie details‎Measure performance Measure performance These cookies are used to analyze site usage to measure and improve performance. Without them Adobe cannot know what content is most valued and how often unique visitors return to the site, making it hard to improve information we offer to you. These cookies are used to analyze site usage to measure and improve performance. Without them Adobe cannot know what content is most valued, making it hard to improve information we offer to you. Cookie details‎Extend functionality Extend functionalityThese cookies are used to enhance the functionality of Adobe sites such as remembering your settings and preferences to deliver a personalized experience; for example, your username, your repeated visits, preferred language, your country, or any other saved preference.Cookie details‎Personalize advertising Personalize advertisingThese cookies are used to enable Adobe and our partners to serve ads more relevant to your interests. Without them you will still see ads, but they might not be as relevant to you. Cookie details‎ Confirm my choicesBack ButtonBack Performance CookiesVendor Search Search Icon Filter IconClear Filters Information storage and accessApplyConsent Leg.InterestAll Consent Allowed Select All Vendors Select All Vendors All Consent Allowed Confirm my choices"
+    ],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {
+    "--ot-privacy-cta-color": "#3B63FB",
+    "--ot-privacy-cta-hover-color": "#274DEA",
+    "--ot-privacy-cta-ring-color": "#378EF0"
+  },
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 54,
+    "mainTextLen": 13527,
+    "realImageCount": 26,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "dynamic": {
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "commercemarketplace.adobe.com",
+        "path": "/static/version1789987689/frontend/Aheadworks/marketplace/en_US/js-translation.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 91,
+        "hits": 1,
+        "example": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/js-translation.json",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "commercemarketplace.adobe.com",
+        "path": "/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Ui/templates/modal/modal-popup.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "status": 200,
+        "bytes": 522,
+        "hits": 1,
+        "example": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Ui/templates/modal/modal-popup.html",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "commercemarketplace.adobe.com",
+        "path": "/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Ui/templates/modal/modal-custom.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "status": 200,
+        "bytes": 519,
+        "hits": 1,
+        "example": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Ui/templates/modal/modal-custom.html",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "commercemarketplace.adobe.com",
+        "path": "/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Ui/templates/modal/modal-slide.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "status": 200,
+        "bytes": 542,
+        "hits": 1,
+        "example": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Ui/templates/modal/modal-slide.html",
+        "sameSite": true
+      },
+      {
+        "method": "POST",
+        "host": "logx.optimizely.com",
+        "path": "/v1/events",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/plain",
+        "status": 204,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://logx.optimizely.com/v1/events",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/consent/{uuid}/{uuid}.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/consent/3f974ff3-d476-4b4f-bf22-af36e8c54e80/3f974ff3-d476-4b4f-bf22-af36e8c54e80.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "commercemarketplace.adobe.com",
+        "path": "/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Ui/templates/tooltip/tooltip.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "status": 200,
+        "bytes": 197,
+        "hits": 1,
+        "example": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Ui/templates/tooltip/tooltip.html",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "geolocation.onetrust.com",
+        "path": "/cookieconsentpub/v1/geo/location",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "commercemarketplace.adobe.com",
+        "path": "/appbazaarvoice/usertoken/getusertoken",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 36,
+        "hits": 1,
+        "example": "https://commercemarketplace.adobe.com/appbazaarvoice/usertoken/getusertoken",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/consent/{uuid}/{uuid}/en.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/consent/3f974ff3-d476-4b4f-bf22-af36e8c54e80/019caf6e-4366-72a5-961b-00e18d133360/en.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "commercemarketplace.adobe.com",
+        "path": "/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Theme/templates/breadcrumbs.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "status": 200,
+        "bytes": 201,
+        "hits": 1,
+        "example": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Theme/templates/breadcrumbs.html",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "commercemarketplace.adobe.com",
+        "path": "/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Ui/templates/block-loader.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "status": 200,
+        "bytes": 149,
+        "hits": 1,
+        "example": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Ui/templates/block-loader.html",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "commercemarketplace.adobe.com",
+        "path": "/subscriptions/graceperiod/check",
+        "query": [
+          "_",
+          "parent_product_id"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 43,
+        "hits": 1,
+        "example": "https://commercemarketplace.adobe.com/subscriptions/graceperiod/check",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202501.1.0/assets/otFlat.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 3001,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202501.1.0/assets/otFlat.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202501.1.0/assets/otPcCenter.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 15013,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202501.1.0/assets/otPcCenter.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202501.1.0/assets/otCommonStyles.css",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/css",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202501.1.0/assets/otCommonStyles.css",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "commercemarketplace.adobe.com",
+        "path": "/static/version1789987689/frontend/Aheadworks/marketplace/en_US/mage/gallery/gallery.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "status": 200,
+        "bytes": 461,
+        "hits": 1,
+        "example": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/mage/gallery/gallery.html",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "commercemarketplace.adobe.com",
+        "path": "/banner/ajax/load/",
+        "query": [
+          "_",
+          "data[product_id]",
+          "requesting_page_url",
+          "sections"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://commercemarketplace.adobe.com/banner/ajax/load/",
+        "sameSite": true
+      },
+      {
+        "method": "POST",
+        "host": "commerce.adobe.io",
+        "path": "/recs/v1/precs/preconfigured",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://commerce.adobe.io/recs/v1/precs/preconfigured",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "commercemarketplace.adobe.com",
+        "path": "/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_ProductRecommendationsLayout/template/recommendations.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "status": 200,
+        "bytes": 1040,
+        "hits": 1,
+        "example": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_ProductRecommendationsLayout/template/recommendations.html",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "commercemarketplace.adobe.com",
+        "path": "/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Checkout/template/minicart/content.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "status": 200,
+        "bytes": 1053,
+        "hits": 1,
+        "example": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Checkout/template/minicart/content.html",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "commercemarketplace.adobe.com",
+        "path": "/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Customer/template/authentication-popup.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "status": 200,
+        "bytes": 942,
+        "hits": 1,
+        "example": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Customer/template/authentication-popup.html",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "commercemarketplace.adobe.com",
+        "path": "/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Ui/templates/collection.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "status": 200,
+        "bytes": 121,
+        "hits": 1,
+        "example": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Ui/templates/collection.html",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "commercemarketplace.adobe.com",
+        "path": "/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Ui/template/messages.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "status": 200,
+        "bytes": 251,
+        "hits": 1,
+        "example": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Ui/template/messages.html",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "commercemarketplace.adobe.com",
+        "path": "/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Pitbulk_SAML2/template/checkout/samllogin.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "status": 200,
+        "bytes": 284,
+        "hits": 1,
+        "example": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Pitbulk_SAML2/template/checkout/samllogin.html",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "commercemarketplace.adobe.com",
+        "path": "/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Captcha/template/checkout/captcha.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "status": 200,
+        "bytes": 550,
+        "hits": 1,
+        "example": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Captcha/template/checkout/captcha.html",
+        "sameSite": true
+      },
+      {
+        "method": "POST",
+        "host": "bam.nr-data.net",
+        "path": "/{n}/NRJS-d0edda730f7343596cf",
+        "query": [
+          "a",
+          "af",
+          "ap",
+          "at",
+          "be",
+          "dc",
+          "fcp",
+          "fe",
+          "fp",
+          "perf",
+          "ptid",
+          "ref",
+          "rst",
+          "s",
+          "to",
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://bam.nr-data.net/1/NRJS-d0edda730f7343596cf",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "commercemarketplace.adobe.com",
+        "path": "/appbazaarvoice/customer/isloggedin",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 16,
+        "hits": 1,
+        "example": "https://commercemarketplace.adobe.com/appbazaarvoice/customer/isloggedin",
+        "sameSite": true
+      },
+      {
+        "method": "POST",
+        "host": "bam.nr-data.net",
+        "path": "/ins/{n}/NRJS-d0edda730f7343596cf",
+        "query": [
+          "a",
+          "at",
+          "ptid",
+          "ref",
+          "rst",
+          "s",
+          "to",
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 204,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://bam.nr-data.net/ins/1/NRJS-d0edda730f7343596cf",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "bam.nr-data.net",
+        "path": "/events/{n}/NRJS-d0edda730f7343596cf",
+        "query": [
+          "a",
+          "ptid",
+          "ref",
+          "rst",
+          "s",
+          "to",
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": "image/gif",
+        "status": 200,
+        "bytes": 24,
+        "hits": 2,
+        "example": "https://bam.nr-data.net/events/1/NRJS-d0edda730f7343596cf",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "bam.nr-data.net",
+        "path": "/jserrors/{n}/NRJS-d0edda730f7343596cf",
+        "query": [
+          "a",
+          "ptid",
+          "ref",
+          "rst",
+          "s",
+          "to",
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": "image/gif",
+        "status": 200,
+        "bytes": 24,
+        "hits": 1,
+        "example": "https://bam.nr-data.net/jserrors/1/NRJS-d0edda730f7343596cf",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "commercemarketplace.adobe.com",
+        "path": "/customer/section/load/",
+        "query": [
+          "_",
+          "force_new_section_timestamp",
+          "sections"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 49,
+        "hits": 1,
+        "example": "https://commercemarketplace.adobe.com/customer/section/load/",
+        "sameSite": true
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "apps.bazaarvoice.com",
+        "count": 8
+      },
+      {
+        "host": "unpkg.com",
+        "count": 4
+      },
+      {
+        "host": "display.ugc.bazaarvoice.com",
+        "count": 4
+      },
+      {
+        "host": "cdn.cookielaw.org",
+        "count": 2
+      },
+      {
+        "host": "api.bazaarvoice.com",
+        "count": 2
+      },
+      {
+        "host": "js.braintreegateway.com",
+        "count": 2
+      },
+      {
+        "host": "rum.hlx.page",
+        "count": 1
+      },
+      {
+        "host": "cdn.optimizely.com",
+        "count": 1
+      },
+      {
+        "host": "livesearch-metrics.magento-ds.com",
+        "count": 1
+      },
+      {
+        "host": "acds-events.adobe.io",
+        "count": 1
+      },
+      {
+        "host": "commerce.adobedtm.com",
+        "count": 1
+      },
+      {
+        "host": "recommendations-sdk.adobe.io",
+        "count": 1
+      },
+      {
+        "host": "www.googletagmanager.com",
+        "count": 1
+      },
+      {
+        "host": "js-agent.newrelic.com",
+        "count": 1
+      }
+    ],
+    "truncated": false,
+    "inlineData": [],
+    "globalState": [
+      "dataLayer"
+    ],
+    "frameworkHints": [],
+    "forms": [
+      {
+        "action": "https://commercemarketplace.adobe.com/catalogsearch/result/",
+        "hasAction": true,
+        "method": "get",
+        "sameOrigin": true,
+        "fieldCount": 1,
+        "fieldNames": [
+          "q"
+        ],
+        "search": true
+      },
+      {
+        "action": "https://commercemarketplace.adobe.com/checkout/cart/add/uenc/aHR0cHM6Ly9jb21tZXJjZW1hcmtldHBsYWNlLmFkb2JlLmNvbS9wbHVtcm9ja2V0LXByaXZhdGUtc2FsZXMtZmxhc2gtc2FsZXMuaHRtbA~~/product/813523/",
+        "hasAction": true,
+        "method": "post",
+        "sameOrigin": true,
+        "fieldCount": 1,
+        "fieldNames": [
+          "frequency_option"
+        ],
+        "search": false
+      }
+    ],
+    "ariaLiveRegions": 1,
+    "triggers": [
+      {
+        "marker": "aria-haspopup",
+        "href": null
+      },
+      {
+        "marker": "aria-haspopup",
+        "href": null
+      }
+    ],
+    "mediaIds": [],
+    "summary": {
+      "sameSiteEndpoints": 20,
+      "thirdPartyEndpoints": 12,
+      "thirdPartyScriptHosts": 14,
+      "inlineDataBlobs": 0,
+      "forms": 2,
+      "searchForms": 1,
+      "hydrated": false
+    }
+  },
+  "screenshot": "assets/screenshots/plumrocket-private-sales-flash-sales-html.png",
+  "renderedHtml": "pages/plumrocket-private-sales-flash-sales-html.html",
+  "slots": {
+    "pageType": "program",
+    "_provenance": {
+      "writtenBy": "stardust:extract --prep",
+      "writtenAt": "2026-10-20T19:50:00Z",
+      "basis": "prep-mode.md § 4; values are captured strings from this record and pages/plumrocket-private-sales-flash-sales-html.html"
+    },
+    "program-headline": {
+      "selector": ".page-title-wrapper.product h1.page-title",
+      "module": "candidate-page-title",
+      "text": "Private Sales Flash Sales",
+      "vendor": "Plumrocket Inc",
+      "vendorSelector": ".by-company",
+      "vendorLine": "by Plumrocket Inc"
+    },
+    "breadcrumbs": {
+      "selector": ".breadcrumbs ul.items",
+      "module": "candidate-breadcrumbs",
+      "items": [
+        "Home",
+        "Private Sales Flash Sales"
+      ]
+    },
+    "summary": {
+      "selector": "#description .product.attribute.description .value",
+      "text": "Private Sales & Flash Sales module allows merchants to schedule Private Sale events on their store with member-only access. They can also run Flash Sales for a limited time. These types of promotion significantly increase your store’s conversion rate and account registrations. Moreover, Flash Sale events allow you to sell a large number of items in a short time, thus liquidating excess inventory."
+    },
+    "gallery": {
+      "selector": ".product.media .fotorama-item",
+      "module": "candidate-product-gallery",
+      "images": [
+        "https://commercemarketplace.adobe.com/media/catalog/product/p/r/privatesalesflashsales_8.png?width=750&amp;height=360&amp;store=default&amp;image-type=image&amp;fit=bounds",
+        "https://commercemarketplace.adobe.com/media/catalog/product/m/a/magento-2-private-sales-flash-sales-extension-16_8.png?width=750&amp;height=360&amp;store=default&amp;image-type=image&amp;fit=bounds",
+        "https://commercemarketplace.adobe.com/media/catalog/product/m/a/magento-2-private-sales-flash-sales-extension-1_2_8.png?width=750&amp;height=360&amp;store=default&amp;image-type=image&amp;fit=bounds"
+      ],
+      "imageCount": 16
+    },
+    "feature-grid": {
+      "selector": "#description .product.attribute.description",
+      "heading": "Features:",
+      "items": [
+        "Offer to Join a Private Sale & Create Exclusivity",
+        "Configure Different Access Restrictions for Private Events",
+        "Schedule Limited-Time Flash Sales",
+        "Attract Customers With Daily Deals & Sell More",
+        "Schedule Future Sales on Events Timeline",
+        "Set Event Discounts & Boost Sales",
+        "Use Event Statistics & Measure Success",
+        "Preview Future Events on any Date",
+        "Attract Visitors With Stunning Visuals",
+        "Use Homepages to Organize Events",
+        "Sell More with Countdown Timers",
+        "Generate Newsletter Event Templates in Few Clicks",
+        "Enjoy Compatibility with Custom & Third-Party Magento Themes"
+      ]
+    },
+    "cta-band": {
+      "selector": ".product-info-main",
+      "module": "candidate-product-purchase-panel",
+      "edition": [
+        "Adobe Commerce (cloud)",
+        "Adobe Commerce (on-prem)",
+        "Magento Open Source"
+      ],
+      "storeVersion": "2.4 (Adobe Commerce (cloud))",
+      "installationService": "$118.00",
+      "gracePeriodNote": "You are eligible for a 180-day grace period for this extension.",
+      "priceFirstYear": "$499.00 / year",
+      "priceThen": "$249.00 / year",
+      "totalDueToday": "$499.00",
+      "primaryCta": {
+        "label": "Add to cart",
+        "selector": "#product-addtocart-button"
+      },
+      "secondaryCta": {
+        "label": "Contact Vendor"
+      }
+    },
+    "contents-nav": {
+      "selector": "nav.product-page-left-navigation",
+      "module": "candidate-product-contents-nav",
+      "label": "CONTENTS",
+      "items": [
+        "Trader Information",
+        "Overview",
+        "Technical Specifications",
+        "Quality Report",
+        "Release Notes",
+        "Support",
+        "Q & A",
+        "Reviews"
+      ]
+    },
+    "detail-sections": {
+      "selector": ".product.info.detailed .product-data-items",
+      "module": "candidate-product-detail-sections",
+      "sections": [
+        "#trader_information",
+        "#description",
+        "#product.info.details.tech_specs",
+        "#product.info.details.quality_report",
+        "#product.info.details.release_notes",
+        "#product.info.details.support",
+        "#bv_questions",
+        "#bazaarvoice.reviews.tab"
+      ],
+      "headings": [
+        "Technical Specifications",
+        "Quality Report",
+        "Release Notes",
+        "Support",
+        "Q & A",
+        "Reviews"
+      ],
+      "qualityReport": [
+        "Installation & Varnish Tests",
+        "Coding Standard",
+        "Plagiarism Check",
+        "Malware Check",
+        "Marketing Review",
+        "Manual Testing"
+      ],
+      "releaseNotes": [
+        "6.0.0:",
+        "5.1.16:",
+        "5.1.15:",
+        "5.1.14:",
+        "5.1.13:",
+        "5.1.11:"
+      ],
+      "embeds": [
+        "Bazaarvoice Q&A (#BVQAContainer)",
+        "Bazaarvoice reviews"
+      ]
+    },
+    "pre-footer-band": {
+      "selector": "footer.page-footer .become-partner",
+      "module": "candidate-become-partner-band",
+      "text": "Are you a developer? Become a Adobe Commerce Partner to add value to your extension or theme.",
+      "cta": "Become a Partner"
+    }
+  }
+}

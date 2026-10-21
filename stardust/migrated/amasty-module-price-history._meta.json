@@ -1,0 +1,133 @@
+{
+  "slug": "amasty-module-price-history-html",
+  "type": "program",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "breadcrumbs",
+    "product-gallery",
+    "product-purchase-panel",
+    "product-contents-nav",
+    "product-detail-sections"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "a",
+    "columns"
+  ],
+  "canonShas": {
+    "header": "dc66710c7f53",
+    "footer": "131812af0bf2",
+    "css": "e91213fb9ae3"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Omnibus Price Tracker",
+    "description": null,
+    "canonical": "https://commercemarketplace.adobe.com/amasty-module-price-history.html",
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Omnibus Price Tracker",
+    "url": "https://commercemarketplace.adobe.com/amasty-module-price-history.html"
+  },
+  "migratedAt": "2026-10-20T20:55:15Z",
+  "designMdSha": "669d9fbdeef2",
+  "designJsonSha": "027c799c1e88",
+  "sourceCurrentSha": "3b0d14891122",
+  "sourceProposedSha": "c4d38f750974",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [],
+  "gateEvidence": {},
+  "contentDeviations": [],
+  "assetsBundled": 11,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "https://commercemarketplace.adobe.com/themes.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/partners",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/customer/account/login/referer/aHR0cHM6Ly9jb21tZXJjZW1hcmtldHBsYWNlLmFkb2JlLmNvbS9hbWFzdHktbW9kdWxlLXByaWNlLWhpc3RvcnkuaHRtbA~~/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/checkout/cart/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/customer/account/login/referer/aHR0cHM6Ly9jb21tZXJjZW1hcmtldHBsYWNlLmFkb2JlLmNvbS9hbWFzdHktbW9kdWxlLXByaWNlLWhpc3RvcnkuaHRtbA~~/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/customer/account/create/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/customer/account/forgotpassword/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/partner/Amasty",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/media/catalog/product/o/m/omnibus-price-tracker-icon-for-marketplace_2.png?width=750&height=360&store=default&image-type=image&fit=bounds",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/media/catalog/product/o/m/omnibus-price-tracker-7-market_2.png?width=750&height=360&store=default&image-type=image&fit=bounds",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/media/catalog/product/o/m/omnibus-price-tracker-intro-hyva_2.png?width=750&height=360&store=default&image-type=image&fit=bounds",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/partner/Amasty",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/media/catalog/product/amasty-module-price-history-1-4-0-ece/installation_guides.pdf?1792523476",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/media/catalog/product/amasty-module-price-history-1-4-0-ece/user_guides.pdf?1792523476",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/terms-and-conditions/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/themes.html/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/partners/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/pdf/footer/Marketplace-Infosheet.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/contact-us/",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "amasty-module-price-history.html",
+  "outputPathDefault": null,
+  "sidecar": "amasty-module-price-history._meta.json",
+  "driverVersion": "1"
+}

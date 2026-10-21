@@ -1,0 +1,10 @@
+# D-site: source .html paths -> delivered EDS paths (root / is delivered as /index; no / row)
+/extensions.html	/extensions
+/themes.html	/themes
+/amasty-module-price-history.html	/amasty-module-price-history
+/plumrocket-private-sales-flash-sales.html	/plumrocket-private-sales-flash-sales
+/extensions/featured-extensions.html	/extensions/featured-extensions
+/extensions/sales.html	/extensions/sales
+/themes/industry/apparel.html	/themes/industry/apparel
+/privacy-policy-cookie-restriction-mode/	/privacy-policy-cookie-restriction-mode
+/terms-and-conditions/	/terms-and-conditions

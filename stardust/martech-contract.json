@@ -1,0 +1,74 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics plan",
+  "writtenAt": "2026-10-20T20:57:25.220Z",
+  "input": "stardust/current/_dynamics.json",
+  "martech": "stardust/martech"
+ },
+ "productionHosts": [
+  "commercemarketplace.adobe.com"
+ ],
+ "consent": {
+  "cmp": {
+   "vendor": "OneTrust",
+   "src": "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+   "attrs": {
+    "data-domain-script": "3f974ff3-d476-4b4f-bf22-af36e8c54e80"
+   },
+   "groups": "OnetrustActiveGroups",
+   "event": "OneTrustGroupsUpdated",
+   "viaTagManager": false,
+   "enabled": false
+  },
+  "model": "owner-decision",
+  "categories": [
+   {
+    "id": "C0001",
+    "name": "<span class=\"default-title\" style=\"font-weight: bold;\">Operate the site and core services</span><span class=\"mau-title\" style=\"display: none; font-weight: bold;\">Operate site and measure engagement</span>",
+    "status": "always active"
+   },
+   {
+    "id": "C0002",
+    "name": "Measure performance",
+    "status": "inactive"
+   },
+   {
+    "id": "C0003",
+    "name": "Extend functionality",
+    "status": "inactive"
+   },
+   {
+    "id": "C0004",
+    "name": "Personalize advertising",
+    "status": "inactive"
+   },
+   {
+    "id": "C0005",
+    "name": "Social Media cookies",
+    "status": "inactive"
+   }
+  ],
+  "ruleSets": 3,
+  "consentMode": null
+ },
+ "routes": [],
+ "otherTags": [
+  "social proof: reviews widget",
+  "experimentation: A/B / personalisation"
+ ],
+ "tagManagers": [],
+ "dataLayers": [
+  "adobeDataLayer",
+  "dataLayer"
+ ],
+ "tagNotes": {},
+ "rewrite": {
+  "library": null,
+  "rules": [],
+  "dataElements": [],
+  "dataLayer": [],
+  "dataLayerPaths": []
+ },
+ "aemMartech": null,
+ "target": null
+}

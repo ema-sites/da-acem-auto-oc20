@@ -1,0 +1,275 @@
+/* product-detail-sections — program.css § detail sections (styles-m .product.info.detailed)
+   + § Bazaarvoice captured state; values exact */
+
+@media (width >= 992px) {
+  main > .section.product-contents-nav-container > .product-detail-sections-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 82%;
+    margin-bottom: 30px;
+  }
+}
+
+.product-detail-sections [hidden] {
+  display: none !important;
+}
+
+.product-detail-sections .detail-items {
+  padding-left: 27px;
+}
+
+.product-detail-sections .box-head {
+  position: relative;
+  margin: 2px 2px 0;
+  padding: 20px 24px 0 17px;
+  background: transparent;
+  color: #000;
+  scroll-margin-top: 140px;
+}
+
+.product-detail-sections .detail-item-empty .box-head {
+  display: none;
+}
+
+.product-detail-sections .box-head h3 {
+  margin: 0;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #aeafb1;
+  color: #000;
+  font-family: var(--font-medium);
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.1;
+}
+
+.product-detail-sections .box-back-top {
+  display: block;
+  position: absolute;
+  top: 35px;
+  right: 24px;
+  color: #0469e3;
+  font-family: var(--font-bold);
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.4286;
+}
+
+.product-detail-sections .box {
+  display: flow-root;
+  margin: 0;
+  padding: 20px 20px 0;
+  color: #202021;
+  font-size: 16px;
+  line-height: 1.75;
+}
+
+.product-detail-sections .box p {
+  margin: 0 0 10px;
+}
+
+.product-detail-sections .box h2 {
+  margin: 0 0 25px;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1.1;
+}
+
+.product-detail-sections .box h3 {
+  margin: 0 0 25px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.1;
+}
+
+.product-detail-sections .box ul {
+  margin: 0 0 25px;
+  padding: 0 0 0 40px;
+  list-style: disc;
+}
+
+.product-detail-sections .box li {
+  margin: 0 0 10px;
+}
+
+/* the pipeline delivers loose list items as li > p; the source's li text carries no margin */
+.product-detail-sections .box li > p {
+  margin: 0;
+}
+
+/* the source's trailing support link is a bare inline link, not a paragraph */
+.product-detail-sections .box > p:last-child {
+  margin-bottom: 0;
+}
+
+.product-detail-sections .box strong,
+.product-detail-sections .box b {
+  font-weight: 700;
+}
+
+.product-detail-sections .description {
+  padding-right: 47px;
+}
+
+/* The vendor description separates its blocks with blank paragraphs (<p>&nbsp;</p>: one
+   28px line + 10px margin) and opens with a blank h2; the delivery pipeline drops
+   whitespace-only paragraphs and empties the h2, so the same rhythm is restored here. */
+.product-detail-sections .description h2:empty {
+  height: 33px;
+}
+
+.product-detail-sections .description :is(h2, h3):not(:first-child) {
+  padding-top: 38px;
+}
+
+.product-detail-sections .specs {
+  display: flex;
+}
+
+.product-detail-sections .specs-col {
+  flex: 1;
+}
+
+.product-detail-sections .box .specs-col h3 {
+  margin: 25px 0;
+}
+
+.product-detail-sections .box .specs-col h3:first-child {
+  margin: 0;
+}
+
+/* ---------- Bazaarvoice captured state (static snapshot) ---------- */
+.product-detail-sections .bv-snapshot {
+  color: #333;
+  font-family: arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 19.5px;
+  text-align: left;
+}
+
+.product-detail-sections .bv-header {
+  padding: 10px 10px 20px 0;
+}
+
+.product-detail-sections .box .bv-action-bar h2 {
+  display: none;
+  margin: 0 0 10px;
+  color: #6d6d69;
+  font-family: opensans, 'Helvetica Neue', verdana, arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+}
+
+.product-detail-sections .bv-placeholder {
+  margin: 0 10px 0 0;
+}
+
+.product-detail-sections .bv-ask {
+  display: block;
+  box-sizing: border-box;
+  width: fit-content;
+  height: 39px;
+  margin: 0 0 15px;
+  padding: 7px 14px;
+  border: 0 solid #fff;
+  border-radius: 2px;
+  background: #0469e3 linear-gradient(to bottom, rgb(255 255 255 / 10%) 0, rgb(255 255 255 / 0%) 100%);
+  color: #fff;
+  font-family: opensans, 'Helvetica Neue', verdana, arial, sans-serif;
+  font-size: 14px;
+  line-height: 25px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.product-detail-sections .box .bv-ask p {
+  margin: 0;
+}
+
+.product-detail-sections .bv-ask:focus-visible {
+  outline: 2px solid #0469e3;
+  outline-offset: 2px;
+}
+
+.product-detail-sections .bv-snapshot-reviews .bv-header {
+  height: 80px;
+  padding: 0;
+}
+
+.product-detail-sections .bv-snapshot-reviews .bv-placeholder {
+  padding-bottom: 10px;
+}
+
+.product-detail-sections .bv-stars {
+  display: block;
+  height: 20px;
+  color: #ddd;
+  font-family: 'Times New Roman', serif;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 0;
+}
+
+/* ---------- tablet / mobile (styles-m max-width 991px / 767px) ---------- */
+@media (width <= 991px) {
+  /* the source's 30px bottom margin sits inside a flex column (.column.main) and never
+     collapses into the footer's margin — padding keeps it uncollapsed here */
+  .product-detail-sections {
+    width: 82%;
+    margin-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .product-detail-sections .detail-items {
+    padding-left: 0;
+  }
+
+  .product-detail-sections .description {
+    padding-right: 0;
+  }
+}
+
+@media (width <= 767px) {
+  .product-detail-sections .specs {
+    flex-flow: column wrap;
+  }
+
+  .product-detail-sections .bv-header {
+    padding: 0;
+  }
+
+  .product-detail-sections .bv-action-bar {
+    display: flex;
+    margin-right: 10px;
+    padding: 20px 0;
+  }
+
+  .product-detail-sections .box .bv-action-bar h2 {
+    display: block;
+  }
+
+  .product-detail-sections .bv-snapshot-reviews .bv-header {
+    height: 74px;
+  }
+
+  /* R-01 compensation: Source Sans 3 sets the 222px mobile text column ~1% wider than
+     Adobe Clean; a hair of negative tracking restores the live wraps */
+  .product-detail-sections .box {
+    letter-spacing: -0.08px;
+  }
+}
+
+/* Variant blank-headings: vendors that separate blocks with blank headings (<h2><br></h2>,
+   <h3><br></h3>: one heading line + 25px margin) instead of blank paragraphs; the pipeline
+   drops those headings (a blank &nbsp; h2 survives empty and keeps its own 33px line). */
+.product-detail-sections.blank-headings .description :is(h2, h3):not(:first-child) {
+  padding-top: 0;
+}
+
+.product-detail-sections.blank-headings .description h2:not(:first-child, :empty, :empty + h2) {
+  padding-top: 58px;
+}
+
+.product-detail-sections.blank-headings .description h3:not(:first-child, :empty + h3) {
+  padding-top: 47px;
+}

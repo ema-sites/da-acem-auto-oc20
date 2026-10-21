@@ -1,0 +1,70 @@
+/* listing-toolbar — listing.css § results column (.products-header) + canon.css .select */
+
+.listing-toolbar p {
+  margin: 0;
+}
+
+.listing-toolbar .products-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  margin-bottom: 15px;
+  padding: 5px 10px;
+  background: var(--c-panel);
+  line-height: 20px;
+}
+
+.listing-toolbar .products-count {
+  color: var(--c-muted-2);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.listing-toolbar .products-count strong {
+  font-weight: 600;
+}
+
+.listing-toolbar .products-sort {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.listing-toolbar .sort-label {
+  color: var(--c-muted-2);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.listing-toolbar .select {
+  box-sizing: border-box;
+  height: 40px;
+  margin: 0;
+  padding: 6px 32px 6px 12px;
+  border: 1px solid var(--c-select-border);
+  border-radius: 4px;
+  background: #fff url('select-big.svg') no-repeat right 8px center / 16px;
+  color: var(--c-select-text);
+  font-family: var(--font-form);
+  font-size: 14px;
+  appearance: none;
+  cursor: pointer;
+}
+
+.listing-toolbar .sorter {
+  width: 174px;
+}
+
+.listing-toolbar [hidden] {
+  display: none;
+}
+
+@media (width <= 768px) {
+  .listing-toolbar .products-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    height: 75px;
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "slug": "terms-and-conditions",
+  "type": "static",
+  "renderBranch": "A'",
+  "template": "privacy-policy-cookie-restriction-mode",
+  "modules": [
+    "breadcrumbs",
+    "cms-text-body"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "columns"
+  ],
+  "canonShas": {
+    "header": "25d79187a00a",
+    "footer": "177a0c660617",
+    "css": "e91213fb9ae3"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Terms and Conditions",
+    "description": null,
+    "canonical": null,
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Terms and Conditions",
+    "url": "https://commercemarketplace.adobe.com/terms-and-conditions"
+  },
+  "migratedAt": "2026-10-20T22:52:32Z",
+  "designMdSha": "669d9fbdeef2",
+  "designJsonSha": "027c799c1e88",
+  "sourceCurrentSha": "264e3bda6f3c",
+  "sourceProposedSha": "74726be86516",
+  "fidelityTier": "sibling",
+  "archetypeSource": "privacy-policy-cookie-restriction-mode",
+  "archetypeSha": "e02f3f371da0",
+  "variants": [
+    "cms-title"
+  ],
+  "gatesPassed": [
+    "variance-probe",
+    "content-count",
+    "content-fidelity",
+    "delivery-lint"
+  ],
+  "gateEvidence": {
+    "variance-probe": "■ https://commercemarketplace.adobe.com/terms-and-conditions: 7 delta(s) — variants [cms-title] (cluster-static-variance.log)",
+    "content-count": "capture body 6 nodes (2 trail, 1 heading, 1 p, 3 li-links) = content/terms-and-conditions.html; headings 1 (h2→h1 logged deviation), CTAs/links 3 + Home; gate content MISSING 0 HIDDEN 0 @1440/360",
+    "content-fidelity": "verbatim text, hrefs kept absolute (legal/terms/* not in the page map), Home → /",
+    "pixel-gate-1440": "OPEN: no row in the pixel table (prototypes-1440) — run gate-all.mjs --stage prototype so the page is measured",
+    "pixel-gate-360": "OPEN: no row in the pixel table (prototypes-360) — run gate-all.mjs --stage prototype so the page is measured",
+    "delivery-lint": "0 P0 · 0 P1 · 1 P2 (delivery-lint --path /terms-and-conditions)"
+  },
+  "contentDeviations": [
+    {
+      "kind": "heading-level",
+      "source": "h2 Terms and Conditions (.cms-content, page has no .page-title h1)",
+      "target": "h1 Terms and Conditions after the breadcrumbs block (variant breadcrumbs cms-title renders it as the CMS h2: 30px/600/#505050, margin 25px 0 20px)",
+      "reason": "EDS delivery contract requires exactly one h1 per page (delivery-lint P0 on zero); visual parity kept by the variant"
+    }
+  ],
+  "assetsBundled": 13,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/partners",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/customer/account/login/referer/aHR0cHM6Ly9jb21tZXJjZW1hcmtldHBsYWNlLmFkb2JlLmNvbS90ZXJtcy1hbmQtY29uZGl0aW9ucw~~/_c_timestamp/17925234901886036752/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/checkout/cart/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/customer/account/login/referer/aHR0cHM6Ly9jb21tZXJjZW1hcmtldHBsYWNlLmFkb2JlLmNvbS90ZXJtcy1hbmQtY29uZGl0aW9ucw~~/_c_timestamp/17925234901886036752/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/customer/account/create/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/customer/account/forgotpassword/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/legal/terms/master-terms",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/legal/terms/development-terms",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/legal/terms/customer-agreement",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/partners/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/pdf/footer/Marketplace-Infosheet.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/contact-us/",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "terms-and-conditions/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "terms-and-conditions/_meta.json",
+  "driverVersion": "1"
+}

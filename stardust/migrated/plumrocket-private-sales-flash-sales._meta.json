@@ -1,0 +1,145 @@
+{
+  "slug": "plumrocket-private-sales-flash-sales-html",
+  "type": "program",
+  "renderBranch": "A'",
+  "template": "amasty-module-price-history-html",
+  "modules": [
+    "breadcrumbs",
+    "product-gallery",
+    "product-purchase-panel",
+    "product-contents-nav",
+    "product-detail-sections"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "a",
+    "columns"
+  ],
+  "canonShas": {
+    "header": "fb635a86ce09",
+    "footer": "131812af0bf2",
+    "css": "e91213fb9ae3"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Private Sales Flash Sales",
+    "description": null,
+    "canonical": "https://commercemarketplace.adobe.com/plumrocket-private-sales-flash-sales.html",
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Private Sales Flash Sales",
+    "url": "https://commercemarketplace.adobe.com/plumrocket-private-sales-flash-sales.html"
+  },
+  "migratedAt": "2026-10-20T22:45:57Z",
+  "designMdSha": "669d9fbdeef2",
+  "designJsonSha": "027c799c1e88",
+  "sourceCurrentSha": "df537870dfeb",
+  "sourceProposedSha": "ee1662b6ff62",
+  "fidelityTier": "sibling",
+  "archetypeSource": "amasty-module-price-history-html",
+  "archetypeSha": "c4d38f750974",
+  "variants": [
+    "product-purchase-panel.installation",
+    "product-detail-sections.blank-headings"
+  ],
+  "gatesPassed": [
+    "variance-probe",
+    "content-count",
+    "content-fidelity",
+    "pixel-gate-1440",
+    "pixel-gate-360",
+    "media-reconcile"
+  ],
+  "gateEvidence": {
+    "variance-probe": "sibling-variance 1440: panel +89px (installation service + Installation row) → product-purchase-panel.installation variant; headline/gallery/details deltas content-driven (no badge, 16 images, longer overview)",
+    "content-count": "content/plumrocket-private-sales-flash-sales.html vs current json: 49/49 main headings, 100/100 body strings (footer h3s are chrome fragment), 16/16 gallery images",
+    "content-fidelity": "gen.mjs encodes verbatim from settled DOM (description inner HTML byte-carried, target attrs dropped); 1 merge deviation (Then price)",
+    "pixel-gate-1440": "gate-all 1440 PASS 2.55% Δh 3 clipped 0 MISSING/HIDDEN 0 (runs/2026-10-20T22-54-10-565Z-plumrocket-private-sales-flash-sales-html.json; published content, local code via aem up proxy :3013 — block changes uncommitted)",
+    "pixel-gate-360": "gate-all 360 PASS 6.88% Δh 83 clipped 0 MISSING/HIDDEN 0 (runs/2026-10-20T22-56-40-079Z-plumrocket-private-sales-flash-sales-html.json; same regime)",
+    "media-reconcile": "16 hosted (ledger stardust/.work/cluster-program/media-ledger.json)"
+  },
+  "contentDeviations": [
+    {
+      "kind": "merge",
+      "source": "<span class=\"price_then\">$249.00</span><span> / year</span>",
+      "target": "<strong>$249.00 / year</strong>",
+      "reason": "two source spans authored as one cell string (archetype encoder shape)"
+    }
+  ],
+  "assetsBundled": 16,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/partners",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/customer/account/login/referer/aHR0cHM6Ly9jb21tZXJjZW1hcmtldHBsYWNlLmFkb2JlLmNvbS9wbHVtcm9ja2V0LXByaXZhdGUtc2FsZXMtZmxhc2gtc2FsZXMuaHRtbA~~/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/checkout/cart/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/customer/account/login/referer/aHR0cHM6Ly9jb21tZXJjZW1hcmtldHBsYWNlLmFkb2JlLmNvbS9wbHVtcm9ja2V0LXByaXZhdGUtc2FsZXMtZmxhc2gtc2FsZXMuaHRtbA~~/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/customer/account/create/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/customer/account/forgotpassword/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/partner/Plumrocket",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/media/catalog/product/p/r/privatesalesflashsales_8.png?width=750&height=360&store=default&image-type=image&fit=bounds",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/media/catalog/product/m/a/magento-2-private-sales-flash-sales-extension-16_8.png?width=750&height=360&store=default&image-type=image&fit=bounds",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/media/catalog/product/m/a/magento-2-private-sales-flash-sales-extension-1_2_8.png?width=750&height=360&store=default&image-type=image&fit=bounds",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/partner/Plumrocket",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/media/catalog/product/plumrocket-private-sales-flash-sales-6-0-0-ece/installation_guides.pdf?1792523479",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/media/catalog/product/plumrocket-private-sales-flash-sales-6-0-0-ece/user_guides.pdf?1792523479",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/partners/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/pdf/footer/Marketplace-Infosheet.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/contact-us/",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "plumrocket-private-sales-flash-sales.html",
+  "outputPathDefault": null,
+  "sidecar": "plumrocket-private-sales-flash-sales._meta.json",
+  "driverVersion": "1"
+}

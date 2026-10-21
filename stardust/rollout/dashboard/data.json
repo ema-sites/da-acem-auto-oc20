@@ -1,0 +1,231 @@
+{
+  "generatedAt": "2026-10-21T00:42:30.895Z",
+  "target": "aem-eds",
+  "site": {
+    "sourceUrl": "https://commercemarketplace.adobe.com/",
+    "liveHost": "main--bfdb0b0f--aemcoder.aem.live"
+  },
+  "stageCount": {
+    "identified": 11,
+    "prototyped": 11,
+    "deployed": 11,
+    "optimised": 7
+  },
+  "stageExclusive": {
+    "identified": 0,
+    "prototyped": 0,
+    "deployed": 4,
+    "optimised": 7
+  },
+  "pages": [
+    {
+      "slug": "index",
+      "path": "/",
+      "stage": "optimised",
+      "templateId": "index",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "amasty-module-price-history-html",
+      "path": "/amasty-module-price-history",
+      "stage": "optimised",
+      "templateId": "amasty-module-price-history-html",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "extensions-html",
+      "path": "/extensions",
+      "stage": "optimised",
+      "templateId": "extensions-html",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "extensions-featured-extensions-html",
+      "path": "/extensions/featured-extensions",
+      "stage": "optimised",
+      "templateId": "listing",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "extensions-sales-html",
+      "path": "/extensions/sales",
+      "stage": "deployed",
+      "templateId": "listing",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "plumrocket-private-sales-flash-sales-html",
+      "path": "/plumrocket-private-sales-flash-sales",
+      "stage": "optimised",
+      "templateId": "program",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "privacy-policy-cookie-restriction-mode",
+      "path": "/privacy-policy-cookie-restriction-mode",
+      "stage": "deployed",
+      "templateId": "privacy-policy-cookie-restriction-mode",
+      "isTemplate": true,
+      "openFindings": 1
+    },
+    {
+      "slug": "search",
+      "path": "/search",
+      "stage": "optimised",
+      "templateId": "search",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "terms-and-conditions",
+      "path": "/terms-and-conditions",
+      "stage": "deployed",
+      "templateId": "static",
+      "isTemplate": true,
+      "openFindings": 1
+    },
+    {
+      "slug": "themes-html",
+      "path": "/themes",
+      "stage": "optimised",
+      "templateId": "listing",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "themes-industry-apparel-html",
+      "path": "/themes/industry/apparel",
+      "stage": "deployed",
+      "templateId": "listing",
+      "isTemplate": false,
+      "openFindings": 1
+    }
+  ],
+  "templates": [
+    {
+      "id": "amasty-module-price-history-html",
+      "archetype": "amasty-module-price-history-html",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 1
+      }
+    },
+    {
+      "id": "extensions-html",
+      "archetype": "extensions-html",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 1
+      }
+    },
+    {
+      "id": "index",
+      "archetype": "index",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 1
+      }
+    },
+    {
+      "id": "listing",
+      "archetype": "extensions-featured-extensions-html",
+      "pageCount": 4,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 2,
+        "optimised": 2
+      }
+    },
+    {
+      "id": "privacy-policy-cookie-restriction-mode",
+      "archetype": "privacy-policy-cookie-restriction-mode",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 1,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "program",
+      "archetype": "plumrocket-private-sales-flash-sales-html",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 1
+      }
+    },
+    {
+      "id": "search",
+      "archetype": "search",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 1
+      }
+    },
+    {
+      "id": "static",
+      "archetype": "terms-and-conditions",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 1,
+        "optimised": 0
+      }
+    }
+  ],
+  "blocks": {
+    "total": 12,
+    "converted": 12
+  },
+  "quality": {
+    "overall": 100,
+    "dimensions": {
+      "brand-tensions": null,
+      "design-ux": null,
+      "accessibility": null,
+      "seo": 100,
+      "content-conversion": null,
+      "ai-search": 100,
+      "cross-page": null
+    },
+    "severity": {
+      "P1": 0,
+      "P2": 0,
+      "P3": 0
+    },
+    "history": [
+      48,
+      88
+    ]
+  },
+  "findings": {
+    "byFixability": {
+      "out-of-scope": 4
+    },
+    "byAutofix": {}
+  }
+}

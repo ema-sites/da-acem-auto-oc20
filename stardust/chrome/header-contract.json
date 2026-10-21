@@ -1,0 +1,234 @@
+{
+ "tool": "chrome-explore",
+ "url": "https://commercemarketplace.adobe.com/",
+ "at": "2026-10-20T19:19:03.188Z",
+ "shots": "stardust/.work/chrome/header-contract",
+ "widths": {
+  "390": {
+   "root": "#html-body>div:nth-of-type(2)>header",
+   "controls": [
+    {
+     "name": "store logo",
+     "key": "store logo",
+     "role": "link",
+     "kind": "link",
+     "sel": "#html-body>div:nth-of-type(2)>header>div>a",
+     "href": "https://commercemarketplace.adobe.com/",
+     "expanded": null,
+     "rect": [
+      70,
+      22,
+      90,
+      23
+     ],
+     "actions": {}
+    },
+    {
+     "name": "My Cart",
+     "key": "my cart",
+     "role": "link",
+     "kind": "cart",
+     "sel": "#clickcart>a",
+     "href": "https://commercemarketplace.adobe.com/checkout/cart/",
+     "expanded": null,
+     "rect": [
+      291,
+      15,
+      24,
+      34
+     ],
+     "actions": {}
+    }
+   ],
+   "scroll": [
+    {
+     "at": "top",
+     "y": 0,
+     "top": 0,
+     "height": 55,
+     "position": "fixed",
+     "inView": true
+    },
+    {
+     "at": "down",
+     "y": 1000,
+     "top": 0,
+     "height": 55,
+     "position": "fixed",
+     "inView": true
+    },
+    {
+     "at": "up",
+     "y": 700,
+     "top": 0,
+     "height": 55,
+     "position": "fixed",
+     "inView": true
+    },
+    {
+     "at": "back",
+     "y": 0,
+     "top": 0,
+     "height": 55,
+     "position": "fixed",
+     "inView": true
+    }
+   ],
+   "states": 0,
+   "truncated": null,
+   "loads": 1
+  },
+  "1440": {
+   "root": "#html-body>div:nth-of-type(2)>header",
+   "controls": [
+    {
+     "name": "store logo",
+     "key": "store logo",
+     "role": "link",
+     "kind": "link",
+     "sel": "#html-body>div:nth-of-type(2)>header>div>a",
+     "href": "https://commercemarketplace.adobe.com/",
+     "expanded": null,
+     "rect": [
+      150,
+      33,
+      90,
+      23
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Extensions",
+     "key": "extensions",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#ui-id-3",
+     "expanded": null,
+     "rect": [
+      290,
+      0,
+      101,
+      90
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": false,
+       "navigates": "https://commercemarketplace.adobe.com/extensions.html"
+      },
+      "key": {
+       "opened": false,
+       "navigates": "https://commercemarketplace.adobe.com/extensions.html"
+      }
+     }
+    },
+    {
+     "name": "Themes",
+     "key": "themes",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#ui-id-4",
+     "expanded": null,
+     "rect": [
+      394,
+      0,
+      82,
+      90
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": false,
+       "navigates": "https://commercemarketplace.adobe.com/themes.html"
+      },
+      "key": {
+       "opened": false,
+       "navigates": "https://commercemarketplace.adobe.com/themes.html"
+      }
+     }
+    },
+    {
+     "name": "Partners",
+     "key": "partners",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#ui-id-5",
+     "expanded": null,
+     "rect": [
+      480,
+      0,
+      85,
+      90
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": false,
+       "navigates": "https://commercemarketplace.adobe.com/partners"
+      },
+      "key": {
+       "opened": false,
+       "navigates": "https://commercemarketplace.adobe.com/partners"
+      }
+     }
+    },
+    {
+     "name": "Support",
+     "key": "support",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#ui-id-6",
+     "expanded": null,
+     "rect": [
+      569,
+      0,
+      83,
+      90
+     ],
+     "actions": {
+      "hover": null,
+      "click": null,
+      "key": null
+     }
+    },
+    {
+     "name": "My Cart",
+     "key": "my cart",
+     "role": "link",
+     "kind": "cart",
+     "sel": "#clickcart>a",
+     "href": "https://commercemarketplace.adobe.com/checkout/cart/",
+     "expanded": null,
+     "rect": [
+      1207,
+      30,
+      24,
+      38
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Sign In",
+     "key": "sign in",
+     "role": "link",
+     "kind": "account",
+     "sel": "#html-body>div:nth-of-type(2)>header>div>div:nth-of-type(2)>ul>li>a",
+     "href": "https://commercemarketplace.adobe.com/customer/account/login/referer/aHR0cHM6Ly9jb21tZXJjZW1hcmtldHBsYWNlLmFkb2JlLmNvbS8~/_c_timestamp/17925239571059244292/",
+     "expanded": null,
+     "rect": [
+      1251,
+      38,
+      44,
+      20
+     ],
+     "actions": {}
+    }
+   ],
+   "scroll": [],
+   "states": 0,
+   "truncated": null,
+   "loads": 1
+  }
+ },
+ "probe": "extensions"
+}

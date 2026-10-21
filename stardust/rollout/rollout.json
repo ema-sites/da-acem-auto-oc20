@@ -1,0 +1,35 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-10-20T20:55:51.659Z",
+    "stardustVersion": "0.0.0"
+  },
+  "target": "aem-eds",
+  "site": {
+    "sourceUrl": "https://commercemarketplace.adobe.com/",
+    "da": {
+      "org": "aemcoder",
+      "site": "bfdb0b0f",
+      "ref": "main"
+    },
+    "liveHost": "main--bfdb0b0f--aemcoder.aem.live"
+  },
+  "lastRun": {
+    "at": "2026-10-21T00:36:00.771Z",
+    "pages": {
+      "total": 11,
+      "verified": 11,
+      "deployed": 0,
+      "pending": 0,
+      "contentPending": 0,
+      "stale": 0,
+      "failed": 0
+    },
+    "blocks": {
+      "total": 12,
+      "converted": 12,
+      "pending": 0
+    },
+    "verifyFailures": 0
+  }
+}

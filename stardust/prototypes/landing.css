@@ -1,0 +1,157 @@
+/* landing.css — home page (cms-index-index) modules, on top of canon.css.
+   Values lifted from source styles-m.css (cms-index-index / case-featured-category / case-resources,
+   PageBuilder slider + slick), the PageBuilder inline styles captured in pages/index.json, and live
+   computed styles (measure.mjs 1440 + 360 → stardust/.work/index/measure-live.json). */
+
+/* ---------- page shell: the home content root is fluid (DESIGN.json extensions.breakpoints) ---------- */
+main#maincontent.page-main { max-width: none; padding: 0; }
+/* source: body:not(.cms-index-index) footer.page-footer { margin-top: 75px } — home keeps .page-footer margin-top:auto */
+body.page-landing .page-footer { margin-top: auto; }
+.page-landing h2 { line-height: 1.1; }
+
+/* ---------- hero banner carousel (PageBuilder row "contained" + slider + poster slides) ---------- */
+.block-banners { margin-bottom: 40px; }
+/* banner-item-content margin-bottom:-30px and the row's margin 0 0 10px collapse with the 40px → 10px */
+.block-banners .banner-collapse { margin-bottom: -30px; }
+.banner-row {
+  box-sizing: border-box; max-width: 1200px; margin: 0 auto 10px; padding: 10px;
+  display: flex; flex-direction: column; justify-content: flex-start;
+}
+.hero-slider { position: relative; box-sizing: border-box; min-height: 348px; margin: 20px 10px -40px; text-align: center; }
+.slider-list { position: relative; display: block; overflow: hidden; margin: 0; padding: 0; }
+.slider-track { position: relative; display: flex; align-items: flex-start; transform: translate3d(0, 0, 0); transition: transform .5s ease; } /* observed: track transform 0.5s (autoplay 4 s, landing.js) */
+.slider-track .slide { flex: 0 0 100%; min-height: 1px; line-height: 0; }
+/* no adaptiveHeight: the floated slick track (here flex, align-items:flex-start) is as tall as its tallest slide — at 360 the SAP slide (overlay padding-left 750px) is 526px */
+.slide-link { display: block; color: inherit; }
+.slide-wrapper {
+  box-sizing: border-box; min-height: 348px; text-align: left; line-height: 20px;
+  background-position: left top; background-size: cover; background-repeat: no-repeat;
+  overflow-wrap: break-word; word-wrap: break-word;
+}
+.slide-overlay { box-sizing: border-box; display: flex; align-items: center; justify-content: center; min-height: 348px; background-color: transparent; }
+.slide-content { width: 100%; }
+.slide-text { min-height: 50px; overflow: auto; }
+.slide-button {
+  display: inline-block; box-sizing: border-box; max-width: 100%; margin: 20px 0 0; padding: 12px 25px;
+  background: #eb5202; border: 1px solid #eb5202; border-radius: 0; color: #fff; cursor: pointer;
+  font-family: var(--font-form); font-size: 18px; font-weight: 400; line-height: 22px; text-align: inherit;
+  word-break: break-word; transition: opacity 500ms ease;
+}
+.slide-payment-services .slide-overlay { padding: 200px 10px 10px 50px; }
+.slide-sap-connector .slide-overlay { padding: 200px 10px 10px 750px; }
+.slide-payment-services { background-image: url('https://commercemarketplace.adobe.com/media/wysiwyg/Adobe_Payment_Services-banner-Final_1_1_.jpg'); }
+.slide-sap-connector { background-image: url('https://commercemarketplace.adobe.com/media/wysiwyg/SAP-S4-HANA-Connector_Adobe-Marketplace_1160x348.jpg'); }
+.slide-meta-commerce { background-image: url('https://commercemarketplace.adobe.com/media/wysiwyg/Adobe_Meta_Commerce-Banner-Final.jpg'); background-size: auto; }
+.slide-meta-commerce .slide-overlay { padding: 190px 10px 0 35px; }
+
+.slider-dots { display: block; width: 100%; margin: 0; padding: 15px 0; list-style: none; text-align: center; font-size: 14px; line-height: 18px; letter-spacing: normal; } /* source line-height: normal = 18px line box in Adobe Clean; pinned so the R-01 substitute does not add 1px */
+.slider-dots li { position: relative; display: inline-block; width: 14px; height: 14px; margin: 0 5px; padding: 0; vertical-align: middle; cursor: pointer; }
+.slider-dots button {
+  display: block; box-sizing: border-box; width: 14px; height: 14px; padding: 0; overflow: hidden;
+  background: #fff; border: 1px solid #ccc; border-radius: 10px; box-shadow: none; cursor: pointer;
+  color: #fff; font-size: 14px; line-height: 16px; text-indent: -99999px; transition: .3s;
+}
+.slider-dots button:hover { border: 1px solid #b3b3b3; color: #333; } /* observed hover: color → #333 */
+.slider-dots li.is-active button { background: #1c1918; }
+.slider-dots button:focus { outline: 0; box-shadow: none; } /* source *:focus { outline: 0 } — observed outline-width transition on the clicked dot */
+
+/* ---------- featured categories (section.case-featured-category) ---------- */
+.featured-categories { position: relative; }
+.featured-categories::before {
+  content: ''; position: absolute; left: 0; right: 0; bottom: 20px; display: block;
+  width: 42%; height: 2px; margin: 0 auto; background: #d6d7d8;
+}
+.featured-categories .page-main { padding-top: 30px; }
+.featured-categories h2 { margin: 0; color: #000; font-size: 36px; font-weight: 400; text-align: center; }
+.category-tiles::before, .category-tiles::after { content: ''; display: table; }
+.category-tiles::after { clear: both; }
+.category-tiles .col { float: left; width: 16.66666667%; padding: 30px 0 65px; text-align: center; }
+.category-tiles a {
+  display: block; color: var(--c-link-brand); text-decoration: none; transition: color .3s;
+  font-family: var(--font-medium); font-size: 16px; font-weight: 500;
+}
+.category-tiles a:hover { color: #045dca; }
+.category-tiles .icon { display: block; margin-bottom: 10px; color: #454646; }
+.category-tiles .icon::before {
+  display: inline-block; overflow: hidden; vertical-align: middle; speak: none; text-align: center;
+  font-family: 'IconFeatured'; font-size: 60px; font-weight: normal; line-height: inherit; color: inherit;
+  -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.icon-gar::before { content: '\e90c'; }
+.icon-lock::before { content: '\e90b'; }
+.icon-met::before { content: '\e909'; }
+.icon-cal::before { content: '\e900'; }
+.icon-truck::before { content: '\e913'; }
+.icon-clock::before { content: '\e90d'; }
+
+/* ---------- Adobe Commerce Resources (section.case-resources) ---------- */
+.resources { margin-top: 50px; background-color: #f2f3f3; }
+.resources .page-main { padding-top: 0; }
+.resources-inner { padding: 40px 0; }
+.resources-inner > h2 { margin: 0 0 40px; color: #000; font-size: 36px; font-weight: 400; text-align: center; }
+.resource-cards { display: flex; justify-content: space-between; }
+.resource-card {
+  position: relative; width: 25%; height: 325px; margin-right: 10px; padding: 2px;
+  background-color: #fff; border: 1px solid #aeafb1; border-radius: 4px; text-align: center;
+}
+.resource-card:last-child { margin-right: 0; }
+.resource-header { padding: 30px 0 0; }
+.resource-header h2 { margin: 0; color: #000; font-family: var(--font-bold); font-size: 15px; font-weight: 600; line-height: 1.42857143; }
+.resource-illustration {
+  display: inline-block; width: 85px; height: 23%; margin: 12px 0 8px;
+  background: url('images/illustration-assurance-program.svg') no-repeat; background-size: contain;
+}
+.resource-card .icon { display: inline-block; color: #454646; text-decoration: none; }
+.resource-card .icon::before {
+  display: inline-block; overflow: hidden; vertical-align: middle; speak: none; text-align: center;
+  font-size: 70px; font-weight: normal; line-height: inherit; color: inherit;
+  -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.icon-arm::before { content: '\e910'; font-family: 'IconFeatured'; }
+.icon-training::before { content: '\e902'; font-family: 'iconmoon'; }
+.icon-certif::before { content: '\e90e'; font-family: 'IconFeatured'; }
+.resource-body { padding: 5px 40px 21px; }
+.resource-body p { margin: 0; color: #222; font-family: var(--font-body); font-size: 12.5px; }
+.resource-actions { background-color: #fff; }
+.resource-actions hr {
+  position: absolute; left: 0; right: 0; bottom: 55px; width: 80%; height: 1px; margin: 20px auto;
+  background-color: #d6d7d8; border: none;
+}
+.resource-button {
+  position: absolute; left: 0; right: 0; bottom: 20px; display: flex; align-items: center; justify-content: center;
+  box-sizing: border-box; width: 100px; height: 32px; margin: 0 auto; padding: 10px;
+  border: 2px solid #d5d5d5; border-radius: 16px; background: transparent; color: #0a0a0a;
+  font-family: var(--font-body); font-size: 14px; font-weight: 700; line-height: 18.2px; text-decoration: none;
+  transition: border-color .13s ease-in-out;
+}
+.resource-button:hover { background: #d5d5d5; color: #0a0a0a; } /* observed hover: background → #d5d5d5 */
+
+/* ---------- tablet (source: styles-m max-width 991px) ---------- */
+@media (max-width: 991px) {
+  .block-banners { position: relative; top: 20px; }
+  .resource-card { height: 430px; }
+  .resource-illustration { height: 19%; margin: 12px 0 0; }
+}
+
+/* ---------- mobile (source: styles-m max-width 767px) ---------- */
+@media (max-width: 767px) {
+  .block-banners { margin-bottom: 20px; }
+  /* source PageBuilder renditions: max-width 767 (640–767 and ≤640 both use the _1 file) */
+  .slide-payment-services { background-image: url('https://commercemarketplace.adobe.com/media/wysiwyg/Adobe_Payment_Services-banner-Final_1_1__1.jpg'); }
+  .slide-sap-connector { background-image: url('https://commercemarketplace.adobe.com/media/wysiwyg/SAP-S4-HANA-Connector_Adobe-Marketplace_1160x348_1.jpg'); }
+  .slide-meta-commerce { background-image: url('https://commercemarketplace.adobe.com/media/wysiwyg/Adobe_Meta_Commerce-Banner-Final_1.jpg'); }
+      .featured-categories h2 { font-size: 30px; }
+  .featured-categories::before { bottom: 0; width: 65%; }
+  .category-tiles .col { width: 50%; margin-bottom: 1em; }
+  .columns { display: flex; }
+  .columns > .column.main { width: 100%; }
+  .resources-inner > h2 { font-size: 26px; }
+  .resource-cards { display: inline-block; }
+  .resource-card { width: 100%; height: 300px; margin-bottom: 1em; padding-top: 10px; padding-bottom: 10px; }
+  .resource-illustration { margin: 12px 0; }
+}
+
+/* ---------- small mobile (source: styles-m max-width 479px) ---------- */
+@media (max-width: 479px) {
+  .category-tiles .col { width: 100%; }
+}

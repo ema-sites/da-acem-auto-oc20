@@ -1,0 +1,926 @@
+{
+  "discovery": {
+    "fetchTechnique": "headless",
+    "count": 10,
+    "concurrency": 3,
+    "inventory": {
+      "technique": "sitemap.xml (https origin); runner http probe got 406",
+      "discovered": 4068,
+      "afterJunkFilter": 4066,
+      "filteredAsJunk": [
+        {
+          "url": "https://commercemarketplace.adobe.com/service-unavailable",
+          "pattern": "error/maintenance page"
+        },
+        {
+          "url": "https://commercemarketplace.adobe.com/test-input-onclick-alert-document-domain-svg-onload-alert-1",
+          "pattern": "^/test(\\b|-|\\d|/)"
+        }
+      ],
+      "selected": [
+        "https://commercemarketplace.adobe.com/",
+        "https://commercemarketplace.adobe.com/extensions.html",
+        "https://commercemarketplace.adobe.com/themes.html",
+        "https://commercemarketplace.adobe.com/amasty-module-price-history.html",
+        "https://commercemarketplace.adobe.com/plumrocket-private-sales-flash-sales.html",
+        "https://commercemarketplace.adobe.com/privacy-policy-cookie-restriction-mode",
+        "https://commercemarketplace.adobe.com/terms-and-conditions",
+        "https://commercemarketplace.adobe.com/extensions/featured-extensions.html",
+        "https://commercemarketplace.adobe.com/extensions/sales.html",
+        "https://commercemarketplace.adobe.com/themes/industry/apparel.html"
+      ],
+      "userChoice": "hands-off: top 10 by page-type checklist + priority score (site-plan.json)"
+    }
+  },
+  "consent": {
+    "method": "auto"
+  },
+  "favicon": {
+    "url": "https://commercemarketplace.adobe.com/media/favicon/stores/1/Adobe_Corporate_Horizontal_Lockup_Red_RGB_copy.png",
+    "file": "assets/favicon.png"
+  },
+  "crawl": {
+    "failures": []
+  },
+  "captureGaps": {
+    "roots": [],
+    "detail": "uncaptured first-level targets: none (no locale root captured)"
+  },
+  "dynamicSurface": {
+    "pages": 10,
+    "pagesWithSameSiteData": 10,
+    "pagesWithSearchForm": 10,
+    "pagesHydrated": 0,
+    "truncatedPages": 0,
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "commercemarketplace.adobe.com",
+        "path": "/static/version1789987689/frontend/Aheadworks/marketplace/en_US/js-translation.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/js-translation.json",
+        "pages": 10,
+        "examples": [
+          "index",
+          "themes-html",
+          "extensions-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "commercemarketplace.adobe.com",
+        "path": "/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Ui/templates/modal/modal-slide.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Ui/templates/modal/modal-slide.html",
+        "pages": 10,
+        "examples": [
+          "index",
+          "themes-html",
+          "extensions-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "commercemarketplace.adobe.com",
+        "path": "/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Ui/templates/modal/modal-popup.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Ui/templates/modal/modal-popup.html",
+        "pages": 10,
+        "examples": [
+          "index",
+          "themes-html",
+          "extensions-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "commercemarketplace.adobe.com",
+        "path": "/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Ui/templates/modal/modal-custom.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Ui/templates/modal/modal-custom.html",
+        "pages": 10,
+        "examples": [
+          "index",
+          "themes-html",
+          "extensions-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "commercemarketplace.adobe.com",
+        "path": "/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Ui/templates/tooltip/tooltip.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Ui/templates/tooltip/tooltip.html",
+        "pages": 10,
+        "examples": [
+          "index",
+          "themes-html",
+          "extensions-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/consent/{uuid}/{uuid}.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/consent/3f974ff3-d476-4b4f-bf22-af36e8c54e80/3f974ff3-d476-4b4f-bf22-af36e8c54e80.json",
+        "pages": 10,
+        "examples": [
+          "index",
+          "themes-html",
+          "extensions-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "geolocation.onetrust.com",
+        "path": "/cookieconsentpub/v1/geo/location",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+        "pages": 10,
+        "examples": [
+          "index",
+          "themes-html",
+          "extensions-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "logx.optimizely.com",
+        "path": "/v1/events",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/plain",
+        "sameSite": false,
+        "example": "https://logx.optimizely.com/v1/events",
+        "pages": 10,
+        "examples": [
+          "index",
+          "themes-html",
+          "extensions-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "commercemarketplace.adobe.com",
+        "path": "/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Ui/templates/block-loader.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Ui/templates/block-loader.html",
+        "pages": 10,
+        "examples": [
+          "index",
+          "themes-html",
+          "extensions-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/consent/{uuid}/{uuid}/en.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/consent/3f974ff3-d476-4b4f-bf22-af36e8c54e80/019caf6e-4366-72a5-961b-00e18d133360/en.json",
+        "pages": 10,
+        "examples": [
+          "index",
+          "themes-html",
+          "extensions-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "commercemarketplace.adobe.com",
+        "path": "/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Checkout/template/minicart/content.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Checkout/template/minicart/content.html",
+        "pages": 10,
+        "examples": [
+          "index",
+          "themes-html",
+          "extensions-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "commercemarketplace.adobe.com",
+        "path": "/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Customer/template/authentication-popup.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Customer/template/authentication-popup.html",
+        "pages": 10,
+        "examples": [
+          "index",
+          "themes-html",
+          "extensions-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "commercemarketplace.adobe.com",
+        "path": "/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Ui/template/messages.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Ui/template/messages.html",
+        "pages": 10,
+        "examples": [
+          "index",
+          "themes-html",
+          "extensions-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "commercemarketplace.adobe.com",
+        "path": "/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Ui/templates/collection.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Ui/templates/collection.html",
+        "pages": 10,
+        "examples": [
+          "index",
+          "themes-html",
+          "extensions-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "commercemarketplace.adobe.com",
+        "path": "/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Captcha/template/checkout/captcha.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Captcha/template/checkout/captcha.html",
+        "pages": 10,
+        "examples": [
+          "index",
+          "themes-html",
+          "extensions-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "commercemarketplace.adobe.com",
+        "path": "/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Pitbulk_SAML2/template/checkout/samllogin.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Pitbulk_SAML2/template/checkout/samllogin.html",
+        "pages": 10,
+        "examples": [
+          "index",
+          "themes-html",
+          "extensions-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202501.1.0/assets/otFlat.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202501.1.0/assets/otFlat.json",
+        "pages": 10,
+        "examples": [
+          "index",
+          "themes-html",
+          "extensions-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202501.1.0/assets/otPcCenter.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202501.1.0/assets/otPcCenter.json",
+        "pages": 10,
+        "examples": [
+          "index",
+          "themes-html",
+          "extensions-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202501.1.0/assets/otCommonStyles.css",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/css",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202501.1.0/assets/otCommonStyles.css",
+        "pages": 10,
+        "examples": [
+          "index",
+          "themes-html",
+          "extensions-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "bam.nr-data.net",
+        "path": "/{n}/NRJS-d0edda730f7343596cf",
+        "query": [
+          "a",
+          "af",
+          "ap",
+          "at",
+          "be",
+          "dc",
+          "fcp",
+          "fe",
+          "fp",
+          "perf",
+          "ptid",
+          "ref",
+          "rst",
+          "s",
+          "to",
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://bam.nr-data.net/1/NRJS-d0edda730f7343596cf",
+        "pages": 9,
+        "examples": [
+          "themes-html",
+          "extensions-html",
+          "amasty-module-price-history-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "bam.nr-data.net",
+        "path": "/ins/{n}/NRJS-d0edda730f7343596cf",
+        "query": [
+          "a",
+          "at",
+          "ptid",
+          "ref",
+          "rst",
+          "s",
+          "to",
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://bam.nr-data.net/ins/1/NRJS-d0edda730f7343596cf",
+        "pages": 9,
+        "examples": [
+          "themes-html",
+          "extensions-html",
+          "amasty-module-price-history-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "bam.nr-data.net",
+        "path": "/events/{n}/NRJS-d0edda730f7343596cf",
+        "query": [
+          "a",
+          "ptid",
+          "ref",
+          "rst",
+          "s",
+          "to",
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": "image/gif",
+        "sameSite": false,
+        "example": "https://bam.nr-data.net/events/1/NRJS-d0edda730f7343596cf",
+        "pages": 9,
+        "examples": [
+          "themes-html",
+          "extensions-html",
+          "amasty-module-price-history-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "bam.nr-data.net",
+        "path": "/jserrors/{n}/NRJS-d0edda730f7343596cf",
+        "query": [
+          "a",
+          "ptid",
+          "ref",
+          "rst",
+          "s",
+          "to",
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": "image/gif",
+        "sameSite": false,
+        "example": "https://bam.nr-data.net/jserrors/1/NRJS-d0edda730f7343596cf",
+        "pages": 9,
+        "examples": [
+          "themes-html",
+          "extensions-html",
+          "amasty-module-price-history-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "commercemarketplace.adobe.com",
+        "path": "/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_ProductRecommendationsLayout/template/recommendations.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_ProductRecommendationsLayout/template/recommendations.html",
+        "pages": 8,
+        "examples": [
+          "index",
+          "themes-html",
+          "extensions-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "analytics.google.com",
+        "path": "/g/collect",
+        "query": [
+          "_ee",
+          "_eu",
+          "_fv",
+          "_gaz",
+          "_nsi",
+          "_p",
+          "_s",
+          "_ss",
+          "cid",
+          "dl",
+          "dma",
+          "dt",
+          "en",
+          "ep.anonymize_ip",
+          "frm",
+          "gaf",
+          "gcd",
+          "gtm",
+          "npa",
+          "pscdl",
+          "rcb",
+          "sct",
+          "seg",
+          "sid",
+          "sr",
+          "tag_exp",
+          "tfd",
+          "tid",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "ul",
+          "v"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "sameSite": false,
+        "example": "https://analytics.google.com/g/collect",
+        "pages": 8,
+        "examples": [
+          "index",
+          "themes-html",
+          "extensions-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "commerce.adobe.io",
+        "path": "/recs/v1/precs/preconfigured",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://commerce.adobe.io/recs/v1/precs/preconfigured",
+        "pages": 8,
+        "examples": [
+          "index",
+          "themes-html",
+          "extensions-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "commercemarketplace.adobe.com",
+        "path": "/banner/ajax/load/",
+        "query": [
+          "_",
+          "requesting_page_url",
+          "sections"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://commercemarketplace.adobe.com/banner/ajax/load/",
+        "pages": 6,
+        "examples": [
+          "index",
+          "themes-html",
+          "extensions-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "catalog-service.adobe.io",
+        "path": "/graphql",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://catalog-service.adobe.io/graphql",
+        "pages": 5,
+        "examples": [
+          "themes-html",
+          "extensions-html",
+          "extensions-featured-extensions-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "commercemarketplace.adobe.com",
+        "path": "/appbazaarvoice/usertoken/getusertoken",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://commercemarketplace.adobe.com/appbazaarvoice/usertoken/getusertoken",
+        "pages": 2,
+        "examples": [
+          "amasty-module-price-history-html",
+          "plumrocket-private-sales-flash-sales-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "commercemarketplace.adobe.com",
+        "path": "/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Theme/templates/breadcrumbs.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Theme/templates/breadcrumbs.html",
+        "pages": 2,
+        "examples": [
+          "amasty-module-price-history-html",
+          "plumrocket-private-sales-flash-sales-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "commercemarketplace.adobe.com",
+        "path": "/subscriptions/graceperiod/check",
+        "query": [
+          "_",
+          "parent_product_id"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://commercemarketplace.adobe.com/subscriptions/graceperiod/check",
+        "pages": 2,
+        "examples": [
+          "amasty-module-price-history-html",
+          "plumrocket-private-sales-flash-sales-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "commercemarketplace.adobe.com",
+        "path": "/static/version1789987689/frontend/Aheadworks/marketplace/en_US/mage/gallery/gallery.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/mage/gallery/gallery.html",
+        "pages": 2,
+        "examples": [
+          "amasty-module-price-history-html",
+          "plumrocket-private-sales-flash-sales-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "commercemarketplace.adobe.com",
+        "path": "/appbazaarvoice/customer/isloggedin",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://commercemarketplace.adobe.com/appbazaarvoice/customer/isloggedin",
+        "pages": 2,
+        "examples": [
+          "amasty-module-price-history-html",
+          "plumrocket-private-sales-flash-sales-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "commercemarketplace.adobe.com",
+        "path": "/customer/section/load/",
+        "query": [
+          "_",
+          "force_new_section_timestamp",
+          "sections"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://commercemarketplace.adobe.com/customer/section/load/",
+        "pages": 2,
+        "examples": [
+          "amasty-module-price-history-html",
+          "plumrocket-private-sales-flash-sales-html"
+        ]
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "apps.bazaarvoice.com",
+        "pages": 10,
+        "examples": [
+          "index",
+          "themes-html",
+          "extensions-html"
+        ]
+      },
+      {
+        "host": "unpkg.com",
+        "pages": 10,
+        "examples": [
+          "index",
+          "themes-html",
+          "extensions-html"
+        ]
+      },
+      {
+        "host": "cdn.cookielaw.org",
+        "pages": 10,
+        "examples": [
+          "index",
+          "themes-html",
+          "extensions-html"
+        ]
+      },
+      {
+        "host": "js.braintreegateway.com",
+        "pages": 10,
+        "examples": [
+          "index",
+          "themes-html",
+          "extensions-html"
+        ]
+      },
+      {
+        "host": "cdn.optimizely.com",
+        "pages": 10,
+        "examples": [
+          "index",
+          "themes-html",
+          "extensions-html"
+        ]
+      },
+      {
+        "host": "rum.hlx.page",
+        "pages": 10,
+        "examples": [
+          "index",
+          "themes-html",
+          "extensions-html"
+        ]
+      },
+      {
+        "host": "livesearch-metrics.magento-ds.com",
+        "pages": 10,
+        "examples": [
+          "index",
+          "themes-html",
+          "extensions-html"
+        ]
+      },
+      {
+        "host": "acds-events.adobe.io",
+        "pages": 10,
+        "examples": [
+          "index",
+          "themes-html",
+          "extensions-html"
+        ]
+      },
+      {
+        "host": "www.googletagmanager.com",
+        "pages": 10,
+        "examples": [
+          "index",
+          "themes-html",
+          "extensions-html"
+        ]
+      },
+      {
+        "host": "js-agent.newrelic.com",
+        "pages": 10,
+        "examples": [
+          "index",
+          "themes-html",
+          "extensions-html"
+        ]
+      },
+      {
+        "host": "commerce.adobedtm.com",
+        "pages": 8,
+        "examples": [
+          "index",
+          "themes-html",
+          "extensions-html"
+        ]
+      },
+      {
+        "host": "recommendations-sdk.adobe.io",
+        "pages": 8,
+        "examples": [
+          "index",
+          "themes-html",
+          "extensions-html"
+        ]
+      },
+      {
+        "host": "display.ugc.bazaarvoice.com",
+        "pages": 2,
+        "examples": [
+          "amasty-module-price-history-html",
+          "plumrocket-private-sales-flash-sales-html"
+        ]
+      },
+      {
+        "host": "api.bazaarvoice.com",
+        "pages": 2,
+        "examples": [
+          "amasty-module-price-history-html",
+          "plumrocket-private-sales-flash-sales-html"
+        ]
+      }
+    ],
+    "frameworkHints": [],
+    "globalState": [
+      {
+        "name": "dataLayer",
+        "pages": 10,
+        "examples": [
+          "index",
+          "themes-html",
+          "extensions-html"
+        ]
+      }
+    ],
+    "formTargets": [
+      {
+        "action": "https://commercemarketplace.adobe.com/catalogsearch/result/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": true,
+        "fieldNames": [
+          "q"
+        ],
+        "pages": 10,
+        "examples": [
+          "index",
+          "themes-html",
+          "extensions-html"
+        ]
+      },
+      {
+        "action": "https://commercemarketplace.adobe.com/checkout/cart/add/uenc/aHR0cHM6Ly9jb21tZXJjZW1hcmtldHBsYWNlLmFkb2JlLmNvbS9hbWFzdHktbW9kdWxlLXByaWNlLWhpc3RvcnkuaHRtbA~~/product/623600/",
+        "method": "post",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "frequency_option"
+        ],
+        "pages": 1,
+        "examples": [
+          "amasty-module-price-history-html"
+        ]
+      },
+      {
+        "action": "https://commercemarketplace.adobe.com/checkout/cart/add/uenc/aHR0cHM6Ly9jb21tZXJjZW1hcmtldHBsYWNlLmFkb2JlLmNvbS9wbHVtcm9ja2V0LXByaXZhdGUtc2FsZXMtZmxhc2gtc2FsZXMuaHRtbA~~/product/813523/",
+        "method": "post",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "frequency_option"
+        ],
+        "pages": 1,
+        "examples": [
+          "plumrocket-private-sales-flash-sales-html"
+        ]
+      }
+    ]
+  },
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-10-20T19:11:58.272Z"
+  },
+  "visionCheck": [
+    {
+      "slug": "index",
+      "verdict": "ok",
+      "notes": "rendered; headings/imagery/logo match record; no overlay in capture"
+    },
+    {
+      "slug": "extensions-html",
+      "verdict": "ok",
+      "notes": "rendered; headings/imagery/logo match record; no overlay in capture"
+    },
+    {
+      "slug": "themes-html",
+      "verdict": "ok",
+      "notes": "rendered; headings/imagery/logo match record; no overlay in capture"
+    },
+    {
+      "slug": "amasty-module-price-history-html",
+      "verdict": "ok",
+      "notes": "rendered; headings/imagery/logo match record; no overlay in capture"
+    },
+    {
+      "slug": "plumrocket-private-sales-flash-sales-html",
+      "verdict": "ok",
+      "notes": "rendered; headings/imagery/logo match record; no overlay in capture"
+    },
+    {
+      "slug": "privacy-policy-cookie-restriction-mode",
+      "verdict": "ok",
+      "notes": "rendered; headings/imagery/logo match record; no overlay in capture"
+    },
+    {
+      "slug": "terms-and-conditions",
+      "verdict": "ok",
+      "notes": "rendered; headings/imagery/logo match record; no overlay in capture"
+    },
+    {
+      "slug": "extensions-sales-html",
+      "verdict": "ok",
+      "notes": "rendered; headings/imagery/logo match record; no overlay in capture"
+    },
+    {
+      "slug": "extensions-featured-extensions-html",
+      "verdict": "ok",
+      "notes": "rendered; live category currently lists 0 results (\"No products found\") — captured state, replicate as captured"
+    },
+    {
+      "slug": "themes-industry-apparel-html",
+      "verdict": "ok",
+      "notes": "rendered; live category currently lists 0 results (\"No products found\") — captured state, replicate as captured"
+    }
+  ],
+  "siblingCandidates": []
+}

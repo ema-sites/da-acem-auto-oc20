@@ -1,0 +1,480 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:migrate",
+    "writtenAt": "2026-10-21T00:42:46Z",
+    "stardustVersion": "0.34.0"
+  },
+  "site": {
+    "originUrl": "https://commercemarketplace.adobe.com",
+    "deployUrl": null,
+    "extractedAt": "2026-10-20T19:16:13.194Z",
+    "pageCap": 10,
+    "totalDiscovered": 4066,
+    "crawled": 10,
+    "captureGaps": []
+  },
+  "direction": {
+    "resolvedAt": "2026-10-20T19:32:08.723Z",
+    "phrase": "replica — keep the current design, change the platform",
+    "directionFile": "stardust/direction.md",
+    "iaFidelity": "verbatim",
+    "mode": "preserve"
+  },
+  "handsOff": true,
+  "flow": "replica",
+  "flowChosenAt": "2026-10-20T19:16:13.194Z",
+  "flowSource": "user-phrase",
+  "pages": [
+    {
+      "slug": "index",
+      "url": "https://commercemarketplace.adobe.com/",
+      "title": "Adobe Commerce Extensions & Themes for Your Online Store | Marketplace",
+      "type": "landing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-20T19:11:14.481Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-20T19:32:08Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-10-20T20:25:15Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-10-20T20:25:15Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-10-21T00:42:45Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/index.json",
+      "prototypePath": "stardust/prototypes/index-proposed.html",
+      "migratedPath": "stardust/migrated/index.html"
+    },
+    {
+      "slug": "extensions-html",
+      "url": "https://commercemarketplace.adobe.com/extensions.html",
+      "title": "Adobe Commerce Extensions | Free & Premium Plugins | Marketplace",
+      "type": "listing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-20T19:11:18.705Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-20T19:32:08Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-10-20T20:08:02Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-10-20T20:08:02Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-10-21T00:42:45Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/extensions-html.json",
+      "prototypePath": "stardust/prototypes/extensions-html-proposed.html",
+      "migratedPath": "stardust/migrated/extensions.html"
+    },
+    {
+      "slug": "themes-html",
+      "url": "https://commercemarketplace.adobe.com/themes.html",
+      "title": "Adobe Commerce Themes | eCommerce Website Templates | Marketplace",
+      "type": "listing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-20T19:11:17.552Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-20T19:32:08Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-10-21T00:42:45Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/themes-html.json",
+      "prototypePath": null,
+      "migratedPath": "null"
+    },
+    {
+      "slug": "amasty-module-price-history-html",
+      "url": "https://commercemarketplace.adobe.com/amasty-module-price-history.html",
+      "title": "Omnibus Price Tracker",
+      "type": "program",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-20T19:11:28.212Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-20T19:32:08Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-10-20T20:38:53Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-10-21T00:42:45Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/amasty-module-price-history-html.json",
+      "prototypePath": "stardust/prototypes/amasty-module-price-history-html-proposed.html",
+      "migratedPath": "stardust/migrated/amasty-module-price-history.html"
+    },
+    {
+      "slug": "plumrocket-private-sales-flash-sales-html",
+      "url": "https://commercemarketplace.adobe.com/plumrocket-private-sales-flash-sales.html",
+      "title": "Private Sales Flash Sales",
+      "type": "program",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-20T19:11:32.174Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-20T19:32:08Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-10-21T00:42:46Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/plumrocket-private-sales-flash-sales-html.json",
+      "prototypePath": null,
+      "migratedPath": "null"
+    },
+    {
+      "slug": "privacy-policy-cookie-restriction-mode",
+      "url": "https://commercemarketplace.adobe.com/privacy-policy-cookie-restriction-mode",
+      "title": "Privacy and Cookie Policy",
+      "type": "static",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-20T19:11:29.863Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-20T19:32:08Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-10-20T20:18:47Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-10-20T20:18:47Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-10-21T00:42:45Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/privacy-policy-cookie-restriction-mode.json",
+      "prototypePath": "stardust/prototypes/privacy-policy-cookie-restriction-mode-proposed.html",
+      "migratedPath": "stardust/migrated/privacy-policy-cookie-restriction-mode/index.html"
+    },
+    {
+      "slug": "terms-and-conditions",
+      "url": "https://commercemarketplace.adobe.com/terms-and-conditions",
+      "title": "Terms and Conditions",
+      "type": "static",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-20T19:11:38.080Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-20T19:32:08Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-10-21T00:42:46Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/terms-and-conditions.json",
+      "prototypePath": null,
+      "migratedPath": "null"
+    },
+    {
+      "slug": "extensions-featured-extensions-html",
+      "url": "https://commercemarketplace.adobe.com/extensions/featured-extensions.html",
+      "title": "Featured Extensions",
+      "type": "listing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-20T19:11:39.818Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-20T19:32:08Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-10-21T00:42:46Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/extensions-featured-extensions-html.json",
+      "prototypePath": null,
+      "migratedPath": "null"
+    },
+    {
+      "slug": "extensions-sales-html",
+      "url": "https://commercemarketplace.adobe.com/extensions/sales.html",
+      "title": "Sales",
+      "type": "listing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-20T19:11:42.028Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-20T19:32:08Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-10-21T00:42:46Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/extensions-sales-html.json",
+      "prototypePath": null,
+      "migratedPath": "null"
+    },
+    {
+      "slug": "themes-industry-apparel-html",
+      "url": "https://commercemarketplace.adobe.com/themes/industry/apparel.html",
+      "title": "Apparel - Industry - Themes",
+      "type": "listing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-20T19:11:45.559Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-10-20T19:32:08Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-10-21T00:42:46Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/themes-industry-apparel-html.json",
+      "prototypePath": null,
+      "migratedPath": "null"
+    }
+  ],
+  "migrate": {
+    "at": "2026-10-20T22:52:32Z",
+    "outputDir": "stardust/migrated/",
+    "selfContained": true,
+    "pageMap": [
+      {
+        "sourceUrl": "/",
+        "outputPath": "index.html",
+        "slug": "index",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/extensions.html",
+        "outputPath": "extensions.html",
+        "slug": "extensions-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/themes.html",
+        "outputPath": "themes.html",
+        "slug": "themes-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/amasty-module-price-history.html",
+        "outputPath": "amasty-module-price-history.html",
+        "slug": "amasty-module-price-history-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/plumrocket-private-sales-flash-sales.html",
+        "outputPath": "plumrocket-private-sales-flash-sales.html",
+        "slug": "plumrocket-private-sales-flash-sales-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/privacy-policy-cookie-restriction-mode",
+        "outputPath": "privacy-policy-cookie-restriction-mode/index.html",
+        "slug": "privacy-policy-cookie-restriction-mode",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/terms-and-conditions",
+        "outputPath": "terms-and-conditions/index.html",
+        "slug": "terms-and-conditions",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/extensions/featured-extensions.html",
+        "outputPath": "extensions/featured-extensions.html",
+        "slug": "extensions-featured-extensions-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/extensions/sales.html",
+        "outputPath": "extensions/sales.html",
+        "slug": "extensions-sales-html",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/themes/industry/apparel.html",
+        "outputPath": "themes/industry/apparel.html",
+        "slug": "themes-industry-apparel-html",
+        "outputPathDefault": null
+      }
+    ],
+    "totalAssetsBundled": 26,
+    "bundledAssets": [
+      "canon.css",
+      "canon.js",
+      "fonts/Luma-Icons.woff2",
+      "fonts/RobotoRegular.woff2",
+      "fonts/icomoon.woff2",
+      "fonts/icon-featured.woff2",
+      "fonts/source-sans-3-latin-italic.woff2",
+      "fonts/source-sans-3-latin.woff2",
+      "images/arrow-sprite.png",
+      "images/assurance-program-badge.svg",
+      "images/favicon.png",
+      "images/gallery.png",
+      "images/gold-solution-partner.png",
+      "images/gold-technology-partner.png",
+      "images/illustration-assurance-program.svg",
+      "images/logo-footer-adobe.svg",
+      "images/logo-header-adobe.svg",
+      "images/platinum-technology-partner.png",
+      "images/select-big.svg",
+      "images/silver-technology-partner.png",
+      "landing.css",
+      "landing.js",
+      "listing.css",
+      "program.css",
+      "program.js",
+      "static.css"
+    ],
+    "pages": [
+      {
+        "slug": "index",
+        "file": "stardust/migrated/index.html",
+        "assetsBundled": 15
+      },
+      {
+        "slug": "extensions-html",
+        "file": "stardust/migrated/extensions.html",
+        "assetsBundled": 11
+      },
+      {
+        "slug": "amasty-module-price-history-html",
+        "file": "stardust/migrated/amasty-module-price-history.html",
+        "assetsBundled": 11
+      },
+      {
+        "slug": "privacy-policy-cookie-restriction-mode",
+        "file": "stardust/migrated/privacy-policy-cookie-restriction-mode/index.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "terms-and-conditions",
+        "file": "stardust/migrated/terms-and-conditions/index.html",
+        "assetsBundled": 13
+      },
+      {
+        "slug": "themes-html",
+        "file": "stardust/migrated/themes.html",
+        "assetsBundled": 14
+      },
+      {
+        "slug": "extensions-featured-extensions-html",
+        "file": "stardust/migrated/extensions/featured-extensions.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "extensions-sales-html",
+        "file": "stardust/migrated/extensions/sales.html",
+        "assetsBundled": 9
+      },
+      {
+        "slug": "themes-industry-apparel-html",
+        "file": "stardust/migrated/themes/industry/apparel.html",
+        "assetsBundled": 6
+      },
+      {
+        "slug": "plumrocket-private-sales-flash-sales-html",
+        "file": "stardust/migrated/plumrocket-private-sales-flash-sales.html",
+        "assetsBundled": 16
+      }
+    ],
+    "missingAssets": [],
+    "cleanedAssets": [],
+    "lastRun": {
+      "at": "2026-10-20T22:52:32Z",
+      "rendered": [
+        "terms-and-conditions"
+      ],
+      "unchanged": [],
+      "refused": [],
+      "passthrough": []
+    }
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/plan",
+    "writtenAt": "2026-10-20T20:56:00.030Z",
+    "readArtifacts": [
+      "stardust/rollout/coverage"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-10-20T20:56:00.030Z",
+  "fragments": [],
+  "deliveryOrder": [
+    "extensions-featured-extensions-html",
+    "extensions-sales-html",
+    "themes-html",
+    "themes-industry-apparel-html",
+    "amasty-module-price-history-html",
+    "extensions-html",
+    "index",
+    "privacy-policy-cookie-restriction-mode",
+    "plumrocket-private-sales-flash-sales-html",
+    "terms-and-conditions"
+  ],
+  "steps": [
+    {
+      "slug": "extensions-featured-extensions-html",
+      "path": "/extensions/featured-extensions",
+      "templateId": "listing",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "extensions-sales-html",
+      "path": "/extensions/sales",
+      "templateId": "listing",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "themes-html",
+      "path": "/themes",
+      "templateId": "listing",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "themes-industry-apparel-html",
+      "path": "/themes/industry/apparel",
+      "templateId": "listing",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "amasty-module-price-history-html",
+      "path": "/amasty-module-price-history",
+      "templateId": "amasty-module-price-history-html",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "breadcrumbs",
+          "edsBlockName": "breadcrumbs"
+        },
+        {
+          "id": "product-gallery",
+          "edsBlockName": "product-gallery"
+        },
+        {
+          "id": "product-purchase-panel",
+          "edsBlockName": "product-purchase-panel"
+        },
+        {
+          "id": "product-contents-nav",
+          "edsBlockName": "product-contents-nav"
+        },
+        {
+          "id": "product-detail-sections",
+          "edsBlockName": "product-detail-sections"
+        }
+      ],
+      "reuse": []
+    },
+    {
+      "slug": "extensions-html",
+      "path": "/extensions",
+      "templateId": "extensions-html",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "facets-sidebar",
+          "edsBlockName": "facets-sidebar"
+        },
+        {
+          "id": "listing-toolbar",
+          "edsBlockName": "listing-toolbar"
+        },
+        {
+          "id": "product-card-grid",
+          "edsBlockName": "product-card-grid"
+        }
+      ],
+      "reuse": []
+    },
+    {
+      "slug": "index",
+      "path": "/",
+      "templateId": "index",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "hero-carousel",
+          "edsBlockName": "hero-carousel"
+        },
+        {
+          "id": "featured-category-tiles",
+          "edsBlockName": "featured-category-tiles"
+        },
+        {
+          "id": "resource-cards",
+          "edsBlockName": "resource-cards"
+        }
+      ],
+      "reuse": []
+    },
+    {
+      "slug": "privacy-policy-cookie-restriction-mode",
+      "path": "/privacy-policy-cookie-restriction-mode",
+      "templateId": "privacy-policy-cookie-restriction-mode",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "cms-text-body",
+          "edsBlockName": "cms-text-body"
+        }
+      ],
+      "reuse": [
+        {
+          "id": "breadcrumbs",
+          "edsBlockName": "breadcrumbs",
+          "convertedBy": "amasty-module-price-history-html"
+        }
+      ]
+    },
+    {
+      "slug": "plumrocket-private-sales-flash-sales-html",
+      "path": "/plumrocket-private-sales-flash-sales",
+      "templateId": "program",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "terms-and-conditions",
+      "path": "/terms-and-conditions",
+      "templateId": "static",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    }
+  ]
+}

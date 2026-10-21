@@ -1,0 +1,808 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-10-20T19:11:38.080Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "terms-and-conditions",
+  "url": "https://commercemarketplace.adobe.com/terms-and-conditions",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-10-20T19:11:38.080Z",
+  "finalUrl": "https://commercemarketplace.adobe.com/terms-and-conditions",
+  "title": "Terms and Conditions",
+  "description": null,
+  "og": {
+    "title": null,
+    "description": null,
+    "image": null,
+    "type": null
+  },
+  "headings": [
+    {
+      "tag": "h2",
+      "text": "Terms and Conditions"
+    },
+    {
+      "tag": "h3",
+      "text": "Company"
+    },
+    {
+      "tag": "h3",
+      "text": "Merchants"
+    },
+    {
+      "tag": "h3",
+      "text": "Partners"
+    },
+    {
+      "tag": "h3",
+      "text": "Categories"
+    },
+    {
+      "tag": "h3",
+      "text": "Resources"
+    },
+    {
+      "tag": "h3",
+      "text": "Developer Resources"
+    },
+    {
+      "tag": "h3",
+      "text": "Get In Touch"
+    }
+  ],
+  "body": [
+    "Home",
+    "Terms and Conditions",
+    "The following terms and conditions apply to (1) your use of the Adobe Commerce Marketplace, and (2) your development and distribution of any Extensions on the Adobe Commerce Marketplace.",
+    "Marketplace Master Terms (for Marketplace Extension developers)",
+    "Marketplace Development Terms (for Marketplace Extension developers)",
+    "Magento Marketplace Customer Agreement (for Marketplace Extension customers)"
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Extensions",
+      "href": "https://commercemarketplace.adobe.com/extensions.html"
+    },
+    {
+      "label": "Themes",
+      "href": "https://commercemarketplace.adobe.com/themes.html"
+    },
+    {
+      "label": "Partners",
+      "href": "/partners"
+    },
+    {
+      "label": "Support",
+      "href": "https://developer.adobe.com/commerce/marketplace/guides/sellers/"
+    },
+    {
+      "label": "My Cart",
+      "href": "https://commercemarketplace.adobe.com/checkout/cart/"
+    },
+    {
+      "label": "Sign In",
+      "href": "https://commercemarketplace.adobe.com/customer/account/login/referer/aHR0cHM6Ly9jb21tZXJjZW1hcmtldHBsYWNlLmFkb2JlLmNvbS90ZXJtcy1hbmQtY29uZGl0aW9ucw~~/_c_timestamp/17925234901886036752/"
+    },
+    {
+      "label": "Home",
+      "href": "https://commercemarketplace.adobe.com/"
+    },
+    {
+      "label": "Marketplace Master Terms (for Marketplace Extension developers)",
+      "href": "https://commercemarketplace.adobe.com/legal/terms/master-terms"
+    },
+    {
+      "label": "Marketplace Development Terms (for Marketplace Extension developers)",
+      "href": "https://commercemarketplace.adobe.com/legal/terms/development-terms"
+    },
+    {
+      "label": "Magento Marketplace Customer Agreement (for Marketplace Extension customers)",
+      "href": "https://commercemarketplace.adobe.com/legal/terms/customer-agreement"
+    },
+    {
+      "label": "About Us",
+      "href": "https://magento.com/about"
+    },
+    {
+      "label": "Careers",
+      "href": "https://magento.com/careers"
+    },
+    {
+      "label": "Press",
+      "href": "https://magento.com/press-room"
+    },
+    {
+      "label": "Security Updates",
+      "href": "https://magento.com/security"
+    },
+    {
+      "label": "Find a Partner",
+      "href": "https://magento.com/find-a-partner"
+    },
+    {
+      "label": "Become a Partner",
+      "href": "https://www.adobe.com/partners.html"
+    },
+    {
+      "label": "Certification",
+      "href": "https://u.magento.com/certification"
+    },
+    {
+      "label": "Training",
+      "href": "https://u.magento.com/developers"
+    },
+    {
+      "label": "Benefits U",
+      "href": "https://u.magento.com/"
+    },
+    {
+      "label": "Extensions",
+      "href": "https://commercemarketplace.adobe.com/extensions.html/"
+    },
+    {
+      "label": "Themes",
+      "href": "https://commercemarketplace.adobe.com/themes.html/"
+    },
+    {
+      "label": "Partners",
+      "href": "https://commercemarketplace.adobe.com/partners/"
+    },
+    {
+      "label": "Info Sheet",
+      "href": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/pdf/footer/Marketplace-Infosheet.pdf"
+    },
+    {
+      "label": "User Guides",
+      "href": "http://docs.magento.com/marketplace/user_guide/getting-started.html"
+    },
+    {
+      "label": "Technical Docs",
+      "href": "https://magento.com/resources/technical"
+    },
+    {
+      "label": "Developer Portal",
+      "href": "https://commercedeveloper.adobe.com/"
+    },
+    {
+      "label": "Dev Docs",
+      "href": "https://experienceleague.adobe.com/docs/commerce-admin/start/resources/commerce-marketplace.html"
+    },
+    {
+      "label": "API",
+      "href": "https://developer.adobe.com/commerce/marketplace/guides/eqp/v1/"
+    },
+    {
+      "label": "Community",
+      "href": "https://developer.adobe.com/open/magento"
+    },
+    {
+      "label": "Contact Us",
+      "href": "https://commercemarketplace.adobe.com/contact-us/"
+    },
+    {
+      "label": "Events",
+      "href": "https://magento.com/events"
+    },
+    {
+      "label": "Webinars",
+      "href": "https://magento.com/resources/webinars"
+    },
+    {
+      "label": "Privacy and Cookie Policy",
+      "href": "https://magento.com/legal/terms/marketplace"
+    },
+    {
+      "label": "Cookie preferences",
+      "href": "https://magento.com/sites/default/files/MAGENTO-MARKETPLACE-CUSTOMER-AGREEMENT-April-12-2019.pdf"
+    }
+  ],
+  "links": [
+    "https://commercemarketplace.adobe.com/",
+    "https://commercemarketplace.adobe.com/terms-and-conditions#store.menu",
+    "https://commercemarketplace.adobe.com/extensions.html",
+    "https://commercemarketplace.adobe.com/themes.html",
+    "https://commercemarketplace.adobe.com/partners",
+    "https://developer.adobe.com/commerce/marketplace/guides/sellers/",
+    "https://commercemarketplace.adobe.com/terms-and-conditions#store.links",
+    "https://commercemarketplace.adobe.com/customer/account/login/referer/aHR0cHM6Ly9jb21tZXJjZW1hcmtldHBsYWNlLmFkb2JlLmNvbS90ZXJtcy1hbmQtY29uZGl0aW9ucw~~/_c_timestamp/17925234901886036752/",
+    "https://commercemarketplace.adobe.com/checkout/cart/",
+    "https://commercemarketplace.adobe.com/customer/account/create/",
+    "https://commercemarketplace.adobe.com/customer/account/forgotpassword/",
+    "https://commercemarketplace.adobe.com/legal/terms/master-terms",
+    "https://commercemarketplace.adobe.com/legal/terms/development-terms",
+    "https://commercemarketplace.adobe.com/legal/terms/customer-agreement",
+    "https://magento.com/about",
+    "https://magento.com/careers",
+    "https://magento.com/press-room",
+    "https://magento.com/security",
+    "https://magento.com/find-a-partner",
+    "https://www.adobe.com/partners.html",
+    "https://u.magento.com/certification",
+    "https://u.magento.com/developers",
+    "https://u.magento.com/",
+    "https://commercemarketplace.adobe.com/extensions.html/",
+    "https://commercemarketplace.adobe.com/themes.html/",
+    "https://commercemarketplace.adobe.com/partners/",
+    "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/pdf/footer/Marketplace-Infosheet.pdf",
+    "http://docs.magento.com/marketplace/user_guide/getting-started.html",
+    "https://magento.com/resources/technical",
+    "https://commercedeveloper.adobe.com/",
+    "https://experienceleague.adobe.com/docs/commerce-admin/start/resources/commerce-marketplace.html",
+    "https://developer.adobe.com/commerce/marketplace/guides/eqp/v1/",
+    "https://developer.adobe.com/open/magento",
+    "https://commercemarketplace.adobe.com/contact-us/",
+    "https://magento.com/events",
+    "https://magento.com/resources/webinars",
+    "https://www.facebook.com/magento",
+    "https://twitter.com/magento",
+    "https://www.linkedin.com/groups/146360/profile",
+    "https://magento.com/legal/terms/marketplace",
+    "https://magento.com/sites/default/files/MAGENTO-MARKETPLACE-CUSTOMER-AGREEMENT-April-12-2019.pdf",
+    "https://www.onetrust.com/solutions/consent-and-preferences/?utm_source=cmp&utm_medium=cmpbanner",
+    "javascript:void(0)"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/images/logo-header-adobe.svg",
+        "alt": "",
+        "w": 300,
+        "h": 78
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/images/logo-footer-adobe.svg",
+        "alt": "Adobe Commerce",
+        "w": 300,
+        "h": 78
+      },
+      {
+        "src": "https://cdn.cookielaw.org/logos/static/ot_company_logo.png",
+        "alt": "Company Logo",
+        "w": 2042,
+        "h": 280
+      },
+      {
+        "src": "https://cdn.cookielaw.org/logos/static/powered_by_logo.svg",
+        "alt": "Powered by Onetrust",
+        "w": 568,
+        "h": 53
+      },
+      {
+        "src": "https://cdn.cookielaw.org/logos/static/powered_by_logo.svg",
+        "alt": "Powered by Onetrust",
+        "w": 568,
+        "h": 53
+      }
+    ],
+    "allImgCount": 5,
+    "cssBackgrounds": [],
+    "modals": [
+      "My Cart Close You have no items in your shopping cart.",
+      "Cookie Settings Don’t enable Enable all Confirm my choices General information You are in control of your data. You can control how Adobe websites use cookies and similar technologies by making choices below. But note that if you disable cookies and similar technologies entirely, Adobe websites may not function properly. What are cookies and why does Adobe use them? Cookies are small text files stored by your web browser when you use websites. There are also other technologies that can be used for similar purposes like HTML5 Local Storage and local shared objects, web beacons, and embedded scripts. These technologies help us do things like remembering you and your preferences when you return to our sites, measure how you use the website, conduct market research, and gather information about the ads you see and interact with. How do I make choices? You can make choices in the menu below about what cookies and other technologies you want us to use on Adobe sites when you visit them from this browser. You can always change those choices later by clicking on the Cookie Preferences link at the bottom of the page. If enabled: We can improve your experience by tailoring the site and the content to things we think might be of interest We can better keep track of your preferences — like what language you prefer to use We will better understand your likely interests so we can provide you more relevant Adobe ads and content on non-Adobe websites and in non-Adobe apps It will help us improve the performance of our website and those of our partners who use the Adobe Experience Cloud If disabled: We won’t be able to remember you from session to session so the experience may not be tailored to your interests You’ll still have access to the content of the site but certain features that depend on cookies may not function You’ll still see ads, they just may not be as relevant to you General information You are in control of your data. You can control how Adobe websites use cookies and similar technologies by making choices below. But note that if you disable cookies and similar technologies entirely, Adobe websites may not function properly. What are cookies and why does Adobe use them? Cookies are small text files stored by your web browser when you use websites. There are also other technologies that can be used for similar purposes like HTML5 Local Storage, web beacons, and embedded scripts. These technologies help us do things like remembering you and your preferences when you return to our sites, measure how you use the website, conduct market research, and gather information about the ads you see and interact with. How do I make choices? You can make choices in the menu below about what cookies and other technologies you want us to use on Adobe sites when you visit them from this browser. You can always change those choices later by clicking on the Cookie Preferences link at the bottom of the page. If enabled: We can improve your experience by tailoring the site and the content to things we think might be of interest We can better keep track of your preferences — like what language you prefer to use We will better understand your likely interests so we can provide you more relevant Adobe ads and content on non-Adobe websites and in non-Adobe apps It will help us improve the performance of our website and those of our partners who use the Adobe Experience Cloud If disabled: We won’t be able to remember you from session to session so the experience may not be tailored to your interests We’ll still count your use of our site and services You’ll still have access to the content of the site but certain features that depend on cookies may not function You’ll still see ads, they just may not be as relevant to you .default-content { display: block; } .mau-content { display: none; } .mau-template-active .default-content { display: none; } .mau-template-active .mau-content { display: block; } .mau-template-active .default-title { display: none; } .mau-template-active .mau-title { display: inline !important; } .mau-template-active .default-description { display: none; } .mau-template-active .mau-description { display: block !important; } .ot-cookie-settings .cs-text::before { content: \"We’ve saved your settings\" } .ot-cookie-settings .cs-settings-text::before { content: \"Manage Cookie Settings\" } .always-active::after { content: \"First party cookies always active when the category is enabled\" } #onetrust-pc-sdk #select-all-container::before { /* FOR WEBKIT */ content: \"Host\" } #onetrust-pc-sdk #select-all-container::after { /* FOR WEBKIT */ content: \"Description\" } #onetrust-pc-sdk.ot-sdk-not-webkit #select-all-container::before { content: \"Host\" } #onetrust-pc-sdk.ot-sdk-not-webkit #select-all-container::after { content: \"Description\" } #onetrust-pc-sdk .accordion-text .ot-switch::before { content: \"Enable\" } #onetrust-pc-sdk .accordion-text .ot-switch { direction:ltr; } #onetrust-pc-sdk .accordion-text .ot-switch.checked::before { content: \"Enabled\" } #onetrust-pc-sdk #vendor-list-content [type=\"checkbox\"]:disabled + label::before { content: \"Always active\" } #vendors-list.strictly .always-active::after { content: \"Always active\" } Enable allOperate the site and core servicesOperate site and measure engagementAlways active Operate the site and core servicesOperate site and measure engagement These cookies are required, and they are used to enable the site and related services core functionality. Without them the site could not operate, so they cannot be disabled. These cookies enable the site and related services’ core functionality and collect statistics about user engagement, such as counting active use to help us understand trends. These cookies cannot be disabled. Cookie details‎Measure performance Measure performance These cookies are used to analyze site usage to measure and improve performance. Without them Adobe cannot know what content is most valued and how often unique visitors return to the site, making it hard to improve information we offer to you. These cookies are used to analyze site usage to measure and improve performance. Without them Adobe cannot know what content is most valued, making it hard to improve information we offer to you. Cookie details‎Extend functionality Extend functionalityThese cookies are used to enhance the functionality of Adobe sites such as remembering your settings and preferences to deliver a personalized experience; for example, your username, your repeated visits, preferred language, your country, or any other saved preference.Cookie details‎Personalize advertising Personalize advertisingThese cookies are used to enable Adobe and our partners to serve ads more relevant to your interests. Without them you will still see ads, but they might not be as relevant to you. Cookie details‎ Confirm my choicesBack ButtonBack Performance CookiesVendor Search Search Icon Filter IconClear Filters Information storage and accessApplyConsent Leg.InterestAll Consent Allowed Select All Vendors Select All Vendors All Consent Allowed Confirm my choices"
+    ],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {
+    "--ot-privacy-cta-color": "#3B63FB",
+    "--ot-privacy-cta-hover-color": "#274DEA",
+    "--ot-privacy-cta-ring-color": "#378EF0"
+  },
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 8,
+    "mainTextLen": 2111,
+    "realImageCount": 5,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "dynamic": {
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "commercemarketplace.adobe.com",
+        "path": "/static/version1789987689/frontend/Aheadworks/marketplace/en_US/js-translation.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 91,
+        "hits": 1,
+        "example": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/js-translation.json",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "commercemarketplace.adobe.com",
+        "path": "/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Ui/templates/modal/modal-slide.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "status": 200,
+        "bytes": 542,
+        "hits": 1,
+        "example": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Ui/templates/modal/modal-slide.html",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "commercemarketplace.adobe.com",
+        "path": "/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Ui/templates/modal/modal-custom.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "status": 200,
+        "bytes": 519,
+        "hits": 1,
+        "example": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Ui/templates/modal/modal-custom.html",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "commercemarketplace.adobe.com",
+        "path": "/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Ui/templates/modal/modal-popup.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "status": 200,
+        "bytes": 522,
+        "hits": 1,
+        "example": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Ui/templates/modal/modal-popup.html",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "commercemarketplace.adobe.com",
+        "path": "/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Ui/templates/tooltip/tooltip.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "status": 200,
+        "bytes": 197,
+        "hits": 1,
+        "example": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Ui/templates/tooltip/tooltip.html",
+        "sameSite": true
+      },
+      {
+        "method": "POST",
+        "host": "logx.optimizely.com",
+        "path": "/v1/events",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/plain",
+        "status": 204,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://logx.optimizely.com/v1/events",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/consent/{uuid}/{uuid}.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/consent/3f974ff3-d476-4b4f-bf22-af36e8c54e80/3f974ff3-d476-4b4f-bf22-af36e8c54e80.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "geolocation.onetrust.com",
+        "path": "/cookieconsentpub/v1/geo/location",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "commercemarketplace.adobe.com",
+        "path": "/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Ui/templates/block-loader.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "status": 200,
+        "bytes": 149,
+        "hits": 1,
+        "example": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Ui/templates/block-loader.html",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "commercemarketplace.adobe.com",
+        "path": "/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Customer/template/authentication-popup.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "status": 200,
+        "bytes": 942,
+        "hits": 1,
+        "example": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Customer/template/authentication-popup.html",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "commercemarketplace.adobe.com",
+        "path": "/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Ui/template/messages.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "status": 200,
+        "bytes": 251,
+        "hits": 1,
+        "example": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Ui/template/messages.html",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "commercemarketplace.adobe.com",
+        "path": "/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Checkout/template/minicart/content.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "status": 200,
+        "bytes": 1053,
+        "hits": 1,
+        "example": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Checkout/template/minicart/content.html",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "commercemarketplace.adobe.com",
+        "path": "/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Pitbulk_SAML2/template/checkout/samllogin.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "status": 200,
+        "bytes": 284,
+        "hits": 1,
+        "example": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Pitbulk_SAML2/template/checkout/samllogin.html",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "commercemarketplace.adobe.com",
+        "path": "/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Captcha/template/checkout/captcha.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "status": 200,
+        "bytes": 550,
+        "hits": 1,
+        "example": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Captcha/template/checkout/captcha.html",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/consent/{uuid}/{uuid}/en.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/consent/3f974ff3-d476-4b4f-bf22-af36e8c54e80/019caf6e-4366-72a5-961b-00e18d133360/en.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202501.1.0/assets/otFlat.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 3001,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202501.1.0/assets/otFlat.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202501.1.0/assets/otPcCenter.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 15013,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202501.1.0/assets/otPcCenter.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202501.1.0/assets/otCommonStyles.css",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/css",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202501.1.0/assets/otCommonStyles.css",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "commercemarketplace.adobe.com",
+        "path": "/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Ui/templates/collection.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "status": 200,
+        "bytes": 121,
+        "hits": 1,
+        "example": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Ui/templates/collection.html",
+        "sameSite": true
+      },
+      {
+        "method": "POST",
+        "host": "bam.nr-data.net",
+        "path": "/{n}/NRJS-d0edda730f7343596cf",
+        "query": [
+          "a",
+          "af",
+          "ap",
+          "at",
+          "be",
+          "dc",
+          "fcp",
+          "fe",
+          "fp",
+          "perf",
+          "ptid",
+          "ref",
+          "rst",
+          "s",
+          "to",
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://bam.nr-data.net/1/NRJS-d0edda730f7343596cf",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "bam.nr-data.net",
+        "path": "/events/{n}/NRJS-d0edda730f7343596cf",
+        "query": [
+          "a",
+          "ptid",
+          "ref",
+          "rst",
+          "s",
+          "to",
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": "image/gif",
+        "status": 200,
+        "bytes": 24,
+        "hits": 3,
+        "example": "https://bam.nr-data.net/events/1/NRJS-d0edda730f7343596cf",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "bam.nr-data.net",
+        "path": "/jserrors/{n}/NRJS-d0edda730f7343596cf",
+        "query": [
+          "a",
+          "ptid",
+          "ref",
+          "rst",
+          "s",
+          "to",
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": "image/gif",
+        "status": 200,
+        "bytes": 24,
+        "hits": 1,
+        "example": "https://bam.nr-data.net/jserrors/1/NRJS-d0edda730f7343596cf",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "bam.nr-data.net",
+        "path": "/ins/{n}/NRJS-d0edda730f7343596cf",
+        "query": [
+          "a",
+          "at",
+          "ptid",
+          "ref",
+          "rst",
+          "s",
+          "to",
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 204,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://bam.nr-data.net/ins/1/NRJS-d0edda730f7343596cf",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "analytics.google.com",
+        "path": "/g/collect",
+        "query": [
+          "_ee",
+          "_eu",
+          "_p",
+          "_s",
+          "cid",
+          "dl",
+          "dma",
+          "dt",
+          "en",
+          "ep.anonymize_ip",
+          "frm",
+          "gaf",
+          "gcd",
+          "gtm",
+          "npa",
+          "pscdl",
+          "rcb",
+          "sct",
+          "seg",
+          "sid",
+          "sr",
+          "tag_exp",
+          "tfd",
+          "tid",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "ul",
+          "v"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "status": 204,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://analytics.google.com/g/collect",
+        "sameSite": false
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "apps.bazaarvoice.com",
+        "count": 4
+      },
+      {
+        "host": "unpkg.com",
+        "count": 4
+      },
+      {
+        "host": "cdn.cookielaw.org",
+        "count": 2
+      },
+      {
+        "host": "js.braintreegateway.com",
+        "count": 2
+      },
+      {
+        "host": "cdn.optimizely.com",
+        "count": 1
+      },
+      {
+        "host": "rum.hlx.page",
+        "count": 1
+      },
+      {
+        "host": "livesearch-metrics.magento-ds.com",
+        "count": 1
+      },
+      {
+        "host": "acds-events.adobe.io",
+        "count": 1
+      },
+      {
+        "host": "www.googletagmanager.com",
+        "count": 1
+      },
+      {
+        "host": "js-agent.newrelic.com",
+        "count": 1
+      }
+    ],
+    "truncated": false,
+    "inlineData": [],
+    "globalState": [
+      "dataLayer"
+    ],
+    "frameworkHints": [],
+    "forms": [
+      {
+        "action": "https://commercemarketplace.adobe.com/catalogsearch/result/",
+        "hasAction": true,
+        "method": "get",
+        "sameOrigin": true,
+        "fieldCount": 1,
+        "fieldNames": [
+          "q"
+        ],
+        "search": true
+      }
+    ],
+    "ariaLiveRegions": 0,
+    "triggers": [
+      {
+        "marker": "aria-haspopup",
+        "href": null
+      }
+    ],
+    "mediaIds": [],
+    "summary": {
+      "sameSiteEndpoints": 12,
+      "thirdPartyEndpoints": 12,
+      "thirdPartyScriptHosts": 10,
+      "inlineDataBlobs": 0,
+      "forms": 1,
+      "searchForms": 1,
+      "hydrated": false
+    }
+  },
+  "screenshot": "assets/screenshots/terms-and-conditions.png",
+  "renderedHtml": "pages/terms-and-conditions.html",
+  "slots": {
+    "pageType": "static",
+    "_provenance": {
+      "writtenBy": "stardust:extract --prep",
+      "writtenAt": "2026-10-20T19:50:00Z",
+      "basis": "prep-mode.md § 4; values are captured strings from this record and pages/terms-and-conditions.html"
+    },
+    "headline": {
+      "selector": "#maincontent .column.main h2",
+      "text": "Terms and Conditions",
+      "note": "page uses an h2, no h1"
+    },
+    "breadcrumbs": {
+      "selector": ".breadcrumbs ul.items",
+      "module": "candidate-breadcrumbs",
+      "items": [
+        "Home",
+        "Terms and Conditions"
+      ]
+    },
+    "body": {
+      "selector": "#maincontent .column.main .cms-content",
+      "module": "candidate-cms-text-body",
+      "lead": "The following terms and conditions apply to (1) your use of the Adobe Commerce Marketplace, and (2) your development and distribution of any Extensions on the Adobe Commerce Marketplace.",
+      "documentLinks": [
+        "Marketplace Master Terms (for Marketplace Extension developers)",
+        "Marketplace Development Terms (for Marketplace Extension developers)",
+        "Magento Marketplace Customer Agreement (for Marketplace Extension customers)"
+      ]
+    }
+  }
+}

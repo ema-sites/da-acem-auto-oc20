@@ -1,0 +1,96 @@
+/* product-contents-nav — program.css § contents nav (spectrum SideNav, computed), values exact */
+
+/* ---------- detail row: contents nav (sticky) + detail sections ----------
+   The two blocks share one section; the section is the source's second .product-details-row. */
+@media (width >= 992px) {
+  main > .section.product-contents-nav-container {
+    display: flex;
+    flex-flow: row wrap;
+    box-sizing: border-box;
+    max-width: var(--container);
+    margin: 0 auto;
+    padding: 0 var(--gutter);
+  }
+
+  main > .section.product-contents-nav-container > div {
+    max-width: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  main > .section.product-contents-nav-container > .product-contents-nav-wrapper {
+    position: sticky;
+    top: 155px;
+    flex: none;
+    align-self: flex-start;
+    margin-top: 60px;
+  }
+}
+
+.product-contents-nav .contents-nav {
+  box-sizing: content-box;
+  padding: 0 20px;
+  color: #8e8e8e;
+}
+
+.product-contents-nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.product-contents-nav li {
+  margin: 4px 0;
+}
+
+.product-contents-nav .sidenav-head {
+  display: block;
+  padding: 6px 12px;
+}
+
+.product-contents-nav .sidenav-head p {
+  margin: 0;
+}
+
+.product-contents-nav .sidenav-head strong {
+  display: block;
+  color: #000;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.product-contents-nav li a:any-link {
+  display: inline-flex;
+  position: relative;
+  box-sizing: border-box;
+  align-items: center;
+  width: 100%;
+  min-height: 32px;
+  padding: 5px 12px;
+  border-radius: 4px;
+  color: #8e8e8e;
+  font-size: 14px;
+  line-height: 20px;
+  white-space: nowrap;
+  transition:
+    background-color 0.13s ease-in-out,
+    color 0.13s ease-in-out;
+}
+
+/* stylelint-disable-next-line selector-class-pattern -- modifier named by the replica contract */
+.product-contents-nav li.sidenav-item--hidden {
+  display: none;
+}
+
+.product-contents-nav li.is-selected a:any-link {
+  background: rgb(0 0 0 / 6%);
+  color: #000;
+}
+
+@media (width >= 992px) {
+  /* R-01: width pinned to the live content width (Adobe Clean) */
+  .product-contents-nav .contents-nav {
+    width: 157.562px;
+    padding: 0;
+  }
+}

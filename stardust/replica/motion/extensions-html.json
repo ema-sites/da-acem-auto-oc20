@@ -1,0 +1,530 @@
+{
+  "url": "https://commercemarketplace.adobe.com/extensions.html",
+  "width": 1440,
+  "headerTimeline": [
+    {
+      "y": 0,
+      "cls": "page-header sticky",
+      "position": "sticky",
+      "height": "90px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "page-header sticky",
+      "position": "sticky",
+      "height": "90px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 1200,
+      "cls": "page-header sticky",
+      "position": "sticky",
+      "height": "90px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 2400,
+      "cls": "page-header sticky",
+      "position": "sticky",
+      "height": "90px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 1570,
+      "cls": "page-header sticky",
+      "position": "sticky",
+      "height": "90px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 70,
+      "cls": "page-header sticky",
+      "position": "sticky",
+      "height": "90px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 2400,
+      "cls": "page-header sticky",
+      "position": "sticky",
+      "height": "90px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 1200,
+      "cls": "page-header sticky",
+      "position": "sticky",
+      "height": "90px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 800,
+      "cls": "page-header sticky",
+      "position": "sticky",
+      "height": "90px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 500,
+      "cls": "page-header sticky",
+      "position": "sticky",
+      "height": "90px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 300,
+      "cls": "page-header sticky",
+      "position": "sticky",
+      "height": "90px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 200,
+      "cls": "page-header sticky",
+      "position": "sticky",
+      "height": "90px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 150,
+      "cls": "page-header sticky",
+      "position": "sticky",
+      "height": "90px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 120,
+      "cls": "page-header sticky",
+      "position": "sticky",
+      "height": "90px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 90,
+      "cls": "page-header sticky",
+      "position": "sticky",
+      "height": "90px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 60,
+      "cls": "page-header sticky",
+      "position": "sticky",
+      "height": "90px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 30,
+      "cls": "page-header sticky",
+      "position": "sticky",
+      "height": "90px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "page-header sticky",
+      "position": "sticky",
+      "height": "90px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    }
+  ],
+  "widgetSamples": [
+    {
+      "sel": "a.showcart",
+      "frames": [
+        {
+          "t": 19995.800000000745,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 20208.300000000745,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 20429.60000000056,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 20640.400000000373,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        }
+      ]
+    }
+  ],
+  "hoverSamples": [
+    {
+      "sel": ".result-content",
+      "changed": [
+        "self.transform",
+        "self.color",
+        "self.boxShadow",
+        "img.product-item-photo.color",
+        "div.partner-badge-icon.color"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(80, 80, 80)",
+          "background": "rgb(255, 255, 255)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "transform 0.2s, box-shadow 0.2s"
+        },
+        "subs": [
+          {
+            "el": "img.product-item-photo",
+            "transform": "none",
+            "color": "rgb(80, 80, 80)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "h3.result-title.text-ellipsis",
+            "transform": "none",
+            "color": "rgb(51, 51, 51)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "h4.result-subtitle",
+            "transform": "none",
+            "color": "rgb(51, 51, 51)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "div.partner-badge-icon",
+            "transform": "none",
+            "color": "rgb(80, 80, 80)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "matrix(1, 0, 0, 1, 0, -4)",
+          "color": "rgb(4, 93, 202)",
+          "background": "rgb(255, 255, 255)",
+          "boxShadow": "rgba(0, 0, 0, 0.1) 0px 4px 12px 0px",
+          "opacity": "1",
+          "transition": "transform 0.2s, box-shadow 0.2s"
+        },
+        "subs": [
+          {
+            "el": "img.product-item-photo",
+            "transform": "none",
+            "color": "rgb(4, 93, 202)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "h3.result-title.text-ellipsis",
+            "transform": "none",
+            "color": "rgb(51, 51, 51)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "h4.result-subtitle",
+            "transform": "none",
+            "color": "rgb(51, 51, 51)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "div.partner-badge-icon",
+            "transform": "none",
+            "color": "rgb(4, 93, 202)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      }
+    },
+    {
+      "sel": ".navigation li.level0 > a",
+      "changed": [
+        "self.color",
+        "self.background",
+        "self.boxShadow"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(81, 80, 80)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(242, 243, 243)",
+          "boxShadow": "rgba(156, 151, 151, 0.5) 0px 2px 4px 0px",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": ".category-link",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(99, 99, 99)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "0.2s"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(99, 99, 99)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "0.2s"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": ".selected-filter-item",
+      "changed": [
+        "self.color",
+        "self.opacity"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(4, 105, 227)",
+          "background": "rgb(249, 249, 249)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "opacity 0.2s"
+        },
+        "subs": [
+          {
+            "el": "span.remove-icon",
+            "transform": "none",
+            "color": "rgb(51, 51, 51)",
+            "background": "rgb(221, 221, 221)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(4, 93, 202)",
+          "background": "rgb(249, 249, 249)",
+          "boxShadow": "none",
+          "opacity": "0.8",
+          "transition": "opacity 0.2s"
+        },
+        "subs": [
+          {
+            "el": "span.remove-icon",
+            "transform": "none",
+            "color": "rgb(51, 51, 51)",
+            "background": "rgb(221, 221, 221)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      }
+    }
+  ],
+  "media": {
+    "videos": [],
+    "idleClassMutations": [],
+    "idleClassMutationCount": 0
+  },
+  "events": {
+    "animations": [],
+    "transitions": [
+      {
+        "prop": "transform",
+        "el": "div.products-grid.products.wrapper > div.ais-hits--item.col-xs-12.col-sm-6 > div.result-wrapper.partners > a.result > div.result-content.partners",
+        "y": 5,
+        "dur": "0.2s, 0.2s"
+      },
+      {
+        "prop": "box-shadow",
+        "el": "div.products-grid.products.wrapper > div.ais-hits--item.col-xs-12.col-sm-6 > div.result-wrapper.partners > a.result > div.result-content.partners",
+        "y": 5,
+        "dur": "0.2s, 0.2s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.products-grid.products.wrapper > div.ais-hits--item.col-xs-12.col-sm-6 > div.result-wrapper.partners > a.result > div.result-content.partners",
+        "y": 0,
+        "dur": "0.2s, 0.2s"
+      },
+      {
+        "prop": "box-shadow",
+        "el": "div.products-grid.products.wrapper > div.ais-hits--item.col-xs-12.col-sm-6 > div.result-wrapper.partners > a.result > div.result-content.partners",
+        "y": 0,
+        "dur": "0.2s, 0.2s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.facet-group.facet-category-hierarchical > ul.facet-items.category-tree > li.facet-item.category-item.level-0 > a.category-link.selected > span.cross-circle",
+        "y": 0,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.facet-group.facet-category-hierarchical > ul.facet-items.category-tree > li.facet-item.category-item.level-0 > a.category-link.selected > span.cross-circle",
+        "y": 0,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.columns > div.livesearch-plp-facets > div.selected-filters-container > div.selected-filters-list > a.selected-filter-item.remove-filter",
+        "y": 0,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.columns > div.livesearch-plp-facets > div.selected-filters-container > div.selected-filters-list > a.selected-filter-item.remove-filter",
+        "y": 0,
+        "dur": "0.2s"
+      }
+    ],
+    "classMutations": [
+      {
+        "added": [
+          "active"
+        ],
+        "el": "header.page-header.sticky > div.header.content > div.case-minicart-links > div.minicart-wrapper.active > div.active",
+        "y": 0
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.page-wrapper > header.page-header.sticky > div.header.content > div.case-minicart-links > div.minicart-wrapper.active",
+        "y": 0
+      }
+    ]
+  }
+}

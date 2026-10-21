@@ -1,0 +1,194 @@
+[
+ {
+  "domainScript": "3f974ff3-d476-4b4f-bf22-af36e8c54e80",
+  "version": "202501.1.0",
+  "ruleSets": [
+   {
+    "name": "Adobe_EEA",
+    "type": "GDPR",
+    "countries": 40,
+    "default": true,
+    "gpc": false,
+    "consentModel": "opt-in",
+    "banner": true,
+    "languages": 36,
+    "groups": [
+     {
+      "id": "C0001",
+      "name": "<span class=\"default-title\" style=\"font-weight: bold;\">Operate the site and core services</span><span class=\"mau-title\" style=\"display: none; font-weight: bold;\">Operate site and measure engagement</span>",
+      "status": "always active",
+      "hosts": [
+       "assets.adobedtm.com",
+       "m.stripe.com"
+      ]
+     },
+     {
+      "id": "C0002",
+      "name": "Measure performance",
+      "status": "inactive",
+      "hosts": [
+       "Clicktale.net"
+      ]
+     },
+     {
+      "id": "C0003",
+      "name": "Extend functionality",
+      "status": "inactive",
+      "hosts": [
+       "screencast.com",
+       "i.sstatic.net"
+      ]
+     },
+     {
+      "id": "C0004",
+      "name": "Personalize advertising",
+      "status": "inactive",
+      "hosts": [
+       "doubleclick.net",
+       "b92.yahoo.co.jp",
+       "everesttech.net",
+       "Pinterest",
+       "assets.adobedtm.com",
+       "facebook.com",
+       "linkedin.com",
+       "bing.com",
+       "yandex.ru",
+       ".reddit.com",
+       "demdex.net"
+      ]
+     },
+     {
+      "id": "C0005",
+      "name": "Social Media cookies",
+      "status": "inactive",
+      "hosts": []
+     }
+    ]
+   },
+   {
+    "name": "Adobe_Canada",
+    "type": "GDPR",
+    "countries": 1,
+    "default": false,
+    "gpc": false,
+    "consentModel": "opt-in",
+    "banner": true,
+    "languages": 35,
+    "groups": [
+     {
+      "id": "C0001",
+      "name": "<span class=\"default-title\" style=\"font-weight: bold;\">Operate the site and core services</span><span class=\"mau-title\" style=\"display: none; font-weight: bold;\">Operate site and measure engagement</span>",
+      "status": "always active",
+      "hosts": [
+       "assets.adobedtm.com",
+       "m.stripe.com"
+      ]
+     },
+     {
+      "id": "C0002",
+      "name": "Measure performance",
+      "status": "inactive",
+      "hosts": [
+       "Clicktale.net"
+      ]
+     },
+     {
+      "id": "C0003",
+      "name": "Extend functionality",
+      "status": "inactive",
+      "hosts": [
+       "screencast.com",
+       "i.sstatic.net"
+      ]
+     },
+     {
+      "id": "C0004",
+      "name": "Personalize advertising",
+      "status": "inactive",
+      "hosts": [
+       "doubleclick.net",
+       "b92.yahoo.co.jp",
+       "everesttech.net",
+       "Pinterest",
+       "assets.adobedtm.com",
+       "facebook.com",
+       "linkedin.com",
+       "bing.com",
+       "yandex.ru",
+       ".reddit.com",
+       "demdex.net"
+      ]
+     },
+     {
+      "id": "C0005",
+      "name": "Social Media cookies",
+      "status": "inactive",
+      "hosts": []
+     }
+    ]
+   },
+   {
+    "name": "Global",
+    "type": "GDPR",
+    "countries": 209,
+    "default": false,
+    "gpc": false,
+    "consentModel": "opt-in",
+    "banner": false,
+    "languages": 35,
+    "groups": [
+     {
+      "id": "C0001",
+      "name": "<span class=\"default-title\" style=\"font-weight: bold;\">Operate the site and core services</span><span class=\"mau-title\" style=\"display: none; font-weight: bold;\">Operate site and measure engagement</span>",
+      "status": "always active",
+      "hosts": [
+       "assets.adobedtm.com",
+       "m.stripe.com"
+      ]
+     },
+     {
+      "id": "C0002",
+      "name": "Measure performance",
+      "status": "inactive",
+      "hosts": [
+       "Clicktale.net"
+      ]
+     },
+     {
+      "id": "C0003",
+      "name": "Extend functionality",
+      "status": "inactive",
+      "hosts": [
+       "screencast.com",
+       "i.sstatic.net"
+      ]
+     },
+     {
+      "id": "C0004",
+      "name": "Personalize advertising",
+      "status": "inactive",
+      "hosts": [
+       "doubleclick.net",
+       "b92.yahoo.co.jp",
+       "everesttech.net",
+       "Pinterest",
+       "assets.adobedtm.com",
+       "facebook.com",
+       "linkedin.com",
+       "bing.com",
+       "yandex.ru",
+       ".reddit.com",
+       "demdex.net"
+      ]
+     },
+     {
+      "id": "C0005",
+      "name": "Social Media cookies",
+      "status": "inactive",
+      "hosts": []
+     }
+    ]
+   }
+  ]
+ }
+]

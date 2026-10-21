@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Migration status</title>
+<link rel="stylesheet" href="spectrum.css">
+<style>
+  body { background-color: var(--spectrum-bg-app); }
+  main { max-width: 760px; margin: 0 auto; padding: 40px 24px 64px; }
+  header { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+  .meta { color: var(--spectrum-text-subdued); margin: 0 0 24px; }
+  .spectrum-panel { margin-bottom: 16px; }
+  .spectrum-panel-header { margin: 0; padding: 0 16px; }
+  .panel-body { padding: 16px; }
+  .panel-body > :last-child { margin-bottom: 0; }
+  .bar { height: 8px; border-radius: 9999px; background-color: var(--spectrum-gray-200); overflow: hidden; }
+  .bar span { display: block; height: 100%; background-color: var(--spectrum-accent-bg); }
+  ol.steps { list-style: none; padding: 0; margin: 0; }
+  ol.steps li { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 12px 0; }
+  ol.steps li + li { border-top: 1px solid var(--spectrum-gray-200); }
+  details summary { cursor: pointer; }
+  table.pages { margin-top: 8px; }
+  table.pages td { word-break: break-all; }
+  table { width: 100%; border-collapse: collapse; }
+  th, td { padding: 8px; text-align: left; border-bottom: 1px solid var(--spectrum-gray-200); }
+  th { color: var(--spectrum-text-subdued); font-weight: 700; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Migration status</h1>
+    <span class="spectrum-badge spectrum-badge--positive">Ready</span>
+  </header>
+  <p class="meta">Source site: <a href="http://commercemarketplace.adobe.com/" target="_blank" rel="noopener">http://commercemarketplace.adobe.com/</a><br>Preview site: <a href="https://main--bfdb0b0f--aemcoder.aem.page/" target="_blank" rel="noopener">https://main--bfdb0b0f--aemcoder.aem.page/</a><br>Last updated: 2026-10-21 00:43 UTC</p>
+
+  <section class="spectrum-panel">
+    <h2 class="spectrum-panel-header">Journey</h2>
+    <div class="panel-body">
+      <ol class="steps">
+        <li>Analyzing your site<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Capturing brand and design<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Rebuilding page templates<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Publishing your pages<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Checking every page against the original<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Final checks<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="spectrum-panel">
+    <h2 class="spectrum-panel-header">Pages</h2>
+    <div class="panel-body">
+      <p>This migration covers 11 pages, chosen from the 4066 we found on your site. 11 of 11 are published on the preview site; 11 have passed the side-by-side check against the original.</p>
+      <details open>
+        <summary>11 pages in this migration</summary>
+        <table class="pages">
+          <thead><tr><th>Source page</th><th>On the preview site</th><th>Status</th></tr></thead>
+          <tbody>
+          <tr><td><a href="https://commercemarketplace.adobe.com/" target="_blank" rel="noopener">https://commercemarketplace.adobe.com/</a></td><td><a href="https://main--bfdb0b0f--aemcoder.aem.page/" target="_blank" rel="noopener">Adobe Commerce Extensions &amp;amp; Themes for Your Online Store | Marketplace</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://commercemarketplace.adobe.com/extensions.html" target="_blank" rel="noopener">https://commercemarketplace.adobe.com/extensions.html</a></td><td><a href="https://main--bfdb0b0f--aemcoder.aem.page/extensions" target="_blank" rel="noopener">Adobe Commerce Extensions | Free &amp;amp; Premium Plugins | Marketplace</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://commercemarketplace.adobe.com/themes.html" target="_blank" rel="noopener">https://commercemarketplace.adobe.com/themes.html</a></td><td><a href="https://main--bfdb0b0f--aemcoder.aem.page/themes" target="_blank" rel="noopener">Adobe Commerce Themes | eCommerce Website Templates | Marketplace</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://commercemarketplace.adobe.com/amasty-module-price-history.html" target="_blank" rel="noopener">https://commercemarketplace.adobe.com/amasty-module-price-history.html</a></td><td><a href="https://main--bfdb0b0f--aemcoder.aem.page/amasty-module-price-history" target="_blank" rel="noopener">Omnibus Price Tracker</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://commercemarketplace.adobe.com/plumrocket-private-sales-flash-sales.html" target="_blank" rel="noopener">https://commercemarketplace.adobe.com/plumrocket-private-sales-flash-sales.html</a></td><td><a href="https://main--bfdb0b0f--aemcoder.aem.page/plumrocket-private-sales-flash-sales" target="_blank" rel="noopener">Private Sales Flash Sales</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://commercemarketplace.adobe.com/privacy-policy-cookie-restriction-mode" target="_blank" rel="noopener">https://commercemarketplace.adobe.com/privacy-policy-cookie-restriction-mode</a></td><td><a href="https://main--bfdb0b0f--aemcoder.aem.page/privacy-policy-cookie-restriction-mode" target="_blank" rel="noopener">Privacy and Cookie Policy</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://commercemarketplace.adobe.com/terms-and-conditions" target="_blank" rel="noopener">https://commercemarketplace.adobe.com/terms-and-conditions</a></td><td><a href="https://main--bfdb0b0f--aemcoder.aem.page/terms-and-conditions" target="_blank" rel="noopener">Terms and Conditions</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://commercemarketplace.adobe.com/extensions/featured-extensions.html" target="_blank" rel="noopener">https://commercemarketplace.adobe.com/extensions/featured-extensions.html</a></td><td><a href="https://main--bfdb0b0f--aemcoder.aem.page/extensions/featured-extensions" target="_blank" rel="noopener">Featured Extensions</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://commercemarketplace.adobe.com/extensions/sales.html" target="_blank" rel="noopener">https://commercemarketplace.adobe.com/extensions/sales.html</a></td><td><a href="https://main--bfdb0b0f--aemcoder.aem.page/extensions/sales" target="_blank" rel="noopener">Sales</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://commercemarketplace.adobe.com/themes/industry/apparel.html" target="_blank" rel="noopener">https://commercemarketplace.adobe.com/themes/industry/apparel.html</a></td><td><a href="https://main--bfdb0b0f--aemcoder.aem.page/themes/industry/apparel" target="_blank" rel="noopener">Apparel - Industry - Themes</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td>—</td><td><a href="https://main--bfdb0b0f--aemcoder.aem.page/search" target="_blank" rel="noopener">Search results</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          </tbody>
+        </table>
+      </details>
+    </div>
+  </section>
+
+  <section class="spectrum-panel">
+    <h2 class="spectrum-panel-header">Page templates</h2>
+    <div class="panel-body">
+      <table>
+        <thead><tr><th>Template</th><th>Pages</th><th>Desktop</th><th>Mobile</th><th>Status</th></tr></thead>
+        <tbody>
+          <tr><td>Home page</td><td>1</td><td><span class="spectrum-badge spectrum-badge--informative">Not yet</span></td><td><span class="spectrum-badge spectrum-badge--informative">Not yet</span></td><td><span class="spectrum-badge spectrum-badge--informative">In progress</span></td></tr>
+          <tr><td>Extension &amp; theme catalogue pages</td><td>5</td><td><span class="spectrum-badge spectrum-badge--positive">Yes</span></td><td><span class="spectrum-badge spectrum-badge--positive">Yes</span></td><td><span class="spectrum-badge spectrum-badge--positive">Done</span></td></tr>
+          <tr><td>Extension product pages</td><td>2</td><td>—</td><td>—</td><td><span class="spectrum-badge spectrum-badge--informative">In progress</span></td></tr>
+          <tr><td>Search</td><td>1</td><td>—</td><td>—</td><td><span class="spectrum-badge spectrum-badge--informative">In progress</span></td></tr>
+          <tr><td>Legal &amp; policy pages</td><td>2</td><td><span class="spectrum-badge spectrum-badge--positive">Yes</span></td><td><span class="spectrum-badge spectrum-badge--positive">Yes</span></td><td><span class="spectrum-badge spectrum-badge--positive">Done</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="spectrum-panel">
+    <h2 class="spectrum-panel-header">Progress</h2>
+    <div class="panel-body">
+      <p>100% complete</p>
+      <div class="bar"><span style="width: 100%"></span></div>
+    </div>
+  </section>
+
+  <section class="spectrum-panel">
+    <h2 class="spectrum-panel-header">What's happening now</h2>
+    <div class="panel-body">
+      <p>Your migration is complete. All ten selected pages, plus a new search results page, are live on the new platform, match the current marketplace closely on desktop and mobile, and have passed every final check. Your analytics, tags and consent setup are in place and switched off, ready for you to turn on when you choose.</p>
+    </div>
+  </section>
+
+  <section class="spectrum-panel">
+    <h2 class="spectrum-panel-header">What's next</h2>
+    <div class="panel-body">
+      <p>Nothing further is scheduled; the site is ready for your review.</p>
+    </div>
+  </section>
+</main>
+</body>
+</html>

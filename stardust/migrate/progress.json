@@ -1,0 +1,51 @@
+{
+  "units": {
+    "plan": {
+      "status": "done",
+      "kind": "plan",
+      "templates": [
+        "landing",
+        "listing",
+        "program",
+        "static"
+      ],
+      "pages": 4,
+      "startedAt": "2026-10-20T20:55:12Z",
+      "endedAt": "2026-10-20T20:55:30Z",
+      "verdict": "rendered 4, unchanged 0, refused 0, passthrough 0 (archetypes index, extensions-html, amasty-module-price-history-html, privacy-policy-cookie-restriction-mode; modules declared)"
+    },
+    "listing": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "listing"
+      ],
+      "pages": 4,
+      "startedAt": "2026-10-20T22:38:42Z",
+      "endedAt": "2026-10-20T23:19:58Z",
+      "verdict": "rendered 4, unchanged 0, refused 0, passthrough 0"
+    },
+    "program": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "program"
+      ],
+      "pages": 1,
+      "startedAt": "2026-10-20T22:38:42Z",
+      "endedAt": "2026-10-20T22:59:20Z",
+      "verdict": "rendered 1, unchanged 0, refused 0, passthrough 0"
+    },
+    "static": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "static"
+      ],
+      "pages": 1,
+      "startedAt": "2026-10-20T22:38:42Z",
+      "endedAt": "2026-10-20T22:53:32Z",
+      "verdict": "rendered 1, unchanged 0, refused 0, passthrough 0"
+    }
+  }
+}

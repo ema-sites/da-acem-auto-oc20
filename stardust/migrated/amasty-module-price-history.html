@@ -1,0 +1,512 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!-- stardust:migrate
+  writtenBy:        stardust:migrate
+  writtenAt:        2026-10-20T20:55:15Z
+  page:             Omnibus Price Tracker
+  slug:             amasty-module-price-history-html
+  pagePath:         migrated/amasty-module-price-history.html
+  renderBranch:     A
+  sourceProposed:   stardust/prototypes/amasty-module-price-history-html-proposed.html
+  sourceCurrent:    stardust/current/pages/amasty-module-price-history-html.json
+  againstDirection: stardust/direction.md (Active)
+  designMd:         DESIGN.md (sha: 669d9fbdeef2)
+  designJson:       DESIGN.json (sha: 027c799c1e88)
+  canonShas:        header:dc66710c7f53 footer:131812af0bf2 css:e91213fb9ae3
+  decisionTrace:    amasty-module-price-history._meta.json
+  brokenInternalLinks: 19
+  stardustVersion:  local
+-->
+<style>
+:root {
+  --font-body: adobe-clean, 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
+  --font-bold: AdobeCleanBold, adobe-clean, 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
+  --font-medium: AdobeCleanMedium, adobe-clean, 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
+  --font-form: RobotoRegular, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+  --c-text: #505050;
+  --c-ink: #000;
+  --c-heading: #333;
+  --c-muted: #636363;
+  --c-muted-2: #727272;
+  --c-count: #999;
+  --c-crumb: #8e8e8e;
+  --c-link: #1979c3;
+  --c-link-brand: #0469e3;
+  --c-nav: #515050;
+  --c-strip: #2b2b2c;
+  --c-footer: #31302b;
+  --c-footer-rule: #979797;
+  --c-panel: #f9f9f9;
+  --c-line: #e0e0e0;
+  --c-accent: #3399cc;
+  --c-select-border: #aeafb1;
+  --c-select-text: #202021;
+
+  --container: 1200px;
+  --gutter: 30px;
+  --header-h: 90px;
+  --strip-h: 55px;
+}
+</style>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Omnibus Price Tracker","url":"https://commercemarketplace.adobe.com/amasty-module-price-history.html"}</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Omnibus Price Tracker</title>
+<link rel="canonical" href="https://commercemarketplace.adobe.com/amasty-module-price-history.html">
+<meta property="og:title" content="Omnibus Price Tracker">
+<meta property="og:type" content="product">
+<meta property="og:image" content="https://commercemarketplace.adobe.com/media/catalog/product/4/f/4f51_omnibus-price-tracker-icon-for-marketplace.png?width=265&amp;height=265&amp;store=default&amp;image-type=image&amp;fit=bounds">
+<link rel="icon" href="./assets/images/favicon.png">
+<link rel="stylesheet" href="./assets/canon.css">
+<link rel="stylesheet" href="./assets/program.css">
+<script src="./assets/canon.js" defer></script>
+<script src="./assets/program.js" defer></script>
+</head>
+<body class="page-product">
+<div class="page-wrapper">
+<header class="page-header">
+  <div class="header-content container">
+    <button class="nav-toggle" type="button" aria-controls="store-menu" aria-expanded="false"><span>Toggle Nav</span></button>
+    <a class="logo" href="./index.html" aria-label="store logo"><img src="./assets/images/logo-header-adobe.svg" alt="" width="90" height="18"></a>
+    <div class="nav-sections">
+      <div class="nav-sections-title active"><a href="#store.menu">Menu</a></div>
+      <div class="nav-sections-title"><a href="#store.links">Account</a></div>
+    <nav class="navigation" id="store-menu">
+      <ul>
+        <li><a href="./extensions.html"><span>Extensions</span></a></li>
+        <li><a href="https://commercemarketplace.adobe.com/themes.html" data-broken-link="true"><span>Themes</span></a></li>
+        <li><a href="./partners/index.html" data-broken-link="true"><span>Partners</span></a></li>
+        <li><a href="https://developer.adobe.com/commerce/marketplace/guides/sellers/"><span>Support</span></a></li>
+      </ul>
+    </nav>
+      <ul class="nav-sections-links" id="store-links"><li><a href="./customer/account/login/referer/aHR0cHM6Ly9jb21tZXJjZW1hcmtldHBsYWNlLmFkb2JlLmNvbS9hbWFzdHktbW9kdWxlLXByaWNlLWhpc3RvcnkuaHRtbA~~/index.html" data-broken-link="true">Sign In</a></li></ul>
+    </div>
+    <div class="header-actions">
+      <div class="minicart">
+        <a class="showcart" href="./checkout/cart/index.html" data-broken-link="true"><span class="icon icon-cart"></span> <span class="text">My Cart</span> <span class="counter"></span></a>
+        <div class="minicart-dropdown" role="dialog" hidden>
+          <div class="minicart-title"><strong><span class="text">My Cart</span> <span class="qty" title="Items in Cart"></span></strong></div>
+          <div class="minicart-content"><button class="minicart-close" type="button" title="Close"><span>Close</span></button> <strong class="subtitle">You have no items in your shopping cart.</strong></div>
+        </div>
+      </div>
+      <ul class="header-links"><li><a href="./customer/account/login/referer/aHR0cHM6Ly9jb21tZXJjZW1hcmtldHBsYWNlLmFkb2JlLmNvbS9hbWFzdHktbW9kdWxlLXByaWNlLWhpc3RvcnkuaHRtbA~~/index.html" data-broken-link="true">Sign In</a></li></ul>
+    </div>
+  </div>
+</header>
+<div class="search-strip">
+  <div class="strip-content">
+    <div class="block-search">
+      <form class="minisearch" action="https://commercemarketplace.adobe.com/catalogsearch/result/" method="get" role="search">
+        <label class="visually-hidden" for="search">Search</label>
+        <div class="search-input-container">
+          <input id="search" type="text" name="q" placeholder="Search extensions, themes, and more..." autocomplete="off">
+          <span class="search-icon" aria-hidden="true"></span>
+        </div>
+        <button class="search-submit" type="submit">Search</button>
+      </form>
+    </div>
+    <p class="version-info">Powered by Adobe Commerce 2.4.9</p>
+  </div>
+</div>
+<main id="maincontent" class="page-main" data-template="amasty-module-price-history-html">
+  <a id="contentarea" data-section="1"></a>
+  <div class="columns" data-section="2">
+    <div class="column main">
+      <nav class="breadcrumbs" aria-label="Breadcrumb">
+        <ol class="items">
+          <li class="item home"><a href="./index.html">Home</a></li>
+          <li class="item product"><strong>Omnibus Price Tracker</strong></li>
+        </ol>
+      </nav>
+      <div class="auth-popup" hidden>
+        <div class="block-new-customer">
+          <div class="block-title"><strong role="heading" aria-level="2">Checkout as a new customer</strong></div>
+          <div class="block-content">
+            <p>Creating an account has many benefits:</p>
+            <ul><li>See order and shipping status</li><li>Track order history</li><li>Check out faster</li></ul>
+            <div class="actions-toolbar"><a class="action-register" href="./customer/account/create/index.html" data-broken-link="true"><span>Create an Account</span></a></div>
+          </div>
+        </div>
+        <div class="block-customer-login">
+          <div class="block-title"><strong role="heading" aria-level="2">Checkout using your account</strong></div>
+          <form class="form-login">
+            <div class="field"><label for="customer-email"><span>Email Address</span></label><input id="customer-email" type="email"></div>
+            <div class="field"><label for="pass"><span>Password</span></label><input id="pass" type="password"></div>
+            <div class="actions-toolbar"><button type="submit"><span>Sign In</span></button> <a href="./customer/account/forgotpassword/index.html" data-broken-link="true"><span>Forgot Your Password?</span></a></div>
+          </form>
+        </div>
+      </div>
+
+      <div class="product-info-details-container">
+        <div class="product-details-row">
+          <div class="product-media">
+            <div class="product-headline">
+              <div class="page-title-wrapper">
+                <div class="ico-product"><img src="https://commercemarketplace.adobe.com/media/catalog/product/o/m/omnibus-price-tracker-icon-for-marketplace_2.png?width=62&amp;height=62&amp;store=default&amp;image-type=thumbnail&amp;fit=bounds" alt="Omnibus Price Tracker" width="62" height="62"></div>
+                <div class="headline-title">
+                  <h1 class="page-title"><span class="base">Omnibus Price Tracker</span></h1>
+                  <div class="by-company">
+                    <div class="vendor-name">by <a href="./partner/Amasty/index.html" data-broken-link="true">Amasty</a></div>
+                    <img src="./assets/images/gold-technology-partner.png" alt="Adobe Gold Technology Partner" width="120">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a id="gallery-prev-area"></a>
+            <div class="action-skip-wrapper"><a class="action-skip" href="#gallery-next-area"><span>Skip to the end of the images gallery</span></a></div>
+            <div class="gallery">
+              <img class="gallery-placeholder-image" hidden src="https://commercemarketplace.adobe.com/media/catalog/product/o/m/omnibus-price-tracker-icon-for-marketplace_2.png?width=750&amp;height=360&amp;store=default&amp;image-type=image&amp;fit=bounds" alt="main product photo">
+              <div class="gallery-stage">
+                <div class="gallery-shaft">
+                  <a class="gallery-frame is-active" href="./media/catalog/product/o/m/omnibus-price-tracker-icon-for-marketplace_2.png?width=750&amp;height=360&amp;store=default&amp;image-type=image&amp;fit=bounds" data-broken-link="true"><img src="https://commercemarketplace.adobe.com/media/catalog/product/o/m/omnibus-price-tracker-icon-for-marketplace_2.png?width=750&amp;height=360&amp;store=default&amp;image-type=image&amp;fit=bounds" alt="omnibus-price-tracker-icon-for-marketplace.png"></a>
+                  <a class="gallery-frame is-next" href="./media/catalog/product/o/m/omnibus-price-tracker-7-market_2.png?width=750&amp;height=360&amp;store=default&amp;image-type=image&amp;fit=bounds" data-broken-link="true"><img src="https://commercemarketplace.adobe.com/media/catalog/product/o/m/omnibus-price-tracker-7-market_2.png?width=750&amp;height=360&amp;store=default&amp;image-type=image&amp;fit=bounds" alt="omnibus-price-tracker-7-market.png"></a>
+                  <a class="gallery-frame is-next" href="./media/catalog/product/o/m/omnibus-price-tracker-intro-hyva_2.png?width=750&amp;height=360&amp;store=default&amp;image-type=image&amp;fit=bounds" data-broken-link="true"><img src="https://commercemarketplace.adobe.com/media/catalog/product/o/m/omnibus-price-tracker-intro-hyva_2.png?width=750&amp;height=360&amp;store=default&amp;image-type=image&amp;fit=bounds" alt="omnibus-price-tracker-intro-hyva.png"></a>
+                </div>
+                <div class="gallery-fullscreen-icon" role="button" aria-label="Exit fullscreen"></div>
+                <div class="gallery-arr gallery-arr--prev" role="button" aria-label="Previous"><span></span></div>
+                <div class="gallery-arr gallery-arr--next" role="button" aria-label="Next"><span></span></div>
+                <div class="gallery-zoom-in" role="button" aria-label="Zoom in"></div>
+                <div class="gallery-zoom-out" role="button" aria-label="Zoom out"></div>
+              </div>
+              <div class="gallery-nav-wrap">
+                <div class="gallery-nav">
+                  <div class="gallery-thumb-arr gallery-thumb-arr--left" role="button" aria-label="Previous"><div class="thumb-icon"></div></div>
+                  <div class="gallery-nav-shaft">
+                    <div class="gallery-thumb is-active" role="button" aria-label="omnibus-price-tracker-icon-for-marketplace.png"><div class="thumb-img"><img src="https://commercemarketplace.adobe.com/media/catalog/product/o/m/omnibus-price-tracker-icon-for-marketplace_2.png?width=142&amp;height=80&amp;store=default&amp;image-type=thumbnail&amp;fit=bounds" alt="omnibus-price-tracker-icon-for-marketplace.png"></div></div>
+                    <div class="gallery-thumb gallery-thumb--fit-h" role="button" aria-label="omnibus-price-tracker-intro-hyva.png"><div class="thumb-img"><img src="https://commercemarketplace.adobe.com/media/catalog/product/o/m/omnibus-price-tracker-intro-hyva_2.png?width=142&amp;height=80&amp;store=default&amp;image-type=thumbnail&amp;fit=bounds" alt="omnibus-price-tracker-intro-hyva.png"></div></div>
+                    <div class="gallery-thumb gallery-thumb--fit-h" role="button" aria-label="omnibus-price-tracker-2.png"><div class="thumb-img"><img src="https://commercemarketplace.adobe.com/media/catalog/product/o/m/omnibus-price-tracker-2_2.png?width=142&amp;height=80&amp;store=default&amp;image-type=thumbnail&amp;fit=bounds" alt="omnibus-price-tracker-2.png"></div></div>
+                    <div class="gallery-thumb gallery-thumb--fit-h" role="button" aria-label="omnibus-price-tracker-3.png"><div class="thumb-img"><img src="https://commercemarketplace.adobe.com/media/catalog/product/o/m/omnibus-price-tracker-3_2.png?width=142&amp;height=80&amp;store=default&amp;image-type=thumbnail&amp;fit=bounds" alt="omnibus-price-tracker-3.png"></div></div>
+                    <div class="gallery-thumb gallery-thumb--fit-h" role="button" aria-label="omnibus-price-tracker-4.png"><div class="thumb-img"><img src="https://commercemarketplace.adobe.com/media/catalog/product/o/m/omnibus-price-tracker-4_2.png?width=142&amp;height=80&amp;store=default&amp;image-type=thumbnail&amp;fit=bounds" alt="omnibus-price-tracker-4.png"></div></div>
+                    <div class="gallery-thumb" role="button" aria-label="omnibus-price-tracker-5-market.png"><div class="thumb-img"><img src="https://commercemarketplace.adobe.com/media/catalog/product/o/m/omnibus-price-tracker-5-market_2.png?width=142&amp;height=80&amp;store=default&amp;image-type=thumbnail&amp;fit=bounds" alt="omnibus-price-tracker-5-market.png"></div></div>
+                    <div class="gallery-thumb" role="button" aria-label="omnibus-price-tracker-6-market.png"><div class="thumb-img"><img src="https://commercemarketplace.adobe.com/media/catalog/product/o/m/omnibus-price-tracker-6-market_2.png?width=142&amp;height=80&amp;store=default&amp;image-type=thumbnail&amp;fit=bounds" alt="omnibus-price-tracker-6-market.png"></div></div>
+                    <div class="gallery-thumb" role="button" aria-label="omnibus-price-tracker-7-market.png"><div class="thumb-img"><img src="https://commercemarketplace.adobe.com/media/catalog/product/o/m/omnibus-price-tracker-7-market_2.png?width=142&amp;height=80&amp;store=default&amp;image-type=thumbnail&amp;fit=bounds" alt="omnibus-price-tracker-7-market.png"></div></div>
+                    <div class="gallery-dot is-active" role="button" aria-label="omnibus-price-tracker-icon-for-marketplace.png"></div><div class="gallery-dot" role="button" aria-label="omnibus-price-tracker-intro-hyva.png"></div><div class="gallery-dot" role="button" aria-label="omnibus-price-tracker-2.png"></div><div class="gallery-dot" role="button" aria-label="omnibus-price-tracker-3.png"></div><div class="gallery-dot" role="button" aria-label="omnibus-price-tracker-4.png"></div><div class="gallery-dot" role="button" aria-label="omnibus-price-tracker-5-market.png"></div><div class="gallery-dot" role="button" aria-label="omnibus-price-tracker-6-market.png"></div><div class="gallery-dot" role="button" aria-label="omnibus-price-tracker-7-market.png"></div>
+                  </div>
+                  <div class="gallery-thumb-arr gallery-thumb-arr--right" role="button" aria-label="Next"><div class="thumb-icon"></div></div>
+                </div>
+              </div>
+            </div>
+            <div class="action-skip-wrapper"><a class="action-skip" href="#gallery-prev-area"><span>Skip to the beginning of the images gallery</span></a></div>
+            <a id="gallery-next-area"></a>
+          </div>
+
+          <div class="purchase-panel">
+            <div class="box-in">
+              <div class="box-tocart"><label class="label" for="editions"><span>Edition</span></label> <select id="editions" class="panel-select"><option>Adobe Commerce (cloud)</option><option>Adobe Commerce (on-prem)</option><option>Magento Open Source</option></select></div>
+            </div>
+            <div class="box-in">
+              <div class="box-tocart">
+                <div id="extension_compatibility"><label class="label" for="compatible_with"><span>Your store version</span></label> <select id="compatible_with" class="panel-select"><option>Choose Adobe Commerce Store version</option><option>2.4 (Adobe Commerce (cloud))</option></select></div>
+              </div>
+            </div>
+            <div class="box-in">
+              <div class="box-tocart">
+                <div id="installation_service" hidden><div class="case-checkbox"><input type="checkbox" aria-label="Installation service"></div> Installation service <span id="installation_service_price">0</span></div>
+              </div>
+            </div>
+            <div class="box-in grace-banner" id="grace-period-banner" hidden>
+              <p><b>You are eligible for a 180-day grace period for this extension.</b> The vendor has opted to grant a 180-day grace period for customers who licensed certain products in the past. It will be reflected on the checkout page.</p>
+            </div>
+            <div class="product-info-price">
+              <div class="price-final">
+                <div class="price-row">
+                  <div class="col-left"><strong>First year:</strong></div>
+                  <div class="col-right"><b><span class="product_price">$919.00 / year</span></b></div>
+                </div>
+                <div class="price-row">
+                  <div class="col-left"><strong>Then:</strong></div>
+                  <div class="col-right"><b><span class="price_then">$559.00</span><span> / year</span></b></div>
+                </div>
+                <div class="price-row" hidden>
+                  <div class="col-left"><strong>Installation:</strong></div>
+                  <div class="col-right"><b><span class="installation_price">$0.00</span></b></div>
+                </div>
+                <div class="price-row price-row--total">
+                  <div class="col-left"><strong>TOTAL DUE TODAY:</strong></div>
+                  <div class="col-right"><span class="price">$919.00</span></div>
+                </div>
+              </div>
+            </div>
+            <div class="box-in">
+              <form class="product-add-form" action="https://commercemarketplace.adobe.com/amasty-module-price-history.html" method="get">
+                <div class="ps-product" hidden><select id="ps-frequency-option" class="panel-select" aria-label="Frequency"><option>Yearly</option></select></div>
+                <div class="box-tocart box-tocart--action">
+                  <button class="btn-accent" id="product-addtocart-button" type="submit"><span>Add to cart</span></button>
+                </div>
+              </form>
+            </div>
+            <div class="box-in box-contact"><a class="btn-outline" href="mailto:support@amasty.com">Contact Vendor</a></div>
+          </div>
+        </div>
+
+        <div class="product-details-row">
+          <nav class="contents-nav" aria-label="Contents">
+            <ul class="sidenav">
+              <li class="sidenav-item"><span class="sidenav-head"><b>CONTENTS</b></span>
+                <ul class="sidenav">
+                  <li class="sidenav-item sidenav-item--hidden is-selected"><a href="#trader_information">Trader Information</a></li>
+                  <li class="sidenav-item"><a href="#description">Overview</a></li>
+                  <li class="sidenav-item"><a href="#product.info.details.tech_specs">Technical Specifications</a></li>
+                  <li class="sidenav-item"><a href="#product.info.details.quality_report">Quality Report</a></li>
+                  <li class="sidenav-item"><a href="#product.info.details.release_notes">Release Notes</a></li>
+                  <li class="sidenav-item"><a href="#product.info.details.support">Support</a></li>
+                  <li class="sidenav-item"><a href="#bv_questions">Q &amp; A</a></li>
+                  <li class="sidenav-item"><a href="#bazaarvoice.reviews.tab">Reviews</a></li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+          <div class="product-detail">
+            <div class="detail-items">
+              <section class="detail-item detail-item--empty">
+                <div class="box-head" id="trader_information"><h3>Trader Information</h3><a class="box-back-top" href="#top">Back to top</a></div>
+                <div class="box"></div>
+              </section>
+              <section class="detail-item">
+                <div class="box-head" id="description"><h3>Overview</h3><a class="box-back-top" href="#top">Back to top</a></div>
+                <div class="box">
+                  <div class="description">
+                    <h2>&nbsp;</h2>
+                    <p>Prepare your e-commerce business to comply with the new pricing requirements of the EU Omnibus Directive, which is already in effect and applies to all retailers who sell products and services to EU customers. Keep the price change policy transparent and consistent to build customer loyalty and avoid unforeseen fines.&nbsp;</p>
+                    <p>The Omnibus Price Tracker for Magento 2 extension captures price changes made in your store, including catalog price rules and special prices. Using this data, the extension automatically calculates and displays the lowest price from a 30-day (or longer) period before a price reduction, as required by the Omnibus Directive.&nbsp;</p>
+                    <p>&nbsp;</p>
+                    <h2>Key Features:</h2>
+                    <ul>
+                      <li>Indicate the minimum product price in the specified period prior to price reduction;&nbsp;</li>
+                      <li>Place historical prices both on product and category pages;&nbsp;</li>
+                      <li>Display Omnibus Prices for all or only for discounted products; &nbsp;&nbsp;</li>
+                      <li>Monitor all price changes in one place;</li>
+                      <li>Configure the automatic clearing for the price change log;</li>
+                      <li>Individually capture price changes and showcase the lowest prices for every configured website;</li>
+                      <li>Hyva-ready storefront.&nbsp;</li>
+                    </ul>
+                    <p>&nbsp;</p>
+                    <h3>30-Day Lowest Price (Omnibis Price)&nbsp;</h3>
+                    <p>The extension’s configuration allows you to set any duration in days as a basis for calculating the lowest product price. But according to the Omnibus Directive, this duration must not be shorter than 30 days prior to the application of price reduction.&nbsp;</p>
+                    <p>&nbsp;</p>
+                    <h3>Placement Of The Block With Omnibus Price</h3>
+                    <p>It is possible to show the Omnibus Price block on product and category pages for all or only for discounted products.&nbsp;</p>
+                    <p>&nbsp;</p>
+                    <h3>Price Change History Grid</h3>
+                    <p>View and manage all price changes that are made in the store after the extension installation on a handy grid. Use various filters and their combinations to easily find the recordings you need. You can filter price change recordings by ID, SKU, date, customer group, and new or latest price. &nbsp;&nbsp;&nbsp;</p>
+                    <p>&nbsp;</p>
+                    <h3>Automatic Price Change Log Clearing</h3>
+                    <p>Regularly remove old price change recordings from the log. Protect your database from overloads by configuring automatic price change log clearing or removing unnecessary recordings manually with the help of the ‘delete’ mass action.&nbsp;</p>
+                    <p>&nbsp;</p>
+                    <h2>Demo:&nbsp;</h2>
+                    <p>|<a href="https://omnibus-price-tracker-m2.magento-demo.amasty.com/admin/admin/system_config/edit/section/price_history/">Backend Settings</a>|</p>
+                    <p>|<a href="https://omnibus-price-tracker-m2.magento-demo.amasty.com/compete-track-tote.html">Frontend example</a>|&nbsp;</p>
+                    <p>&nbsp;</p>
+                    <h3>User Guide: &nbsp;</h3>
+                    <p>&nbsp;|Learn how to configure the module step by step with <a href="https://amasty.com/docs/doku.php?id=magento_2:omnibus_price_tracker">User Guide</a> |</p>
+                    <p>&nbsp;|See <a href="https://amasty.com/knowledge-base/">Frequently Asked Questions</a>|</p>
+                    <p>&nbsp;</p>
+                    <h2>Our Support Policy: &nbsp;&nbsp;</h2>
+                    <ul>
+                      <li>A Support Service subscription can also be purchased separately. Please <a href="https://amasty.com/contacts/">contact</a> the vendor for details.</li>
+                      <li>During the grace period, support is only available with an active support subscription purchased directly from the vendor.</li>
+                      <li>25-day Marketplace Return Policy.</li>
+                    </ul>
+                  </div>
+                </div>
+              </section>
+              <section class="detail-item">
+                <div class="box-head" id="product.info.details.tech_specs"><h3>Technical Specifications</h3><a class="box-back-top" href="#top">Back to top</a></div>
+                <div class="box">
+                  <div class="specs">
+                    <div class="specs-col">
+                      <h3>Seller profile</h3>
+                      <p><a href="./partner/Amasty/index.html" data-broken-link="true">Amasty</a></p>
+                      <h3>Seller contact</h3>
+                      <p><a href="mailto:support@amasty.com">E-mail</a></p>
+                      <h3>Current Version</h3>
+                      <p>1.4.0</p>
+                      <h3>Adobe Commerce platform compatibility</h3>
+                      <p><b>Adobe Commerce (cloud):</b> 2.4 (current)</p>
+                      <p><b>Adobe Commerce (on-prem):</b> 2.4 (current)</p>
+                      <p></p>
+                      <p><b>Magento Open Source:</b> 2.4 (current)</p>
+                    </div>
+                    <div class="specs-col">
+                      <h3>Type</h3>
+                      <p>Stable Build</p>
+                      <h3>Updated</h3>
+                      <p>18 February, 2026</p>
+                      <h3>Categories</h3>
+                      <p>Extensions, Content &amp; Customizations</p>
+                    </div>
+                    <div class="specs-col">
+                      <h3>Documentation</h3>
+                      <p><a id="reference_manuals_url" href="./amasty-module-price-history.html?1792523476">Reference Manuals</a></p>
+                      <p><a id="installation_guides_url" href="./media/catalog/product/amasty-module-price-history-1-4-0-ece/installation_guides.pdf?1792523476" data-broken-link="true">Installation Guides</a></p>
+                      <p><a id="user_guides_url" href="./media/catalog/product/amasty-module-price-history-1-4-0-ece/user_guides.pdf?1792523476" data-broken-link="true">User Guides</a></p>
+                      <h3>License Type</h3>
+                      <p><a href="https://amasty.com/license.html">Custom License</a></p>
+                      <h3>Policy</h3>
+                      <p><a id="policyLink" href="https://amasty.com/privacy.html">Privacy Policy</a></p>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <section class="detail-item">
+                <div class="box-head" id="product.info.details.quality_report"><h3>Quality Report</h3><a class="box-back-top" href="#top">Back to top</a></div>
+                <div class="box">
+                  <div class="specs">
+                    <div class="specs-col">
+                      <h3>Installation &amp; Varnish Tests</h3>
+                      <p><a href="https://devdocs.magento.com/marketplace/sellers/installation-and-varnish-tests.html">Passed</a></p>
+                      <h3>Coding Standard</h3>
+                      <p><a href="https://devdocs.magento.com/marketplace/sellers/code-sniffer.html">Passed</a></p>
+                    </div>
+                    <div class="specs-col">
+                      <h3>Plagiarism Check</h3>
+                      <p><a href="https://devdocs.magento.com/marketplace/sellers/copy-paste-detector.html">Passed</a></p>
+                      <h3>Malware Check</h3>
+                      <p><a href="https://devdocs.magento.com/marketplace/sellers/malware-scan.html">Passed</a></p>
+                    </div>
+                    <div class="specs-col">
+                      <h3>Marketing Review</h3>
+                      <p><a href="https://devdocs.magento.com/marketplace/sellers/submit-for-marketing-review.html">Passed</a></p>
+                      <h3>Manual Testing</h3>
+                      <p><a href="https://devdocs.magento.com/marketplace/sellers/technical-review-guidelines.html#quality-assurance-pass-manual-qa">Passed</a></p>
+                    </div>
+                  </div>
+                  <div class="specs-note">
+                    <p>All tests were conducted on the latest versions of Adobe Commerce that existed for the compatible release lines at the moment of the extension submission. Latest versions of all other software were used, as applicable.</p>
+                  </div>
+                </div>
+              </section>
+              <section class="detail-item">
+                <div class="box-head" id="product.info.details.release_notes"><h3>Release Notes</h3><a class="box-back-top" href="#top">Back to top</a></div>
+                <div class="box">
+                  <div class="release-notes">
+                    <h3>1.4.0:</h3>
+                    <ul>
+                      <li><b>Compatible with Adobe Commerce (cloud) :</b> 2.4</li>
+                      <li><b>Compatible with Adobe Commerce (on-prem) :</b> 2.4</li>
+                      <li><b>Compatible with Magento Open Source :</b> 2.4</li>
+                      <li><b>Stability:</b> Stable Build</li>
+                      <li><b>Description:</b>
+                        <p>Version 1.4.0<br> 1.4.0 - Mar 05, 2024<br> Improvement: we included Omnibus price data for products when retrieving information via GraphQL<br> Improvement: now the Omnibus price of a product is displayed considering the configured settings for tax application and display<br> Version 1.3.0<br> 1.3.0 - Dec 07, 2023<br> New: now the Omnibus price data is included in API products response<br> Improvement: we changed the logic for displaying Omnibus prices immediately after installing the extension or when creating a new product, when the products do not have data for the 'latest price'<br> Version 1.2.0<br> 1.2.0 - Nov 21, 2023<br> Compatibility: we added the compatibility with Hyvä Theme for Omnibus Price Tracker. You can find the 'amasty/module-price-history-hyva' package for installing in composer suggest (Note: the compatibility is available as a part of an active product subscription or support subscription)</p>
+                      </li>
+                    </ul>
+                    <h3>1.1.1:</h3>
+                    <ul>
+                      <li><b>Compatible with Adobe Commerce (cloud) :</b> 2.4</li>
+                      <li><b>Compatible with Adobe Commerce (on-prem) :</b> 2.4</li>
+                      <li><b>Compatible with Magento Open Source :</b> 2.4</li>
+                      <li><b>Stability:</b> Stable Build</li>
+                      <li><b>Description:</b>
+                        <p>Version 1.1.1<br> 1.1.1 - Sep 05, 2023<br> Fix: we fixed the module compatibility with PHP 7.4<br> 1.1.0 - Jul 20, 2023<br> New: now it is possible to hide Omnibus prices for specified customers groups <br> Improvement: now it is possible to see Website information on the Price Change History grid</p>
+                      </li>
+                    </ul>
+                    <h3>1.0.1:</h3>
+                    <ul>
+                      <li><b>Compatible with Adobe Commerce (cloud) :</b> 2.4</li>
+                      <li><b>Compatible with Adobe Commerce (on-prem) :</b> 2.4</li>
+                      <li><b>Compatible with Magento Open Source :</b> 2.4</li>
+                      <li><b>Stability:</b> Stable Build</li>
+                      <li><b>Description:</b>
+                        <p>Version 1.0.1<br> 1.0.1 - Apr 05, 2023<br> Improvement: we optimized the Omnibus Prices displaying on the front-end according to EU pricing rules.</p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </section>
+              <section class="detail-item">
+                <div class="box-head" id="product.info.details.support"><h3>Support</h3><a class="box-back-top" href="#top">Back to top</a></div>
+                <div class="box">
+                  <p>The best place to start if you need help with a specific extension is to contact the developer. All Adobe Commerce developers have both a contact email and a support email listed.</p>
+                  <a href="mailto:support@amasty.com">Contact Vendor</a>
+                </div>
+              </section>
+              <section class="detail-item">
+                <div class="box-head" id="bv_questions"><h3>Q &amp; A</h3><a class="box-back-top" href="#top">Back to top</a></div>
+                <div class="box">
+                  <div class="bv-snapshot bv-snapshot--qa">
+                    <div class="bv-header"><div class="bv-action-bar"><h2 class="bv-action-bar-header">Questions</h2></div></div>
+                    <form class="bv-placeholder" action="https://commercemarketplace.adobe.com/amasty-module-price-history.html#bv_questions" method="get"><button class="bv-ask" type="submit">Be the first to ask a question</button></form>
+                  </div>
+                </div>
+              </section>
+              <section class="detail-item">
+                <div class="box-head" id="bazaarvoice.reviews.tab"><h3>Reviews</h3><a class="box-back-top" href="#top">Back to top</a></div>
+                <div class="box">
+                  <div class="bv-snapshot bv-snapshot--reviews">
+                    <div class="bv-header"><div class="bv-action-bar"><h2 class="bv-action-bar-header">Reviews</h2></div></div>
+                    <div class="bv-placeholder"><span class="bv-stars" aria-hidden="true">★★★★★</span><span class="visually-hidden">No rating value</span></div>
+                    <div class="bv-filter" hidden>
+                      <div class="bv-filters">
+                        <button class="bv-filter-toggle" id="bv-content-filter-Rating-dropdown" type="button" aria-label="Menu Filter by Rating"><span aria-hidden="true">▼</span> <span>Rating</span> <span class="visually-hidden">Filter by Rating</span></button>
+                        <label class="visually-hidden" for="bv-dropdown-select-11">Filter by Rating</label>
+                        <select id="bv-dropdown-select-11"><option>1 star</option><option>2 stars</option><option>3 stars</option><option>4 stars</option><option>5 stars</option></select>
+                      </div>
+                      <div class="bv-active-filters">
+                        <h4>Active Filters</h4>
+                        <ul>
+                          <li><button type="button"><span class="visually-hidden">Active Filters 1 star</span> <span class="visually-hidden">Remove Filter&nbsp;</span> 1 star <span>✘</span></button></li>
+                          <li><button type="button"><span class="visually-hidden">Active Filters 2 stars</span> <span class="visually-hidden">Remove Filter&nbsp;</span> 2 stars <span>✘</span></button></li>
+                          <li><button type="button"><span class="visually-hidden">Active Filters 3 stars</span> <span class="visually-hidden">Remove Filter&nbsp;</span> 3 stars <span>✘</span></button></li>
+                          <li><button type="button"><span class="visually-hidden">Active Filters 4 stars</span> <span class="visually-hidden">Remove Filter&nbsp;</span> 4 stars <span>✘</span></button></li>
+                          <li><button type="button"><span class="visually-hidden">Active Filters 5 stars</span> <span class="visually-hidden">Remove Filter&nbsp;</span> 5 stars <span>✘</span></button></li>
+                          <li><button type="button"><span>Clear All</span> <span>✘</span> <span class="visually-hidden">Clear All Filters</span></button></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer class="page-footer">
+  <div class="become-partner">
+    <h3>Are you a developer? Become a Adobe Commerce Partner to add value to your extension or theme.</h3>
+    <p><a class="btn-partner" href="https://www.adobe.com/partners.html" target="_blank">Become a Partner</a></p>
+  </div>
+  <div class="footer-top container">
+    <div class="footer-nav-col"><h3>Company</h3><ul class="footer-nav">
+      <li><a href="https://magento.com/about">About Us</a></li><li><a href="https://magento.com/careers">Careers</a></li><li><a href="https://magento.com/press-room">Press</a></li></ul></div>
+    <div class="footer-nav-col"><h3>Merchants</h3><ul class="footer-nav">
+      <li><a href="https://commercemarketplace.adobe.com/terms-and-conditions/" data-broken-link="true">Terms and Conditions</a></li><li><a href="https://magento.com/security">Security Updates</a></li><li><a href="https://magento.com/find-a-partner">Find a Partner</a></li></ul></div>
+    <div class="footer-nav-col"><h3>Partners</h3><ul class="footer-nav">
+      <li><a href="https://www.adobe.com/partners.html">Become a Partner</a></li><li><a href="https://u.magento.com/certification">Certification</a></li><li><a href="https://u.magento.com/developers">Training</a></li><li><a href="https://u.magento.com/">Benefits U</a></li></ul></div>
+    <div class="footer-nav-col"><h3>Categories</h3><ul class="footer-nav">
+      <li><a href="./extensions.html">Extensions</a></li><li><a href="https://commercemarketplace.adobe.com/themes.html/" data-broken-link="true">Themes</a></li><li><a href="./partners/index.html" data-broken-link="true">Partners</a></li></ul></div>
+    <div class="footer-nav-col"><h3>Resources</h3><ul class="footer-nav">
+      <li><a href="./static/version1789987689/frontend/Aheadworks/marketplace/en_US/pdf/footer/Marketplace-Infosheet.pdf" data-broken-link="true">Info Sheet</a></li><li><a href="http://docs.magento.com/marketplace/user_guide/getting-started.html">User Guides</a></li><li><a href="https://magento.com/resources/technical">Technical Docs</a></li></ul></div>
+    <div class="footer-nav-col"><h3>Developer Resources</h3><ul class="footer-nav">
+      <li><a href="https://commercedeveloper.adobe.com/">Developer Portal</a></li><li><a href="https://experienceleague.adobe.com/docs/commerce-admin/start/resources/commerce-marketplace.html">Dev Docs</a></li><li><a href="https://developer.adobe.com/commerce/marketplace/guides/eqp/v1/">API</a></li><li><a href="https://developer.adobe.com/open/magento">Community</a></li></ul></div>
+    <div class="footer-nav-col"><h3>Get In Touch</h3><ul class="footer-nav">
+      <li><a href="./contact-us/index.html" data-broken-link="true">Contact Us</a></li><li><a href="https://magento.com/events">Events</a></li><li><a href="https://magento.com/resources/webinars">Webinars</a></li></ul></div>
+  </div>
+  <div class="footer-bottom container">
+    <div class="case-logo-links">
+      <div class="footer-section"><img src="./assets/images/logo-footer-adobe.svg" alt="Adobe Commerce" width="90"></div>
+      <div class="footer-section"><p class="version-info">Powered by Adobe Commerce 2.4.9</p></div>
+      <div class="footer-section">
+        <ul class="social-list">
+          <li>Follow us:</li>
+          <li><a href="https://www.facebook.com/magento" aria-label="Facebook"><span class="icon icon-facebook"></span></a></li>
+          <li><a href="https://twitter.com/magento" aria-label="Twitter"><span class="icon icon-twitter"></span></a></li>
+          <li><a href="https://www.linkedin.com/groups/146360/profile" aria-label="LinkedIn"><span class="icon icon-linkedin"></span></a></li>
+        </ul>
+      </div>
+    </div>
+    <small class="copyright"><span>© 2026 Adobe. All rights reserved.</span></small>
+    <ul class="footer-links">
+      <li><a href="https://magento.com/legal/terms/marketplace">Privacy and Cookie Policy</a></li>
+      <li><a href="https://magento.com/sites/default/files/MAGENTO-MARKETPLACE-CUSTOMER-AGREEMENT-April-12-2019.pdf">Cookie preferences</a></li>
+    </ul>
+  </div>
+</footer>
+</div>
+</body>
+</html>

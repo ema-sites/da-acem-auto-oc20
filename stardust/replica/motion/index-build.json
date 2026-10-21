@@ -1,0 +1,556 @@
+{
+  "url": "http://localhost:8791/index-proposed.html",
+  "width": 1440,
+  "headerTimeline": [
+    {
+      "y": 0,
+      "cls": "page-header",
+      "position": "sticky",
+      "height": "90px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "page-header",
+      "position": "sticky",
+      "height": "90px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 991,
+      "cls": "page-header",
+      "position": "sticky",
+      "height": "90px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 991,
+      "cls": "page-header",
+      "position": "sticky",
+      "height": "90px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 800,
+      "cls": "page-header",
+      "position": "sticky",
+      "height": "90px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 500,
+      "cls": "page-header",
+      "position": "sticky",
+      "height": "90px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 300,
+      "cls": "page-header",
+      "position": "sticky",
+      "height": "90px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 200,
+      "cls": "page-header",
+      "position": "sticky",
+      "height": "90px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 150,
+      "cls": "page-header",
+      "position": "sticky",
+      "height": "90px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 120,
+      "cls": "page-header",
+      "position": "sticky",
+      "height": "90px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 90,
+      "cls": "page-header",
+      "position": "sticky",
+      "height": "90px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 60,
+      "cls": "page-header",
+      "position": "sticky",
+      "height": "90px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 30,
+      "cls": "page-header",
+      "position": "sticky",
+      "height": "90px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "page-header",
+      "position": "sticky",
+      "height": "90px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    }
+  ],
+  "widgetSamples": [
+    {
+      "sel": ".slider-dots li:nth-child(2) button",
+      "frames": [
+        {
+          "t": 9358.700000000186,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 9564.400000000373,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 9771.600000000559,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 9980.5,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        }
+      ]
+    }
+  ],
+  "hoverSamples": [
+    {
+      "sel": ".featured-categories .col a",
+      "changed": [
+        "self.color"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(4, 105, 227)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "color 0.3s"
+        },
+        "subs": [
+          {
+            "el": "span.icon.icon-gar",
+            "transform": "none",
+            "color": "rgb(69, 70, 70)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(4, 93, 202)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "color 0.3s"
+        },
+        "subs": [
+          {
+            "el": "span.icon.icon-gar",
+            "transform": "none",
+            "color": "rgb(69, 70, 70)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      }
+    },
+    {
+      "sel": ".resources .resource-button",
+      "changed": [
+        "self.background"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(10, 10, 10)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "border-color 0.13s ease-in-out"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(10, 10, 10)",
+          "background": "rgb(213, 213, 213)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "border-color 0.13s ease-in-out"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": ".slide-button",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(235, 82, 2)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "opacity 0.5s"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(235, 82, 2)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "opacity 0.5s"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": ".slider-dots li button",
+      "changed": [
+        "self.color"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(255, 255, 255)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "0.3s"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(51, 51, 51)",
+          "background": "rgb(255, 255, 255)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "0.3s"
+        },
+        "subs": []
+      }
+    }
+  ],
+  "media": {
+    "videos": [],
+    "idleClassMutations": [
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "div.banner-row > div.hero-slider > div.slider-list > div.slider-track > div.slide.is-current"
+      },
+      {
+        "added": [
+          "is-active"
+        ],
+        "el": "div.banner-collapse > div.banner-row > div.hero-slider > ul.slider-dots > li.is-active"
+      }
+    ],
+    "idleClassMutationCount": 2
+  },
+  "events": {
+    "animations": [],
+    "transitions": [
+      {
+        "prop": "background-color",
+        "el": "div.banner-row > div.hero-slider > ul.slider-dots > li.is-active > button",
+        "y": 0,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.banner-collapse > div.banner-row > div.hero-slider > div.slider-list > div.slider-track",
+        "y": 0,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "div.banner-row > div.hero-slider > ul.slider-dots > li > button",
+        "y": 0,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "background-color",
+        "el": "div.banner-row > div.hero-slider > ul.slider-dots > li > button",
+        "y": 98,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "background-color",
+        "el": "div.banner-row > div.hero-slider > ul.slider-dots > li.is-active > button",
+        "y": 98,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.banner-collapse > div.banner-row > div.hero-slider > div.slider-list > div.slider-track",
+        "y": 98,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "div.banner-row > div.hero-slider > ul.slider-dots > li.is-active > button",
+        "y": 98,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "background-color",
+        "el": "div.banner-row > div.hero-slider > ul.slider-dots > li > button",
+        "y": 98,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.banner-collapse > div.banner-row > div.hero-slider > div.slider-list > div.slider-track",
+        "y": 98,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "color",
+        "el": "section.featured-categories > div.page-main > div.category-tiles > div.col > a",
+        "y": 260,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "color",
+        "el": "section.featured-categories > div.page-main > div.category-tiles > div.col > a",
+        "y": 260,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "background-color",
+        "el": "div.banner-row > div.hero-slider > ul.slider-dots > li > button",
+        "y": 98,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "background-color",
+        "el": "div.banner-row > div.hero-slider > ul.slider-dots > li.is-active > button",
+        "y": 98,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.banner-collapse > div.banner-row > div.hero-slider > div.slider-list > div.slider-track",
+        "y": 98,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "border-top-color",
+        "el": "div.banner-row > div.hero-slider > ul.slider-dots > li > button",
+        "y": 98,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "border-bottom-color",
+        "el": "div.banner-row > div.hero-slider > ul.slider-dots > li > button",
+        "y": 98,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "border-left-color",
+        "el": "div.banner-row > div.hero-slider > ul.slider-dots > li > button",
+        "y": 98,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "color",
+        "el": "div.banner-row > div.hero-slider > ul.slider-dots > li > button",
+        "y": 98,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "border-right-color",
+        "el": "div.banner-row > div.hero-slider > ul.slider-dots > li > button",
+        "y": 98,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "border-top-color",
+        "el": "div.banner-row > div.hero-slider > ul.slider-dots > li > button",
+        "y": 98,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "border-bottom-color",
+        "el": "div.banner-row > div.hero-slider > ul.slider-dots > li > button",
+        "y": 98,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "border-left-color",
+        "el": "div.banner-row > div.hero-slider > ul.slider-dots > li > button",
+        "y": 98,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "color",
+        "el": "div.banner-row > div.hero-slider > ul.slider-dots > li > button",
+        "y": 98,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "border-right-color",
+        "el": "div.banner-row > div.hero-slider > ul.slider-dots > li > button",
+        "y": 98,
+        "dur": "0.3s"
+      }
+    ],
+    "classMutations": [
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "div.banner-row > div.hero-slider > div.slider-list > div.slider-track > div.slide.is-current",
+        "y": 0
+      },
+      {
+        "added": [
+          "is-active"
+        ],
+        "el": "div.banner-collapse > div.banner-row > div.hero-slider > ul.slider-dots > li.is-active",
+        "y": 0
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "div.banner-row > div.hero-slider > div.slider-list > div.slider-track > div.slide.is-current",
+        "y": 98
+      },
+      {
+        "added": [
+          "is-active"
+        ],
+        "el": "div.banner-collapse > div.banner-row > div.hero-slider > ul.slider-dots > li.is-active",
+        "y": 98
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "div.banner-row > div.hero-slider > div.slider-list > div.slider-track > div.slide.is-current",
+        "y": 98
+      },
+      {
+        "added": [
+          "is-active"
+        ],
+        "el": "div.banner-collapse > div.banner-row > div.hero-slider > ul.slider-dots > li.is-active",
+        "y": 98
+      },
+      {
+        "added": [
+          "is-current"
+        ],
+        "el": "div.banner-row > div.hero-slider > div.slider-list > div.slider-track > div.slide.is-current",
+        "y": 98
+      },
+      {
+        "added": [
+          "is-active"
+        ],
+        "el": "div.banner-collapse > div.banner-row > div.hero-slider > ul.slider-dots > li.is-active",
+        "y": 98
+      }
+    ]
+  }
+}

@@ -1,0 +1,339 @@
+{
+  "url": "https://commercemarketplace.adobe.com/privacy-policy-cookie-restriction-mode",
+  "width": 1440,
+  "headerTimeline": [
+    {
+      "y": 0,
+      "cls": "page-header sticky",
+      "position": "sticky",
+      "height": "90px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "30px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "page-header sticky",
+      "position": "sticky",
+      "height": "90px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "30px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 1200,
+      "cls": "page-header sticky",
+      "position": "sticky",
+      "height": "90px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "30px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 2400,
+      "cls": "page-header sticky",
+      "position": "sticky",
+      "height": "90px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "30px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 1450,
+      "cls": "page-header sticky",
+      "position": "sticky",
+      "height": "90px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "30px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 2400,
+      "cls": "page-header sticky",
+      "position": "sticky",
+      "height": "90px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "30px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 1200,
+      "cls": "page-header sticky",
+      "position": "sticky",
+      "height": "90px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "30px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 800,
+      "cls": "page-header sticky",
+      "position": "sticky",
+      "height": "90px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "30px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 500,
+      "cls": "page-header sticky",
+      "position": "sticky",
+      "height": "90px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "30px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 300,
+      "cls": "page-header sticky",
+      "position": "sticky",
+      "height": "90px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "30px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 200,
+      "cls": "page-header sticky",
+      "position": "sticky",
+      "height": "90px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "30px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 150,
+      "cls": "page-header sticky",
+      "position": "sticky",
+      "height": "90px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "30px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 120,
+      "cls": "page-header sticky",
+      "position": "sticky",
+      "height": "90px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "30px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 90,
+      "cls": "page-header sticky",
+      "position": "sticky",
+      "height": "90px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "30px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 60,
+      "cls": "page-header sticky",
+      "position": "sticky",
+      "height": "90px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "30px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 30,
+      "cls": "page-header sticky",
+      "position": "sticky",
+      "height": "90px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "30px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "page-header sticky",
+      "position": "sticky",
+      "height": "90px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "30px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    }
+  ],
+  "widgetSamples": [
+    {
+      "sel": ".showcart",
+      "frames": [
+        {
+          "t": 16753.900000000373,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 16964.799999999814,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 17170.10000000056,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 17374.10000000056,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        }
+      ]
+    }
+  ],
+  "hoverSamples": [
+    {
+      "sel": ".cms-content a",
+      "changed": [
+        "self.color"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(4, 105, 227)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(4, 93, 202)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": ".breadcrumbs a",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(32, 32, 33)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(32, 32, 33)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": ".page-footer .footer-nav a",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      }
+    }
+  ],
+  "media": {
+    "videos": [],
+    "idleClassMutations": [],
+    "idleClassMutationCount": 0
+  },
+  "events": {
+    "animations": [],
+    "transitions": [],
+    "classMutations": [
+      {
+        "added": [
+          "active"
+        ],
+        "el": "header.page-header.sticky > div.header.content > div.case-minicart-links > div.minicart-wrapper.active > div.active",
+        "y": 0
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.page-wrapper > header.page-header.sticky > div.header.content > div.case-minicart-links > div.minicart-wrapper.active",
+        "y": 0
+      }
+    ]
+  }
+}

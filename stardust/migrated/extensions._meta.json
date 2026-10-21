@@ -1,0 +1,247 @@
+{
+  "slug": "extensions-html",
+  "type": "listing",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "facets-sidebar",
+    "listing-toolbar",
+    "product-card-grid"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "columns"
+  ],
+  "canonShas": {
+    "header": "f08f38faf7f6",
+    "footer": "ccdde27c82ff",
+    "css": "e91213fb9ae3"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Adobe Commerce Extensions | Free &amp; Premium Plugins | Marketplace",
+    "description": "Customize your online store with high-quality extensions, add-ons, modules, apps &amp; plugin designed specifically for the Magento eCommerce platform.",
+    "canonical": null,
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Adobe Commerce Extensions | Free &amp; Premium Plugins | Marketplace",
+    "description": "Customize your online store with high-quality extensions, add-ons, modules, apps &amp; plugin designed specifically for the Magento eCommerce platform.",
+    "url": "https://commercemarketplace.adobe.com/extensions.html"
+  },
+  "migratedAt": "2026-10-20T20:55:14Z",
+  "designMdSha": "669d9fbdeef2",
+  "designJsonSha": "027c799c1e88",
+  "sourceCurrentSha": "5b29211e5cf3",
+  "sourceProposedSha": "3e7a5efb4811",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [],
+  "gateEvidence": {},
+  "contentDeviations": [],
+  "assetsBundled": 11,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "https://commercemarketplace.adobe.com/themes.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/partners",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/customer/account/login/referer/aHR0cHM6Ly9jb21tZXJjZW1hcmtldHBsYWNlLmFkb2JlLmNvbS9leHRlbnNpb25zLmh0bWw~/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/checkout/cart/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/customer/account/login/referer/aHR0cHM6Ly9jb21tZXJjZW1hcmtldHBsYWNlLmFkb2JlLmNvbS9leHRlbnNpb25zLmh0bWw~/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/customer/account/create/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/customer/account/forgotpassword/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/magento-payment-services.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/magento-product-recommendations.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/magento-live-search.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/magento-experience-platform-connector.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/ae-vaimo-sweden-ab-akeneo-connector-for-adobe-commerce.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/amasty-module-shopby-pro.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/akeneo-module-magento2-connector-community.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/signifyd-module-connect.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/ae-adobe-msft-d365-fo-for-adobe-commerce.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/channelengine-magento2.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/algolia-algoliasearch-magento-2.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/ae-blue-acorn-ici-store-locator-by-blue-acorn.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/ae-comwrap-reply-gmbh-adobe-commerce-hubspot-connector.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/ae-comwrap-reply-gmbh-feed-generator.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/ae-comwrap-reply-gmbh-kount-fraud-detection.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/blackbird-contentmanager.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/blackbird-menumanager.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/blackbird-monetico.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/blackbird-visualmerchandiser.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/improntus-whatsappcontact.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/ae-brainvire-infotech-inc-odoo-connector-for-adobe-commerce.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/blackbird-discontinued-product.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/blackbird-translator.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/improntus-module-astropay.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/improntus-module-klap.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/improntus-module-mach-pay.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/improntus-module-pedidosya-magento-2.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/improntus-module-powerpay.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/improntus-module-privacy-compliance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/improntus-module-prontopaga.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/improntus-module-uber.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/mage-delight-abandonedcart-module.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/mage-delight-ai-content-generator-module.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/mage-delight-ai-content-translator-module.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/mage-delight-authorizecim-module.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/mage-delight-bulk-customizable-options-assignment-module.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/terms-and-conditions/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/themes.html/",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/partners/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/pdf/footer/Marketplace-Infosheet.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/contact-us/",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "extensions.html",
+  "outputPathDefault": null,
+  "sidecar": "extensions._meta.json",
+  "driverVersion": "1"
+}

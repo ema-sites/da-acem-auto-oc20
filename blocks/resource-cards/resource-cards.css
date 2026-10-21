@@ -1,0 +1,194 @@
+/* resource-cards — landing.css Adobe Commerce Resources (section.case-resources). */
+
+.resource-cards .resources {
+  margin-top: 50px;
+  background-color: #f2f3f3;
+}
+
+.resource-cards .page-main {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 0 var(--gutter);
+}
+
+.resource-cards .resources-inner {
+  padding: 40px 0;
+}
+
+.resource-cards .resources-head h2 {
+  margin: 0 0 40px;
+  color: #000;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 1.1;
+  text-align: center;
+}
+
+.resource-cards .cards-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.resource-cards .resource-card {
+  position: relative;
+  width: 25%;
+  height: 325px;
+  margin-right: 10px;
+  padding: 2px;
+  border: 1px solid #aeafb1;
+  border-radius: 4px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.resource-cards .resource-card:last-child {
+  margin-right: 0;
+}
+
+.resource-cards .resource-header {
+  padding: 30px 0 0;
+}
+
+.resource-cards .resource-header h2 {
+  margin: 0;
+  color: #000;
+  font-family: var(--font-bold);
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.4286;
+}
+
+.resource-cards .resource-illustration {
+  display: inline-block;
+  width: 85px;
+  height: 23%;
+  margin: 12px 0 8px;
+  background: url('illustration-assurance-program.svg') no-repeat;
+  background-size: contain;
+}
+
+.resource-cards .icon {
+  display: inline-block;
+  color: #454646;
+  text-decoration: none;
+}
+
+.resource-cards .icon::before {
+  display: inline-block;
+  overflow: hidden;
+  color: inherit;
+  font-size: 70px;
+  font-weight: normal;
+  line-height: inherit;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.resource-cards .icon-arm::before {
+  content: '\e910';
+  font-family: IconFeatured, sans-serif;
+}
+
+.resource-cards .icon-training::before {
+  content: '\e902';
+  font-family: iconmoon, sans-serif;
+}
+
+.resource-cards .icon-certif::before {
+  content: '\e90e';
+  font-family: IconFeatured, sans-serif;
+}
+
+.resource-cards .resource-body {
+  padding: 5px 40px 21px;
+}
+
+.resource-cards .resource-body p {
+  margin: 0;
+  color: #222;
+  font-family: var(--font-body);
+  font-size: 12.5px;
+}
+
+.resource-cards .resource-actions {
+  background-color: #fff;
+}
+
+.resource-cards .resource-actions hr {
+  position: absolute;
+  right: 0;
+  bottom: 55px;
+  left: 0;
+  width: 80%;
+  height: 1px;
+  margin: 20px auto;
+  border: none;
+  background-color: #d6d7d8;
+}
+
+.resource-cards .resource-actions a {
+  position: absolute;
+  right: 0;
+  bottom: 20px;
+  left: 0;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 32px;
+  margin: 0 auto;
+  padding: 10px;
+  border: 2px solid #d5d5d5;
+  border-radius: 16px;
+  background: transparent;
+  color: #0a0a0a;
+  font-family: var(--font-body);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18.2px;
+  text-decoration: none;
+  transition: border-color 0.13s ease-in-out;
+}
+
+.resource-cards .resource-actions a:hover {
+  background: #d5d5d5;
+  color: #0a0a0a;
+}
+
+@media (width <= 991px) {
+  .resource-cards .resource-card {
+    height: 430px;
+  }
+
+  .resource-cards .resource-illustration {
+    height: 19%;
+    margin: 12px 0 0;
+  }
+}
+
+@media (width <= 767px) {
+  .resource-cards .resources-head h2 {
+    font-size: 26px;
+  }
+
+  .resource-cards .cards-row {
+    display: inline-block;
+  }
+
+  .resource-cards .resource-card {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 1em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .resource-cards .resource-illustration {
+    margin: 12px 0;
+  }
+}

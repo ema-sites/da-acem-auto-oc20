@@ -1,0 +1,74 @@
+{
+  "product-card": {
+    "origin": "#products-grid .ais-hits--item",
+    "build": ".products-grid .product-card",
+    "n": 4,
+    "required": true,
+    "pages": [
+      "extensions-html"
+    ],
+    "templates": [
+      "listing"
+    ]
+  },
+  "cms-table-row": {
+    "origin": ".cms-content .data-table tbody tr",
+    "build": ".cms-content .data-table tbody tr, main .table tbody tr",
+    "n": 4,
+    "required": true,
+    "pages": [
+      "privacy-policy-cookie-restriction-mode"
+    ],
+    "templates": [
+      "static"
+    ]
+  },
+  "resource-card": {
+    "origin": ".case-resources .col-box .col",
+    "build": ".resources .resource-card",
+    "n": 4,
+    "required": true,
+    "pages": [
+      "index"
+    ],
+    "templates": [
+      "landing"
+    ]
+  },
+  "category-tile": {
+    "origin": ".case-featured-category .fotorama .col",
+    "build": ".featured-categories .category-tiles .col",
+    "n": 6,
+    "required": true,
+    "pages": [
+      "index"
+    ],
+    "templates": [
+      "landing"
+    ]
+  },
+  "pdp-gallery-thumb": {
+    "origin": ".fotorama__nav__frame--thumb",
+    "build": ".gallery-thumb",
+    "n": 4,
+    "required": true,
+    "pages": [
+      "amasty-module-price-history-html"
+    ],
+    "templates": [
+      "program"
+    ]
+  },
+  "pdp-contents-link": {
+    "origin": ".product-page-left-navigation .spectrum-SideNav-item a",
+    "build": ".contents-nav .sidenav-item a",
+    "n": 4,
+    "required": true,
+    "pages": [
+      "amasty-module-price-history-html"
+    ],
+    "templates": [
+      "program"
+    ]
+  }
+}

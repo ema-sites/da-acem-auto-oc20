@@ -1,0 +1,53 @@
+/* static.css — static / CMS text archetype (privacy-policy-cookie-restriction-mode; sibling terms-and-conditions).
+   Magento cms-page-view, page-layout-1column: page title, in-column breadcrumbs, .cms-content body
+   (h2 sections, paragraphs, bullet lists, data tables). Values lifted from styles-m.css / styles-l.css
+   and live computed styles (measure.mjs, 1440 + 360). Requires canon.css. */
+
+/* ---------- content root (styles-m: .page-main { padding-top: 30px }; #maincontent 68px ≤991) ---------- */
+.page-static .page-main { padding-top: 30px; }
+.page-static .page-title-wrapper { margin: 0 0 50px; } /* styles-m: body .page-title-wrapper (last rule wins at every width) */
+.page-static .page-title { line-height: 1.1; }
+
+.page-static .columns { display: block; box-sizing: border-box; }
+.page-static .column.main { box-sizing: border-box; width: 100%; padding-bottom: 40px; }
+
+/* ---------- breadcrumbs inside the column (styles-m .breadcrumbs) ---------- */
+.page-static .column.main .breadcrumbs { margin: 0 0 25px; padding: 0 30px 0 0; min-height: 24px; }
+.page-static .breadcrumbs .items { margin: 0; padding: 0; list-style: none; font-size: 12px; line-height: 1.42857143; color: var(--c-crumb); }
+.page-static .breadcrumbs .item { display: inline-block; vertical-align: top; margin: 0; }
+.page-static .breadcrumbs a { display: inline; color: var(--c-crumb); }
+.page-static .breadcrumbs a:hover { color: var(--c-crumb); } /* hover diff dead on live (motion-observe); pins canon a:hover off */
+.page-static .breadcrumbs strong { display: inline; font-weight: 400; color: var(--c-crumb); }
+.page-static .breadcrumbs .item:not(:last-child)::after {
+  content: '\e608'; font-family: 'luma-icons'; font-size: 10px; line-height: 18px; margin: 0 10px;
+  display: inline-block; vertical-align: top; overflow: hidden; font-weight: normal; speak: none;
+  -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+.page-static .auth-popup[hidden] { display: none; }
+
+/* ---------- CMS body (styles-m base: h2, p, ul/li, table) ---------- */
+.cms-content h2 { margin: 25px 0 20px; font-size: 30px; font-weight: 600; line-height: 1.1; }
+.cms-content p { margin: 0 0 10px; }
+.cms-content ul, .cms-content ol { margin: 0 0 25px; padding-left: 40px; }
+.cms-content ul { list-style: disc; }
+.cms-content ol { list-style: decimal; }
+.cms-content li { margin: 0 0 10px; }
+.cms-content table { width: 100%; max-width: 100%; border-collapse: collapse; border-spacing: 0; }
+.cms-content th { text-align: left; font-weight: 700; }
+.cms-content th, .cms-content td { padding: 11px 10px; }
+.cms-content tbody th, .cms-content tbody td { vertical-align: top; }
+.cms-content thead th, .cms-content thead td { vertical-align: bottom; }
+
+@media (min-width: 992px) {
+  .page-static .page-title { display: inline-block; } /* styles-l: .page-main > .page-title-wrapper .page-title */
+  .page-static .column.main { min-height: 300px; }
+}
+@media (max-width: 991px) {
+  .page-static #maincontent { padding-top: 68px; }
+}
+@media (max-width: 767px) {
+  /* styles-m: .data-table-definition-list stacks to th/td blocks, header row hidden */
+  .data-table-definition-list thead { display: none; }
+  .data-table-definition-list tbody th, .data-table-definition-list tbody td { display: block; padding-left: 0; padding-right: 0; }
+  .data-table-definition-list tbody th { padding-bottom: 0; }
+}

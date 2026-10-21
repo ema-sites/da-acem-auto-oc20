@@ -1,0 +1,728 @@
+{
+  "listing": {
+    "archetype": "extensions-html",
+    "pageType": "listing",
+    "liveUrl": "https://commercemarketplace.adobe.com/extensions.html",
+    "prototype": "stardust/prototypes/extensions-html-proposed.html",
+    "css": [
+      "canon.css",
+      "listing.css"
+    ],
+    "js": [
+      "canon.js"
+    ],
+    "iterations": {
+      "360": 3,
+      "1440": 3
+    },
+    "gates": {
+      "360": {
+        "pixelPct": 1.33,
+        "heightDelta": 0,
+        "contentDiffRed": 0,
+        "visualFlags": 0,
+        "clipped": 0,
+        "overflow": 0,
+        "units": "PASS 36/36 within 4px (run uncached at 360; gate.sh --full reuses the 1440-cached origin inventory and reports a false FAIL)",
+        "verdict": "PASS",
+        "evidence": "stardust/replica/gates/extensions-html-360/*-confirm*.*"
+      },
+      "1440": {
+        "pixelPct": 1.49,
+        "heightDelta": 0,
+        "contentDiffRed": 0,
+        "visualFlags": 0,
+        "clipped": 0,
+        "overflow": 0,
+        "units": "PASS 36/36 within 4px",
+        "chromeCrop": {
+          "header": 0.97,
+          "footer": 1.25
+        },
+        "verdict": "PASS",
+        "evidence": "stardust/replica/gates/extensions-html-1440/*-confirm2.*"
+      }
+    },
+    "capProbe": "PASS (at 2560, 0 of 4 rows failed)",
+    "breakpoints": {
+      "360": {
+        "iterations": 3,
+        "result": {
+          "structuralRed": 0,
+          "visualFlags": "none",
+          "pixelPct": 1.33,
+          "heightDelta": 0,
+          "pass": true
+        },
+        "justified": [
+          {
+            "probe": "content+chrome",
+            "flag": "🟠 FONT FORK adobe-clean→Source Sans 3; chrome-parity text Δh +2px (content-area), ≤4px Δx/Δw",
+            "why": "R-01 licensed Adobe Clean substituted (size-adjust 98%)",
+            "permanent": true
+          },
+          {
+            "probe": "content",
+            "flag": "🟡 MISSING BODY ×20 (inline <script>/underscore templates: window.authenticationPopup, window.checkout, livesearch templates)",
+            "why": "script/template source text, not authored content"
+          },
+          {
+            "probe": "content",
+            "flag": "🟡 EDITABLE COUNT 14 vs 85",
+            "why": "source counts template/script nodes; every visible string is present"
+          },
+          {
+            "probe": "clip",
+            "flag": "advisory horizontal 1 (footer social icons overflow their 1% table-cell li)",
+            "why": "mirrors live layout (live icons overflow identically; root scrollWidth 360)"
+          }
+        ],
+        "residuals": [
+          {
+            "band": "y 0–11626 (every 500px band ≤1.7%)",
+            "pct": 1.33,
+            "cause": "glyph-width/antialiasing of the R-01 font substitute; uniform, no hot band",
+            "flaggedFor": "user"
+          }
+        ],
+        "captureState": []
+      },
+      "1440": {
+        "iterations": 3,
+        "result": {
+          "structuralRed": 0,
+          "visualFlags": "none",
+          "pixelPct": 1.49,
+          "heightDelta": 0,
+          "pass": true
+        },
+        "justified": [
+          {
+            "probe": "content+chrome",
+            "flag": "🟠 FONT FORK adobe-clean→Source Sans 3; chrome-parity text Δh +2px (content-area), ≤4px Δx/Δw",
+            "why": "R-01 licensed Adobe Clean substituted (size-adjust 98%)",
+            "permanent": true
+          },
+          {
+            "probe": "content",
+            "flag": "🟡 MISSING BODY ×20 (inline <script>/underscore templates: window.authenticationPopup, window.checkout, livesearch templates)",
+            "why": "script/template source text, not authored content"
+          },
+          {
+            "probe": "content",
+            "flag": "🟡 EDITABLE COUNT 14 vs 85",
+            "why": "source counts template/script nodes; every visible string is present"
+          }
+        ],
+        "residuals": [
+          {
+            "band": "y 0–3570 (every 500px band 1.0–2.0%)",
+            "pct": 1.49,
+            "cause": "glyph-width/antialiasing of the R-01 font substitute; uniform, no hot band",
+            "flaggedFor": "user"
+          }
+        ],
+        "captureState": []
+      }
+    },
+    "residuals": [
+      "R-01 font substitution: uniform 1.3–1.5% pixel, chrome-parity text-box Δh +2px (Source Sans 3 content area vs Adobe Clean) — permanent, flaggedFor user",
+      "Nondeterministic live values frozen as captured: result count 3948, facet counts, ratings %, prices, 'Powered by Adobe Commerce 2.4.9', Sign In referer URL (live appends a per-request _c_timestamp) — permanent, flaggedFor delivery (live data from Live Search API at delivery)",
+      "Product icons hotlink commercemarketplace.adobe.com/media/catalog/product/* (2 cards use the source's own 'productno_selection' URL); partner-level PNGs, assurance badge, select arrow, logos rehosted under stardust/prototypes/images — flaggedFor delivery",
+      "Icon fonts (luma-icons, IconFeatured, iconmoon) and RobotoRegular (Apache-2.0, form controls) harvested from the source static tree into stardust/prototypes/fonts — site-owned assets, flaggedFor delivery",
+      "Hidden live DOM carried for content parity: #authenticationPopup (checkout auth modal, display:none), minicart dropdown, mobile Menu/Account tabs, filter meta spans",
+      "Mobile quirks replicated as live: page title sits under the fixed 130px dark strip (search input off-canvas), 'Next Page' pinned top-right of the results toolbar, footer social icons overflow their cells",
+      "Instrument note: gate.sh --full unit-geometry at 360 reuses the origin inventory cached at 1440 (stardust/current/measure/extensions-html-units.json) → false FAIL; standalone unit-geometry --width 360 PASS"
+    ],
+    "motion": {
+      "observed": [
+        "minicart click → .minicart-wrapper.active + dropdown",
+        "card hover: translateY(-4px) + box-shadow 0 4px 12px rgba(0,0,0,.1), 200ms, link color #045dca",
+        "desktop nav hover: bg #f2f3f3, color #000, box-shadow 0 2px 4px rgba(156,151,151,.5)",
+        "selected-filter hover: opacity .8 (200ms), color #045dca",
+        "category cross-circle opacity transition 200ms",
+        "360 nav-toggle → html.nav-before-open + nav-open (page-wrapper left transition .3s)",
+        "360 #refine-toggle → .active (facets shown)"
+      ],
+      "implemented": [
+        "minicart toggle (canon.js)",
+        "card hover",
+        "nav hover",
+        "selected-filter hover",
+        "cross-circle transition",
+        "mobile nav drawer (canon.js)",
+        "refine toggle (canon.js)"
+      ],
+      "dead": [
+        "header scroll-morph (static sticky header both widths)",
+        "category-link hover (no change)",
+        "OneTrust 'checked' class (consent excluded — ships via martech contract)"
+      ],
+      "files": [
+        "stardust/replica/motion/extensions-html.json",
+        "stardust/replica/motion/extensions-html-build.json",
+        "stardust/replica/motion/extensions-html-360.json",
+        "stardust/replica/motion/extensions-html-360-build.json"
+      ],
+      "pixelAfterMotion": {
+        "360": 1.33,
+        "1440": 1.49
+      }
+    },
+    "canon": {
+      "import": [
+        "stardust/prototypes/canon.css",
+        "stardust/prototypes/canon.js"
+      ],
+      "assets": [
+        "stardust/prototypes/fonts/",
+        "stardust/prototypes/images/"
+      ],
+      "chrome": "header.page-header (sticky 90px; fixed 55px ≤767), .search-strip (sticky dark strip top 90; fixed 130px ≤767), nav.breadcrumbs, main#maincontent.page-main, footer.page-footer"
+    },
+    "passed": true
+  },
+  "static": {
+    "archetype": "privacy-policy-cookie-restriction-mode",
+    "pageType": "static",
+    "liveUrl": "https://commercemarketplace.adobe.com/privacy-policy-cookie-restriction-mode",
+    "prototype": "stardust/prototypes/privacy-policy-cookie-restriction-mode-proposed.html",
+    "css": [
+      "canon.css",
+      "static.css"
+    ],
+    "js": [
+      "canon.js"
+    ],
+    "iterations": {
+      "360": 1,
+      "1440": 1
+    },
+    "gates": {
+      "360": {
+        "pixelPct": 5.79,
+        "heightDelta": 0,
+        "contentDiffRed": 0,
+        "visualFlags": "1 justified (OneTrust 0x0 imgs)",
+        "clipped": 0,
+        "overflow": 0,
+        "units": "cms-table-row PASS 4/4 within 4px (standalone run; gate.sh --full origin cache is not width-keyed)",
+        "chromeCrop": {
+          "header": 0.25,
+          "footer": 3.33
+        },
+        "verdict": "PASS",
+        "evidence": "stardust/replica/gates/privacy-policy-cookie-restriction-mode-360/*-confirm.*"
+      },
+      "1440": {
+        "pixelPct": 2.87,
+        "heightDelta": 0,
+        "contentDiffRed": 0,
+        "visualFlags": "1 justified (OneTrust 0x0 imgs)",
+        "clipped": 0,
+        "overflow": 0,
+        "units": "cms-table-row PASS 4/4 within 4px (standalone run; gate.sh --full origin cache is not width-keyed)",
+        "chromeCrop": {
+          "header": 0.7,
+          "footer": 1.27
+        },
+        "verdict": "PASS",
+        "evidence": "stardust/replica/gates/privacy-policy-cookie-restriction-mode-1440/*-confirm.*"
+      }
+    },
+    "capProbe": "PASS (at 2560, 0 of 3 rows failed)",
+    "breakpoints": {
+      "360": {
+        "iterations": 1,
+        "result": {
+          "structuralRed": 0,
+          "visualFlags": "1 justified",
+          "pixelPct": 5.79,
+          "heightDelta": 0,
+          "pass": true
+        },
+        "justified": [
+          {
+            "probe": "content+chrome",
+            "flag": "🟠 FONT FORK adobe-clean→Source Sans 3; chrome-parity text Δh +2px (content-area), ≤4px Δx",
+            "why": "R-01 licensed Adobe Clean substituted (canon, same as listing)",
+            "permanent": true
+          },
+          {
+            "probe": "content",
+            "flag": "🟡 MISSING BODY ×4 (inline <script> text: window.authenticationPopup, searchRequest, magentoStorefrontEvents, window.checkout)",
+            "why": "script source text, not authored content"
+          },
+          {
+            "probe": "visual",
+            "flag": "IMAGERY GAP 5 vs 2",
+            "why": "the 3 extra live images are OneTrust consent assets rendered 0×0 (ot_company_logo, powered_by_logo ×2); consent banner not rendered by brief"
+          },
+          {
+            "probe": "clip",
+            "flag": "advisory horizontal 1 (footer social icons)",
+            "why": "mirrors live (same as listing)"
+          }
+        ],
+        "residuals": [
+          {
+            "band": "y 0–4500 (bands 2.7–10.4%, peak y 2000–2500, none >15%)",
+            "pct": 5.79,
+            "cause": "R-01 font substitute glyph widths: prose and h2 line breaks shift a word at 320px measure (crop band-2000-strip.png: same lines, \"personal\" wraps on h2); total height identical",
+            "flaggedFor": "user"
+          },
+          {
+            "region": "footer",
+            "pct": 3.33,
+            "cause": "canon footer at 360: R-01 substitute sets text ~1px higher (chrome-parity: only © line Δh +2 content-area; all 35 texts paired, icons paired); texture mixed so the glyph-antialiasing justification does not qualify — canon-level, not page-level",
+            "parity": "stardust/replica/gates/privacy-policy-cookie-restriction-mode-360/chrome-parity-confirm.txt",
+            "flaggedFor": "user"
+          }
+        ],
+        "captureState": []
+      },
+      "1440": {
+        "iterations": 1,
+        "result": {
+          "structuralRed": 0,
+          "visualFlags": "1 justified",
+          "pixelPct": 2.87,
+          "heightDelta": 0,
+          "pass": true
+        },
+        "justified": [
+          {
+            "probe": "content+chrome",
+            "flag": "🟠 FONT FORK adobe-clean→Source Sans 3; chrome-parity text Δh +2px (content-area), ≤4px Δx",
+            "why": "R-01 licensed Adobe Clean substituted (canon, same as listing)",
+            "permanent": true
+          },
+          {
+            "probe": "content",
+            "flag": "🟡 MISSING BODY ×4 (inline <script> text: window.authenticationPopup, searchRequest, magentoStorefrontEvents, window.checkout)",
+            "why": "script source text, not authored content"
+          },
+          {
+            "probe": "visual",
+            "flag": "IMAGERY GAP 5 vs 2",
+            "why": "the 3 extra live images are OneTrust consent assets rendered 0×0 (ot_company_logo, powered_by_logo ×2); consent banner not rendered by brief"
+          }
+        ],
+        "residuals": [
+          {
+            "band": "y 0–3450 (bands 1.3–6.1%, peak y 1000–1500 prose)",
+            "pct": 2.87,
+            "cause": "R-01 font substitute glyph widths: long-paragraph line breaks differ by a word at matched width/size/line-height; heights identical",
+            "flaggedFor": "user"
+          }
+        ],
+        "captureState": []
+      }
+    },
+    "residuals": [
+      "1440: 2.87% uniform font-substitute line-break drift, no hot band",
+      "360: 5.79% same cause (narrow measure amplifies wraps), peak band 10.4%",
+      "360 footer chrome crop 3.33% > 2% bar — canon chrome, R-01 baseline offset; back-port candidate"
+    ],
+    "motion": {
+      "observed": [
+        "hover .cms-content a (color)",
+        "class active on minicart toggle"
+      ],
+      "implemented": [
+        "canon a:hover color",
+        "canon.js minicart"
+      ],
+      "dead": [
+        "header scroll-morph",
+        "showcart frame motion",
+        "hover .breadcrumbs a",
+        "hover .page-footer .footer-nav a"
+      ],
+      "compare": "2 parity, 0 missing, 0 extra"
+    },
+    "backport": [
+      "canon .page-title-wrapper margin-bottom 25px vs source body .page-title-wrapper 50px (styles-m, last rule, all widths)",
+      "canon .page-main padding-top 0 vs source .page-main padding-top 30px desktop / #maincontent 68px ≤991",
+      "canon .page-title line-height 1.2 vs live 30.8px (1.1)",
+      "canon .breadcrumbs is the listing out-of-main nav/ol variant; CMS pages carry ul.items in .column.main (12px, luma \\e608 separator) — static.css scopes it"
+    ],
+    "passed": true
+  },
+  "landing": {
+    "archetype": "index",
+    "pageType": "landing",
+    "liveUrl": "https://commercemarketplace.adobe.com/",
+    "prototype": "stardust/prototypes/index-proposed.html",
+    "css": [
+      "canon.css",
+      "landing.css"
+    ],
+    "js": [
+      "canon.js",
+      "landing.js"
+    ],
+    "iterations": {
+      "360": 3,
+      "1440": 3
+    },
+    "gates": {
+      "360": {
+        "pixelPct": 1.29,
+        "heightDelta": 0,
+        "contentDiffRed": 3,
+        "contentDiffRedJustified": true,
+        "visualFlags": "1 justified (IMAGERY GAP: OneTrust logos)",
+        "clipped": 0,
+        "overflow": 0,
+        "units": "FAIL 1 element off (resource-card paragraph wrap, R-01) — card boxes, headings, icons, hr, buttons all within 4px",
+        "chromeCrop": {
+          "header": 0.11,
+          "footer": 2.73
+        },
+        "verdict": "PASS (with justified residuals)",
+        "evidence": "stardust/replica/gates/index-360/*-iter3.*, diff-confirm.png"
+      },
+      "1440": {
+        "pixelPct": 1.22,
+        "heightDelta": 0,
+        "contentDiffRed": 3,
+        "contentDiffRedJustified": true,
+        "visualFlags": "1 justified (IMAGERY GAP: OneTrust logos)",
+        "clipped": 0,
+        "overflow": 0,
+        "units": "FAIL 1 element off (resource-card paragraph wrap, R-01) — card boxes, headings, icons, hr, buttons all within 4px",
+        "chromeCrop": {
+          "header": 0.97,
+          "footer": 1.16
+        },
+        "verdict": "PASS (with justified residuals)",
+        "evidence": "stardust/replica/gates/index-1440/*-iter3.*, diff-confirm.png"
+      }
+    },
+    "capProbe": "PASS (at 2560, 0 of 4 rows failed)",
+    "breakpoints": {
+      "360": {
+        "iterations": 3,
+        "result": {
+          "structuralRed": 3,
+          "structuralRedJustified": true,
+          "visualFlags": "1 justified",
+          "pixelPct": 1.29,
+          "heightDelta": 0,
+          "pass": true
+        },
+        "justified": [
+          {
+            "probe": "content",
+            "flag": "🔴 MISSING CTA ×3 + 🟠 EXTRA ×3 (hero slide links)",
+            "why": "source link textContent includes the PageBuilder inline <style> whose class is a per-request uniqid (background-image-6ad7bccd4e5cf at capture, 6ad7cbe54438d / 6ad7ccd8ea5e8 on later gate runs) — unmatchable by construction; same hrefs and visible labels (Get started / Get Started / Get started) present in build",
+            "permanent": true
+          },
+          {
+            "probe": "content+chrome",
+            "flag": "🟠 FONT FORK adobe-clean→Source Sans 3; chrome-parity text Δh +2px, Follow us Δx +2, Privacy Δx −4",
+            "why": "R-01 (same as listing)",
+            "permanent": true
+          },
+          {
+            "probe": "content",
+            "flag": "🟡 MISSING BODY (PageBuilder inline <style> text, window.authenticationPopup / window.checkout / livesearch scripts) + 🟡 MISSING ICON illustration-assurance-program.svg",
+            "why": "script/style source text; the illustration IS rendered (same file, 85×75 at the same box — unit-geometry ✓)"
+          },
+          {
+            "probe": "visual",
+            "flag": "IMAGERY GAP 5 vs 2",
+            "why": "3 of the source images are OneTrust consent-banner logos (banner not rendered per brief); hero slides are CSS backgrounds on both sides"
+          },
+          {
+            "probe": "clip",
+            "flag": "advisory X-HIDDEN slide controls",
+            "why": "off-track carousel slides inside overflow:hidden list — mirrors live slick"
+          }
+        ],
+        "residuals": [
+          {
+            "band": "y 0–4207 (no hot band)",
+            "pct": 1.29,
+            "cause": "R-01 glyph width/antialiasing",
+            "flaggedFor": "user"
+          },
+          {
+            "region": "footer",
+            "pct": 2.73,
+            "cause": "canon footer-bottom 1px offset at 360 + glyph AA (thick texture — not the glyph-noise exemption)",
+            "flaggedFor": "user"
+          }
+        ],
+        "captureState": [
+          {
+            "what": "hero carousel held on slide 1; list height = tallest slide (SAP slide 526px at 360, overlay padding-left 750px) as live",
+            "where": "hero-slider",
+            "restoreAtDelivery": "autoplay 4000 ms, 0.5s transform, ping-pong (infinite false), dot click — landing.js"
+          }
+        ]
+      },
+      "1440": {
+        "iterations": 3,
+        "result": {
+          "structuralRed": 3,
+          "structuralRedJustified": true,
+          "visualFlags": "1 justified",
+          "pixelPct": 1.22,
+          "heightDelta": 0,
+          "pass": true
+        },
+        "justified": [
+          {
+            "probe": "content",
+            "flag": "🔴 MISSING CTA ×3 + 🟠 EXTRA ×3 (hero slide links)",
+            "why": "source link textContent includes the PageBuilder inline <style> whose class is a per-request uniqid (background-image-6ad7bccd4e5cf at capture, 6ad7cbe54438d / 6ad7ccd8ea5e8 on later gate runs) — unmatchable by construction; same hrefs and visible labels (Get started / Get Started / Get started) present in build",
+            "permanent": true
+          },
+          {
+            "probe": "content+chrome",
+            "flag": "🟠 FONT FORK adobe-clean→Source Sans 3; chrome-parity text Δh +2px, Follow us Δx +2, Privacy Δx −4",
+            "why": "R-01 (same as listing)",
+            "permanent": true
+          },
+          {
+            "probe": "content",
+            "flag": "🟡 MISSING BODY (PageBuilder inline <style> text, window.authenticationPopup / window.checkout / livesearch scripts) + 🟡 MISSING ICON illustration-assurance-program.svg",
+            "why": "script/style source text; the illustration IS rendered (same file, 85×75 at the same box — unit-geometry ✓)"
+          },
+          {
+            "probe": "visual",
+            "flag": "IMAGERY GAP 5 vs 2",
+            "why": "3 of the source images are OneTrust consent-banner logos (banner not rendered per brief); hero slides are CSS backgrounds on both sides"
+          },
+          {
+            "probe": "clip",
+            "flag": "advisory X-HIDDEN slide controls",
+            "why": "off-track carousel slides inside overflow:hidden list — mirrors live slick"
+          }
+        ],
+        "residuals": [
+          {
+            "band": "y 0–1891 (no hot band)",
+            "pct": 1.22,
+            "cause": "R-01 glyph width/antialiasing",
+            "flaggedFor": "user"
+          }
+        ],
+        "captureState": [
+          {
+            "what": "hero carousel held on slide 1 (stitch-shot timer freeze)",
+            "where": "hero-slider",
+            "restoreAtDelivery": "slick autoplay every 4000 ms (data-autoplay-speed), track transform 0.5s ease, infinite-loop false (runs forward to slide 3 then back), dot click selects slide — implemented in landing.js"
+          }
+        ]
+      }
+    },
+    "residuals": [
+      "R-01 font substitution: uniform ~1.2–1.3% pixel, no hot band; resource-card paragraph wraps differ (1440 Assurance 5 vs 4 lines, 360 Partner 3 vs 2) — card height fixed so no layout shift; units element-off — permanent, flaggedFor user",
+      "Hero CTA content-diff 🔴×3: source link text carries a per-request uniqid PageBuilder <style> — instrument artefact, permanent, flaggedFor user",
+      "360 footer chrome crop 2.73% (bar 2%, thick texture): canon footer-bottom 1px low at 360 on this page (y 3889 vs live 3888) + glyph AA; chrome-parity footer quiet except copyright Δh — flaggedFor canon owner",
+      "Hero slide banners hotlink commercemarketplace.adobe.com/media/wysiwyg/* (desktop + _1 mobile renditions, ≤767) — flaggedFor delivery; illustration-assurance-program.svg harvested into stardust/prototypes/images",
+      "Hidden live DOM carried for content parity: auth popup (hidden), inactive slides 2–3 off-track"
+    ],
+    "motion": {
+      "observed": [
+        "hero slider autoplay 4 s (idle slick-current mutations) + track transform 0.5s",
+        "dot click → slide",
+        "hover featured-category link color #0469e3→#045dca 0.3s",
+        "hover resource Learn more background → #d5d5d5 (border-color .13s ease-in-out)",
+        "hover dot color → #333 / border #b3b3b3 0.3s",
+        "dot focus outline-width → 0 (source *:focus outline 0)"
+      ],
+      "implemented": [
+        "landing.js slider autoplay/ping-pong/dot click",
+        "landing.css hovers + focus + track transition",
+        "canon.js header/minicart/mobile nav reused"
+      ],
+      "dead": [
+        "header scroll-morph (static on live)",
+        "slide button hover (no diff)",
+        "dot widget sample frames (no sampled track change during poke window — class mutations confirm the move)"
+      ],
+      "compare": "motion-compare: 11 parity, 4 missing = renamed classes slick-current/slick-active→is-current/is-active (same mechanic), OneTrust `checked`, outline-width (now implemented)"
+    },
+    "backPortRequests": [
+      "canon footer margin-top: source is body:not(.cms-index-index) footer.page-footer {margin-top:75px}; home uses margin-top:auto — landing.css overrides with body.page-landing .page-footer",
+      "canon .page-main is capped 1200px; home content root is fluid — landing.css sets main#maincontent.page-main {max-width:none;padding:0}",
+      "360 footer-bottom sits 1px low vs live (3889 vs 3888) — check footer-top column heights at 360"
+    ],
+    "passed": true
+  },
+  "program": {
+    "archetype": "amasty-module-price-history-html",
+    "pageType": "program",
+    "liveUrl": "https://commercemarketplace.adobe.com/amasty-module-price-history.html",
+    "prototype": "stardust/prototypes/amasty-module-price-history-html-proposed.html",
+    "css": [
+      "canon.css",
+      "program.css"
+    ],
+    "js": [
+      "canon.js",
+      "program.js"
+    ],
+    "iterations": {
+      "360": 3,
+      "1440": 3
+    },
+    "gates": {
+      "360": {
+        "pixelPct": 3.22,
+        "heightDelta": 0,
+        "contentDiffRed": 0,
+        "visualFlags": "1 advisory (same)",
+        "clipped": 0,
+        "overflow": 0,
+        "units": "pdp-gallery-thumb not rendered on either side at 360 (live shows dots) — unit-geometry has no width scope; pdp-contents-link 4/4 at 0px",
+        "chromeParity": "R-01 metrics only",
+        "verdict": "PASS"
+      },
+      "1440": {
+        "pixelPct": 1.69,
+        "heightDelta": 0,
+        "contentDiffRed": 0,
+        "visualFlags": "1 advisory (SURFACE/GROUND heading Reviews — BV widget ground, as live)",
+        "clipped": 0,
+        "overflow": 0,
+        "units": "8/8 within 4px (units-iter5b.json)",
+        "chromeParity": "header +2px text-box, footer ±2–4px — R-01 font substitution metrics, as other archetypes",
+        "verdict": "PASS"
+      }
+    },
+    "capProbe": "PASS at 2560 (0/3 rows failed)",
+    "residuals": [
+      "R-01 font substitution: contents-nav width pinned to live 157.562px (Source Sans wraps \"Technical Specifications\"); 360 detail text letter-spacing -0.08px restores live section heights, Overview paragraphs p[1]/p[8] still +/-1 line internally — permanent",
+      "Gallery (fotorama) and Bazaarvoice Q&A/Reviews replicated as the captured static state (dynamic-features CR gallery/bv = static-snapshot); hidden fotorama controls and BV filter DOM carried for content parity — flaggedFor delivery",
+      "Add to cart / Ask a question are forms submitting to the source store page; edition/version selects rendered without behaviour (interim link-out) — flaggedFor delivery",
+      "Product media hotlinks commercemarketplace.adobe.com/media/catalog/product/*; arrow-sprite.png and gallery.png harvested into stardust/prototypes/images — flaggedFor delivery",
+      "Nondeterministic live values frozen as captured: prices $919.00/$559.00, version 1.4.0, updated date, Sign In referer (live adds _c_timestamp)",
+      "title wrapper/headline overflow:hidden dropped — substitute face (R-01) inline box 5px taller than adobe-clean; no visual change",
+      "horizontal-ratio gallery thumbs fit to 80px height (gallery-thumb--fit-h) mirroring fotorama ratio classes"
+    ],
+    "motion": {
+      "observed": [
+        "hover .box-tocart primary button background #0265dc→#0054b6 130ms",
+        "transition background-color/color 130ms (sidenav + buttons)",
+        "class is-selected scroll-spy on contents side-nav"
+      ],
+      "implemented": [
+        "btn-accent hover + transition",
+        "sidenav-item a transition",
+        "program.js scroll-spy"
+      ],
+      "dead": [
+        "gallery arrows/thumb clicks (no sampled change)",
+        "sidenav hover",
+        "header scroll-morph",
+        "class checked (OneTrust consent dialog — third-party, carried by martech contract)"
+      ],
+      "files": [
+        "motion/amasty-module-price-history-html.json",
+        "motion/amasty-module-price-history-html-build.json"
+      ],
+      "pixelAfterMotion": {
+        "360": 3.22,
+        "1440": 1.69
+      }
+    },
+    "units": [
+      "pdp-gallery-thumb",
+      "pdp-contents-link (declared in units.json, not yet gated)"
+    ],
+    "backportRequests": [
+      "canon.css: footer margin-top 35px + .become-partner band (footer top) on product pages (program.css .page-product .page-footer / .become-partner)",
+      "canon.css: breadcrumbs inside .column.main on product pages (page_style.css sizes: a 12px, strong 11px #0469e3, separator \\e608 10px #8e8e8e, margin-bottom 15px) and .page-main padding-top 30px (68px ≤767)"
+    ],
+    "next": [],
+    "passed": true
+  },
+  "siblings": {
+    "terms-and-conditions": {
+      "archetype": "privacy-policy-cookie-restriction-mode",
+      "variants": [
+        "cms-title"
+      ],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": null,
+      "gatesPassed": [
+        "variance-probe",
+        "content-count",
+        "content-fidelity",
+        "delivery-lint"
+      ],
+      "migrated": "stardust/migrated/terms-and-conditions/index.html"
+    },
+    "extensions-featured-extensions-html": {
+      "archetype": "extensions-html",
+      "variants": [
+        "product-card-grid-empty-state"
+      ],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": null,
+      "gatesPassed": [
+        "variance-probe",
+        "content-count",
+        "content-fidelity",
+        "delivery-lint"
+      ],
+      "migrated": "stardust/migrated/extensions/featured-extensions.html"
+    },
+    "extensions-sales-html": {
+      "archetype": "extensions-html",
+      "variants": [],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": null,
+      "gatesPassed": [
+        "variance-probe",
+        "content-count",
+        "content-fidelity",
+        "delivery-lint"
+      ],
+      "migrated": "stardust/migrated/extensions/sales.html"
+    },
+    "themes-industry-apparel-html": {
+      "archetype": "extensions-html",
+      "variants": [
+        "product-card-grid-empty-state"
+      ],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": null,
+      "gatesPassed": [
+        "variance-probe",
+        "content-count",
+        "content-fidelity",
+        "delivery-lint"
+      ],
+      "migrated": "stardust/migrated/themes/industry/apparel.html"
+    },
+    "themes-html": {
+      "archetype": "extensions-html",
+      "variants": [],
+      "pixel": {},
+      "contentDiff": null,
+      "deliveryLint": "0 P0 · 0 P1 · 1 P2",
+      "media": null,
+      "gatesPassed": [
+        "variance-probe",
+        "content-count",
+        "content-fidelity",
+        "delivery-lint"
+      ],
+      "migrated": "stardust/migrated/themes.html"
+    }
+  }
+}

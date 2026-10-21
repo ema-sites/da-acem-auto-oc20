@@ -1,0 +1,256 @@
+{
+  "units": {
+    "foundation": {
+      "status": "done",
+      "kind": "foundation",
+      "templates": [
+        "static"
+      ],
+      "pages": 3,
+      "startedAt": "2026-10-20T20:58:37Z",
+      "blocks": 4,
+      "endedAt": "2026-10-20T21:41:50Z",
+      "gates": {
+        "360": {
+          "shellPixel": 5.79,
+          "heightDelta": 0,
+          "contentDiffRed": 0,
+          "clipped": 0,
+          "units": "PASS"
+        },
+        "1440": {
+          "shellPixel": 2.87,
+          "heightDelta": 0,
+          "contentDiffRed": 0,
+          "clipped": 0,
+          "units": "PASS"
+        },
+        "crop": "header 0.97% (1440) / 0.25% (360) PASS; footer 1.27% (1440) PASS, 3.33% (360) R-01 residual \u2014 narrow footer columns rewrap with Source Sans 3 (live footer columns overlap; build mirrors it)",
+        "chrome": "chrome-parity 15/11 deltas: R-01 \u00b12\u20134 px text boxes, search strip inside EDS header, hidden a11y labels"
+      },
+      "verdict": "foundation: pages 3/3 live (nav, footer, privacy-policy), blocks 4, chrome-parity 1440 15 deltas / 360 11 deltas, lint ok, requests 13; pub2 content-diff 0 \ud83d\udd34 both widths"
+    },
+    "archetype-static": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "static"
+      ],
+      "pages": 1,
+      "startedAt": "2026-10-20T21:42:05Z",
+      "blocks": 2,
+      "endedAt": "2026-10-20T21:46:42Z",
+      "gates": {
+        "360": {
+          "archetypePixel": 5.79,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": "MISSING 0 / HIDDEN 0",
+          "units": "PASS"
+        },
+        "1440": {
+          "archetypePixel": 2.87,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": "MISSING 0 / HIDDEN 0",
+          "units": "PASS"
+        }
+      },
+      "verdict": "archetype-static: privacy-policy-cookie-restriction-mode live, gate-all row PASS 1440 2.87% / 360 5.79%, \u0394h 0, clipped 0, content 0, units 0 off; 0 fix rounds (fixed inside foundation pub2)"
+    },
+    "archetype-listing": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "listing"
+      ],
+      "pages": 1,
+      "startedAt": "2026-10-20T21:47:03Z",
+      "blocks": 3,
+      "endedAt": "2026-10-20T22:19:52Z",
+      "gates": {
+        "360": {
+          "archetypePixel": 1.33,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": "PASS",
+          "units": "36/36"
+        },
+        "1440": {
+          "archetypePixel": 1.49,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": "PASS",
+          "units": "36/36"
+        },
+        "chrome": "1 footer request (Extensions self-link plain text on its own page)"
+      },
+      "verdict": "archetype-listing: extensions-html live, blocks 3, gate-all 1440 1.49% / 360 1.33% PASS (\u0394h 0, clipped 0, content PASS, units 36/36 within), content-diff \ud83d\udd34 37/37 (36 ICON DIFF = EDS media_<sha> renaming vs filename pairing \u2014 instrument; 1 frozen-footer request), rounds 2, requests 1"
+    },
+    "archetype-landing": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "landing"
+      ],
+      "pages": 1,
+      "startedAt": "2026-10-20T21:47:03Z",
+      "blocks": 3,
+      "endedAt": "2026-10-20T22:37:27Z",
+      "gates": {
+        "360": {
+          "archetypePixel": 1.95,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": "MISSING 0 / HIDDEN 0",
+          "units": "off 1 (R-01 rewrap, override)"
+        },
+        "1440": {
+          "archetypePixel": 1.22,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": "MISSING 0 / HIDDEN 0",
+          "units": "off 1 (R-01 rewrap, override)"
+        }
+      },
+      "verdict": "archetype-landing: index live, blocks 3, gate-all 1440 1.22% / 360 1.95% PASS with documented override (\u0394h 0, clipped 0, content 0, units off 1 per width = R-01 rewrap), content-diff \ud83d\udd34 3/3 (known hero artefact), rounds 2, requests 0"
+    },
+    "archetype-program": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "program"
+      ],
+      "pages": 1,
+      "startedAt": "2026-10-20T21:47:03Z",
+      "blocks": 5,
+      "endedAt": "2026-10-20T22:20:29Z",
+      "gates": {
+        "360": {
+          "archetypePixel": 3.26,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": "MISSING 0 / HIDDEN 0",
+          "units": "pdp-gallery-thumb absent both sides \u2014 override"
+        },
+        "1440": {
+          "archetypePixel": 1.71,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": "MISSING 0 / HIDDEN 0",
+          "units": "8/8"
+        }
+      },
+      "verdict": "archetype-program: amasty-module-price-history-html live, blocks 5, gate-all 1440 1.71% / 360 3.26% PASS (\u0394h 0, clipped 0, content 0, units 1440 8/8; 360 documented override), content-diff \ud83d\udd34 0/0, rounds 2, requests 0"
+    },
+    "cluster-listing": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "listing"
+      ],
+      "pages": 4,
+      "startedAt": "2026-10-20T22:38:42Z",
+      "endedAt": "2026-10-20T23:19:58Z",
+      "blocks": [
+        "facets-sidebar",
+        "listing-toolbar",
+        "product-card-grid",
+        "breadcrumbs"
+      ],
+      "verdict": "cluster-listing: pages 4/4 live, blocks 4, gate 1440 1.17% / 360 2.47% (themes-html=0.94/1.93, extensions-featured-extensions-html=1.17/2.47, extensions-sales-html=1.45/1.30, themes-industry-apparel-html=1.08/2.42), requests 0; 0-result pages pass units via instrument-limitation override; product-card-grid empty-state row + price weight 400 + hidden empty pager, archetype re-gated 1.46%/1.27% PASS",
+      "gates": {
+        "1440": {
+          "themes-html": 0.94,
+          "extensions-featured-extensions-html": 1.17,
+          "extensions-sales-html": 1.45,
+          "themes-industry-apparel-html": 1.08,
+          "extensions-html": 1.46
+        },
+        "360": {
+          "themes-html": 1.93,
+          "extensions-featured-extensions-html": 2.47,
+          "extensions-sales-html": 1.3,
+          "themes-industry-apparel-html": 2.42,
+          "extensions-html": 1.27
+        }
+      }
+    },
+    "cluster-program": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "program"
+      ],
+      "pages": 1,
+      "startedAt": "2026-10-20T22:38:42Z",
+      "endedAt": "2026-10-20T22:59:20Z",
+      "blocks": [
+        "product-gallery",
+        "product-purchase-panel",
+        "product-contents-nav",
+        "product-detail-sections",
+        "breadcrumbs"
+      ],
+      "verdict": "cluster-program: pages 1/1 live, blocks 5, gate 1440 2.55% / 360 6.88% (plumrocket-private-sales-flash-sales-html), requests 0; variants product-purchase-panel.installation + product-detail-sections.blank-headings ship with this checkpoint push (gated via local code proxy) \u2014 re-gate in gate-all; delivery-lint one-cta-per-p override on verbatim Live Demo paragraph; archetype re-gated 1440 1.71% \u0394h 0",
+      "gates": {
+        "1440": {
+          "plumrocket-private-sales-flash-sales-html": 2.55,
+          "amasty-module-price-history-html": 1.71
+        },
+        "360": {
+          "plumrocket-private-sales-flash-sales-html": 6.88
+        }
+      }
+    },
+    "cluster-static": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "static"
+      ],
+      "pages": 1,
+      "startedAt": "2026-10-20T22:38:42Z",
+      "endedAt": "2026-10-20T22:53:32Z",
+      "blocks": [
+        "breadcrumbs"
+      ],
+      "verdict": "cluster-static: pages 1/1 live, blocks 1, gate 1440 3.46% / 360 5.06% (terms-and-conditions, \u0394h \u22125/\u22123, PASS via documented units override), requests 1; breadcrumbs cms-title variant ships with this checkpoint push \u2014 re-gate in gate-all",
+      "gates": {
+        "1440": {
+          "terms-and-conditions": 3.46
+        },
+        "360": {
+          "terms-and-conditions": 5.06
+        }
+      }
+    },
+    "gate-all": {
+      "status": "done",
+      "kind": "final",
+      "pages": 10,
+      "startedAt": "2026-10-20T23:20:44Z",
+      "endedAt": "2026-10-21T00:02:11Z",
+      "verdict": "gate-all: 10/10 delivered at 1440 (6 PASS + 4 documented overrides) and 360 (4 PASS + 6 documented overrides); pixel 1440 0.93\u20132.87%, 360 1.27\u20136.88%; \u0394h 0 except plumrocket 3/83 px (\u22645%); clipped 0, content MISSING/HIDDEN 0; every override is units-only (R-01 rewrap or absent/invisible unit family); unit-geometry origin cache is per page not per width \u2192 cleared before each width",
+      "gates": {
+        "1440": {
+          "delivered": 10,
+          "pass": 6,
+          "override": 4
+        },
+        "360": {
+          "delivered": 10,
+          "pass": 4,
+          "override": 6
+        }
+      }
+    },
+    "final": {
+      "status": "done",
+      "kind": "final",
+      "startedAt": "2026-10-21T00:02:33Z",
+      "endedAt": "2026-10-21T00:02:33Z",
+      "verdict": "final: foundation-freeze check clean (re-frozen after the footer request), 2 requests resolved (1 applied, 1 kept scoped), coverage gate rows 10/10 pass at 1440 + 360"
+    }
+  }
+}

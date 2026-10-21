@@ -1,0 +1,157 @@
+{
+ "source": "http://localhost:8791/index-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "featured-categories",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Featured Categories"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Customer Support",
+     "href": "https://commercemarketplace.adobe.com/extensions/customer-support.html"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Payments & Security",
+     "href": "https://commercemarketplace.adobe.com/extensions/payments-security.html"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Marketing",
+     "href": "https://commercemarketplace.adobe.com/extensions/marketing-automation-email-marketing.html"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Accounting & Finance",
+     "href": "https://commercemarketplace.adobe.com/extensions/accounting-finance.html"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Shipping & Fulfillment",
+     "href": "https://commercemarketplace.adobe.com/extensions/shipping-fulfillment.html"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Site Optimization",
+     "href": "https://commercemarketplace.adobe.com/extensions/site-optimization.html"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "DIV.col",
+     "count": 6,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "resources",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Adobe Commerce Resources"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "Assurance Program"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "The Assurance Program ensures that extensions and apps designated as such adhere to high-quality standards and development best practices."
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Learn more",
+     "href": "https://developer.adobe.com/commerce/marketplace/guides/sellers/assurance"
+    },
+    {
+     "role": "heading",
+     "order": 4,
+     "text": "Partner Program"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Join a trusted network of consulting companies that help merchants grow their business."
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Learn more",
+     "href": "https://magento.com/become-a-partner"
+    },
+    {
+     "role": "heading",
+     "order": 7,
+     "text": "Training"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Our eCommerce training courses are unrivaled. We provide training for every role in your e-commerce business."
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Learn more",
+     "href": "https://u.magento.com/developers"
+    },
+    {
+     "role": "heading",
+     "order": 10,
+     "text": "Certification"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Experienced Adobe Commerce professionals can validate their real-world skills by earning a Adobe Commerce Certification."
+    },
+    {
+     "role": "cta",
+     "order": 12,
+     "text": "Learn more",
+     "href": "https://u.magento.com/certification"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 9,
+   "repeats": [
+    {
+     "unitSelector": "DIV.resource-card",
+     "count": 4,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 3
+     },
+     "uniform": true
+    }
+   ]
+  }
+ ]
+}

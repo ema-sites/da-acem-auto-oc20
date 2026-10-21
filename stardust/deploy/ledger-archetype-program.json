@@ -1,0 +1,11 @@
+{
+  "/amasty-module-price-history": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-20T22:03:23.670Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  }
+}

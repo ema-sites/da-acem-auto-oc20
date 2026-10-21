@@ -1,0 +1,255 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/blocks",
+    "writtenAt": "2026-10-20T20:55:59.866Z",
+    "readArtifacts": [
+      "stardust/rollout/coverage/pages.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-10-20T22:58:52.331Z",
+  "blocks": [
+    {
+      "id": "breadcrumbs",
+      "label": "breadcrumbs",
+      "kind": "module",
+      "signature": "module:breadcrumbs",
+      "source": null,
+      "usedByTemplates": [
+        "amasty-module-price-history-html",
+        "privacy-policy-cookie-restriction-mode"
+      ],
+      "usedByPages": [
+        "amasty-module-price-history-html",
+        "privacy-policy-cookie-restriction-mode"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "breadcrumbs",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "cms-text-body",
+      "label": "cms-text-body",
+      "kind": "module",
+      "signature": "module:cms-text-body",
+      "source": null,
+      "usedByTemplates": [
+        "privacy-policy-cookie-restriction-mode"
+      ],
+      "usedByPages": [
+        "privacy-policy-cookie-restriction-mode"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "default-content+table",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "facets-sidebar",
+      "label": "facets-sidebar",
+      "kind": "module",
+      "signature": "module:facets-sidebar",
+      "source": null,
+      "usedByTemplates": [
+        "extensions-html"
+      ],
+      "usedByPages": [
+        "extensions-html"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "facets-sidebar",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "featured-category-tiles",
+      "label": "featured-category-tiles",
+      "kind": "module",
+      "signature": "module:featured-category-tiles",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "featured-category-tiles",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "hero-carousel",
+      "label": "hero-carousel",
+      "kind": "module",
+      "signature": "module:hero-carousel",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "hero-carousel",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "listing-toolbar",
+      "label": "listing-toolbar",
+      "kind": "module",
+      "signature": "module:listing-toolbar",
+      "source": null,
+      "usedByTemplates": [
+        "extensions-html"
+      ],
+      "usedByPages": [
+        "extensions-html"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "listing-toolbar",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "product-card-grid",
+      "label": "product-card-grid",
+      "kind": "module",
+      "signature": "module:product-card-grid",
+      "source": null,
+      "usedByTemplates": [
+        "extensions-html"
+      ],
+      "usedByPages": [
+        "extensions-html"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "product-card-grid",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "product-contents-nav",
+      "label": "product-contents-nav",
+      "kind": "module",
+      "signature": "module:product-contents-nav",
+      "source": null,
+      "usedByTemplates": [
+        "amasty-module-price-history-html"
+      ],
+      "usedByPages": [
+        "amasty-module-price-history-html"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "product-contents-nav",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "product-detail-sections",
+      "label": "product-detail-sections",
+      "kind": "module",
+      "signature": "module:product-detail-sections",
+      "source": null,
+      "usedByTemplates": [
+        "amasty-module-price-history-html"
+      ],
+      "usedByPages": [
+        "amasty-module-price-history-html"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "product-detail-sections",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "product-gallery",
+      "label": "product-gallery",
+      "kind": "module",
+      "signature": "module:product-gallery",
+      "source": null,
+      "usedByTemplates": [
+        "amasty-module-price-history-html"
+      ],
+      "usedByPages": [
+        "amasty-module-price-history-html"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "product-gallery",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "product-purchase-panel",
+      "label": "product-purchase-panel",
+      "kind": "module",
+      "signature": "module:product-purchase-panel",
+      "source": null,
+      "usedByTemplates": [
+        "amasty-module-price-history-html"
+      ],
+      "usedByPages": [
+        "amasty-module-price-history-html"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "product-purchase-panel",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "resource-cards",
+      "label": "resource-cards",
+      "kind": "module",
+      "signature": "module:resource-cards",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "resource-cards",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    }
+  ]
+}

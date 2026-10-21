@@ -1,0 +1,29 @@
+{
+  "/nav": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-21T00:18:27.375Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/search": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-21T00:25:10.895Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/themes/industry/apparel": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-10-21T00:18:27.375Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  }
+}

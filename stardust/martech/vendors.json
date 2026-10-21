@@ -1,0 +1,122 @@
+{
+ "pages": 4,
+ "vendors": [
+  {
+   "host": "www.googletagmanager.com",
+   "pages": 4,
+   "firstParty": false,
+   "role": "tag manager: Google Tag Manager",
+   "class": "T",
+   "inCsp": false
+  },
+  {
+   "host": "cdn.optimizely.com",
+   "pages": 4,
+   "firstParty": false,
+   "role": "experimentation: A/B / personalisation",
+   "class": "A",
+   "inCsp": false
+  },
+  {
+   "host": "commercemarketplace.adobe.com",
+   "pages": 4,
+   "firstParty": true,
+   "role": null,
+   "class": null,
+   "inCsp": false
+  },
+  {
+   "host": "rum.hlx.page",
+   "pages": 4,
+   "firstParty": false,
+   "role": null,
+   "class": null,
+   "inCsp": false
+  },
+  {
+   "host": "www.adobe.com",
+   "pages": 4,
+   "firstParty": false,
+   "role": null,
+   "class": null,
+   "inCsp": false
+  },
+  {
+   "host": "cdn.cookielaw.org",
+   "pages": 4,
+   "firstParty": false,
+   "role": "consent: OneTrust",
+   "class": "T",
+   "inCsp": false
+  },
+  {
+   "host": "unpkg.com",
+   "pages": 4,
+   "firstParty": false,
+   "role": "library CDN (not dynamic by itself)",
+   "class": "-",
+   "inCsp": false
+  },
+  {
+   "host": "livesearch-metrics.magento-ds.com",
+   "pages": 4,
+   "firstParty": false,
+   "role": "commerce: platform",
+   "class": "X",
+   "inCsp": false
+  },
+  {
+   "host": "acds-events.adobe.io",
+   "pages": 4,
+   "firstParty": false,
+   "role": null,
+   "class": null,
+   "inCsp": false
+  },
+  {
+   "host": "js.braintreegateway.com",
+   "pages": 4,
+   "firstParty": false,
+   "role": "commerce: payments",
+   "class": "X",
+   "inCsp": false
+  },
+  {
+   "host": "apps.bazaarvoice.com",
+   "pages": 4,
+   "firstParty": false,
+   "role": "social proof: reviews widget",
+   "class": "T",
+   "inCsp": false
+  },
+  {
+   "host": "commerce.adobedtm.com",
+   "pages": 3,
+   "firstParty": false,
+   "role": "tag manager: Adobe Launch",
+   "class": "T",
+   "inCsp": false
+  },
+  {
+   "host": "recommendations-sdk.adobe.io",
+   "pages": 3,
+   "firstParty": false,
+   "role": null,
+   "class": null,
+   "inCsp": false
+  },
+  {
+   "host": "display.ugc.bazaarvoice.com",
+   "pages": 1,
+   "firstParty": false,
+   "role": "social proof: reviews widget",
+   "class": "T",
+   "inCsp": false
+  }
+ ],
+ "inline": {
+  "digitalData": 4,
+  "OneTrust": 3
+ },
+ "cspHosts": []
+}

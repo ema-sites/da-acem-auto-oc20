@@ -1,0 +1,2329 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-10-20T19:11:42.028Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "extensions-sales-html",
+  "url": "https://commercemarketplace.adobe.com/extensions/sales.html",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-10-20T19:11:42.028Z",
+  "finalUrl": "https://commercemarketplace.adobe.com/extensions/sales.html",
+  "title": "Sales",
+  "description": "Sales",
+  "og": {
+    "title": null,
+    "description": null,
+    "image": null,
+    "type": null
+  },
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "Sales Extensions for Adobe Commerce"
+    },
+    {
+      "tag": "h3",
+      "text": "ChannelEngine Marketplace Connector (v3)"
+    },
+    {
+      "tag": "h4",
+      "text": "ChannelEngine"
+    },
+    {
+      "tag": "h3",
+      "text": "Odoo Connector for Adobe Commerce"
+    },
+    {
+      "tag": "h4",
+      "text": "Brainvire Infotech Inc"
+    },
+    {
+      "tag": "h3",
+      "text": "Product Bundled Discounts (Combo Discounts)"
+    },
+    {
+      "tag": "h4",
+      "text": "MageDelight"
+    },
+    {
+      "tag": "h3",
+      "text": "Gift Card Coupons (Discount Voucher)"
+    },
+    {
+      "tag": "h4",
+      "text": "MageDelight"
+    },
+    {
+      "tag": "h3",
+      "text": "Membership Subscriptions (Store Membership Types)"
+    },
+    {
+      "tag": "h4",
+      "text": "MageDelight"
+    },
+    {
+      "tag": "h3",
+      "text": "Advanced Promotions (Special Promotion Rules)"
+    },
+    {
+      "tag": "h4",
+      "text": "MageDelight"
+    },
+    {
+      "tag": "h3",
+      "text": "Out of Stock Notifications"
+    },
+    {
+      "tag": "h4",
+      "text": "MageDelight"
+    },
+    {
+      "tag": "h3",
+      "text": "Store Credit, Refunds and Cashback Promotions"
+    },
+    {
+      "tag": "h4",
+      "text": "MageDelight"
+    },
+    {
+      "tag": "h3",
+      "text": "Advanced Free Gift"
+    },
+    {
+      "tag": "h4",
+      "text": "Amasty"
+    },
+    {
+      "tag": "h3",
+      "text": "Import Products"
+    },
+    {
+      "tag": "h4",
+      "text": "Amasty"
+    },
+    {
+      "tag": "h3",
+      "text": "Special Promotion Pro"
+    },
+    {
+      "tag": "h4",
+      "text": "Amasty"
+    },
+    {
+      "tag": "h3",
+      "text": "Whatsapp Contact"
+    },
+    {
+      "tag": "h4",
+      "text": "VDC Stores"
+    },
+    {
+      "tag": "h3",
+      "text": "Mass Product Actions"
+    },
+    {
+      "tag": "h4",
+      "text": "VDC Stores"
+    },
+    {
+      "tag": "h3",
+      "text": "Same Order Number"
+    },
+    {
+      "tag": "h4",
+      "text": "VDC Stores"
+    },
+    {
+      "tag": "h3",
+      "text": "Backend Reindex"
+    },
+    {
+      "tag": "h4",
+      "text": "VDC Stores"
+    },
+    {
+      "tag": "h3",
+      "text": "Affiliate Program"
+    },
+    {
+      "tag": "h4",
+      "text": "Amasty"
+    },
+    {
+      "tag": "h3",
+      "text": "AJAX Cart"
+    },
+    {
+      "tag": "h4",
+      "text": "Amasty"
+    },
+    {
+      "tag": "h3",
+      "text": "Special Promotion"
+    },
+    {
+      "tag": "h4",
+      "text": "Amasty"
+    },
+    {
+      "tag": "h3",
+      "text": "Delete Order"
+    },
+    {
+      "tag": "h4",
+      "text": "VDC Stores"
+    },
+    {
+      "tag": "h3",
+      "text": "Order History"
+    },
+    {
+      "tag": "h4",
+      "text": "VDC Stores"
+    },
+    {
+      "tag": "h3",
+      "text": "Product Category Filter"
+    },
+    {
+      "tag": "h4",
+      "text": "VDC Stores"
+    },
+    {
+      "tag": "h3",
+      "text": "Custom Price"
+    },
+    {
+      "tag": "h4",
+      "text": "VDC Stores"
+    },
+    {
+      "tag": "h3",
+      "text": "Hide Price"
+    },
+    {
+      "tag": "h4",
+      "text": "VDC Stores"
+    },
+    {
+      "tag": "h3",
+      "text": "Limit Product Quantity Per Customer"
+    },
+    {
+      "tag": "h4",
+      "text": "VDC Stores"
+    },
+    {
+      "tag": "h3",
+      "text": "Shipping per product"
+    },
+    {
+      "tag": "h4",
+      "text": "VDC Stores"
+    },
+    {
+      "tag": "h3",
+      "text": "Salesman"
+    },
+    {
+      "tag": "h4",
+      "text": "VDC Stores"
+    },
+    {
+      "tag": "h3",
+      "text": "Connector for MS Dynamics 365 BC"
+    },
+    {
+      "tag": "h4",
+      "text": "18th DigiTech Pvt Ltd."
+    },
+    {
+      "tag": "h3",
+      "text": "Abandoned Cart Recovery"
+    },
+    {
+      "tag": "h4",
+      "text": "Amasty"
+    },
+    {
+      "tag": "h3",
+      "text": "Custom Form Builder"
+    },
+    {
+      "tag": "h4",
+      "text": "Amasty"
+    },
+    {
+      "tag": "h3",
+      "text": "Image Enhancer"
+    },
+    {
+      "tag": "h4",
+      "text": "Amasty"
+    },
+    {
+      "tag": "h3",
+      "text": "Mass Order Actions"
+    },
+    {
+      "tag": "h4",
+      "text": "Amasty"
+    },
+    {
+      "tag": "h3",
+      "text": "Smart Discounts"
+    },
+    {
+      "tag": "h4",
+      "text": "Amasty"
+    },
+    {
+      "tag": "h3",
+      "text": "Order SMS Notifications App"
+    },
+    {
+      "tag": "h4",
+      "text": "MageDelight Solution Pvt. Ltd."
+    },
+    {
+      "tag": "h3",
+      "text": "Product Reviews"
+    },
+    {
+      "tag": "h4",
+      "text": "netz98 a valantic company"
+    },
+    {
+      "tag": "h3",
+      "text": "Agentic Commerce Protocol FeedGen"
+    },
+    {
+      "tag": "h4",
+      "text": "TechDivision GmbH"
+    },
+    {
+      "tag": "h3",
+      "text": "Connector for Netsuite by TD"
+    },
+    {
+      "tag": "h4",
+      "text": "TechDivision GmbH"
+    },
+    {
+      "tag": "h3",
+      "text": "Company"
+    },
+    {
+      "tag": "h3",
+      "text": "Merchants"
+    },
+    {
+      "tag": "h3",
+      "text": "Partners"
+    },
+    {
+      "tag": "h3",
+      "text": "Categories"
+    },
+    {
+      "tag": "h3",
+      "text": "Resources"
+    },
+    {
+      "tag": "h3",
+      "text": "Developer Resources"
+    },
+    {
+      "tag": "h3",
+      "text": "Get In Touch"
+    }
+  ],
+  "body": [
+    "Extensions 3948 Content & Customizations 1398 Payments & Security 570 Marketing 504 Sales 495 Marketplace Feeds 89 Point of Sale (POS) 67 Rewards & Loyalty 58 Comparison Shopping Engines 47 Gifts 37 Shipping & Fulfillment 466 Site Optimization 177 Reporting & Analytics 157 Accounting & Finance 134 Customer Support 117",
+    "Content & Customizations 1398",
+    "Payments & Security 570",
+    "Marketing 504",
+    "Sales 495 Marketplace Feeds 89 Point of Sale (POS) 67 Rewards & Loyalty 58 Comparison Shopping Engines 47 Gifts 37",
+    "Marketplace Feeds 89",
+    "Point of Sale (POS) 67",
+    "Rewards & Loyalty 58",
+    "Comparison Shopping Engines 47",
+    "Gifts 37",
+    "Shipping & Fulfillment 466",
+    "Site Optimization 177",
+    "Reporting & Analytics 157",
+    "Accounting & Finance 134",
+    "Customer Support 117",
+    "Themes 4",
+    "Assured Extensions 1",
+    "Adobe Commerce (cloud) 313",
+    "Adobe Commerce (on-prem) 319",
+    "Magento Open Source 473",
+    "Page Builder 2",
+    "Under $50",
+    "$50 - $100",
+    "$100 - $150",
+    "$150 - $200",
+    "$200 - $10,100",
+    "$10,100 - $20,000",
+    "$20,000 & Above",
+    "Adobe Gold Technology Partner 50",
+    "Adobe Strategic Technology Partner 1",
+    "Adobe Silver Technology Partner 66",
+    "Adobe Gold Solution Partner 7",
+    "Adobe Silver Solution Partner 17",
+    "★ ★ ★ ★ ★ 37",
+    "★ ★ ★ ★ ☆ & Up 46",
+    "★ ★ ★ ☆ ☆ & Up 52",
+    "★ ★ ☆ ☆ ☆ & Up 53",
+    "★ ☆ ☆ ☆ ☆ & Up 59",
+    "Yes 93",
+    "No 402",
+    "Extension 474",
+    "App 21",
+    "Next Page"
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Extensions",
+      "href": "https://commercemarketplace.adobe.com/extensions.html"
+    },
+    {
+      "label": "Themes",
+      "href": "https://commercemarketplace.adobe.com/themes.html"
+    },
+    {
+      "label": "Partners",
+      "href": "/partners"
+    },
+    {
+      "label": "Support",
+      "href": "https://developer.adobe.com/commerce/marketplace/guides/sellers/"
+    },
+    {
+      "label": "My Cart",
+      "href": "https://commercemarketplace.adobe.com/checkout/cart/"
+    },
+    {
+      "label": "Sign In",
+      "href": "https://commercemarketplace.adobe.com/customer/account/login/referer/aHR0cHM6Ly9jb21tZXJjZW1hcmtldHBsYWNlLmFkb2JlLmNvbS9leHRlbnNpb25zL3NhbGVzLmh0bWw~/_c_timestamp/17925234931498017325/"
+    },
+    {
+      "label": "Home",
+      "href": "https://commercemarketplace.adobe.com/"
+    },
+    {
+      "label": "Extensions",
+      "href": "https://commercemarketplace.adobe.com/extensions.html"
+    },
+    {
+      "label": "Clear All",
+      "href": "#"
+    },
+    {
+      "label": "categories extensions/sales X Category: Sales",
+      "href": "#"
+    },
+    {
+      "label": "Extensions 3948",
+      "href": "#"
+    },
+    {
+      "label": "Content & Customizations 1398",
+      "href": "#"
+    },
+    {
+      "label": "Payments & Security 570",
+      "href": "#"
+    },
+    {
+      "label": "Marketing 504",
+      "href": "#"
+    },
+    {
+      "label": "Sales 495",
+      "href": "#"
+    },
+    {
+      "label": "Marketplace Feeds 89",
+      "href": "#"
+    },
+    {
+      "label": "Point of Sale (POS) 67",
+      "href": "#"
+    },
+    {
+      "label": "Rewards & Loyalty 58",
+      "href": "#"
+    },
+    {
+      "label": "Comparison Shopping Engines 47",
+      "href": "#"
+    },
+    {
+      "label": "Gifts 37",
+      "href": "#"
+    },
+    {
+      "label": "Shipping & Fulfillment 466",
+      "href": "#"
+    },
+    {
+      "label": "Site Optimization 177",
+      "href": "#"
+    },
+    {
+      "label": "Reporting & Analytics 157",
+      "href": "#"
+    },
+    {
+      "label": "Accounting & Finance 134",
+      "href": "#"
+    },
+    {
+      "label": "Customer Support 117",
+      "href": "#"
+    },
+    {
+      "label": "Themes 4",
+      "href": "#"
+    },
+    {
+      "label": "Under $50",
+      "href": "#"
+    },
+    {
+      "label": "$50 - $100",
+      "href": "#"
+    },
+    {
+      "label": "$100 - $150",
+      "href": "#"
+    },
+    {
+      "label": "$150 - $200",
+      "href": "#"
+    },
+    {
+      "label": "$200 - $10,100",
+      "href": "#"
+    },
+    {
+      "label": "$10,100 - $20,000",
+      "href": "#"
+    },
+    {
+      "label": "$20,000 & Above",
+      "href": "#"
+    },
+    {
+      "label": "Go",
+      "href": null
+    },
+    {
+      "label": "★ ★ ★ ★ ★ 37",
+      "href": "#"
+    },
+    {
+      "label": "★ ★ ★ ★ ☆ & Up 46",
+      "href": "#"
+    },
+    {
+      "label": "★ ★ ★ ☆ ☆ & Up 52",
+      "href": "#"
+    },
+    {
+      "label": "★ ★ ☆ ☆ ☆ & Up 53",
+      "href": "#"
+    },
+    {
+      "label": "★ ☆ ☆ ☆ ☆ & Up 59",
+      "href": "#"
+    },
+    {
+      "label": "ChannelEngine Marketplace Connector (v3) ChannelEngine 0% $0.00",
+      "href": "//commercemarketplace.adobe.com/channelengine-magento2.html"
+    },
+    {
+      "label": "Odoo Connector for Adobe Commerce Brainvire Infotech Inc 0%",
+      "href": "//commercemarketplace.adobe.com/ae-brainvire-infotech-inc-odoo-connector-for-adobe-commerce.html"
+    },
+    {
+      "label": "Product Bundled Discounts (Combo Discounts) MageDelight 0% $249.00 / year",
+      "href": "//commercemarketplace.adobe.com/mage-delight-bundlediscount-module.html"
+    },
+    {
+      "label": "Gift Card Coupons (Discount Voucher) MageDelight 0% $249.00 / year",
+      "href": "//commercemarketplace.adobe.com/mage-delight-giftcard-module.html"
+    },
+    {
+      "label": "Membership Subscriptions (Store Membership Types) MageDelight 0% $249.00 / year",
+      "href": "//commercemarketplace.adobe.com/mage-delight-membershipsubscription-module.html"
+    },
+    {
+      "label": "Advanced Promotions (Special Promotion Rules) MageDelight 0% $249.00 / year",
+      "href": "//commercemarketplace.adobe.com/mage-delight-specialpromo-module.html"
+    },
+    {
+      "label": "Out of Stock Notifications MageDelight 0% $149.00 / year",
+      "href": "//commercemarketplace.adobe.com/mage-delight-stocknotifications-module.html"
+    },
+    {
+      "label": "Store Credit, Refunds and Cashback Promotions MageDelight 0% $149.00 / year",
+      "href": "//commercemarketplace.adobe.com/mage-delight-storecreditrefund.html"
+    },
+    {
+      "label": "Advanced Free Gift Amasty 100% $259.00 / year",
+      "href": "//commercemarketplace.adobe.com/amasty-free-gift-lite.html"
+    },
+    {
+      "label": "Import Products Amasty 100% $229.00 / year",
+      "href": "//commercemarketplace.adobe.com/amasty-module-product-import.html"
+    },
+    {
+      "label": "Special Promotion Pro Amasty 100% $339.00 / year",
+      "href": "//commercemarketplace.adobe.com/amasty-special-promo-pro.html"
+    },
+    {
+      "label": "Whatsapp Contact VDC Stores 100% $99.00",
+      "href": "//commercemarketplace.adobe.com/vdcstore-magento2-whatsapp-contact.html"
+    },
+    {
+      "label": "Mass Product Actions VDC Stores 100% $99.00",
+      "href": "//commercemarketplace.adobe.com/vdcstore-product-mass-actions.html"
+    },
+    {
+      "label": "Same Order Number VDC Stores 100% $99.00",
+      "href": "//commercemarketplace.adobe.com/vdcstore-magento2-sameordernumber.html"
+    },
+    {
+      "label": "Backend Reindex VDC Stores 100% $99.00",
+      "href": "//commercemarketplace.adobe.com/vdcstore-module-backendreindex.html"
+    },
+    {
+      "label": "Affiliate Program Amasty 0% $209.00 / year",
+      "href": "//commercemarketplace.adobe.com/amasty-affiliate-program.html"
+    },
+    {
+      "label": "AJAX Cart Amasty 0% $239.00 / year",
+      "href": "//commercemarketplace.adobe.com/amasty-ajax-cart.html"
+    },
+    {
+      "label": "Special Promotion Amasty 0% $299.00 / year",
+      "href": "//commercemarketplace.adobe.com/amasty-special-promotion.html"
+    },
+    {
+      "label": "Delete Order VDC Stores 0% $99.00",
+      "href": "//commercemarketplace.adobe.com/vdcstore-magento2-deleteorder.html"
+    },
+    {
+      "label": "Order History VDC Stores 0% $99.00",
+      "href": "//commercemarketplace.adobe.com/vdcstore-magento2-order-history.html"
+    },
+    {
+      "label": "Product Category Filter VDC Stores 0% $99.00",
+      "href": "//commercemarketplace.adobe.com/vdcstore-module-categoryfilter.html"
+    },
+    {
+      "label": "Custom Price VDC Stores 0% $99.00",
+      "href": "//commercemarketplace.adobe.com/vdcstore-module-customprice.html"
+    },
+    {
+      "label": "Hide Price VDC Stores 0% $99.00",
+      "href": "//commercemarketplace.adobe.com/vdcstore-module-hideprice.html"
+    },
+    {
+      "label": "Limit Product Quantity Per Customer VDC Stores 0% $99.00",
+      "href": "//commercemarketplace.adobe.com/vdcstore-module-productquantity.html"
+    },
+    {
+      "label": "Shipping per product VDC Stores 0% $99.00",
+      "href": "//commercemarketplace.adobe.com/vdcstore-module-productshipping.html"
+    },
+    {
+      "label": "Salesman VDC Stores 0% $99.00",
+      "href": "//commercemarketplace.adobe.com/vdcstore-module-salesman.html"
+    },
+    {
+      "label": "Connector for MS Dynamics 365 BC 18th DigiTech Pvt Ltd. 0%",
+      "href": "//commercemarketplace.adobe.com/ae-18th-digitech-pvt-ltd-connector-for-ms-dynamics-365-bc.html"
+    },
+    {
+      "label": "Abandoned Cart Recovery Amasty 0%",
+      "href": "//commercemarketplace.adobe.com/ae-amasty-abandoned-cart-recovery.html"
+    },
+    {
+      "label": "Custom Form Builder Amasty 0%",
+      "href": "//commercemarketplace.adobe.com/ae-amasty-custom-form-builder.html"
+    },
+    {
+      "label": "Image Enhancer Amasty 0%",
+      "href": "//commercemarketplace.adobe.com/ae-amasty-image-enhancer.html"
+    },
+    {
+      "label": "Mass Order Actions Amasty 0%",
+      "href": "//commercemarketplace.adobe.com/ae-amasty-mass-order-actions.html"
+    },
+    {
+      "label": "Smart Discounts Amasty 0%",
+      "href": "//commercemarketplace.adobe.com/ae-amasty-smart-discounts.html"
+    },
+    {
+      "label": "Order SMS Notifications App MageDelight Solution Pvt. Ltd. 0%",
+      "href": "//commercemarketplace.adobe.com/ae-magedelight-solution-pvt-ltd-order-sms-notifications-app.html"
+    },
+    {
+      "label": "Product Reviews netz98 a valantic company 0%",
+      "href": "//commercemarketplace.adobe.com/ae-netz98-a-valantic-company-product-reviews.html"
+    },
+    {
+      "label": "Agentic Commerce Protocol FeedGen TechDivision GmbH 0%",
+      "href": "//commercemarketplace.adobe.com/ae-techdivision-gmbh-agentic-commerce-protocol-feedgen.html"
+    },
+    {
+      "label": "Connector for Netsuite by TD TechDivision GmbH 0%",
+      "href": "//commercemarketplace.adobe.com/ae-techdivision-gmbh-connector-for-netsuite-by-td.html"
+    },
+    {
+      "label": "2",
+      "href": "#"
+    },
+    {
+      "label": "3",
+      "href": "#"
+    },
+    {
+      "label": "4",
+      "href": "#"
+    },
+    {
+      "label": "5",
+      "href": "#"
+    },
+    {
+      "label": "6",
+      "href": "#"
+    },
+    {
+      "label": "7",
+      "href": "#"
+    },
+    {
+      "label": "Next Page",
+      "href": "#"
+    },
+    {
+      "label": "About Us",
+      "href": "https://magento.com/about"
+    },
+    {
+      "label": "Careers",
+      "href": "https://magento.com/careers"
+    },
+    {
+      "label": "Press",
+      "href": "https://magento.com/press-room"
+    },
+    {
+      "label": "Terms and Conditions",
+      "href": "https://commercemarketplace.adobe.com/terms-and-conditions/"
+    },
+    {
+      "label": "Security Updates",
+      "href": "https://magento.com/security"
+    },
+    {
+      "label": "Find a Partner",
+      "href": "https://magento.com/find-a-partner"
+    },
+    {
+      "label": "Become a Partner",
+      "href": "https://www.adobe.com/partners.html"
+    },
+    {
+      "label": "Certification",
+      "href": "https://u.magento.com/certification"
+    },
+    {
+      "label": "Training",
+      "href": "https://u.magento.com/developers"
+    },
+    {
+      "label": "Benefits U",
+      "href": "https://u.magento.com/"
+    },
+    {
+      "label": "Extensions",
+      "href": "https://commercemarketplace.adobe.com/extensions.html/"
+    },
+    {
+      "label": "Themes",
+      "href": "https://commercemarketplace.adobe.com/themes.html/"
+    },
+    {
+      "label": "Partners",
+      "href": "https://commercemarketplace.adobe.com/partners/"
+    },
+    {
+      "label": "Info Sheet",
+      "href": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/pdf/footer/Marketplace-Infosheet.pdf"
+    },
+    {
+      "label": "User Guides",
+      "href": "http://docs.magento.com/marketplace/user_guide/getting-started.html"
+    },
+    {
+      "label": "Technical Docs",
+      "href": "https://magento.com/resources/technical"
+    },
+    {
+      "label": "Developer Portal",
+      "href": "https://commercedeveloper.adobe.com/"
+    },
+    {
+      "label": "Dev Docs",
+      "href": "https://experienceleague.adobe.com/docs/commerce-admin/start/resources/commerce-marketplace.html"
+    }
+  ],
+  "links": [
+    "https://commercemarketplace.adobe.com/",
+    "https://commercemarketplace.adobe.com/extensions/sales.html#store.menu",
+    "https://commercemarketplace.adobe.com/extensions.html",
+    "https://commercemarketplace.adobe.com/themes.html",
+    "https://commercemarketplace.adobe.com/partners",
+    "https://developer.adobe.com/commerce/marketplace/guides/sellers/",
+    "https://commercemarketplace.adobe.com/extensions/sales.html#store.links",
+    "https://commercemarketplace.adobe.com/customer/account/login/referer/aHR0cHM6Ly9jb21tZXJjZW1hcmtldHBsYWNlLmFkb2JlLmNvbS9leHRlbnNpb25zL3NhbGVzLmh0bWw~/_c_timestamp/17925234931498017325/",
+    "https://commercemarketplace.adobe.com/checkout/cart/",
+    "https://commercemarketplace.adobe.com/customer/account/create/",
+    "https://commercemarketplace.adobe.com/customer/account/forgotpassword/",
+    "https://commercemarketplace.adobe.com/extensions/sales.html#",
+    "https://commercemarketplace.adobe.com/channelengine-magento2.html",
+    "https://commercemarketplace.adobe.com/ae-brainvire-infotech-inc-odoo-connector-for-adobe-commerce.html",
+    "https://commercemarketplace.adobe.com/mage-delight-bundlediscount-module.html",
+    "https://commercemarketplace.adobe.com/mage-delight-giftcard-module.html",
+    "https://commercemarketplace.adobe.com/mage-delight-membershipsubscription-module.html",
+    "https://commercemarketplace.adobe.com/mage-delight-specialpromo-module.html",
+    "https://commercemarketplace.adobe.com/mage-delight-stocknotifications-module.html",
+    "https://commercemarketplace.adobe.com/mage-delight-storecreditrefund.html",
+    "https://commercemarketplace.adobe.com/amasty-free-gift-lite.html",
+    "https://commercemarketplace.adobe.com/amasty-module-product-import.html",
+    "https://commercemarketplace.adobe.com/amasty-special-promo-pro.html",
+    "https://commercemarketplace.adobe.com/vdcstore-magento2-whatsapp-contact.html",
+    "https://commercemarketplace.adobe.com/vdcstore-product-mass-actions.html",
+    "https://commercemarketplace.adobe.com/vdcstore-magento2-sameordernumber.html",
+    "https://commercemarketplace.adobe.com/vdcstore-module-backendreindex.html",
+    "https://commercemarketplace.adobe.com/amasty-affiliate-program.html",
+    "https://commercemarketplace.adobe.com/amasty-ajax-cart.html",
+    "https://commercemarketplace.adobe.com/amasty-special-promotion.html",
+    "https://commercemarketplace.adobe.com/vdcstore-magento2-deleteorder.html",
+    "https://commercemarketplace.adobe.com/vdcstore-magento2-order-history.html",
+    "https://commercemarketplace.adobe.com/vdcstore-module-categoryfilter.html",
+    "https://commercemarketplace.adobe.com/vdcstore-module-customprice.html",
+    "https://commercemarketplace.adobe.com/vdcstore-module-hideprice.html",
+    "https://commercemarketplace.adobe.com/vdcstore-module-productquantity.html",
+    "https://commercemarketplace.adobe.com/vdcstore-module-productshipping.html",
+    "https://commercemarketplace.adobe.com/vdcstore-module-salesman.html",
+    "https://commercemarketplace.adobe.com/ae-18th-digitech-pvt-ltd-connector-for-ms-dynamics-365-bc.html",
+    "https://commercemarketplace.adobe.com/ae-amasty-abandoned-cart-recovery.html",
+    "https://commercemarketplace.adobe.com/ae-amasty-custom-form-builder.html",
+    "https://commercemarketplace.adobe.com/ae-amasty-image-enhancer.html",
+    "https://commercemarketplace.adobe.com/ae-amasty-mass-order-actions.html",
+    "https://commercemarketplace.adobe.com/ae-amasty-smart-discounts.html",
+    "https://commercemarketplace.adobe.com/ae-magedelight-solution-pvt-ltd-order-sms-notifications-app.html",
+    "https://commercemarketplace.adobe.com/ae-netz98-a-valantic-company-product-reviews.html",
+    "https://commercemarketplace.adobe.com/ae-techdivision-gmbh-agentic-commerce-protocol-feedgen.html",
+    "https://commercemarketplace.adobe.com/ae-techdivision-gmbh-connector-for-netsuite-by-td.html",
+    "https://magento.com/about",
+    "https://magento.com/careers",
+    "https://magento.com/press-room",
+    "https://commercemarketplace.adobe.com/terms-and-conditions/",
+    "https://magento.com/security",
+    "https://magento.com/find-a-partner",
+    "https://www.adobe.com/partners.html",
+    "https://u.magento.com/certification",
+    "https://u.magento.com/developers",
+    "https://u.magento.com/",
+    "https://commercemarketplace.adobe.com/extensions.html/",
+    "https://commercemarketplace.adobe.com/themes.html/",
+    "https://commercemarketplace.adobe.com/partners/",
+    "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/pdf/footer/Marketplace-Infosheet.pdf",
+    "http://docs.magento.com/marketplace/user_guide/getting-started.html",
+    "https://magento.com/resources/technical",
+    "https://commercedeveloper.adobe.com/",
+    "https://experienceleague.adobe.com/docs/commerce-admin/start/resources/commerce-marketplace.html",
+    "https://developer.adobe.com/commerce/marketplace/guides/eqp/v1/",
+    "https://developer.adobe.com/open/magento",
+    "https://commercemarketplace.adobe.com/contact-us/",
+    "https://magento.com/events",
+    "https://magento.com/resources/webinars",
+    "https://www.facebook.com/magento",
+    "https://twitter.com/magento",
+    "https://www.linkedin.com/groups/146360/profile",
+    "https://magento.com/legal/terms/marketplace",
+    "https://magento.com/sites/default/files/MAGENTO-MARKETPLACE-CUSTOMER-AGREEMENT-April-12-2019.pdf",
+    "https://www.onetrust.com/solutions/consent-and-preferences/?utm_source=cmp&utm_medium=cmpbanner",
+    "javascript:void(0)"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/images/logo-header-adobe.svg",
+        "alt": "",
+        "w": 300,
+        "h": 78
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/media/catalog/product/6/d/6d65_channelengine-appicon_2.png",
+        "alt": "ChannelEngine Marketplace Connector (v3)",
+        "w": 250,
+        "h": 250
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/images/partner-levels/silver-technology-partner.png",
+        "alt": "Adobe Silver Technology Partner",
+        "w": 158,
+        "h": 49
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/media/catalog/product/1/0/10cd_1adobe_odoo_connector_192x192_1.png",
+        "alt": "Odoo Connector for Adobe Commerce",
+        "w": 192,
+        "h": 192
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/images/partner-levels/gold-solution-partner.png",
+        "alt": "Adobe Gold Solution Partner",
+        "w": 132,
+        "h": 49
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/media/catalog/product/3/4/34df_productbundleddiscount_megento2-extension.jpg",
+        "alt": "Product Bundled Discounts (Combo Discounts)",
+        "w": 240,
+        "h": 240
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/images/partner-levels/gold-solution-partner.png",
+        "alt": "Adobe Gold Solution Partner",
+        "w": 132,
+        "h": 49
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/media/catalog/product/e/1/e177_giftcard_megento2-extension.jpg",
+        "alt": "Gift Card Coupons (Discount Voucher)",
+        "w": 240,
+        "h": 240
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/images/partner-levels/gold-solution-partner.png",
+        "alt": "Adobe Gold Solution Partner",
+        "w": 132,
+        "h": 49
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/media/catalog/product/2/2/2264_membershipsubscription_megento2-extension.jpg",
+        "alt": "Membership Subscriptions (Store Membership Types)",
+        "w": 240,
+        "h": 240
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/images/partner-levels/gold-solution-partner.png",
+        "alt": "Adobe Gold Solution Partner",
+        "w": 132,
+        "h": 49
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/media/catalog/product/3/4/3494_advancedpromotions_megento2-extension.jpg",
+        "alt": "Advanced Promotions (Special Promotion Rules)",
+        "w": 240,
+        "h": 240
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/images/partner-levels/gold-solution-partner.png",
+        "alt": "Adobe Gold Solution Partner",
+        "w": 132,
+        "h": 49
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/media/catalog/product/1/e/1e4d_outofstocknotification_megento2-extension.jpg",
+        "alt": "Out of Stock Notifications",
+        "w": 240,
+        "h": 240
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/images/partner-levels/gold-solution-partner.png",
+        "alt": "Adobe Gold Solution Partner",
+        "w": 132,
+        "h": 49
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/media/catalog/product/6/a/6add_storecreditrefunds_megento2-extension.png",
+        "alt": "Store Credit, Refunds and Cashback Promotions",
+        "w": 240,
+        "h": 240
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/images/partner-levels/gold-solution-partner.png",
+        "alt": "Adobe Gold Solution Partner",
+        "w": 132,
+        "h": 49
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/media/catalog/product/c/5/c507_freegiftmp1.png",
+        "alt": "Advanced Free Gift",
+        "w": 240,
+        "h": 240
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/images/partner-levels/gold-technology-partner.png",
+        "alt": "Adobe Gold Technology Partner",
+        "w": 158,
+        "h": 49
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/media/catalog/product/2/e/2e4e_productimportmp.png",
+        "alt": "Import Products",
+        "w": 240,
+        "h": 240
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/images/partner-levels/gold-technology-partner.png",
+        "alt": "Adobe Gold Technology Partner",
+        "w": 158,
+        "h": 49
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/media/catalog/product/6/a/6a29_specialpromotionspromp.png",
+        "alt": "Special Promotion Pro",
+        "w": 240,
+        "h": 240
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/images/partner-levels/gold-technology-partner.png",
+        "alt": "Adobe Gold Technology Partner",
+        "w": 158,
+        "h": 49
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/media/catalog/product/c/8/c881_magento2whatsappcontact.jpg",
+        "alt": "Whatsapp Contact",
+        "w": 240,
+        "h": 240
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/images/partner-levels/gold-technology-partner.png",
+        "alt": "Adobe Gold Technology Partner",
+        "w": 158,
+        "h": 49
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/media/catalog/product/7/7/77ea_magento2massproductactions.jpg",
+        "alt": "Mass Product Actions",
+        "w": 240,
+        "h": 240
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/images/partner-levels/gold-technology-partner.png",
+        "alt": "Adobe Gold Technology Partner",
+        "w": 158,
+        "h": 49
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/media/catalog/product/8/3/832f_sameordernumbermagento2.jpg",
+        "alt": "Same Order Number",
+        "w": 240,
+        "h": 240
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/images/partner-levels/gold-technology-partner.png",
+        "alt": "Adobe Gold Technology Partner",
+        "w": 158,
+        "h": 49
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/media/catalog/product/f/9/f9d8_backendreindexmagento.jpg",
+        "alt": "Backend Reindex",
+        "w": 240,
+        "h": 240
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/images/partner-levels/gold-technology-partner.png",
+        "alt": "Adobe Gold Technology Partner",
+        "w": 158,
+        "h": 49
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/media/catalog/product/d/7/d7ee_affiliatemp.png",
+        "alt": "Affiliate Program",
+        "w": 240,
+        "h": 240
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/images/partner-levels/gold-technology-partner.png",
+        "alt": "Adobe Gold Technology Partner",
+        "w": 158,
+        "h": 49
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/media/catalog/product/3/5/3518_ajax-shopping-cart-m2-marketplace.png",
+        "alt": "AJAX Cart",
+        "w": 240,
+        "h": 240
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/images/partner-levels/gold-technology-partner.png",
+        "alt": "Adobe Gold Technology Partner",
+        "w": 158,
+        "h": 49
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/media/catalog/product/8/d/8dc8_specialpromotionsmp.png",
+        "alt": "Special Promotion",
+        "w": 240,
+        "h": 240
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/images/partner-levels/gold-technology-partner.png",
+        "alt": "Adobe Gold Technology Partner",
+        "w": 158,
+        "h": 49
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/media/catalog/product/8/0/807b_magento2deleteorder.jpg",
+        "alt": "Delete Order",
+        "w": 240,
+        "h": 240
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/images/partner-levels/gold-technology-partner.png",
+        "alt": "Adobe Gold Technology Partner",
+        "w": 158,
+        "h": 49
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/media/catalog/product/1/6/1659_magento2orderhistory.jpg",
+        "alt": "Order History",
+        "w": 240,
+        "h": 240
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/images/partner-levels/gold-technology-partner.png",
+        "alt": "Adobe Gold Technology Partner",
+        "w": 158,
+        "h": 49
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/media/catalog/product/8/9/8998_magento2productcategoryfilter.jpg",
+        "alt": "Product Category Filter",
+        "w": 240,
+        "h": 240
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/images/partner-levels/gold-technology-partner.png",
+        "alt": "Adobe Gold Technology Partner",
+        "w": 158,
+        "h": 49
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/media/catalog/product/b/6/b61f_magento2customprice.jpg",
+        "alt": "Custom Price",
+        "w": 240,
+        "h": 240
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/images/partner-levels/gold-technology-partner.png",
+        "alt": "Adobe Gold Technology Partner",
+        "w": 158,
+        "h": 49
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/media/catalog/product/4/f/4fd6_magento2hideprice.jpg",
+        "alt": "Hide Price",
+        "w": 240,
+        "h": 240
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/images/partner-levels/gold-technology-partner.png",
+        "alt": "Adobe Gold Technology Partner",
+        "w": 158,
+        "h": 49
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/media/catalog/product/9/4/943b_magento2limitproductquantitypercustomer.jpg",
+        "alt": "Limit Product Quantity Per Customer",
+        "w": 240,
+        "h": 240
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/images/partner-levels/gold-technology-partner.png",
+        "alt": "Adobe Gold Technology Partner",
+        "w": 158,
+        "h": 49
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/media/catalog/product/a/c/ac0c_magento2shippingperproduct.jpg",
+        "alt": "Shipping per product",
+        "w": 240,
+        "h": 240
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/images/partner-levels/gold-technology-partner.png",
+        "alt": "Adobe Gold Technology Partner",
+        "w": 158,
+        "h": 49
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/media/catalog/product/4/5/450b_magento2salesman.jpg",
+        "alt": "Salesman",
+        "w": 240,
+        "h": 240
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/images/partner-levels/gold-technology-partner.png",
+        "alt": "Adobe Gold Technology Partner",
+        "w": 158,
+        "h": 49
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/media/catalog/product/5/d/5d6e_1msd365_192.png",
+        "alt": "Connector for MS Dynamics 365 BC",
+        "w": 192,
+        "h": 192
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/images/partner-levels/gold-technology-partner.png",
+        "alt": "Adobe Gold Technology Partner",
+        "w": 158,
+        "h": 49
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/media/catalog/product/6/8/68ff_1192x192_192.png",
+        "alt": "Abandoned Cart Recovery",
+        "w": 192,
+        "h": 192
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/images/partner-levels/gold-technology-partner.png",
+        "alt": "Adobe Gold Technology Partner",
+        "w": 158,
+        "h": 49
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/media/catalog/product/f/5/f5fd_1custom-form192x192.png",
+        "alt": "Custom Form Builder",
+        "w": 192,
+        "h": 192
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/images/partner-levels/gold-technology-partner.png",
+        "alt": "Adobe Gold Technology Partner",
+        "w": 158,
+        "h": 49
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/media/catalog/product/9/f/9fdd_1icon-image-enhancer-192.png",
+        "alt": "Image Enhancer",
+        "w": 192,
+        "h": 192
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/images/partner-levels/gold-technology-partner.png",
+        "alt": "Adobe Gold Technology Partner",
+        "w": 158,
+        "h": 49
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/media/catalog/product/c/9/c949_1icon_192.png",
+        "alt": "Mass Order Actions",
+        "w": 192,
+        "h": 192
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/images/partner-levels/gold-technology-partner.png",
+        "alt": "Adobe Gold Technology Partner",
+        "w": 158,
+        "h": 49
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/media/catalog/product/d/6/d63c_1192x192.png",
+        "alt": "Smart Discounts",
+        "w": 192,
+        "h": 192
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/images/partner-levels/gold-technology-partner.png",
+        "alt": "Adobe Gold Technology Partner",
+        "w": 158,
+        "h": 49
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/media/catalog/product/5/7/5757_1Mobile_Notification-192px.png",
+        "alt": "Order SMS Notifications App",
+        "w": 192,
+        "h": 192
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/images/partner-levels/gold-technology-partner.png",
+        "alt": "Adobe Gold Technology Partner",
+        "w": 158,
+        "h": 49
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/media/catalog/product/4/d/4dea_1App_Builder_-_Product_Review_App_Icon_192x192.png",
+        "alt": "Product Reviews",
+        "w": 192,
+        "h": 192
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/images/partner-levels/gold-technology-partner.png",
+        "alt": "Adobe Gold Technology Partner",
+        "w": 158,
+        "h": 49
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/media/catalog/product/a/b/ab48_1acp-feed-generator-icon-td.png",
+        "alt": "Agentic Commerce Protocol FeedGen",
+        "w": 192,
+        "h": 192
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/images/partner-levels/gold-technology-partner.png",
+        "alt": "Adobe Gold Technology Partner",
+        "w": 158,
+        "h": 49
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/media/catalog/product/5/6/560b_1NetSuite_Connector_Icon_192x192.png",
+        "alt": "Connector for Netsuite by TD",
+        "w": 192,
+        "h": 192
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/images/partner-levels/gold-technology-partner.png",
+        "alt": "Adobe Gold Technology Partner",
+        "w": 158,
+        "h": 49
+      },
+      {
+        "src": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/images/logo-footer-adobe.svg",
+        "alt": "Adobe Commerce",
+        "w": 300,
+        "h": 78
+      },
+      {
+        "src": "https://cdn.cookielaw.org/logos/static/ot_company_logo.png",
+        "alt": "Company Logo",
+        "w": 2042,
+        "h": 280
+      },
+      {
+        "src": "https://cdn.cookielaw.org/logos/static/powered_by_logo.svg",
+        "alt": "Powered by Onetrust",
+        "w": 568,
+        "h": 53
+      },
+      {
+        "src": "https://cdn.cookielaw.org/logos/static/powered_by_logo.svg",
+        "alt": "Powered by Onetrust",
+        "w": 568,
+        "h": 53
+      }
+    ],
+    "allImgCount": 77,
+    "cssBackgrounds": [],
+    "modals": [
+      "My Cart Close You have no items in your shopping cart.",
+      "Cookie Settings Don’t enable Enable all Confirm my choices General information You are in control of your data. You can control how Adobe websites use cookies and similar technologies by making choices below. But note that if you disable cookies and similar technologies entirely, Adobe websites may not function properly. What are cookies and why does Adobe use them? Cookies are small text files stored by your web browser when you use websites. There are also other technologies that can be used for similar purposes like HTML5 Local Storage and local shared objects, web beacons, and embedded scripts. These technologies help us do things like remembering you and your preferences when you return to our sites, measure how you use the website, conduct market research, and gather information about the ads you see and interact with. How do I make choices? You can make choices in the menu below about what cookies and other technologies you want us to use on Adobe sites when you visit them from this browser. You can always change those choices later by clicking on the Cookie Preferences link at the bottom of the page. If enabled: We can improve your experience by tailoring the site and the content to things we think might be of interest We can better keep track of your preferences — like what language you prefer to use We will better understand your likely interests so we can provide you more relevant Adobe ads and content on non-Adobe websites and in non-Adobe apps It will help us improve the performance of our website and those of our partners who use the Adobe Experience Cloud If disabled: We won’t be able to remember you from session to session so the experience may not be tailored to your interests You’ll still have access to the content of the site but certain features that depend on cookies may not function You’ll still see ads, they just may not be as relevant to you General information You are in control of your data. You can control how Adobe websites use cookies and similar technologies by making choices below. But note that if you disable cookies and similar technologies entirely, Adobe websites may not function properly. What are cookies and why does Adobe use them? Cookies are small text files stored by your web browser when you use websites. There are also other technologies that can be used for similar purposes like HTML5 Local Storage, web beacons, and embedded scripts. These technologies help us do things like remembering you and your preferences when you return to our sites, measure how you use the website, conduct market research, and gather information about the ads you see and interact with. How do I make choices? You can make choices in the menu below about what cookies and other technologies you want us to use on Adobe sites when you visit them from this browser. You can always change those choices later by clicking on the Cookie Preferences link at the bottom of the page. If enabled: We can improve your experience by tailoring the site and the content to things we think might be of interest We can better keep track of your preferences — like what language you prefer to use We will better understand your likely interests so we can provide you more relevant Adobe ads and content on non-Adobe websites and in non-Adobe apps It will help us improve the performance of our website and those of our partners who use the Adobe Experience Cloud If disabled: We won’t be able to remember you from session to session so the experience may not be tailored to your interests We’ll still count your use of our site and services You’ll still have access to the content of the site but certain features that depend on cookies may not function You’ll still see ads, they just may not be as relevant to you .default-content { display: block; } .mau-content { display: none; } .mau-template-active .default-content { display: none; } .mau-template-active .mau-content { display: block; } .mau-template-active .default-title { display: none; } .mau-template-active .mau-title { display: inline !important; } .mau-template-active .default-description { display: none; } .mau-template-active .mau-description { display: block !important; } .ot-cookie-settings .cs-text::before { content: \"We’ve saved your settings\" } .ot-cookie-settings .cs-settings-text::before { content: \"Manage Cookie Settings\" } .always-active::after { content: \"First party cookies always active when the category is enabled\" } #onetrust-pc-sdk #select-all-container::before { /* FOR WEBKIT */ content: \"Host\" } #onetrust-pc-sdk #select-all-container::after { /* FOR WEBKIT */ content: \"Description\" } #onetrust-pc-sdk.ot-sdk-not-webkit #select-all-container::before { content: \"Host\" } #onetrust-pc-sdk.ot-sdk-not-webkit #select-all-container::after { content: \"Description\" } #onetrust-pc-sdk .accordion-text .ot-switch::before { content: \"Enable\" } #onetrust-pc-sdk .accordion-text .ot-switch { direction:ltr; } #onetrust-pc-sdk .accordion-text .ot-switch.checked::before { content: \"Enabled\" } #onetrust-pc-sdk #vendor-list-content [type=\"checkbox\"]:disabled + label::before { content: \"Always active\" } #vendors-list.strictly .always-active::after { content: \"Always active\" } Enable allOperate the site and core servicesOperate site and measure engagementAlways active Operate the site and core servicesOperate site and measure engagement These cookies are required, and they are used to enable the site and related services core functionality. Without them the site could not operate, so they cannot be disabled. These cookies enable the site and related services’ core functionality and collect statistics about user engagement, such as counting active use to help us understand trends. These cookies cannot be disabled. Cookie details‎Measure performance Measure performance These cookies are used to analyze site usage to measure and improve performance. Without them Adobe cannot know what content is most valued and how often unique visitors return to the site, making it hard to improve information we offer to you. These cookies are used to analyze site usage to measure and improve performance. Without them Adobe cannot know what content is most valued, making it hard to improve information we offer to you. Cookie details‎Extend functionality Extend functionalityThese cookies are used to enhance the functionality of Adobe sites such as remembering your settings and preferences to deliver a personalized experience; for example, your username, your repeated visits, preferred language, your country, or any other saved preference.Cookie details‎Personalize advertising Personalize advertisingThese cookies are used to enable Adobe and our partners to serve ads more relevant to your interests. Without them you will still see ads, but they might not be as relevant to you. Cookie details‎ Confirm my choicesBack ButtonBack Performance CookiesVendor Search Search Icon Filter IconClear Filters Information storage and accessApplyConsent Leg.InterestAll Consent Allowed Select All Vendors Select All Vendors All Consent Allowed Confirm my choices"
+    ],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {
+    "--ot-privacy-cta-color": "#3B63FB",
+    "--ot-privacy-cta-hover-color": "#274DEA",
+    "--ot-privacy-cta-ring-color": "#378EF0"
+  },
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 53,
+    "mainTextLen": 12509,
+    "realImageCount": 77,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "dynamic": {
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/consent/{uuid}/{uuid}.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/consent/3f974ff3-d476-4b4f-bf22-af36e8c54e80/3f974ff3-d476-4b4f-bf22-af36e8c54e80.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "commercemarketplace.adobe.com",
+        "path": "/static/version1789987689/frontend/Aheadworks/marketplace/en_US/js-translation.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 91,
+        "hits": 1,
+        "example": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/js-translation.json",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "geolocation.onetrust.com",
+        "path": "/cookieconsentpub/v1/geo/location",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "commercemarketplace.adobe.com",
+        "path": "/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Ui/templates/modal/modal-popup.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "status": 200,
+        "bytes": 522,
+        "hits": 1,
+        "example": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Ui/templates/modal/modal-popup.html",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "commercemarketplace.adobe.com",
+        "path": "/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Ui/templates/modal/modal-slide.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "status": 200,
+        "bytes": 542,
+        "hits": 1,
+        "example": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Ui/templates/modal/modal-slide.html",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "commercemarketplace.adobe.com",
+        "path": "/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Ui/templates/modal/modal-custom.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "status": 200,
+        "bytes": 519,
+        "hits": 1,
+        "example": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Ui/templates/modal/modal-custom.html",
+        "sameSite": true
+      },
+      {
+        "method": "POST",
+        "host": "logx.optimizely.com",
+        "path": "/v1/events",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/plain",
+        "status": 204,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://logx.optimizely.com/v1/events",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "commercemarketplace.adobe.com",
+        "path": "/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Ui/templates/tooltip/tooltip.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "status": 200,
+        "bytes": 197,
+        "hits": 1,
+        "example": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Ui/templates/tooltip/tooltip.html",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "commercemarketplace.adobe.com",
+        "path": "/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Ui/templates/block-loader.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "status": 200,
+        "bytes": 149,
+        "hits": 1,
+        "example": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Ui/templates/block-loader.html",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/consent/{uuid}/{uuid}/en.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/consent/3f974ff3-d476-4b4f-bf22-af36e8c54e80/019caf6e-4366-72a5-961b-00e18d133360/en.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202501.1.0/assets/otFlat.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 3001,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202501.1.0/assets/otFlat.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202501.1.0/assets/otPcCenter.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 15013,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202501.1.0/assets/otPcCenter.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202501.1.0/assets/otCommonStyles.css",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/css",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202501.1.0/assets/otCommonStyles.css",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "catalog-service.adobe.io",
+        "path": "/graphql",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://catalog-service.adobe.io/graphql",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "commercemarketplace.adobe.com",
+        "path": "/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Customer/template/authentication-popup.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "status": 200,
+        "bytes": 942,
+        "hits": 1,
+        "example": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Customer/template/authentication-popup.html",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "commercemarketplace.adobe.com",
+        "path": "/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Checkout/template/minicart/content.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "status": 200,
+        "bytes": 1053,
+        "hits": 1,
+        "example": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Checkout/template/minicart/content.html",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "commercemarketplace.adobe.com",
+        "path": "/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_ProductRecommendationsLayout/template/recommendations.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "status": 200,
+        "bytes": 1040,
+        "hits": 1,
+        "example": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_ProductRecommendationsLayout/template/recommendations.html",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "commercemarketplace.adobe.com",
+        "path": "/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Ui/template/messages.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "status": 200,
+        "bytes": 251,
+        "hits": 1,
+        "example": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Ui/template/messages.html",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "commercemarketplace.adobe.com",
+        "path": "/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Pitbulk_SAML2/template/checkout/samllogin.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "status": 200,
+        "bytes": 284,
+        "hits": 1,
+        "example": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Pitbulk_SAML2/template/checkout/samllogin.html",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "commercemarketplace.adobe.com",
+        "path": "/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Captcha/template/checkout/captcha.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "status": 200,
+        "bytes": 550,
+        "hits": 1,
+        "example": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Captcha/template/checkout/captcha.html",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "commercemarketplace.adobe.com",
+        "path": "/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Ui/templates/collection.html",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "status": 200,
+        "bytes": 121,
+        "hits": 1,
+        "example": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/Magento_Ui/templates/collection.html",
+        "sameSite": true
+      },
+      {
+        "method": "POST",
+        "host": "bam.nr-data.net",
+        "path": "/{n}/NRJS-d0edda730f7343596cf",
+        "query": [
+          "a",
+          "af",
+          "ap",
+          "at",
+          "be",
+          "dc",
+          "fcp",
+          "fe",
+          "fp",
+          "perf",
+          "ptid",
+          "ref",
+          "rst",
+          "s",
+          "to",
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://bam.nr-data.net/1/NRJS-d0edda730f7343596cf",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "commerce.adobe.io",
+        "path": "/recs/v1/precs/preconfigured",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://commerce.adobe.io/recs/v1/precs/preconfigured",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "bam.nr-data.net",
+        "path": "/ins/{n}/NRJS-d0edda730f7343596cf",
+        "query": [
+          "a",
+          "at",
+          "ptid",
+          "ref",
+          "rst",
+          "s",
+          "to",
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 204,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://bam.nr-data.net/ins/1/NRJS-d0edda730f7343596cf",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "bam.nr-data.net",
+        "path": "/events/{n}/NRJS-d0edda730f7343596cf",
+        "query": [
+          "a",
+          "ptid",
+          "ref",
+          "rst",
+          "s",
+          "to",
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": "image/gif",
+        "status": 200,
+        "bytes": 24,
+        "hits": 3,
+        "example": "https://bam.nr-data.net/events/1/NRJS-d0edda730f7343596cf",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "bam.nr-data.net",
+        "path": "/jserrors/{n}/NRJS-d0edda730f7343596cf",
+        "query": [
+          "a",
+          "ptid",
+          "ref",
+          "rst",
+          "s",
+          "to",
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": "image/gif",
+        "status": 200,
+        "bytes": 24,
+        "hits": 1,
+        "example": "https://bam.nr-data.net/jserrors/1/NRJS-d0edda730f7343596cf",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "analytics.google.com",
+        "path": "/g/collect",
+        "query": [
+          "_ee",
+          "_eu",
+          "_p",
+          "_s",
+          "cid",
+          "dl",
+          "dma",
+          "dt",
+          "en",
+          "ep.anonymize_ip",
+          "frm",
+          "gaf",
+          "gcd",
+          "gtm",
+          "npa",
+          "pscdl",
+          "rcb",
+          "sct",
+          "seg",
+          "sid",
+          "sr",
+          "tag_exp",
+          "tfd",
+          "tid",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "ul",
+          "v"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "status": 204,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://analytics.google.com/g/collect",
+        "sameSite": false
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "apps.bazaarvoice.com",
+        "count": 4
+      },
+      {
+        "host": "unpkg.com",
+        "count": 4
+      },
+      {
+        "host": "cdn.cookielaw.org",
+        "count": 2
+      },
+      {
+        "host": "js.braintreegateway.com",
+        "count": 2
+      },
+      {
+        "host": "rum.hlx.page",
+        "count": 1
+      },
+      {
+        "host": "cdn.optimizely.com",
+        "count": 1
+      },
+      {
+        "host": "livesearch-metrics.magento-ds.com",
+        "count": 1
+      },
+      {
+        "host": "acds-events.adobe.io",
+        "count": 1
+      },
+      {
+        "host": "commerce.adobedtm.com",
+        "count": 1
+      },
+      {
+        "host": "recommendations-sdk.adobe.io",
+        "count": 1
+      },
+      {
+        "host": "www.googletagmanager.com",
+        "count": 1
+      },
+      {
+        "host": "js-agent.newrelic.com",
+        "count": 1
+      }
+    ],
+    "truncated": false,
+    "inlineData": [],
+    "globalState": [
+      "dataLayer"
+    ],
+    "frameworkHints": [],
+    "forms": [
+      {
+        "action": "https://commercemarketplace.adobe.com/catalogsearch/result/",
+        "hasAction": true,
+        "method": "get",
+        "sameOrigin": true,
+        "fieldCount": 1,
+        "fieldNames": [
+          "q"
+        ],
+        "search": true
+      }
+    ],
+    "ariaLiveRegions": 0,
+    "triggers": [
+      {
+        "marker": "aria-haspopup",
+        "href": null
+      }
+    ],
+    "mediaIds": [],
+    "summary": {
+      "sameSiteEndpoints": 13,
+      "thirdPartyEndpoints": 14,
+      "thirdPartyScriptHosts": 12,
+      "inlineDataBlobs": 0,
+      "forms": 1,
+      "searchForms": 1,
+      "hydrated": false
+    }
+  },
+  "screenshot": "assets/screenshots/extensions-sales-html.png",
+  "renderedHtml": "pages/extensions-sales-html.html",
+  "slots": {
+    "pageType": "listing",
+    "_provenance": {
+      "writtenBy": "stardust:extract --prep",
+      "writtenAt": "2026-10-20T19:50:00Z",
+      "basis": "prep-mode.md § 4; values are captured strings from this record and pages/extensions-sales-html.html"
+    },
+    "index-headline": {
+      "selector": "h1#page-title-heading",
+      "module": "candidate-page-title",
+      "text": "Sales Extensions for Adobe Commerce",
+      "metaDescription": "Sales"
+    },
+    "breadcrumbs": {
+      "selector": ".breadcrumbs ul.items",
+      "module": "candidate-breadcrumbs",
+      "items": [
+        "Home",
+        "Extensions",
+        "Sales"
+      ]
+    },
+    "filter-controls": {
+      "selector": "#appstore-plp-facets",
+      "module": "candidate-facets-sidebar",
+      "selectedFiltersSelector": "#selected-filters-container",
+      "selectedFilters": [
+        "Category: Sales"
+      ],
+      "clearAll": "Clear All",
+      "groups": [
+        "Categories",
+        "Certification",
+        "Edition",
+        "Compatibility",
+        "Price",
+        "Partner Type",
+        "Ratings",
+        "Subscription",
+        "Package Type"
+      ],
+      "categoryCounts": [
+        "Content & Customizations 1398",
+        "Payments & Security 570",
+        "Marketing 504",
+        "Marketplace Feeds 89",
+        "Point of Sale (POS) 67",
+        "Rewards & Loyalty 58",
+        "Comparison Shopping Engines 47",
+        "Gifts 37",
+        "Shipping & Fulfillment 466"
+      ],
+      "priceRanges": [
+        "Under $50",
+        "$50 - $100",
+        "$100 - $150",
+        "$150 - $200",
+        "$200 - $10,100",
+        "$10,100 - $20,000",
+        "$20,000 & Above"
+      ],
+      "ratings": [
+        "★ ★ ★ ★ ★ 37",
+        "★ ★ ★ ★ ☆ & Up 46",
+        "★ ★ ★ ☆ ☆ & Up 52",
+        "★ ★ ☆ ☆ ☆ & Up 53",
+        "★ ☆ ☆ ☆ ☆ & Up 59"
+      ]
+    },
+    "toolbar": {
+      "selector": "#livesearch-category-view .products-header",
+      "module": "candidate-listing-toolbar",
+      "resultCount": "495 Results",
+      "resultCountSelector": "#toolbar-amount",
+      "sortBy": {
+        "label": "Sort By",
+        "options": [
+          "Relevance",
+          "Price (Low to High)",
+          "Price (High to Low)",
+          "Rating (High to Low)"
+        ],
+        "selector": "#products-sort-container"
+      },
+      "perPage": {
+        "label": "Results per page:",
+        "options": [
+          "36",
+          "72",
+          "144"
+        ],
+        "selector": "#livesearch-controls"
+      },
+      "pagination": {
+        "selector": "#livesearch-controls .pages-items",
+        "items": [
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "Next Page"
+        ]
+      }
+    },
+    "card-grid": {
+      "selector": "#products-grid",
+      "module": "candidate-product-card-grid",
+      "itemSelector": "#products-grid > .ais-hits--item .result-wrapper",
+      "count": 36,
+      "cardSlots": {
+        "href": "a.result@href",
+        "thumbnail": "img.product-item-photo@src",
+        "badge": "span.assurance-program-badge",
+        "title": "h3.result-title",
+        "vendor": "h4.result-subtitle",
+        "rating": ".rating-result@title",
+        "partnerBadge": ".hit-partner-badge",
+        "price": ".price.partners"
+      },
+      "cards": [
+        {
+          "title": "ChannelEngine Marketplace Connector (v3)",
+          "vendor": "ChannelEngine",
+          "href": "//commercemarketplace.adobe.com/channelengine-magento2.html",
+          "thumbnail": "//commercemarketplace.adobe.com/media/catalog/product/6/d/6d65_channelengine-appicon_2.png",
+          "rating": "0%",
+          "price": "$0.00",
+          "assuranceBadge": true
+        },
+        {
+          "title": "Odoo Connector for Adobe Commerce",
+          "vendor": "Brainvire Infotech Inc",
+          "href": "//commercemarketplace.adobe.com/ae-brainvire-infotech-inc-odoo-connector-for-adobe-commerce.html",
+          "thumbnail": "//commercemarketplace.adobe.com/media/catalog/product/1/0/10cd_1adobe_odoo_connector_192x192_1.png",
+          "rating": "0%",
+          "price": null,
+          "assuranceBadge": false
+        },
+        {
+          "title": "Product Bundled Discounts (Combo Discounts)",
+          "vendor": "MageDelight",
+          "href": "//commercemarketplace.adobe.com/mage-delight-bundlediscount-module.html",
+          "thumbnail": "//commercemarketplace.adobe.com/media/catalog/product/3/4/34df_productbundleddiscount_megento2-extension.jpg",
+          "rating": "0%",
+          "price": "$249.00 / year",
+          "assuranceBadge": false
+        },
+        {
+          "title": "Gift Card Coupons (Discount Voucher)",
+          "vendor": "MageDelight",
+          "href": "//commercemarketplace.adobe.com/mage-delight-giftcard-module.html",
+          "thumbnail": "//commercemarketplace.adobe.com/media/catalog/product/e/1/e177_giftcard_megento2-extension.jpg",
+          "rating": "0%",
+          "price": "$249.00 / year",
+          "assuranceBadge": false
+        },
+        {
+          "title": "Membership Subscriptions (Store Membership Types)",
+          "vendor": "MageDelight",
+          "href": "//commercemarketplace.adobe.com/mage-delight-membershipsubscription-module.html",
+          "thumbnail": "//commercemarketplace.adobe.com/media/catalog/product/2/2/2264_membershipsubscription_megento2-extension.jpg",
+          "rating": "0%",
+          "price": "$249.00 / year",
+          "assuranceBadge": false
+        },
+        {
+          "title": "Advanced Promotions (Special Promotion Rules)",
+          "vendor": "MageDelight",
+          "href": "//commercemarketplace.adobe.com/mage-delight-specialpromo-module.html",
+          "thumbnail": "//commercemarketplace.adobe.com/media/catalog/product/3/4/3494_advancedpromotions_megento2-extension.jpg",
+          "rating": "0%",
+          "price": "$249.00 / year",
+          "assuranceBadge": false
+        },
+        {
+          "title": "Out of Stock Notifications",
+          "vendor": "MageDelight",
+          "href": "//commercemarketplace.adobe.com/mage-delight-stocknotifications-module.html",
+          "thumbnail": "//commercemarketplace.adobe.com/media/catalog/product/1/e/1e4d_outofstocknotification_megento2-extension.jpg",
+          "rating": "0%",
+          "price": "$149.00 / year",
+          "assuranceBadge": false
+        },
+        {
+          "title": "Store Credit, Refunds and Cashback Promotions",
+          "vendor": "MageDelight",
+          "href": "//commercemarketplace.adobe.com/mage-delight-storecreditrefund.html",
+          "thumbnail": "//commercemarketplace.adobe.com/media/catalog/product/6/a/6add_storecreditrefunds_megento2-extension.png",
+          "rating": "0%",
+          "price": "$149.00 / year",
+          "assuranceBadge": false
+        },
+        {
+          "title": "Advanced Free Gift",
+          "vendor": "Amasty",
+          "href": "//commercemarketplace.adobe.com/amasty-free-gift-lite.html",
+          "thumbnail": "//commercemarketplace.adobe.com/media/catalog/product/c/5/c507_freegiftmp1.png",
+          "rating": "100%",
+          "price": "$259.00 / year",
+          "assuranceBadge": false
+        },
+        {
+          "title": "Import Products",
+          "vendor": "Amasty",
+          "href": "//commercemarketplace.adobe.com/amasty-module-product-import.html",
+          "thumbnail": "//commercemarketplace.adobe.com/media/catalog/product/2/e/2e4e_productimportmp.png",
+          "rating": "100%",
+          "price": "$229.00 / year",
+          "assuranceBadge": false
+        },
+        {
+          "title": "Special Promotion Pro",
+          "vendor": "Amasty",
+          "href": "//commercemarketplace.adobe.com/amasty-special-promo-pro.html",
+          "thumbnail": "//commercemarketplace.adobe.com/media/catalog/product/6/a/6a29_specialpromotionspromp.png",
+          "rating": "100%",
+          "price": "$339.00 / year",
+          "assuranceBadge": false
+        },
+        {
+          "title": "Whatsapp Contact",
+          "vendor": "VDC Stores",
+          "href": "//commercemarketplace.adobe.com/vdcstore-magento2-whatsapp-contact.html",
+          "thumbnail": "//commercemarketplace.adobe.com/media/catalog/product/c/8/c881_magento2whatsappcontact.jpg",
+          "rating": "100%",
+          "price": "$99.00",
+          "assuranceBadge": false
+        },
+        {
+          "title": "Mass Product Actions",
+          "vendor": "VDC Stores",
+          "href": "//commercemarketplace.adobe.com/vdcstore-product-mass-actions.html",
+          "thumbnail": "//commercemarketplace.adobe.com/media/catalog/product/7/7/77ea_magento2massproductactions.jpg",
+          "rating": "100%",
+          "price": "$99.00",
+          "assuranceBadge": false
+        },
+        {
+          "title": "Same Order Number",
+          "vendor": "VDC Stores",
+          "href": "//commercemarketplace.adobe.com/vdcstore-magento2-sameordernumber.html",
+          "thumbnail": "//commercemarketplace.adobe.com/media/catalog/product/8/3/832f_sameordernumbermagento2.jpg",
+          "rating": "100%",
+          "price": "$99.00",
+          "assuranceBadge": false
+        },
+        {
+          "title": "Backend Reindex",
+          "vendor": "VDC Stores",
+          "href": "//commercemarketplace.adobe.com/vdcstore-module-backendreindex.html",
+          "thumbnail": "//commercemarketplace.adobe.com/media/catalog/product/f/9/f9d8_backendreindexmagento.jpg",
+          "rating": "100%",
+          "price": "$99.00",
+          "assuranceBadge": false
+        },
+        {
+          "title": "Affiliate Program",
+          "vendor": "Amasty",
+          "href": "//commercemarketplace.adobe.com/amasty-affiliate-program.html",
+          "thumbnail": "//commercemarketplace.adobe.com/media/catalog/product/d/7/d7ee_affiliatemp.png",
+          "rating": "0%",
+          "price": "$209.00 / year",
+          "assuranceBadge": false
+        },
+        {
+          "title": "AJAX Cart",
+          "vendor": "Amasty",
+          "href": "//commercemarketplace.adobe.com/amasty-ajax-cart.html",
+          "thumbnail": "//commercemarketplace.adobe.com/media/catalog/product/3/5/3518_ajax-shopping-cart-m2-marketplace.png",
+          "rating": "0%",
+          "price": "$239.00 / year",
+          "assuranceBadge": false
+        },
+        {
+          "title": "Special Promotion",
+          "vendor": "Amasty",
+          "href": "//commercemarketplace.adobe.com/amasty-special-promotion.html",
+          "thumbnail": "//commercemarketplace.adobe.com/media/catalog/product/8/d/8dc8_specialpromotionsmp.png",
+          "rating": "0%",
+          "price": "$299.00 / year",
+          "assuranceBadge": false
+        },
+        {
+          "title": "Delete Order",
+          "vendor": "VDC Stores",
+          "href": "//commercemarketplace.adobe.com/vdcstore-magento2-deleteorder.html",
+          "thumbnail": "//commercemarketplace.adobe.com/media/catalog/product/8/0/807b_magento2deleteorder.jpg",
+          "rating": "0%",
+          "price": "$99.00",
+          "assuranceBadge": false
+        },
+        {
+          "title": "Order History",
+          "vendor": "VDC Stores",
+          "href": "//commercemarketplace.adobe.com/vdcstore-magento2-order-history.html",
+          "thumbnail": "//commercemarketplace.adobe.com/media/catalog/product/1/6/1659_magento2orderhistory.jpg",
+          "rating": "0%",
+          "price": "$99.00",
+          "assuranceBadge": false
+        },
+        {
+          "title": "Product Category Filter",
+          "vendor": "VDC Stores",
+          "href": "//commercemarketplace.adobe.com/vdcstore-module-categoryfilter.html",
+          "thumbnail": "//commercemarketplace.adobe.com/media/catalog/product/8/9/8998_magento2productcategoryfilter.jpg",
+          "rating": "0%",
+          "price": "$99.00",
+          "assuranceBadge": false
+        },
+        {
+          "title": "Custom Price",
+          "vendor": "VDC Stores",
+          "href": "//commercemarketplace.adobe.com/vdcstore-module-customprice.html",
+          "thumbnail": "//commercemarketplace.adobe.com/media/catalog/product/b/6/b61f_magento2customprice.jpg",
+          "rating": "0%",
+          "price": "$99.00",
+          "assuranceBadge": false
+        },
+        {
+          "title": "Hide Price",
+          "vendor": "VDC Stores",
+          "href": "//commercemarketplace.adobe.com/vdcstore-module-hideprice.html",
+          "thumbnail": "//commercemarketplace.adobe.com/media/catalog/product/4/f/4fd6_magento2hideprice.jpg",
+          "rating": "0%",
+          "price": "$99.00",
+          "assuranceBadge": false
+        },
+        {
+          "title": "Limit Product Quantity Per Customer",
+          "vendor": "VDC Stores",
+          "href": "//commercemarketplace.adobe.com/vdcstore-module-productquantity.html",
+          "thumbnail": "//commercemarketplace.adobe.com/media/catalog/product/9/4/943b_magento2limitproductquantitypercustomer.jpg",
+          "rating": "0%",
+          "price": "$99.00",
+          "assuranceBadge": false
+        },
+        {
+          "title": "Shipping per product",
+          "vendor": "VDC Stores",
+          "href": "//commercemarketplace.adobe.com/vdcstore-module-productshipping.html",
+          "thumbnail": "//commercemarketplace.adobe.com/media/catalog/product/a/c/ac0c_magento2shippingperproduct.jpg",
+          "rating": "0%",
+          "price": "$99.00",
+          "assuranceBadge": false
+        },
+        {
+          "title": "Salesman",
+          "vendor": "VDC Stores",
+          "href": "//commercemarketplace.adobe.com/vdcstore-module-salesman.html",
+          "thumbnail": "//commercemarketplace.adobe.com/media/catalog/product/4/5/450b_magento2salesman.jpg",
+          "rating": "0%",
+          "price": "$99.00",
+          "assuranceBadge": false
+        },
+        {
+          "title": "Connector for MS Dynamics 365 BC",
+          "vendor": "18th DigiTech Pvt Ltd.",
+          "href": "//commercemarketplace.adobe.com/ae-18th-digitech-pvt-ltd-connector-for-ms-dynamics-365-bc.html",
+          "thumbnail": "//commercemarketplace.adobe.com/media/catalog/product/5/d/5d6e_1msd365_192.png",
+          "rating": "0%",
+          "price": null,
+          "assuranceBadge": false
+        },
+        {
+          "title": "Abandoned Cart Recovery",
+          "vendor": "Amasty",
+          "href": "//commercemarketplace.adobe.com/ae-amasty-abandoned-cart-recovery.html",
+          "thumbnail": "//commercemarketplace.adobe.com/media/catalog/product/6/8/68ff_1192x192_192.png",
+          "rating": "0%",
+          "price": null,
+          "assuranceBadge": false
+        },
+        {
+          "title": "Custom Form Builder",
+          "vendor": "Amasty",
+          "href": "//commercemarketplace.adobe.com/ae-amasty-custom-form-builder.html",
+          "thumbnail": "//commercemarketplace.adobe.com/media/catalog/product/f/5/f5fd_1custom-form192x192.png",
+          "rating": "0%",
+          "price": null,
+          "assuranceBadge": false
+        },
+        {
+          "title": "Image Enhancer",
+          "vendor": "Amasty",
+          "href": "//commercemarketplace.adobe.com/ae-amasty-image-enhancer.html",
+          "thumbnail": "//commercemarketplace.adobe.com/media/catalog/product/9/f/9fdd_1icon-image-enhancer-192.png",
+          "rating": "0%",
+          "price": null,
+          "assuranceBadge": false
+        },
+        {
+          "title": "Mass Order Actions",
+          "vendor": "Amasty",
+          "href": "//commercemarketplace.adobe.com/ae-amasty-mass-order-actions.html",
+          "thumbnail": "//commercemarketplace.adobe.com/media/catalog/product/c/9/c949_1icon_192.png",
+          "rating": "0%",
+          "price": null,
+          "assuranceBadge": false
+        },
+        {
+          "title": "Smart Discounts",
+          "vendor": "Amasty",
+          "href": "//commercemarketplace.adobe.com/ae-amasty-smart-discounts.html",
+          "thumbnail": "//commercemarketplace.adobe.com/media/catalog/product/d/6/d63c_1192x192.png",
+          "rating": "0%",
+          "price": null,
+          "assuranceBadge": false
+        },
+        {
+          "title": "Order SMS Notifications App",
+          "vendor": "MageDelight Solution Pvt. Ltd.",
+          "href": "//commercemarketplace.adobe.com/ae-magedelight-solution-pvt-ltd-order-sms-notifications-app.html",
+          "thumbnail": "//commercemarketplace.adobe.com/media/catalog/product/5/7/5757_1Mobile_Notification-192px.png",
+          "rating": "0%",
+          "price": null,
+          "assuranceBadge": false
+        },
+        {
+          "title": "Product Reviews",
+          "vendor": "netz98 a valantic company",
+          "href": "//commercemarketplace.adobe.com/ae-netz98-a-valantic-company-product-reviews.html",
+          "thumbnail": "//commercemarketplace.adobe.com/media/catalog/product/4/d/4dea_1App_Builder_-_Product_Review_App_Icon_192x192.png",
+          "rating": "0%",
+          "price": null,
+          "assuranceBadge": false
+        },
+        {
+          "title": "Agentic Commerce Protocol FeedGen",
+          "vendor": "TechDivision GmbH",
+          "href": "//commercemarketplace.adobe.com/ae-techdivision-gmbh-agentic-commerce-protocol-feedgen.html",
+          "thumbnail": "//commercemarketplace.adobe.com/media/catalog/product/a/b/ab48_1acp-feed-generator-icon-td.png",
+          "rating": "0%",
+          "price": null,
+          "assuranceBadge": false
+        },
+        {
+          "title": "Connector for Netsuite by TD",
+          "vendor": "TechDivision GmbH",
+          "href": "//commercemarketplace.adobe.com/ae-techdivision-gmbh-connector-for-netsuite-by-td.html",
+          "thumbnail": "//commercemarketplace.adobe.com/media/catalog/product/5/6/560b_1NetSuite_Connector_Icon_192x192.png",
+          "rating": "0%",
+          "price": null,
+          "assuranceBadge": false
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,913 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!-- stardust:migrate
+  writtenBy:        stardust:migrate
+  writtenAt:        2026-10-20T20:55:14Z
+  page:             Adobe Commerce Extensions | Free & Premium Plugins | Marketplace
+  slug:             extensions-html
+  pagePath:         migrated/extensions.html
+  renderBranch:     A
+  sourceProposed:   stardust/prototypes/extensions-html-proposed.html
+  sourceCurrent:    stardust/current/pages/extensions-html.json
+  againstDirection: stardust/direction.md (Active)
+  designMd:         DESIGN.md (sha: 669d9fbdeef2)
+  designJson:       DESIGN.json (sha: 027c799c1e88)
+  canonShas:        header:f08f38faf7f6 footer:ccdde27c82ff css:e91213fb9ae3
+  decisionTrace:    extensions._meta.json
+  brokenInternalLinks: 48
+  stardustVersion:  local
+-->
+<style>
+:root {
+  --font-body: adobe-clean, 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
+  --font-bold: AdobeCleanBold, adobe-clean, 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
+  --font-medium: AdobeCleanMedium, adobe-clean, 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
+  --font-form: RobotoRegular, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+  --c-text: #505050;
+  --c-ink: #000;
+  --c-heading: #333;
+  --c-muted: #636363;
+  --c-muted-2: #727272;
+  --c-count: #999;
+  --c-crumb: #8e8e8e;
+  --c-link: #1979c3;
+  --c-link-brand: #0469e3;
+  --c-nav: #515050;
+  --c-strip: #2b2b2c;
+  --c-footer: #31302b;
+  --c-footer-rule: #979797;
+  --c-panel: #f9f9f9;
+  --c-line: #e0e0e0;
+  --c-accent: #3399cc;
+  --c-select-border: #aeafb1;
+  --c-select-text: #202021;
+
+  --container: 1200px;
+  --gutter: 30px;
+  --header-h: 90px;
+  --strip-h: 55px;
+}
+</style>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Adobe Commerce Extensions | Free &amp; Premium Plugins | Marketplace","description":"Customize your online store with high-quality extensions, add-ons, modules, apps &amp; plugin designed specifically for the Magento eCommerce platform.","url":"https://commercemarketplace.adobe.com/extensions.html"}</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Adobe Commerce Extensions | Free &amp; Premium Plugins | Marketplace</title>
+<meta name="description" content="Customize your online store with high-quality extensions, add-ons, modules, apps &amp; plugin designed specifically for the Magento eCommerce platform.">
+<link rel="icon" href="./assets/images/favicon.png">
+<link rel="stylesheet" href="./assets/canon.css">
+<link rel="stylesheet" href="./assets/listing.css">
+<script src="./assets/canon.js" defer></script>
+</head>
+<body class="page-listing">
+<div class="page-wrapper">
+<header class="page-header">
+  <div class="header-content container">
+    <button class="nav-toggle" type="button" aria-controls="store-menu" aria-expanded="false"><span>Toggle Nav</span></button>
+    <a class="logo" href="./index.html" aria-label="store logo"><img src="./assets/images/logo-header-adobe.svg" alt="" width="90" height="18"></a>
+    <div class="nav-sections">
+      <div class="nav-sections-title active"><a href="#store.menu">Menu</a></div>
+      <div class="nav-sections-title"><a href="#store.links">Account</a></div>
+    <nav class="navigation" id="store-menu">
+      <ul>
+        <li><a href="./extensions.html"><span>Extensions</span></a></li>
+        <li><a href="https://commercemarketplace.adobe.com/themes.html" data-broken-link="true"><span>Themes</span></a></li>
+        <li><a href="./partners/index.html" data-broken-link="true"><span>Partners</span></a></li>
+        <li><a href="https://developer.adobe.com/commerce/marketplace/guides/sellers/"><span>Support</span></a></li>
+      </ul>
+    </nav>
+      <ul class="nav-sections-links" id="store-links"><li><a href="./customer/account/login/referer/aHR0cHM6Ly9jb21tZXJjZW1hcmtldHBsYWNlLmFkb2JlLmNvbS9leHRlbnNpb25zLmh0bWw~/index.html" data-broken-link="true">Sign In</a></li></ul>
+    </div>
+    <div class="header-actions">
+      <div class="minicart">
+        <a class="showcart" href="./checkout/cart/index.html" data-broken-link="true"><span class="icon icon-cart"></span> <span class="text">My Cart</span> <span class="counter"></span></a>
+        <div class="minicart-dropdown" role="dialog" hidden>
+          <div class="minicart-title"><strong><span class="text">My Cart</span> <span class="qty" title="Items in Cart"></span></strong></div>
+          <div class="minicart-content"><button class="minicart-close" type="button" title="Close"><span>Close</span></button> <strong class="subtitle">You have no items in your shopping cart.</strong></div>
+        </div>
+      </div>
+      <ul class="header-links"><li><a href="./customer/account/login/referer/aHR0cHM6Ly9jb21tZXJjZW1hcmtldHBsYWNlLmFkb2JlLmNvbS9leHRlbnNpb25zLmh0bWw~/index.html" data-broken-link="true">Sign In</a></li></ul>
+    </div>
+  </div>
+</header>
+<div class="search-strip">
+  <div class="strip-content">
+    <div class="block-search">
+      <form class="minisearch" action="https://commercemarketplace.adobe.com/catalogsearch/result/" method="get" role="search">
+        <label class="visually-hidden" for="search">Search</label>
+        <div class="search-input-container">
+          <input id="search" type="text" name="q" placeholder="Search extensions, themes, and more..." autocomplete="off">
+          <span class="search-icon" aria-hidden="true"></span>
+        </div>
+        <button class="search-submit" type="submit">Search</button>
+      </form>
+    </div>
+    <p class="version-info">Powered by Adobe Commerce 2.4.9</p>
+  </div>
+</div>
+<nav class="breadcrumbs" aria-label="Breadcrumb">
+  <ol>
+    <li><a href="./index.html">Home</a></li>
+    <li><strong>Extensions</strong></li>
+  </ol>
+</nav>
+<main id="maincontent" class="page-main" data-template="extensions-html">
+  <div class="columns" data-section="1">
+    <div class="page-title-wrapper"><h1 class="page-title"><span>Extensions for Adobe Commerce</span></h1></div>
+    <div class="auth-popup" hidden>
+      <div class="block-new-customer">
+        <div class="block-title"><strong role="heading" aria-level="2">Checkout as a new customer</strong></div>
+        <div class="block-content">
+          <p>Creating an account has many benefits:</p>
+          <ul><li>See order and shipping status</li><li>Track order history</li><li>Check out faster</li></ul>
+          <div class="actions-toolbar"><a class="action-register" href="./customer/account/create/index.html" data-broken-link="true"><span>Create an Account</span></a></div>
+        </div>
+      </div>
+      <div class="block-customer-login">
+        <div class="block-title"><strong role="heading" aria-level="2">Checkout using your account</strong></div>
+        <form class="form-login">
+          <div class="field"><label for="customer-email"><span>Email Address</span></label><input id="customer-email" type="email"></div>
+          <div class="field"><label for="pass"><span>Password</span></label><input id="pass" type="password"></div>
+          <div class="actions-toolbar"><button type="submit"><span>Sign In</span></button> <a href="./customer/account/forgotpassword/index.html" data-broken-link="true"><span>Forgot Your Password?</span></a></div>
+        </form>
+      </div>
+    </div>
+    <aside class="facets">
+      <button class="refine-toggle" type="button" aria-expanded="false" aria-label="Toggle Filters"><span class="refine-icon">+</span> <span class="refine-text">Refine</span></button>
+      <div class="selected-filters">
+        <div class="selected-filters__header"><span class="selected-filters__title">Selected Filters</span><a class="selected-filters__clear" href="#">Clear All</a></div>
+        <div class="selected-filters__list">
+          <a class="selected-filter" href="#" title="Remove"><span class="filter-meta">categories</span> <span class="filter-meta">extensions</span> <span class="selected-filter__remove">X</span> <span class="selected-filter__label"><strong>Category:</strong> Extensions</span></a>
+        </div>
+      </div>
+      <div class="facets-collapsible" id="facets-collapsible">
+        <section class="facet-group facet-category-hierarchical">
+          <div class="facet-title">Categories</div>
+          <ul class="facet-items category-tree">
+            <li class="facet-item"><a class="category-link selected" href="#"><span class="category-name">Extensions</span><span class="cross-circle"></span> <span class="facet-count">3948</span></a>
+              <ul class="category-children">
+                <li class="facet-item"><a class="category-link" href="#"><span class="category-name">Content &amp; Customizations</span><span class="cross-circle"></span> <span class="facet-count">1398</span></a></li>
+                <li class="facet-item"><a class="category-link" href="#"><span class="category-name">Payments &amp; Security</span><span class="cross-circle"></span> <span class="facet-count">570</span></a></li>
+                <li class="facet-item"><a class="category-link" href="#"><span class="category-name">Marketing</span><span class="cross-circle"></span> <span class="facet-count">504</span></a></li>
+                <li class="facet-item"><a class="category-link" href="#"><span class="category-name">Sales</span><span class="cross-circle"></span> <span class="facet-count">495</span></a></li>
+                <li class="facet-item"><a class="category-link" href="#"><span class="category-name">Shipping &amp; Fulfillment</span><span class="cross-circle"></span> <span class="facet-count">466</span></a></li>
+                <li class="facet-item"><a class="category-link" href="#"><span class="category-name">Site Optimization</span><span class="cross-circle"></span> <span class="facet-count">177</span></a></li>
+                <li class="facet-item"><a class="category-link" href="#"><span class="category-name">Reporting &amp; Analytics</span><span class="cross-circle"></span> <span class="facet-count">157</span></a></li>
+                <li class="facet-item"><a class="category-link" href="#"><span class="category-name">Accounting &amp; Finance</span><span class="cross-circle"></span> <span class="facet-count">134</span></a></li>
+                <li class="facet-item"><a class="category-link" href="#"><span class="category-name">Customer Support</span><span class="cross-circle"></span> <span class="facet-count">117</span></a></li>
+              </ul>
+            </li>
+            <li class="facet-item"><a class="category-link" href="#"><span class="category-name">Themes</span><span class="cross-circle"></span> <span class="facet-count">4</span></a></li>
+          </ul>
+        </section>
+        <section class="facet-group facet-ext-certification">
+          <div class="facet-title">Certification</div>
+          <ul class="facet-items">
+            <li class="facet-item"><label><input type="checkbox"><span class="facet-label">Assured Extensions</span> <span class="facet-count">10</span></label></li>
+          </ul>
+        </section>
+        <section class="facet-group facet-ext-all-editions">
+          <div class="facet-title">Edition</div>
+          <ul class="facet-items">
+            <li class="facet-item"><label><input type="checkbox"><span class="facet-label">Adobe Commerce (cloud)</span> <span class="facet-count">2870</span></label></li>
+            <li class="facet-item"><label><input type="checkbox"><span class="facet-label">Adobe Commerce (on-prem)</span> <span class="facet-count">3004</span></label></li>
+            <li class="facet-item"><label><input type="checkbox"><span class="facet-label">Magento Open Source</span> <span class="facet-count">3893</span></label></li>
+          </ul>
+        </section>
+        <section class="facet-group facet-ext-mde-compatibility">
+          <div class="facet-title">Compatibility</div>
+          <ul class="facet-items">
+            <li class="facet-item"><label><input type="checkbox"><span class="facet-label">Page Builder</span> <span class="facet-count">11</span></label></li>
+          </ul>
+        </section>
+        <section class="facet-group facet-price">
+          <div class="facet-title">Price</div>
+          <ul class="facet-items price-ranges">
+            <li class="facet-item"><a class="price-link" href="#"><span class="price-indicator"></span><span class="price-label">Under $50</span></a></li>
+            <li class="facet-item"><a class="price-link" href="#"><span class="price-indicator"></span><span class="price-label">$50 - $100</span></a></li>
+            <li class="facet-item"><a class="price-link" href="#"><span class="price-indicator"></span><span class="price-label">$100 - $150</span></a></li>
+            <li class="facet-item"><a class="price-link" href="#"><span class="price-indicator"></span><span class="price-label">$150 - $200</span></a></li>
+            <li class="facet-item"><a class="price-link" href="#"><span class="price-indicator"></span><span class="price-label">$200 - $10,100</span></a></li>
+            <li class="facet-item"><a class="price-link" href="#"><span class="price-indicator"></span><span class="price-label">$10,100 - $20,000</span></a></li>
+            <li class="facet-item"><a class="price-link" href="#"><span class="price-indicator"></span><span class="price-label">$20,000 &amp; Above</span></a></li>
+          </ul>
+          <div class="price-range"><div class="price-range__group"><input class="price-input" type="number" placeholder="Min" min="0"><span class="price-separator">-</span><input class="price-input" type="number" placeholder="Max" min="0"><button class="price-go" type="button">Go</button></div></div>
+        </section>
+        <section class="facet-group facet-ext-connect-partner-level-title">
+          <div class="facet-title">Partner Type</div>
+          <ul class="facet-items">
+            <li class="facet-item"><label><input type="checkbox"><span class="facet-label">Adobe Platinum Technology Partner</span> <span class="facet-count">5</span></label></li>
+            <li class="facet-item"><label><input type="checkbox"><span class="facet-label">Adobe Gold Technology Partner</span> <span class="facet-count">212</span></label></li>
+            <li class="facet-item"><label><input type="checkbox"><span class="facet-label">Adobe Strategic Technology Partner</span> <span class="facet-count">11</span></label></li>
+            <li class="facet-item"><label><input type="checkbox"><span class="facet-label">Adobe Silver Technology Partner</span> <span class="facet-count">399</span></label></li>
+            <li class="facet-item"><label><input type="checkbox"><span class="facet-label">Adobe Gold Solution Partner</span> <span class="facet-count">67</span></label></li>
+            <li class="facet-item"><label><input type="checkbox"><span class="facet-label">Adobe Silver Solution Partner</span> <span class="facet-count">103</span></label></li>
+            <li class="facet-item"><label><input type="checkbox"><span class="facet-label">Adobe Commerce</span> <span class="facet-count">4</span></label></li>
+          </ul>
+        </section>
+        <section class="facet-group facet-ratings">
+          <div class="facet-title">Ratings</div>
+          <ul class="facet-items ratings-list">
+            <li class="facet-item"><a class="rating-link" href="#"><span class="rating-indicator"></span><span class="rating-stars"><span class="star filled">★</span> <span class="star filled">★</span> <span class="star filled">★</span> <span class="star filled">★</span> <span class="star filled">★</span></span> <span class="rating-label"></span> <span class="facet-count">389</span></a></li>
+            <li class="facet-item"><a class="rating-link" href="#"><span class="rating-indicator"></span><span class="rating-stars"><span class="star filled">★</span> <span class="star filled">★</span> <span class="star filled">★</span> <span class="star filled">★</span> <span class="star empty">☆</span></span> <span class="rating-label">&amp; Up</span> <span class="facet-count">428</span></a></li>
+            <li class="facet-item"><a class="rating-link" href="#"><span class="rating-indicator"></span><span class="rating-stars"><span class="star filled">★</span> <span class="star filled">★</span> <span class="star filled">★</span> <span class="star empty">☆</span> <span class="star empty">☆</span></span> <span class="rating-label">&amp; Up</span> <span class="facet-count">449</span></a></li>
+            <li class="facet-item"><a class="rating-link" href="#"><span class="rating-indicator"></span><span class="rating-stars"><span class="star filled">★</span> <span class="star filled">★</span> <span class="star empty">☆</span> <span class="star empty">☆</span> <span class="star empty">☆</span></span> <span class="rating-label">&amp; Up</span> <span class="facet-count">461</span></a></li>
+            <li class="facet-item"><a class="rating-link" href="#"><span class="rating-indicator"></span><span class="rating-stars"><span class="star filled">★</span> <span class="star empty">☆</span> <span class="star empty">☆</span> <span class="star empty">☆</span> <span class="star empty">☆</span></span> <span class="rating-label">&amp; Up</span> <span class="facet-count">485</span></a></li>
+          </ul>
+        </section>
+        <section class="facet-group facet-subscription-available">
+          <div class="facet-title">Subscription</div>
+          <ul class="facet-items">
+            <li class="facet-item"><label><input type="checkbox"><span class="facet-label">Yes</span> <span class="facet-count">864</span></label></li>
+            <li class="facet-item"><label><input type="checkbox"><span class="facet-label">No</span> <span class="facet-count">3079</span></label></li>
+          </ul>
+        </section>
+        <section class="facet-group facet-ext-package-type">
+          <div class="facet-title">Package Type</div>
+          <ul class="facet-items">
+            <li class="facet-item"><label><input type="checkbox"><span class="facet-label">Extension</span> <span class="facet-count">3906</span></label></li>
+            <li class="facet-item"><label><input type="checkbox"><span class="facet-label">App</span> <span class="facet-count">42</span></label></li>
+          </ul>
+        </section>
+      </div>
+    </aside>
+    <div class="results">
+      <div class="products-header">
+        <div class="products-count"><span class="toolbar-number"><strong>3948</strong> Results</span></div>
+        <div class="products-sort"><label class="sort-label" for="sorter">Sort By</label><select class="select sorter" id="sorter"><option>Relevance</option><option>Price (Low to High)</option><option>Price (High to Low)</option><option>Rating (High to Low)</option></select></div>
+      </div>
+      <ul class="products-grid">
+          <li class="product-card">
+            <a class="product-card__link" href="./magento-payment-services.html" data-broken-link="true">
+            <div class="product-card__body">
+              <div class="product-card__head">
+                <div class="product-card__thumb"><img src="https://commercemarketplace.adobe.com/media/catalog/product/1/d/1d8f_logo-paymentsmarketplace.png" alt="Payment Services" width="50" height="50" loading="lazy"></div>
+                <span class="product-card__assured"></span>
+              </div>
+              <h3 class="product-card__title">Payment Services</h3>
+              <h4 class="product-card__vendor">Adobe Commerce</h4>
+              <hr>
+              <div class="product-card__rating"><span class="stars" title="100%"><span style="width:100%"><span>100%</span></span></span></div>
+              <div class="product-card__foot">
+                <span class="product-card__partner"></span>
+                <span class="product-card__price">$0.00</span>
+              </div>
+            </div>
+            </a>
+          </li>
+          <li class="product-card">
+            <a class="product-card__link" href="./magento-product-recommendations.html" data-broken-link="true">
+            <div class="product-card__body">
+              <div class="product-card__head">
+                <div class="product-card__thumb"><img src="https://commercemarketplace.adobe.com/media/catalog/product/7/7/775d_logo-p-recsmarketplace.png" alt="Product Recommendations" width="50" height="50" loading="lazy"></div>
+                <span class="product-card__assured"></span>
+              </div>
+              <h3 class="product-card__title">Product Recommendations</h3>
+              <h4 class="product-card__vendor">Adobe Commerce</h4>
+              <hr>
+              <div class="product-card__rating"><span class="stars" title="100%"><span style="width:100%"><span>100%</span></span></span></div>
+              <div class="product-card__foot">
+                <span class="product-card__partner"></span>
+                <span class="product-card__price">$0.00</span>
+              </div>
+            </div>
+            </a>
+          </li>
+          <li class="product-card">
+            <a class="product-card__link" href="./magento-live-search.html" data-broken-link="true">
+            <div class="product-card__body">
+              <div class="product-card__head">
+                <div class="product-card__thumb"><img src="https://commercemarketplace.adobe.com/media/catalog/product/d/4/d402_logo-livesearchmarketplace.png" alt="Live Search" width="50" height="50" loading="lazy"></div>
+                <span class="product-card__assured"></span>
+              </div>
+              <h3 class="product-card__title">Live Search</h3>
+              <h4 class="product-card__vendor">Adobe Commerce</h4>
+              <hr>
+              <div class="product-card__rating"><span class="stars" title="60%"><span style="width:60%"><span>60%</span></span></span></div>
+              <div class="product-card__foot">
+                <span class="product-card__partner"></span>
+                <span class="product-card__price">$0.00</span>
+              </div>
+            </div>
+            </a>
+          </li>
+          <li class="product-card">
+            <a class="product-card__link" href="./magento-experience-platform-connector.html" data-broken-link="true">
+            <div class="product-card__body">
+              <div class="product-card__head">
+                <div class="product-card__thumb"><img src="https://commercemarketplace.adobe.com/media/catalog/product/0/e/0eab_logo-dataconnection.png" alt="Data Connection (Experience Platform Connector)" width="50" height="50" loading="lazy"></div>
+                <span class="product-card__assured"></span>
+              </div>
+              <h3 class="product-card__title">Data Connection (Experience Platform Connector)</h3>
+              <h4 class="product-card__vendor">Adobe Commerce</h4>
+              <hr>
+              <div class="product-card__rating"><span class="stars" title="0%"><span style="width:0%"><span>0%</span></span></span></div>
+              <div class="product-card__foot">
+                <span class="product-card__partner"></span>
+                <span class="product-card__price">$0.00</span>
+              </div>
+            </div>
+            </a>
+          </li>
+          <li class="product-card">
+            <a class="product-card__link" href="./ae-vaimo-sweden-ab-akeneo-connector-for-adobe-commerce.html" data-broken-link="true">
+            <div class="product-card__body">
+              <div class="product-card__head">
+                <div class="product-card__thumb"><img src="https://commercemarketplace.adobe.com/media/catalog/product/d/3/d351_1file_3_1.jpg" alt="Akeneo Connector for Adobe Commerce" width="50" height="50" loading="lazy"></div>
+                <span class="product-card__assured"></span>
+              </div>
+              <h3 class="product-card__title">Akeneo Connector for Adobe Commerce</h3>
+              <h4 class="product-card__vendor">Vaimo Sweden AB</h4>
+              <hr>
+              <div class="product-card__rating"><span class="stars" title="0%"><span style="width:0%"><span>0%</span></span></span></div>
+              <div class="product-card__foot">
+                <span class="product-card__partner"><img src="./assets/images/gold-solution-partner.png" alt="Adobe Gold Solution Partner" width="90"></span>
+              </div>
+            </div>
+            </a>
+          </li>
+          <li class="product-card">
+            <a class="product-card__link" href="./amasty-module-shopby-pro.html" data-broken-link="true">
+            <div class="product-card__body">
+              <div class="product-card__head">
+                <div class="product-card__thumb"><img src="https://commercemarketplace.adobe.com/media/catalog/product/1/6/1609_improvedlayerednavigationmp.png" alt="Improved Layered Navigation Extension" width="50" height="50" loading="lazy"></div>
+                <span class="product-card__assured"></span>
+              </div>
+              <h3 class="product-card__title">Improved Layered Navigation Extension</h3>
+              <h4 class="product-card__vendor">Amasty</h4>
+              <hr>
+              <div class="product-card__rating"><span class="stars" title="100%"><span style="width:100%"><span>100%</span></span></span></div>
+              <div class="product-card__foot">
+                <span class="product-card__partner"><img src="./assets/images/gold-technology-partner.png" alt="Adobe Gold Technology Partner" width="90"></span>
+                <span class="product-card__price">$419.00 / year</span>
+              </div>
+            </div>
+            </a>
+          </li>
+          <li class="product-card">
+            <a class="product-card__link" href="./akeneo-module-magento2-connector-community.html" data-broken-link="true">
+            <div class="product-card__body">
+              <div class="product-card__head">
+                <div class="product-card__thumb"><img src="https://commercemarketplace.adobe.com/media/catalog/product/e/6/e628_akeneo_logo_square_black_web.png" alt="Akeneo Connector" width="50" height="50" loading="lazy"></div>
+                <span class="product-card__assured"></span>
+              </div>
+              <h3 class="product-card__title">Akeneo Connector</h3>
+              <h4 class="product-card__vendor">Akeneo</h4>
+              <hr>
+              <div class="product-card__rating"><span class="stars" title="0%"><span style="width:0%"><span>0%</span></span></span></div>
+              <div class="product-card__foot">
+                <span class="product-card__partner"><img src="./assets/images/gold-technology-partner.png" alt="Adobe Gold Technology Partner" width="90"></span>
+                <span class="product-card__price">$0.00</span>
+              </div>
+            </div>
+            </a>
+          </li>
+          <li class="product-card">
+            <a class="product-card__link" href="./signifyd-module-connect.html" data-broken-link="true">
+            <div class="product-card__body">
+              <div class="product-card__head">
+                <div class="product-card__thumb"><img src="https://commercemarketplace.adobe.com/media/catalog/product/a/0/a078_shopify.png" alt="Signifyd  Fraud &amp; Chargeback Protection" width="50" height="50" loading="lazy"></div>
+                <span class="product-card__assured"></span>
+              </div>
+              <h3 class="product-card__title">Signifyd  Fraud &amp; Chargeback Protection</h3>
+              <h4 class="product-card__vendor">Signifyd</h4>
+              <hr>
+              <div class="product-card__rating"><span class="stars" title="0%"><span style="width:0%"><span>0%</span></span></span></div>
+              <div class="product-card__foot">
+                <span class="product-card__partner"><img src="./assets/images/gold-technology-partner.png" alt="Adobe Gold Technology Partner" width="90"></span>
+                <span class="product-card__price">$0.00</span>
+              </div>
+            </div>
+            </a>
+          </li>
+          <li class="product-card">
+            <a class="product-card__link" href="./ae-adobe-msft-d365-fo-for-adobe-commerce.html" data-broken-link="true">
+            <div class="product-card__body">
+              <div class="product-card__head">
+                <div class="product-card__thumb"><img src="https://commercemarketplace.adobe.com/media/catalog/product/d/f/dfd4_1103136-08de989d-da93-484a-806f-a8afabe2a0eb_2.png" alt="MSFT D365 FO for Adobe Commerce" width="50" height="50" loading="lazy"></div>
+                <span class="product-card__assured"></span>
+              </div>
+              <h3 class="product-card__title">MSFT D365 FO for Adobe Commerce</h3>
+              <h4 class="product-card__vendor">Adobe</h4>
+              <hr>
+              <div class="product-card__rating"><span class="stars" title="0%"><span style="width:0%"><span>0%</span></span></span></div>
+              <div class="product-card__foot">
+                <span class="product-card__partner"><img src="./assets/images/gold-technology-partner.png" alt="Adobe Gold Technology Partner" width="90"></span>
+              </div>
+            </div>
+            </a>
+          </li>
+          <li class="product-card">
+            <a class="product-card__link" href="./channelengine-magento2.html" data-broken-link="true">
+            <div class="product-card__body">
+              <div class="product-card__head">
+                <div class="product-card__thumb"><img src="https://commercemarketplace.adobe.com/media/catalog/product/6/d/6d65_channelengine-appicon_2.png" alt="ChannelEngine Marketplace Connector (v3)" width="50" height="50" loading="lazy"></div>
+                <span class="product-card__assured"></span>
+              </div>
+              <h3 class="product-card__title">ChannelEngine Marketplace Connector (v3)</h3>
+              <h4 class="product-card__vendor">ChannelEngine</h4>
+              <hr>
+              <div class="product-card__rating"><span class="stars" title="0%"><span style="width:0%"><span>0%</span></span></span></div>
+              <div class="product-card__foot">
+                <span class="product-card__partner"><img src="./assets/images/silver-technology-partner.png" alt="Adobe Silver Technology Partner" width="90"></span>
+                <span class="product-card__price">$0.00</span>
+              </div>
+            </div>
+            </a>
+          </li>
+          <li class="product-card">
+            <a class="product-card__link" href="./algolia-algoliasearch-magento-2.html" data-broken-link="true">
+            <div class="product-card__body">
+              <div class="product-card__head">
+                <div class="product-card__thumb"><img src="https://commercemarketplace.adobe.com/media/catalog/product/2/2/22a6_algolia-mark-blue3.png" alt="Algolia Instant Search" width="50" height="50" loading="lazy"></div>
+              </div>
+              <h3 class="product-card__title">Algolia Instant Search</h3>
+              <h4 class="product-card__vendor">Algolia</h4>
+              <hr>
+              <div class="product-card__rating"><span class="stars" title="80%"><span style="width:80%"><span>80%</span></span></span></div>
+              <div class="product-card__foot">
+                <span class="product-card__partner"><img src="./assets/images/platinum-technology-partner.png" alt="Adobe Platinum Technology Partner" width="90"></span>
+                <span class="product-card__price">$0.00</span>
+              </div>
+            </div>
+            </a>
+          </li>
+          <li class="product-card">
+            <a class="product-card__link" href="./ae-blue-acorn-ici-store-locator-by-blue-acorn.html" data-broken-link="true">
+            <div class="product-card__body">
+              <div class="product-card__head">
+                <div class="product-card__thumb"><img src="https://commercemarketplace.adobe.com/media/catalog/product/7/e/7e64_1StoreLocator_192.png" alt="Store Locator by Blue Acorn" width="50" height="50" loading="lazy"></div>
+              </div>
+              <h3 class="product-card__title">Store Locator by Blue Acorn</h3>
+              <h4 class="product-card__vendor">Blue Acorn iCi</h4>
+              <hr>
+              <div class="product-card__rating"><span class="stars" title="0%"><span style="width:0%"><span>0%</span></span></span></div>
+              <div class="product-card__foot">
+                <span class="product-card__partner"><img src="./assets/images/platinum-technology-partner.png" alt="Adobe Platinum Technology Partner" width="90"></span>
+              </div>
+            </div>
+            </a>
+          </li>
+          <li class="product-card">
+            <a class="product-card__link" href="./ae-comwrap-reply-gmbh-adobe-commerce-hubspot-connector.html" data-broken-link="true">
+            <div class="product-card__body">
+              <div class="product-card__head">
+                <div class="product-card__thumb"><img src="https://commercemarketplace.adobe.com/media/catalog/product/e/e/ee8a_1logo-192x192.png" alt="Hubspot Connector" width="50" height="50" loading="lazy"></div>
+              </div>
+              <h3 class="product-card__title">Hubspot Connector</h3>
+              <h4 class="product-card__vendor">Comwrap Reply GmbH</h4>
+              <hr>
+              <div class="product-card__rating"><span class="stars" title="0%"><span style="width:0%"><span>0%</span></span></span></div>
+              <div class="product-card__foot">
+                <span class="product-card__partner"><img src="./assets/images/platinum-technology-partner.png" alt="Adobe Platinum Technology Partner" width="90"></span>
+              </div>
+            </div>
+            </a>
+          </li>
+          <li class="product-card">
+            <a class="product-card__link" href="./ae-comwrap-reply-gmbh-feed-generator.html" data-broken-link="true">
+            <div class="product-card__body">
+              <div class="product-card__head">
+                <div class="product-card__thumb"><img src="https://commercemarketplace.adobe.com/media/catalog/product/d/e/de90_1fgen-icon-192.png" alt="Feed Generator" width="50" height="50" loading="lazy"></div>
+              </div>
+              <h3 class="product-card__title">Feed Generator</h3>
+              <h4 class="product-card__vendor">Comwrap Reply GmbH</h4>
+              <hr>
+              <div class="product-card__rating"><span class="stars" title="0%"><span style="width:0%"><span>0%</span></span></span></div>
+              <div class="product-card__foot">
+                <span class="product-card__partner"><img src="./assets/images/platinum-technology-partner.png" alt="Adobe Platinum Technology Partner" width="90"></span>
+              </div>
+            </div>
+            </a>
+          </li>
+          <li class="product-card">
+            <a class="product-card__link" href="./ae-comwrap-reply-gmbh-kount-fraud-detection.html" data-broken-link="true">
+            <div class="product-card__body">
+              <div class="product-card__head">
+                <div class="product-card__thumb"><img src="https://commercemarketplace.adobe.com/media/catalog/product/9/d/9d88_1icon_192x192.png" alt="Kount Fraud Detection" width="50" height="50" loading="lazy"></div>
+              </div>
+              <h3 class="product-card__title">Kount Fraud Detection</h3>
+              <h4 class="product-card__vendor">Comwrap Reply GmbH</h4>
+              <hr>
+              <div class="product-card__rating"><span class="stars" title="0%"><span style="width:0%"><span>0%</span></span></span></div>
+              <div class="product-card__foot">
+                <span class="product-card__partner"><img src="./assets/images/platinum-technology-partner.png" alt="Adobe Platinum Technology Partner" width="90"></span>
+              </div>
+            </div>
+            </a>
+          </li>
+          <li class="product-card">
+            <a class="product-card__link" href="./blackbird-contentmanager.html" data-broken-link="true">
+            <div class="product-card__body">
+              <div class="product-card__head">
+                <div class="product-card__thumb"><img src="https://commercemarketplace.adobe.com/media/catalog/productno_selection" alt="Advanced Content Manager 2" width="50" height="50" loading="lazy"></div>
+              </div>
+              <h3 class="product-card__title">Advanced Content Manager 2</h3>
+              <h4 class="product-card__vendor">Blackbird</h4>
+              <hr>
+              <div class="product-card__rating"><span class="stars" title="0%"><span style="width:0%"><span>0%</span></span></span></div>
+              <div class="product-card__foot">
+                <span class="product-card__partner"><img src="./assets/images/gold-solution-partner.png" alt="Adobe Gold Solution Partner" width="90"></span>
+                <span class="product-card__price">$449.00</span>
+              </div>
+            </div>
+            </a>
+          </li>
+          <li class="product-card">
+            <a class="product-card__link" href="./blackbird-menumanager.html" data-broken-link="true">
+            <div class="product-card__body">
+              <div class="product-card__head">
+                <div class="product-card__thumb"><img src="https://commercemarketplace.adobe.com/media/catalog/product/f/4/f43d_megamenu_2x_1.resized.png" alt="Advanced Mega Menu Manager" width="50" height="50" loading="lazy"></div>
+              </div>
+              <h3 class="product-card__title">Advanced Mega Menu Manager</h3>
+              <h4 class="product-card__vendor">Blackbird</h4>
+              <hr>
+              <div class="product-card__rating"><span class="stars" title="0%"><span style="width:0%"><span>0%</span></span></span></div>
+              <div class="product-card__foot">
+                <span class="product-card__partner"><img src="./assets/images/gold-solution-partner.png" alt="Adobe Gold Solution Partner" width="90"></span>
+                <span class="product-card__price">$209.00</span>
+              </div>
+            </div>
+            </a>
+          </li>
+          <li class="product-card">
+            <a class="product-card__link" href="./blackbird-monetico.html" data-broken-link="true">
+            <div class="product-card__body">
+              <div class="product-card__head">
+                <div class="product-card__thumb"><img src="https://commercemarketplace.adobe.com/media/catalog/product/b/e/be8e_0.monetico_2x_3.png" alt="Monetico CM-CIC" width="50" height="50" loading="lazy"></div>
+              </div>
+              <h3 class="product-card__title">Monetico CM-CIC</h3>
+              <h4 class="product-card__vendor">Blackbird</h4>
+              <hr>
+              <div class="product-card__rating"><span class="stars" title="0%"><span style="width:0%"><span>0%</span></span></span></div>
+              <div class="product-card__foot">
+                <span class="product-card__partner"><img src="./assets/images/gold-solution-partner.png" alt="Adobe Gold Solution Partner" width="90"></span>
+                <span class="product-card__price">$349.00</span>
+              </div>
+            </div>
+            </a>
+          </li>
+          <li class="product-card">
+            <a class="product-card__link" href="./blackbird-visualmerchandiser.html" data-broken-link="true">
+            <div class="product-card__body">
+              <div class="product-card__head">
+                <div class="product-card__thumb"><img src="https://commercemarketplace.adobe.com/media/catalog/product/c/7/c7d1_visual_merchandiser_240x240.png" alt="Front End Visual Merchandiser" width="50" height="50" loading="lazy"></div>
+              </div>
+              <h3 class="product-card__title">Front End Visual Merchandiser</h3>
+              <h4 class="product-card__vendor">Blackbird</h4>
+              <hr>
+              <div class="product-card__rating"><span class="stars" title="0%"><span style="width:0%"><span>0%</span></span></span></div>
+              <div class="product-card__foot">
+                <span class="product-card__partner"><img src="./assets/images/gold-solution-partner.png" alt="Adobe Gold Solution Partner" width="90"></span>
+                <span class="product-card__price">$349.00</span>
+              </div>
+            </div>
+            </a>
+          </li>
+          <li class="product-card">
+            <a class="product-card__link" href="./improntus-whatsappcontact.html" data-broken-link="true">
+            <div class="product-card__body">
+              <div class="product-card__head">
+                <div class="product-card__thumb"><img src="https://commercemarketplace.adobe.com/media/catalog/product/a/a/aaa1_group2400.png" alt="WhatsApp Contact" width="50" height="50" loading="lazy"></div>
+              </div>
+              <h3 class="product-card__title">WhatsApp Contact</h3>
+              <h4 class="product-card__vendor">Improntus</h4>
+              <hr>
+              <div class="product-card__rating"><span class="stars" title="0%"><span style="width:0%"><span>0%</span></span></span></div>
+              <div class="product-card__foot">
+                <span class="product-card__partner"><img src="./assets/images/gold-solution-partner.png" alt="Adobe Gold Solution Partner" width="90"></span>
+                <span class="product-card__price">$0.00</span>
+              </div>
+            </div>
+            </a>
+          </li>
+          <li class="product-card">
+            <a class="product-card__link" href="./ae-brainvire-infotech-inc-odoo-connector-for-adobe-commerce.html" data-broken-link="true">
+            <div class="product-card__body">
+              <div class="product-card__head">
+                <div class="product-card__thumb"><img src="https://commercemarketplace.adobe.com/media/catalog/product/1/0/10cd_1adobe_odoo_connector_192x192_1.png" alt="Odoo Connector for Adobe Commerce" width="50" height="50" loading="lazy"></div>
+              </div>
+              <h3 class="product-card__title">Odoo Connector for Adobe Commerce</h3>
+              <h4 class="product-card__vendor">Brainvire Infotech Inc</h4>
+              <hr>
+              <div class="product-card__rating"><span class="stars" title="0%"><span style="width:0%"><span>0%</span></span></span></div>
+              <div class="product-card__foot">
+                <span class="product-card__partner"><img src="./assets/images/gold-solution-partner.png" alt="Adobe Gold Solution Partner" width="90"></span>
+              </div>
+            </div>
+            </a>
+          </li>
+          <li class="product-card">
+            <a class="product-card__link" href="./blackbird-discontinued-product.html" data-broken-link="true">
+            <div class="product-card__body">
+              <div class="product-card__head">
+                <div class="product-card__thumb"><img src="https://commercemarketplace.adobe.com/media/catalog/product/2/3/233e_discontinued_product_redirect_logo.png" alt="Discontinued Product Redirect" width="50" height="50" loading="lazy"></div>
+              </div>
+              <h3 class="product-card__title">Discontinued Product Redirect</h3>
+              <h4 class="product-card__vendor">Blackbird</h4>
+              <hr>
+              <div class="product-card__rating"><span class="stars" title="0%"><span style="width:0%"><span>0%</span></span></span></div>
+              <div class="product-card__foot">
+                <span class="product-card__partner"><img src="./assets/images/gold-solution-partner.png" alt="Adobe Gold Solution Partner" width="90"></span>
+                <span class="product-card__price">$149.00</span>
+              </div>
+            </div>
+            </a>
+          </li>
+          <li class="product-card">
+            <a class="product-card__link" href="./blackbird-translator.html" data-broken-link="true">
+            <div class="product-card__body">
+              <div class="product-card__head">
+                <div class="product-card__thumb"><img src="https://commercemarketplace.adobe.com/media/catalog/productno_selection" alt="Automated Translator" width="50" height="50" loading="lazy"></div>
+              </div>
+              <h3 class="product-card__title">Automated Translator</h3>
+              <h4 class="product-card__vendor">Blackbird</h4>
+              <hr>
+              <div class="product-card__rating"><span class="stars" title="0%"><span style="width:0%"><span>0%</span></span></span></div>
+              <div class="product-card__foot">
+                <span class="product-card__partner"><img src="./assets/images/gold-solution-partner.png" alt="Adobe Gold Solution Partner" width="90"></span>
+                <span class="product-card__price">$269.00</span>
+              </div>
+            </div>
+            </a>
+          </li>
+          <li class="product-card">
+            <a class="product-card__link" href="./improntus-module-astropay.html" data-broken-link="true">
+            <div class="product-card__body">
+              <div class="product-card__head">
+                <div class="product-card__thumb"><img src="https://commercemarketplace.adobe.com/media/catalog/product/b/f/bfc2_logo1.png" alt="Astropay" width="50" height="50" loading="lazy"></div>
+              </div>
+              <h3 class="product-card__title">Astropay</h3>
+              <h4 class="product-card__vendor">Improntus</h4>
+              <hr>
+              <div class="product-card__rating"><span class="stars" title="0%"><span style="width:0%"><span>0%</span></span></span></div>
+              <div class="product-card__foot">
+                <span class="product-card__partner"><img src="./assets/images/gold-solution-partner.png" alt="Adobe Gold Solution Partner" width="90"></span>
+                <span class="product-card__price">$0.00</span>
+              </div>
+            </div>
+            </a>
+          </li>
+          <li class="product-card">
+            <a class="product-card__link" href="./improntus-module-klap.html" data-broken-link="true">
+            <div class="product-card__body">
+              <div class="product-card__head">
+                <div class="product-card__thumb"><img src="https://commercemarketplace.adobe.com/media/catalog/product/0/2/02bf_0.jpg" alt="Klap" width="50" height="50" loading="lazy"></div>
+              </div>
+              <h3 class="product-card__title">Klap</h3>
+              <h4 class="product-card__vendor">Improntus</h4>
+              <hr>
+              <div class="product-card__rating"><span class="stars" title="0%"><span style="width:0%"><span>0%</span></span></span></div>
+              <div class="product-card__foot">
+                <span class="product-card__partner"><img src="./assets/images/gold-solution-partner.png" alt="Adobe Gold Solution Partner" width="90"></span>
+                <span class="product-card__price">$0.00</span>
+              </div>
+            </div>
+            </a>
+          </li>
+          <li class="product-card">
+            <a class="product-card__link" href="./improntus-module-mach-pay.html" data-broken-link="true">
+            <div class="product-card__body">
+              <div class="product-card__head">
+                <div class="product-card__thumb"><img src="https://commercemarketplace.adobe.com/media/catalog/product/d/6/d6fd_1.png" alt="MACHBANK" width="50" height="50" loading="lazy"></div>
+              </div>
+              <h3 class="product-card__title">MACHBANK</h3>
+              <h4 class="product-card__vendor">Improntus</h4>
+              <hr>
+              <div class="product-card__rating"><span class="stars" title="0%"><span style="width:0%"><span>0%</span></span></span></div>
+              <div class="product-card__foot">
+                <span class="product-card__partner"><img src="./assets/images/gold-solution-partner.png" alt="Adobe Gold Solution Partner" width="90"></span>
+                <span class="product-card__price">$0.00</span>
+              </div>
+            </div>
+            </a>
+          </li>
+          <li class="product-card">
+            <a class="product-card__link" href="./improntus-module-pedidosya-magento-2.html" data-broken-link="true">
+            <div class="product-card__body">
+              <div class="product-card__head">
+                <div class="product-card__thumb"><img src="https://commercemarketplace.adobe.com/media/catalog/product/b/3/b3ca_logo-peya.png" alt="Pedidos Ya" width="50" height="50" loading="lazy"></div>
+              </div>
+              <h3 class="product-card__title">Pedidos Ya</h3>
+              <h4 class="product-card__vendor">Improntus</h4>
+              <hr>
+              <div class="product-card__rating"><span class="stars" title="0%"><span style="width:0%"><span>0%</span></span></span></div>
+              <div class="product-card__foot">
+                <span class="product-card__partner"><img src="./assets/images/gold-solution-partner.png" alt="Adobe Gold Solution Partner" width="90"></span>
+                <span class="product-card__price">$0.00</span>
+              </div>
+            </div>
+            </a>
+          </li>
+          <li class="product-card">
+            <a class="product-card__link" href="./improntus-module-powerpay.html" data-broken-link="true">
+            <div class="product-card__body">
+              <div class="product-card__head">
+                <div class="product-card__thumb"><img src="https://commercemarketplace.adobe.com/media/catalog/product/b/8/b834_main.jpg" alt="Powerpay Perú" width="50" height="50" loading="lazy"></div>
+              </div>
+              <h3 class="product-card__title">Powerpay Perú</h3>
+              <h4 class="product-card__vendor">Improntus</h4>
+              <hr>
+              <div class="product-card__rating"><span class="stars" title="0%"><span style="width:0%"><span>0%</span></span></span></div>
+              <div class="product-card__foot">
+                <span class="product-card__partner"><img src="./assets/images/gold-solution-partner.png" alt="Adobe Gold Solution Partner" width="90"></span>
+                <span class="product-card__price">$0.00</span>
+              </div>
+            </div>
+            </a>
+          </li>
+          <li class="product-card">
+            <a class="product-card__link" href="./improntus-module-privacy-compliance.html" data-broken-link="true">
+            <div class="product-card__body">
+              <div class="product-card__head">
+                <div class="product-card__thumb"><img src="https://commercemarketplace.adobe.com/media/catalog/product/1/d/1dbe_0.png" alt="Privacy &amp; Consent Management" width="50" height="50" loading="lazy"></div>
+              </div>
+              <h3 class="product-card__title">Privacy &amp; Consent Management</h3>
+              <h4 class="product-card__vendor">Improntus</h4>
+              <hr>
+              <div class="product-card__rating"><span class="stars" title="0%"><span style="width:0%"><span>0%</span></span></span></div>
+              <div class="product-card__foot">
+                <span class="product-card__partner"><img src="./assets/images/gold-solution-partner.png" alt="Adobe Gold Solution Partner" width="90"></span>
+                <span class="product-card__price">$299.00</span>
+              </div>
+            </div>
+            </a>
+          </li>
+          <li class="product-card">
+            <a class="product-card__link" href="./improntus-module-prontopaga.html" data-broken-link="true">
+            <div class="product-card__body">
+              <div class="product-card__head">
+                <div class="product-card__thumb"><img src="https://commercemarketplace.adobe.com/media/catalog/product/0/d/0db2_prontopaga240x240.png" alt="Prontopaga" width="50" height="50" loading="lazy"></div>
+              </div>
+              <h3 class="product-card__title">Prontopaga</h3>
+              <h4 class="product-card__vendor">Improntus</h4>
+              <hr>
+              <div class="product-card__rating"><span class="stars" title="0%"><span style="width:0%"><span>0%</span></span></span></div>
+              <div class="product-card__foot">
+                <span class="product-card__partner"><img src="./assets/images/gold-solution-partner.png" alt="Adobe Gold Solution Partner" width="90"></span>
+                <span class="product-card__price">$0.00</span>
+              </div>
+            </div>
+            </a>
+          </li>
+          <li class="product-card">
+            <a class="product-card__link" href="./improntus-module-uber.html" data-broken-link="true">
+            <div class="product-card__body">
+              <div class="product-card__head">
+                <div class="product-card__thumb"><img src="https://commercemarketplace.adobe.com/media/catalog/product/5/c/5cd2_1_uber_logo.png" alt="Uber Direct" width="50" height="50" loading="lazy"></div>
+              </div>
+              <h3 class="product-card__title">Uber Direct</h3>
+              <h4 class="product-card__vendor">Improntus</h4>
+              <hr>
+              <div class="product-card__rating"><span class="stars" title="0%"><span style="width:0%"><span>0%</span></span></span></div>
+              <div class="product-card__foot">
+                <span class="product-card__partner"><img src="./assets/images/gold-solution-partner.png" alt="Adobe Gold Solution Partner" width="90"></span>
+                <span class="product-card__price">$0.00</span>
+              </div>
+            </div>
+            </a>
+          </li>
+          <li class="product-card">
+            <a class="product-card__link" href="./mage-delight-abandonedcart-module.html" data-broken-link="true">
+            <div class="product-card__body">
+              <div class="product-card__head">
+                <div class="product-card__thumb"><img src="https://commercemarketplace.adobe.com/media/catalog/product/b/5/b5e5_abandonedcartemail_megento2-extension.jpg" alt="Abandoned Cart Emails (Follow-up Emails)" width="50" height="50" loading="lazy"></div>
+              </div>
+              <h3 class="product-card__title">Abandoned Cart Emails (Follow-up Emails)</h3>
+              <h4 class="product-card__vendor">MageDelight</h4>
+              <hr>
+              <div class="product-card__rating"><span class="stars" title="0%"><span style="width:0%"><span>0%</span></span></span></div>
+              <div class="product-card__foot">
+                <span class="product-card__partner"><img src="./assets/images/gold-solution-partner.png" alt="Adobe Gold Solution Partner" width="90"></span>
+                <span class="product-card__price">$149.00 / year</span>
+              </div>
+            </div>
+            </a>
+          </li>
+          <li class="product-card">
+            <a class="product-card__link" href="./mage-delight-ai-content-generator-module.html" data-broken-link="true">
+            <div class="product-card__body">
+              <div class="product-card__head">
+                <div class="product-card__thumb"><img src="https://commercemarketplace.adobe.com/media/catalog/product/0/a/0af4_aicg1.png" alt="AI Product Content Generator" width="50" height="50" loading="lazy"></div>
+              </div>
+              <h3 class="product-card__title">AI Product Content Generator</h3>
+              <h4 class="product-card__vendor">MageDelight</h4>
+              <hr>
+              <div class="product-card__rating"><span class="stars" title="0%"><span style="width:0%"><span>0%</span></span></span></div>
+              <div class="product-card__foot">
+                <span class="product-card__partner"><img src="./assets/images/gold-solution-partner.png" alt="Adobe Gold Solution Partner" width="90"></span>
+                <span class="product-card__price">$99.00 / year</span>
+              </div>
+            </div>
+            </a>
+          </li>
+          <li class="product-card">
+            <a class="product-card__link" href="./mage-delight-ai-content-translator-module.html" data-broken-link="true">
+            <div class="product-card__body">
+              <div class="product-card__head">
+                <div class="product-card__thumb"><img src="https://commercemarketplace.adobe.com/media/catalog/product/3/2/32c2_ai_content_translator-512px_11.png" alt="AI-Powered Multilingual Content Translator" width="50" height="50" loading="lazy"></div>
+              </div>
+              <h3 class="product-card__title">AI-Powered Multilingual Content Translator</h3>
+              <h4 class="product-card__vendor">MageDelight</h4>
+              <hr>
+              <div class="product-card__rating"><span class="stars" title="0%"><span style="width:0%"><span>0%</span></span></span></div>
+              <div class="product-card__foot">
+                <span class="product-card__partner"><img src="./assets/images/gold-solution-partner.png" alt="Adobe Gold Solution Partner" width="90"></span>
+                <span class="product-card__price">$199.00 / year</span>
+              </div>
+            </div>
+            </a>
+          </li>
+          <li class="product-card">
+            <a class="product-card__link" href="./mage-delight-authorizecim-module.html" data-broken-link="true">
+            <div class="product-card__body">
+              <div class="product-card__head">
+                <div class="product-card__thumb"><img src="https://commercemarketplace.adobe.com/media/catalog/product/3/1/3131_authorize.netcim_megento2-extension.jpg" alt="Authorize.net CIM (Save Card with Safe Tokens)" width="50" height="50" loading="lazy"></div>
+              </div>
+              <h3 class="product-card__title">Authorize.net CIM (Save Card with Safe Tokens)</h3>
+              <h4 class="product-card__vendor">MageDelight</h4>
+              <hr>
+              <div class="product-card__rating"><span class="stars" title="0%"><span style="width:0%"><span>0%</span></span></span></div>
+              <div class="product-card__foot">
+                <span class="product-card__partner"><img src="./assets/images/gold-solution-partner.png" alt="Adobe Gold Solution Partner" width="90"></span>
+                <span class="product-card__price">$249.00 / year</span>
+              </div>
+            </div>
+            </a>
+          </li>
+          <li class="product-card">
+            <a class="product-card__link" href="./mage-delight-bulk-customizable-options-assignment-module.html" data-broken-link="true">
+            <div class="product-card__body">
+              <div class="product-card__head">
+                <div class="product-card__thumb"><img src="https://commercemarketplace.adobe.com/media/catalog/product/0/e/0e93_bkpa.icon_with_bg1.png" alt="Bulk Customizable Options Manager" width="50" height="50" loading="lazy"></div>
+              </div>
+              <h3 class="product-card__title">Bulk Customizable Options Manager</h3>
+              <h4 class="product-card__vendor">MageDelight</h4>
+              <hr>
+              <div class="product-card__rating"><span class="stars" title="0%"><span style="width:0%"><span>0%</span></span></span></div>
+              <div class="product-card__foot">
+                <span class="product-card__partner"><img src="./assets/images/gold-solution-partner.png" alt="Adobe Gold Solution Partner" width="90"></span>
+                <span class="product-card__price">$149.00 / year</span>
+              </div>
+            </div>
+            </a>
+          </li>
+      </ul>
+      <div class="products-empty" hidden><div class="message"><div>We can't find products matching the selection.</div></div></div>
+      <div class="listing-controls">
+        <div class="limiter"><b>Results per page: </b><select class="select" id="limiter"><option>36</option><option>72</option><option>144</option></select></div>
+        <ul class="pages-items">
+          <li class="item current"><strong class="page"><span>1</span></strong></li>
+          <li class="item"><a class="page" href="#"><span>2</span></a></li>
+          <li class="item"><a class="page" href="#"><span>3</span></a></li>
+          <li class="item"><a class="page" href="#"><span>4</span></a></li>
+          <li class="item"><a class="page" href="#"><span>5</span></a></li>
+          <li class="item"><a class="page" href="#"><span>6</span></a></li>
+          <li class="item"><a class="page" href="#"><span>7</span></a></li>
+          <li class="item pages-item-next"><a class="action next" href="#" title="Next"><span class="label">Next Page</span></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</main>
+<footer class="page-footer">
+  <div class="footer-top container">
+    <div class="footer-nav-col"><h3>Company</h3><ul class="footer-nav">
+      <li><a href="https://magento.com/about">About Us</a></li><li><a href="https://magento.com/careers">Careers</a></li><li><a href="https://magento.com/press-room">Press</a></li></ul></div>
+    <div class="footer-nav-col"><h3>Merchants</h3><ul class="footer-nav">
+      <li><a href="https://commercemarketplace.adobe.com/terms-and-conditions/" data-broken-link="true">Terms and Conditions</a></li><li><a href="https://magento.com/security">Security Updates</a></li><li><a href="https://magento.com/find-a-partner">Find a Partner</a></li></ul></div>
+    <div class="footer-nav-col"><h3>Partners</h3><ul class="footer-nav">
+      <li><a href="https://www.adobe.com/partners.html">Become a Partner</a></li><li><a href="https://u.magento.com/certification">Certification</a></li><li><a href="https://u.magento.com/developers">Training</a></li><li><a href="https://u.magento.com/">Benefits U</a></li></ul></div>
+    <div class="footer-nav-col"><h3>Categories</h3><ul class="footer-nav">
+      <li class="current"><strong>Extensions</strong></li><li><a href="https://commercemarketplace.adobe.com/themes.html/" data-broken-link="true">Themes</a></li><li><a href="./partners/index.html" data-broken-link="true">Partners</a></li></ul></div>
+    <div class="footer-nav-col"><h3>Resources</h3><ul class="footer-nav">
+      <li><a href="./static/version1789987689/frontend/Aheadworks/marketplace/en_US/pdf/footer/Marketplace-Infosheet.pdf" data-broken-link="true">Info Sheet</a></li><li><a href="http://docs.magento.com/marketplace/user_guide/getting-started.html">User Guides</a></li><li><a href="https://magento.com/resources/technical">Technical Docs</a></li></ul></div>
+    <div class="footer-nav-col"><h3>Developer Resources</h3><ul class="footer-nav">
+      <li><a href="https://commercedeveloper.adobe.com/">Developer Portal</a></li><li><a href="https://experienceleague.adobe.com/docs/commerce-admin/start/resources/commerce-marketplace.html">Dev Docs</a></li><li><a href="https://developer.adobe.com/commerce/marketplace/guides/eqp/v1/">API</a></li><li><a href="https://developer.adobe.com/open/magento">Community</a></li></ul></div>
+    <div class="footer-nav-col"><h3>Get In Touch</h3><ul class="footer-nav">
+      <li><a href="./contact-us/index.html" data-broken-link="true">Contact Us</a></li><li><a href="https://magento.com/events">Events</a></li><li><a href="https://magento.com/resources/webinars">Webinars</a></li></ul></div>
+  </div>
+  <div class="footer-bottom container">
+    <div class="case-logo-links">
+      <div class="footer-section"><img src="./assets/images/logo-footer-adobe.svg" alt="Adobe Commerce" width="90"></div>
+      <div class="footer-section"><p class="version-info">Powered by Adobe Commerce 2.4.9</p></div>
+      <div class="footer-section">
+        <ul class="social-list">
+          <li>Follow us:</li>
+          <li><a href="https://www.facebook.com/magento" aria-label="Facebook"><span class="icon icon-facebook"></span></a></li>
+          <li><a href="https://twitter.com/magento" aria-label="Twitter"><span class="icon icon-twitter"></span></a></li>
+          <li><a href="https://www.linkedin.com/groups/146360/profile" aria-label="LinkedIn"><span class="icon icon-linkedin"></span></a></li>
+        </ul>
+      </div>
+    </div>
+    <small class="copyright"><span>© 2026 Adobe. All rights reserved.</span></small>
+    <ul class="footer-links">
+      <li><a href="https://magento.com/legal/terms/marketplace">Privacy and Cookie Policy</a></li>
+      <li><a href="https://magento.com/sites/default/files/MAGENTO-MARKETPLACE-CUSTOMER-AGREEMENT-April-12-2019.pdf">Cookie preferences</a></li>
+    </ul>
+  </div>
+</footer>
+</div>
+</body>
+</html>

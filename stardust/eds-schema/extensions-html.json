@@ -1,0 +1,516 @@
+{
+ "source": "http://localhost:8791/extensions-html-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "facet-group",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Categories"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Extensions 3948",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Content & Customizations 1398",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Payments & Security 570",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Marketing 504",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Sales 495",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Shipping & Fulfillment 466",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Site Optimization 177",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "Reporting & Analytics 157",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Accounting & Finance 134",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 10,
+     "text": "Customer Support 117",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 11,
+     "text": "Themes 4",
+     "href": "#"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "LI.facet-item",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 10,
+      "imgs": 0,
+      "textRuns": 20
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "facet-group",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Certification"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Assured Extensions"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "10"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "facet-group",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Edition"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Adobe Commerce (cloud)"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "2870"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Adobe Commerce (on-prem)"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "3004"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Magento Open Source"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "3893"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "LI.facet-item",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "facet-group",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Compatibility"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Page Builder"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "11"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "facet-group",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Price"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Under $50",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "$50 - $100",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "$100 - $150",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "$150 - $200",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "$200 - $10,100",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "$10,100 - $20,000",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "$20,000 & Above",
+     "href": "#"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "-"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Go"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "LI.facet-item",
+     "count": 7,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "facet-group",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Partner Type"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Adobe Platinum Technology Partner"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "5"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Adobe Gold Technology Partner"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "212"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Adobe Strategic Technology Partner"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "11"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Adobe Silver Technology Partner"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "399"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Adobe Gold Solution Partner"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "67"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Adobe Silver Solution Partner"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "103"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Adobe Commerce"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "4"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "LI.facet-item",
+     "count": 7,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "facet-group",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Ratings"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "★ ★ ★ ★ ★ 389",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "★ ★ ★ ★ ☆ & Up 428",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "★ ★ ★ ☆ ☆ & Up 449",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "★ ★ ☆ ☆ ☆ & Up 461",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "★ ☆ ☆ ☆ ☆ & Up 485",
+     "href": "#"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "LI.facet-item",
+     "count": 5,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 6
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "facet-group",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Subscription"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Yes"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "864"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "No"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "3079"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "LI.facet-item",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "facet-group",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Package Type"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Extension"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "3906"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "App"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "42"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "LI.facet-item",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  }
+ ]
+}

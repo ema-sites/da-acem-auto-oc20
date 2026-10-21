@@ -1,0 +1,252 @@
+{
+  "slug": "extensions-sales-html",
+  "type": "listing",
+  "renderBranch": "A'",
+  "template": "extensions-html",
+  "modules": [
+    "facets-sidebar",
+    "listing-toolbar",
+    "product-card-grid",
+    "breadcrumbs"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "columns"
+  ],
+  "canonShas": {
+    "header": "d2132ead8c39",
+    "footer": "ccdde27c82ff",
+    "css": "e91213fb9ae3"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Sales",
+    "description": "Sales",
+    "canonical": null,
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Sales",
+    "description": "Sales",
+    "url": "https://commercemarketplace.adobe.com/extensions/sales.html"
+  },
+  "migratedAt": "2026-10-20T22:44:23Z",
+  "designMdSha": "669d9fbdeef2",
+  "designJsonSha": "027c799c1e88",
+  "sourceCurrentSha": "bc0eee4bc3bc",
+  "sourceProposedSha": "ee92b2704c41",
+  "fidelityTier": "sibling",
+  "archetypeSource": "extensions-html",
+  "archetypeSha": "3e7a5efb4811",
+  "variants": [],
+  "gatesPassed": [
+    "variance-probe",
+    "content-count",
+    "content-fidelity",
+    "delivery-lint",
+    "pixel-gate-1440",
+    "pixel-gate-360",
+    "media-reconcile"
+  ],
+  "gateEvidence": {
+    "variance-probe": "sibling-variance 1440: facets rect h 396→541 (3-level category tree) — content only, clone as-is",
+    "content-count": "gate-all content presence 1440+360: MISSING 0 / HIDDEN 0 vs the live origin; encoder = archetype gen-content (cluster-listing copy) over the capture-driven clone",
+    "content-fidelity": "strings verbatim from stardust/current/pages/extensions-sales-html.html via clone-proto.mjs; block-roundtrip --ew 0 structural, 0 dead",
+    "pixel-gate-1440": "gate-all published regime (aem.page) 1440: 1.45% Δh 0 clipped 0 MISSING/HIDDEN 0 units 36/36 PASS [runs in stardust/replica/gates/all-1440/runs]",
+    "pixel-gate-360": "gate-all published regime 360: 1.30% Δh 0 PASS [runs in stardust/replica/gates/all-360/runs]",
+    "delivery-lint": "0 P0 / 0 P1",
+    "media-reconcile": "39 hosted (media/listing, ledger)"
+  },
+  "contentDeviations": [],
+  "assetsBundled": 9,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/partners",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/customer/account/login/referer/aHR0cHM6Ly9jb21tZXJjZW1hcmtldHBsYWNlLmFkb2JlLmNvbS9leHRlbnNpb25zLmh0bWw~/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/checkout/cart/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/customer/account/login/referer/aHR0cHM6Ly9jb21tZXJjZW1hcmtldHBsYWNlLmFkb2JlLmNvbS9leHRlbnNpb25zLmh0bWw~/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/customer/account/create/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/customer/account/forgotpassword/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/channelengine-magento2.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/ae-brainvire-infotech-inc-odoo-connector-for-adobe-commerce.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/mage-delight-bundlediscount-module.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/mage-delight-giftcard-module.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/mage-delight-membershipsubscription-module.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/mage-delight-specialpromo-module.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/mage-delight-stocknotifications-module.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/mage-delight-storecreditrefund.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/amasty-free-gift-lite.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/amasty-module-product-import.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/amasty-special-promo-pro.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/vdcstore-magento2-whatsapp-contact.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/vdcstore-product-mass-actions.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/vdcstore-magento2-sameordernumber.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/vdcstore-module-backendreindex.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/amasty-affiliate-program.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/amasty-ajax-cart.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/amasty-special-promotion.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/vdcstore-magento2-deleteorder.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/vdcstore-magento2-order-history.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/vdcstore-module-categoryfilter.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/vdcstore-module-customprice.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/vdcstore-module-hideprice.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/vdcstore-module-productquantity.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/vdcstore-module-productshipping.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/vdcstore-module-salesman.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/ae-18th-digitech-pvt-ltd-connector-for-ms-dynamics-365-bc.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/ae-amasty-abandoned-cart-recovery.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/ae-amasty-custom-form-builder.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/ae-amasty-image-enhancer.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/ae-amasty-mass-order-actions.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/ae-amasty-smart-discounts.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/ae-magedelight-solution-pvt-ltd-order-sms-notifications-app.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/ae-netz98-a-valantic-company-product-reviews.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/ae-techdivision-gmbh-agentic-commerce-protocol-feedgen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/ae-techdivision-gmbh-connector-for-netsuite-by-td.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/partners/",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/static/version1789987689/frontend/Aheadworks/marketplace/en_US/pdf/footer/Marketplace-Infosheet.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://commercemarketplace.adobe.com/contact-us/",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "extensions/sales.html",
+  "outputPathDefault": null,
+  "sidecar": "extensions/sales._meta.json",
+  "driverVersion": "1"
+}

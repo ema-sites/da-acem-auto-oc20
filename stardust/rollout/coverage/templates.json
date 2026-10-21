@@ -1,0 +1,154 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-10-20T20:55:51.659Z",
+    "readArtifacts": [
+      "stardust/migrated",
+      "stardust/state.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-10-21T00:36:00.771Z",
+  "templates": [
+    {
+      "id": "amasty-module-price-history-html",
+      "representativeSlug": "amasty-module-price-history-html",
+      "pages": [
+        "amasty-module-price-history-html"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "breadcrumbs",
+        "product-contents-nav",
+        "product-detail-sections",
+        "product-gallery",
+        "product-purchase-panel"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "extensions-html",
+      "representativeSlug": "extensions-html",
+      "pages": [
+        "extensions-html"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "facets-sidebar",
+        "listing-toolbar",
+        "product-card-grid"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "index",
+      "representativeSlug": "index",
+      "pages": [
+        "index"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "featured-category-tiles",
+        "hero-carousel",
+        "resource-cards"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "listing",
+      "representativeSlug": "extensions-featured-extensions-html",
+      "pages": [
+        "extensions-featured-extensions-html",
+        "extensions-sales-html",
+        "themes-html",
+        "themes-industry-apparel-html"
+      ],
+      "pageCount": 4,
+      "blocks": [],
+      "delivery": {
+        "verified": 4,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "privacy-policy-cookie-restriction-mode",
+      "representativeSlug": "privacy-policy-cookie-restriction-mode",
+      "pages": [
+        "privacy-policy-cookie-restriction-mode"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "breadcrumbs",
+        "cms-text-body"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "program",
+      "representativeSlug": "plumrocket-private-sales-flash-sales-html",
+      "pages": [
+        "plumrocket-private-sales-flash-sales-html"
+      ],
+      "pageCount": 1,
+      "blocks": [],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "search",
+      "representativeSlug": "search",
+      "pages": [
+        "search"
+      ],
+      "pageCount": 1,
+      "blocks": [],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "static",
+      "representativeSlug": "terms-and-conditions",
+      "pages": [
+        "terms-and-conditions"
+      ],
+      "pageCount": 1,
+      "blocks": [],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    }
+  ]
+}
